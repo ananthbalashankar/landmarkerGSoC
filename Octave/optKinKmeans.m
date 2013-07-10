@@ -40,7 +40,7 @@ try
 	else
 		[idx,ctrs,sumd]=kmeans(x,min(size(x,1),1),'MaxIter', 3000);
 	end
-catch ex
+catch 
     size(x)
     size(startCtrs)
     k=0;

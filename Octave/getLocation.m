@@ -12,6 +12,7 @@ hold all;
 
 %az = smooth(accz,20);
 az = filter(1/20*ones(1, 20), 1, accz);
+
 [pks loc] = findpeaks(az,"DoubleSided");
 
 % figure(2);

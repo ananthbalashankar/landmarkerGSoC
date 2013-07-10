@@ -1,12 +1,12 @@
 function clusterWifi(data,xpos,ypos,timeSlots,foldername)
 fid = fopen(strcat(foldername,'/wifi.csv'),'w');
 fclose(fid);
-cd MatEx1.5/
+cd /home/ananthbalashankar/landmarkerGSoC/Octave/MatEx1.5/
 [Medoids,clusvector,DIST] = KMedoidshort(data,2,1,0);
 cd ..
 time = data{3};
 time = time';
-maxk = 5;
+maxk = 3;
 %h=dialog ( 'visible', 'off', 'windowstyle', 'normal' );
 %ax=axes('parent', h, 'nextplot', 'add' );
 cstring = 'rgbymck';
@@ -28,6 +28,7 @@ for i=1:size(Medoids,2)
         end    
     end
     if(size(cluster_data,1) >2)
+	cluster_data
         [initialseeds,optk]=kMeansInitAndStart(cluster_data,10,min(maxk,size(cluster_data,1)));
         if(optk==-1)
             continue;

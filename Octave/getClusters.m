@@ -150,7 +150,12 @@ for i=1:10    %no wifi, no gsm
             k=k+1;
         end
     else
-        x = importdata(files{i},' ',1);
+        files{i}
+	try
+	x = importdata(files{i},' ',1);
+	catch
+	
+	end
     end
 
     if(i==11)
@@ -299,10 +304,10 @@ end
 featData=zscore(featData);
 % 
 %moving average
-for i=1:8
-    x = zscore(filter(1/10*ones(1, 10), 1, featData(:,i)));
-    featData = horzcat(featData,x);
-end
+%for i=1:8
+%    x = zscore(filter(1/10*ones(1, 10), 1, featData(:,i)));
+%    featData = horzcat(featData,x);
+%end
 
 %moving variance
 for i=1:8
@@ -322,6 +327,7 @@ end
  areas_3 = {};
 %Single feature clustering
 for i=1:size(featData,2)
+    i
     result = {};
     goodness = {};
     areas = {};

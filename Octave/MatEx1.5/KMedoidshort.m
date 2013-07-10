@@ -65,6 +65,8 @@ for k=2:N
    for i=notselected             
       for j=notselected(find(notselected~=i))
      % for j=notselected
+%	M	
+%	Medoids
          Dj=min( DIST(j,Medoids) );
          dij=DIST(j,i);
          Cj(i)=Cj(i)+max([Dj-dij 0]);
