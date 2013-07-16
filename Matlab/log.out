@@ -1,0 +1,290 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+
+folder =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/4
+
+
+ans =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/4/SensoSaur_07.22.23.00_8.txt
+
+
+ans =
+
+   5.6612e+11
+
+
+ans =
+
+       58035           3
+
+
+folder =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/5
+
+
+ans =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/5/SensoSaur_07.22.24.44_8.txt
+
+
+ans =
+
+   6.6969e+11
+
+
+ans =
+
+       53263           3
+
+
+folder =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/6
+
+
+ans =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/6/SensoSaur_07.22.26.20_8.txt
+
+
+ans =
+
+   7.6628e+11
+
+
+ans =
+
+       52961           3
+
+
+folder =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/7
+
+
+ans =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/7/SensoSaur_07.22.27.56_8.txt
+
+
+ans =
+
+   8.6187e+11
+
+
+ans =
+
+       53293           3
+
+
+folder =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/8
+
+
+ans =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/8/SensoSaur_07.22.29.31_8.txt
+
+
+ans =
+
+   9.5706e+11
+
+
+ans =
+
+       52566           3
+
+
+folder =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/9
+
+
+ans =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/9/SensoSaur_07.22.31.07_8.txt
+
+
+ans =
+
+   1.0534e+12
+
+
+ans =
+
+       52422           3
+
+
+folder =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/10
+
+
+ans =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/10/SensoSaur_07.22.32.41_8.txt
+
+
+ans =
+
+   1.1474e+12
+
+
+ans =
+
+       52873           3
+
+
+folder =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/11
+
+
+ans =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/11/SensoSaur_07.22.34.21_8.txt
+
+
+ans =
+
+   1.2464e+12
+
+
+ans =
+
+       53376           3
+
+
+folder =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/13
+
+
+ans =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/13/SensoSaur_08.16.34.10_8.txt
+
+
+ans =
+
+   8.9201e+12
+
+
+ans =
+
+       53664           3
+
+
+folder =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/14
+
+
+ans =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/14/SensoSaur_08.16.35.49_8.txt
+
+
+ans =
+
+   9.0185e+12
+
+
+ans =
+
+       52562           3
+
+
+folder =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/15
+
+
+ans =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/15/SensoSaur_08.16.37.46_8.txt
+
+
+ans =
+
+   9.1357e+12
+
+
+ans =
+
+       54753           3
+
+
+folder =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/16
+
+
+ans =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/16/SensoSaur_08.16.39.27_8.txt
+
+
+ans =
+
+   9.2364e+12
+
+
+ans =
+
+       55639           3
+
+
+folder =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/17
+
+
+ans =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/17/SensoSaur_08.16.51.11_8.txt
+
+
+ans =
+
+   6.0661e+10
+
+
+ans =
+
+       54738           3
+
+
+folder =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/18
+
+
+ans =
+
+/home/swadhin/Landmark/data/March Data/CS Dep/18/SensoSaur_08.16.52.51_8.txt
+
+
+ans =
+
+   1.6089e+11
+
+
+ans =
+
+       53845           3
+

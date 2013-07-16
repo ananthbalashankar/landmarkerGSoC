@@ -1,0 +1,70 @@
+1. acc -x
+2. acc -y
+3. acc -z
+4. mag -x
+5. mag -y
+6. mag -z
+7. grav -x
+8. grav -y
+9. grav -z
+10. gyro -x
+11. gyro -y
+12. gyro -z
+13. rotation matrix -z
+14. lin acc -x
+15. lin acc -y
+16. lin acc -z
+17. sound
+18. light
+											19. wifi-rssi
+											20. gsm-signal strength
+19. derivative of mag -y
+
+Moving Average with 10 samples
++19
+1. acc -x
+2. acc -y
+3. acc -z
+4. mag -x
+5. mag -y
+6. mag -z
+7. grav -x
+8. grav -y
+9. grav -z
+10. gyro -x
+11. gyro -y
+12. gyro -z
+13. rotation matrix -z
+14. lin acc -x
+15. lin acc -y
+16. lin acc -z
+17. sound
+18. light
+												19. wifi-rssi
+												20. gsm-signal strength
+19. derivative of mag -y
+
+Variance of the first 21 features
++38
+1. acc -x
+2. acc -y
+3. acc -z
+4. mag -x
+5. mag -y
+6. mag -z
+7. grav -x
+8. grav -y
+9. grav -z
+10. gyro -x
+11. gyro -y
+12. gyro -z
+13. rotation matrix -z
+14. lin acc -x
+15. lin acc -y
+16. lin acc -z
+17. sound
+18. light
+															19. wifi-rssi
+															20. gsm-signal strength
+19. derivative of mag -y
+

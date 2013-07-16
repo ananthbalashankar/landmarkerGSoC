@@ -1,0 +1,28 @@
+
+rotation matrix-z  light
+gyro-z
+SMA
+mod(mag)
+light
+gyro-z  rotation matrix-z
+rotation matrix-z
+mod(mag)  rotation matrix-z
+mod(mag)  rotation matrix-z  light
+rotation matrix-z  SMA
+gyro-z  rotation matrix-z  light
+mod(mag)  light
+mod(acc)  light
+mod(mag)  SMA
+mod(mag)  gyro-z
+gyro-z  light
+mod(mag)  sound  light
+sound  light
+rotation matrix-z  SMA  light
+mod(acc)
+mod(mag)  rotation matrix-z  derivative of mag-y
+rotation matrix-z  sound  light
+light  derivative of mag-y
+SMA  light
+mod(mag)  sound
+rotation matrix-z  light  derivative of mag-y
+mod(acc)  rotation matrix-z  light

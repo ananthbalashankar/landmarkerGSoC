@@ -1,0 +1,292 @@
+%     sensTime = x.data(:,1);
+%     t=1;
+%     actualTime{i} = zeros(length(sensTime),1);
+%     sensx{i} =zeros(length(sensTime),1); 
+%     sensy{i} = zeros(length(sensTime),1);
+%     for(j=1:length(sensTime))
+%         if(sensTime(j) > time(t))
+%             if(t<length(time))
+%                 t = t+1;
+%             end
+%         end
+%         sensx{i,j} = xpos(t);
+%         sensy{i,j} = ypos(t);
+%         actualTime{i,j} = (sensTime(j) -  sensTime(1))/10^9;
+%     end
+
+
+
+% 
+% %%
+% % %AI and VI from : A Feature Selection-Based Framework for Human Activity,
+% % %MiZhang,et al.
+% % acc = Ndata{7};
+% % MI = sqrt(sum((acc.^2)'));
+% % 
+% % AI = tsmovavg(MI,'s',10)';
+% % featData = horzcat(featData, AI);
+% % 
+% % VI = movingstd(MI,10,'backward')'.^2;
+% % featData = horzcat(featData, VI);
+% % 
+% % %EVA
+% % vert = []; head = [];
+% % for i=1:size(acc,1)-10
+% %     win = acc(i:i+9,:);
+% %     matr = cov(win);
+% %     [V D]= eig(matr);
+% %     eigenVal = diag(D);
+% %     vert(i) = max(eigenVal);
+% %     eigenVal(eigenVal == vert(i))=[];
+% %     head(i) = max(eigenVal);
+% % end
+% % vert(i) = padarray(vert(i),maxsize - size(vert),NaN,'post');
+% % head(i) = padarray(head(i),maxsize - head(vert),NaN,'post');
+% %%
+% 
+
+
+
+%     maxk = 10;
+% %     try
+%         for m=1:10      %%% max iterations
+%           [initialseeds,optk]=kMeansInitAndStart(featData(:,i),10,maxk);
+%           if(maxk == optk)
+%             break;
+%           end
+%           maxk = optk;
+%         end
+%         if(maxk~=optk)
+%             disp('Did not converge');
+%             disp(i,optk);
+%         else
+%             [idx,centroids,sumd] = kmeans(featData(:,i),optk,'start', initialseeds);
+%            cstring = 'rgbcmyk';
+%            
+%            g_sum = 0;
+%            for(j=1:size(centroids,1))
+%                 xarr = [];yarr=[];
+%                 k=1;
+%                 for(l=1:size(featData(:,i),1))
+%                     if(idx(l) == j)
+%                         xarr(k) = xpos(l);
+%                         yarr(k) = ypos(l);
+%                         k = k + 1;
+%                     end
+%                 end
+%                 g_sum = g_sum + sumd(j);   
+% %                 if(isempty(find([4,5,13,18,25,26,34,39,60]==i))==0)
+% %                     figure(i);
+% %                     hold on;
+% %                     plot(xarr,yarr,strcat(cstring(j),'+'));
+% %                 end
+%            end
+%             ids{i} = idx;
+%             results{i} = centroids;
+%             goodness{i} = g_sum/(size(featData(:,i),1)); 
+%     %     catch err
+%     %         disp('error at');
+%     %         disp(i);
+%     %     end
+%         end
+% end
+% 
+% %%
+% %%%Filtering out the features according to number of clusters, goodness
+% z=[];
+% for i=1:64
+% z = [z;size(results{i},1)];
+% end
+% feat = intersect(find(z<6),find(z>1));
+% %feat = find(z>1);
+% y=[];
+% for i=1:64
+% y = [y;goodness{i}<0.1];
+% end
+% features = intersect(find(y==1)',feat);
+% 
+% l=1;
+% for i=features
+%     centroids = results{i};
+%     for j=1:size(centroids)
+%         try
+%             cluster_data = [xpos(ids{i}==j)', ypos(ids{i}==j)'];
+%             maxk = 5;
+%             for m=1:10      %%% max iterations
+%               [initialseeds,optk]=kMeansInitAndStart(cluster_data,10,maxk);
+%               if(maxk == optk)
+%                 break;
+%               end
+%               maxk = optk;
+%             end
+%             [idx,centroid,sumd] = kmeans(cluster_data,optk,'start', initialseeds);
+% 
+%             for n=1:optk
+%                 numOfPoints = sum(idx==n);
+%                 if(sumd(n)/numOfPoints < 4)        %%%within 4 m from the centroid for each cluster
+%                     disp({i,j,n,numOfPoints,centroid(n),sumd(n)/numOfPoints});
+%                     figure;
+%                     xaxis = cluster_data(:,1);
+%                     yaxis = cluster_data(:,2);
+%                     plot(xaxis(idx==n),yaxis(idx==n),'r+');
+%                     axis([0 18 -20 5]);
+%                     legend(strcat(num2str(i),'/',num2str(j),'/',num2str(n)));
+%                     l=l+1;
+%                 end
+%             end
+%         catch
+%             disp(strcat('error at ',num2str(i),'\t',num2str(j)));
+%         end
+%     end
+% end
+
+
+
+
+% %%
+% %%%%%%Single sensor clustering
+% for i=1:7
+%     maxk = 10;
+%     try
+%         while(true)
+%           [initialseeds,optk]=kMeansInitAndStart(Ndata{i},10,maxk);
+%           if(maxk == optk)
+%             break;
+%           end
+%           maxk = optk;
+%         end
+%         [idx,centroids,sumd] = kmeans(Ndata{i},optk,'start', initialseeds);
+%        % cstring = 'rgbcmyk';
+%        % figure(i);
+%        % hold on;
+%         sum = 0;
+%         for(j=1:size(centroids,1))
+%             k=1;
+%             for(l=1:size(Ndata{i},1))
+%                 if(idx(l) == j)
+%                     xarr{k} = sensx{i,l};
+%                     yarr{k} = sensy{i,l};
+%                     k = k + 1;
+%                 end
+%             end
+%         sum = sum + sumd(j);   
+%         %   plot(xarr,yarr,strcat(cstring(j),'+'))
+%         end
+%         results{i,i,i} = centroids;
+%         goodness{i,i,i} = sum/(size(Ndata{i},1)); 
+%     catch err
+%         disp('error at');
+%         disp(i);
+%     end
+% end
+% 
+% %two sensors clustering
+% for x=1:7
+%     for y=x+1:7
+%         try
+%         twoSensData = [];
+%         maxSensSize = max(size(Ndata{x},1),size(Ndata{y},1));
+%         minSensSize = min(size(Ndata{x},1),size(Ndata{y},1));
+%         if(maxSensSize==size(Ndata{x},1))
+%             maxSens = x;SensA = y;
+%         else
+%             maxSens = y;SensA = x;
+%         end
+%         j=1;
+%         for i=1:maxSensSize
+%             if((actualTime{SensA,j} < actualTime{maxSens,i}) & (j<minSensSize))
+%                 j = j + 1;
+%             end
+%             twoSensData = vertcat(twoSensData,horzcat(Ndata{SensA}(j,1),Ndata{SensA}(j,2),Ndata{SensA}(j,3),Ndata{maxSens}(i,1),Ndata{maxSens}(i,2),Ndata{maxSens}(i,3)));
+%         end
+%            
+%         maxk = 10;
+%         while(true)
+%           [initialseeds,optk]=kMeansInitAndStart(twoSensData,10,maxk);
+%           if(maxk == optk)
+%             break;
+%           end
+%           maxk = optk;
+%         end
+%         [idx,centroids,sumd] = kmeans(twoSensData,optk,'start', initialseeds);
+%         sum = 0;
+%         for(j=1:size(centroids,1))
+%             k=1;
+%             for(l=1:maxSensSize)
+%                 if(idx(l) == j)
+%                     xarr{k} = sensx{maxSens,l};
+%                     yarr{k} = sensy{maxSens,l};
+%                     k = k + 1;
+%                 end
+%             end
+%             sum = sum + sumd(j);   
+%         end
+%         results{x,y,8} = centroids;
+%         goodness{x,y,8} = sum/(maxSensSize);
+%         if((goodness{x,x,x}*goodness{x,x,x} + goodness{y,y,y}*goodness{y,y,y}) > goodness{x,y,8}*goodness{x,y,8})
+%             disp([x y]);
+%         end
+%         catch err
+%             disp('error at');
+%             disp([x y]);
+%         end
+%     end
+% end
+% 
+% %three sensors clustering
+% for x=1:7
+%     for y=x+1:7
+%         for z=y+1:7
+%             try
+%             threeSensData = [];
+%             maxSensSize = max(size(Ndata{x},1),max(size(Ndata{y},1),size(Ndata{z},1)));
+%             if(maxSensSize==size(Ndata{x},1))
+%                 maxSens = x;SensA = y;SensB = z;SensASize =size(Ndata{y},1); SensBSize =size(Ndata{z},1);
+%             elseif(maxSensSize==size(Ndata{y},1))
+%                 maxSens = y;SensA = x;SensB = z;SensASize =size(Ndata{x},1);SensBSize =size(Ndata{z},1);
+%             else
+%                 maxSens = z;SensA = x;SensB = y;SensASize =size(Ndata{x},1);SensBSize =size(Ndata{y},1);
+%             end
+%             j=1;k=1;
+%             for i=1:maxSensSize
+%                 if((actualTime{SensA,j} < actualTime{maxSens,i}) & (j<SensASize))
+%                     j = j + 1;
+%                 end
+%                 if((actualTime{SensB,k} < actualTime{maxSens,i}) & (k<SensBSize))
+%                     k =k + 1;
+%                 end
+%                 threeSensData = vertcat(threeSensData,horzcat(Ndata{SensA}(j,1),Ndata{SensA}(j,2),Ndata{SensA}(j,3),Ndata{SensB}(k,1),Ndata{SensB}(k,2),Ndata{SensB}(k,3),Ndata{maxSens}(i,1),Ndata{maxSens}(i,2),Ndata{maxSens}(i,3)));
+%             end
+% 
+%             maxk = 10;
+%             while(true)
+%               [initialseeds,optk]=kMeansInitAndStart(threeSensData,10,maxk);
+%               if(maxk == optk)
+%                 break;
+%               end
+%               maxk = optk;
+%             end
+%             [idx,centroids,sumd] = kmeans(threeSensData,optk,'start', initialseeds);
+%             sum = 0;
+%             for(j=1:size(centroids,1))
+%                 k=1;
+%                 for(l=1:maxSensSize)
+%                     if(idx(l) == j)
+%                         xarr{k} = sensx{maxSens,l};
+%                         yarr{k} = sensy{maxSens,l};
+%                         k = k + 1;
+%                     end
+%                 end
+%                 sum = sum + sumd(j);   
+%             end
+%             results{x,y,z} = centroids;
+%             goodness{x,y,z} = sum/(maxSensSize);
+%             sq
+%             catch err
+%                 disp('error at');
+%                 disp([x y z]);
+%             end
+%         end
+%     end
+% end
+%%

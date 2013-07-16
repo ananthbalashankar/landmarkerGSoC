@@ -1,0 +1,1 @@
+rotation matrix-z  light', 'gyro-z', 'SMA', 'mod(mag)', 'light', 'gyro-z  rotation matrix-z', 'rotation matrix-z', 'mod(mag)  rotation matrix-z', 'gyro-z  rotation matrix-z  light', 'mod(mag)  light', '
