@@ -1,4 +1,4 @@
-function [results threshold areas] = getClusters( foldername,userid)
+function [results threshold areas dataid] = getClusters( foldername,userid)
 
 results = {};
 results_1 = {};
@@ -40,8 +40,6 @@ linacc = importdata(files{7},' ',1);
 ori = importdata(files{3},' ',1);
 gyro = importdata(files{5},' ',1);
 [xpos ypos LocTime]= getLocation(linacc.data,ori.data,gyro.data,foldername);
-save('location','xpos','ypos');
-
 %% Plot on Google Maps
 % lat1 = 22.317778;
 % lon1 = 87.309101;
@@ -220,6 +218,8 @@ timeSlots = [startTime:2*10^7:startTime+(timeSteps*2*10^7)];
 LocTime = [0;LocTime];
 xpos = interp1(LocTime,xpos',timeSlots,'linear','extrap');
 ypos = interp1(LocTime,ypos',timeSlots,'linear','extrap');
+save(strcat(foldername,'/location'),'xpos','ypos','timeSlots');
+
 
 % if(wifi~=0)
 % xposW = interp1(LocTime,xpos',Ndata{10}(:,2),'linear','extrap');

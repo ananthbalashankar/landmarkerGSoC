@@ -57,7 +57,7 @@ function [stable stableFeat newPath] = getStableClusters(cluster, path, timeSlot
             %7: feature data
             %8: number of clusters combined to get this one
             %9 : time before which last landmark was seen
-           % try
+            %try
             for k=1:size(stableFeat,2)
                 if(strcmp(feature,stableFeat{k}))
                     stableClusters = stable{k};
@@ -94,8 +94,8 @@ function [stable stableFeat newPath] = getStableClusters(cluster, path, timeSlot
                 end
             end
             %catch
-             %   disp('error');
-           % end
+            %disp('error');
+            %end
 
             if(~found)
                 stableFeat{end+1} = feature;

@@ -58,15 +58,17 @@ function  parsedata(dir_path)
                                 fid = fopen(string ,'w');
                                 fclose(fid);
                             end
-                            [cluster goodness areas] = getClusters(file,10);
+                            [cluster goodness areas dataid] = getClusters(file,10);
                             save(strcat(file,'/cluster'),'cluster');
                             save(strcat(file,'/area'),'areas');
                             
 			    %stabilize the landmarks
-			    
+			    file
+			    stabilize(file);			    
 			
+			   % location = load(strcat(file,'/location'));
                             %annotate comments with landmarks
-                            annotateComments(cluster,file);
+                            annotateComments(file,dataid);
                             %save(strcat(file,'/clusters_new'),'cluster');
                             %save(strcat(file,'/goodness'),'goodness');
                             %save(strcat(file,'/areas'),'areas');
