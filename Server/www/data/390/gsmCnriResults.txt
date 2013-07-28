@@ -1,0 +1,6 @@
+#SysTime CNRI Call_State
+21944810614035 12  N/A 
+21944810614035 [Lac Cid Psc]:[11204,79050588,249]
+21944810614035 Neighbor Cell Info:[f9@-100] :[ Cid Lac Nw Psc Rssi ]: [-1-110249-100] 
+21944810614035 Neighbor Cell Info:[f9@-88] :[ Cid Lac Nw Psc Rssi ]: [-1-110249-88] 
+21946720609456 14  N/A 

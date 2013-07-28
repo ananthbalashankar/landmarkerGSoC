@@ -1,4 +1,4 @@
-function [stable stableFeat newPath] = getStableClusters(cluster, path, timeSlots, old_stable, old_stableFeat)
+function [stable stableFeat newPath] = getStableClusters(cluster, path, timeSlots, old_stable, old_stableFeat,conn,dataid,foldername)
     stable =  old_stable;
     stableFeat = old_stableFeat;
     newPath = path;
@@ -53,6 +53,7 @@ function [stable stableFeat newPath] = getStableClusters(cluster, path, timeSlot
             location = featCluster{4};
             clusterTime = featCluster{5};
             firstTime = min(clusterTime);
+	    featData = featCluster{7};
             %6: the first time stamp, 
             %7: feature data
             %8: number of clusters combined to get this one
@@ -62,8 +63,9 @@ function [stable stableFeat newPath] = getStableClusters(cluster, path, timeSlot
                 if(strcmp(feature,stableFeat{k}))
                     stableClusters = stable{k};
                     min_val = 4; min_cluster = 0;
+		    minFeat = 1;
                     for m =1:size(stableClusters,2)
-                        if(mean(mean(pdist2(location,stableClusters{m}{4},'euclidean'))) < min_val) %TODO:nearness in feature space
+                        if(mean(mean(pdist2(location,stableClusters{m}{4},'euclidean'))) < min_val && mean(mean(pdist2(featData,stableClusters{m}{7},'euclidean')))< minFeat) %TODO:nearness in feature space
                             found = 1;
                             min_val = mean(mean(pdist2(location,stableClusters{m}{4},'euclidean')));
                             min_cluster = m;
@@ -80,15 +82,81 @@ function [stable stableFeat newPath] = getStableClusters(cluster, path, timeSlot
                         result = combineClusters(featCluster,stableClusters{min_cluster},correctionVector);     %Stabilization
                         disp(stableFeat{k});
                         stable{k}{min_cluster} = result;
+			
+			
+			id = result{9};
+			features = result{1};
+			xposition = result{2}(1);
+			yposition = result{2}(2);
+			numOfPoints = result{3};
+			confidence = result{8};
+			cluster_data = result{4};
+			timeaxis = result{5};
+			featCluster = result{7};
+			%write to file the cluster points
+			filename = result{10};
+			   	
+			
+                            xaxis = cluster_data(:,1);
+                            yaxis = cluster_data(:,2);
+                            
+                            fid = fopen(filename,'w');
+			    Time = timeaxis';
+			    X = xaxis;
+			    Y = yaxis;
+			    for h=1:size(X,1)
+				fprintf(fid,'%d %f %f',Time(h),X(h),Y(h));
+				for b=1:size(featCluster,2)
+					fprintf(fid,'%f ',featCluster(h,b));
+				end
+				fprintf(fid,'\n');
+			    end
+                            
+			
+			
+		        query = sprintf('update landmark set centroidx=%f ,centroidy=%f,numofpoints=%d,confidence=%d where id=%d',xposition,yposition,numOfPoints,confidence,id);
+                        curs = exec(conn,query);
+                        a = fetch(curs);
+
                         
                         diff = (stable{k}{min_cluster}{2} - centroid);
                         correctionVector = correctionVector + diff;
                     else
                         k_stable = stable{k};
                         featCluster{8} = 1;
-                        k_stable{end+1} = featCluster;
+			query = 'Select max(id) from landmark';
+			curs = exec(conn,query);
+			landmarkid = fetch(curs);
+			landmarkid = landmarkid.Data(1);
+			landmarkid = landmarkid{1} + 1;
+			filename = sprintf('%s/landmarks_%d.txt',foldername,landmarkid);
+                        featCluster{10} = filename;
+			featCluster{9} = landmarkid;
+			cluster_data = featCluster{4};
+		        timeaxis = featCluster{5};
+				
+                        xaxis = cluster_data(:,1);
+                        yaxis = cluster_data(:,2);
+                            
+                            fid = fopen(filename,'w');
+			    Time = timeaxis';
+			    X = xaxis;
+			    Y = yaxis;
+			    for h=1:size(X,1)
+				fprintf(fid,'%d %f %f',Time(h),X(h),Y(h));
+				for b=1:size(featCluster{7},2)
+					fprintf(fid,'%f ',featCluster{7}(h,b));
+				end
+				fprintf(fid,'\n');
+			    end
+                        fclose(fid);
+			
+			k_stable{end+1} = featCluster;
                         stable{k} = k_stable;
                         found = 1;
+			cols = {'centroidx','centroidy','numofpoints','confidence','file','feat','dataid'};
+			vals = {featCluster{2}(1),featCluster{2}(2),featCluster{3},featCluster{8},featCluster{10},featCluster{1},dataid}; 
+			fastinsert(conn,'landmark',cols,vals);
                     end
                     break;
                 end
@@ -98,8 +166,40 @@ function [stable stableFeat newPath] = getStableClusters(cluster, path, timeSlot
             %end
 
             if(~found)
+		 
+                        featCluster{8} = 1;
+			query = 'Select max(id) from landmark';
+			curs = exec(conn,query);
+			landmarkid = fetch(curs);
+			landmarkid = landmarkid.Data(1);
+			landmarkid = landmarkid{1} + 1;
+			filename = sprintf('%s/landmarks_%d.txt',foldername,landmarkid);
+                        featCluster{10} = filename;
+			featCluster{9} = landmarkid;
+			cluster_data = featCluster{4};
+		        timeaxis = featCluster{5};
+				
+                        xaxis = cluster_data(:,1);
+                        yaxis = cluster_data(:,2);
+                            
+                            fid = fopen(filename,'w');
+			    Time = timeaxis';
+			    X = xaxis;
+			    Y = yaxis;
+			    for h=1:size(X,1)
+				fprintf(fid,'%d %f %f',Time(h),X(h),Y(h));
+				for b=1:size(featCluster{7},2)
+					fprintf(fid,'%f ',featCluster{7}(h,b));
+				end
+				fprintf(fid,'\n');
+			    end
+                        fclose(fid);
+		
+			cols = {'centroidx','centroidy','numofpoints','confidence','file','feat','dataid'};
+			vals = {featCluster{2}(1),featCluster{2}(2),featCluster{3},featCluster{8},featCluster{10},featCluster{1},dataid}; 
+			fastinsert(conn,'landmark',cols,vals);
                 stableFeat{end+1} = feature;
-                featCluster{8} = 1;
+      
                 stable{end+1} = {featCluster};
             end
        end

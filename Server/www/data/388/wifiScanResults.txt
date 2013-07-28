@@ -1,0 +1,388 @@
+
+******Configured Networks******
+
+SysTime = 19973678400012 * ID: 0 SSID: "reznet" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase2: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ engine: 0
+ engine_id: 
+ key_id: 
+ ca_cert: 
+IP assignment: UNASSIGNED
+Proxy settings: UNASSIGNED
+LinkAddresses: [136.159.134.116/24,] Routes: [0.0.0.0/0 -> 136.159.134.1,] DnsAddresses: [136.159.34.201,136.159.1.21,] 
+
+SysTime = 19973678400012 ID: 1 SSID: "airuc" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase2: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ engine: 0
+ engine_id: 
+ key_id: 
+ ca_cert: 
+IP assignment: UNASSIGNED
+Proxy settings: UNASSIGNED
+LinkAddresses: [] Routes: [] DnsAddresses: [] 
+
+
+
+******Scanned Results******
+SysTime = 19975033565586 SSID: eduroam, BSSID: 00:1a:1e:64:93:02, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -12, frequency: 2437, timestamp: 52140851741  
+SysTime = 19975033565586 SSID: voiceuc, BSSID: 00:1a:1e:64:93:00, capabilities: [WPA-PSK-TKIP][ESS], level: -61, frequency: 2437, timestamp: 52140851741  
+SysTime = 19975033565586 SSID: reznet-secure, BSSID: 00:1a:1e:64:93:13, capabilities: [WPA2-EAP-CCMP][ESS], level: -72, frequency: 5745, timestamp: 52140851802  
+SysTime = 19975033565586 SSID: eduroam, BSSID: 00:1a:1e:64:93:12, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -75, frequency: 5745, timestamp: 52140851802  
+SysTime = 19975033565586 SSID: voiceuc, BSSID: 00:1a:1e:64:93:10, capabilities: [WPA-PSK-TKIP][ESS], level: -75, frequency: 5745, timestamp: 52140851802  
+SysTime = 19975033565586 SSID: eduroam, BSSID: 00:1a:1e:64:98:42, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -81, frequency: 2437, timestamp: 52140851833  
+SysTime = 19975033565586 SSID: eduroam, BSSID: 00:1a:1e:64:8f:c2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -79, frequency: 2412, timestamp: 52140851833  
+SysTime = 19975033565586 SSID: voiceuc, BSSID: 00:1a:1e:64:8f:c0, capabilities: [WPA-PSK-TKIP][ESS], level: -79, frequency: 2412, timestamp: 52140851833  
+SysTime = 19975033565586 SSID: voiceuc, BSSID: 00:1a:1e:64:98:40, capabilities: [WPA-PSK-TKIP][ESS], level: -17, frequency: 2437, timestamp: 52140851711  
+SysTime = 19975033565586 SSID: voiceuc, BSSID: 00:1a:1e:64:a7:c0, capabilities: [WPA-PSK-TKIP][ESS], level: -86, frequency: 2462, timestamp: 52140851894  
+SysTime = 19975033565586 SSID: reznet, BSSID: 00:1a:1e:64:93:11, capabilities: [ESS], level: -75, frequency: 5745, timestamp: 52140851802  
+SysTime = 19975033565586 SSID: eduroam, BSSID: 00:1a:1e:64:a6:e2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -70, frequency: 2462, timestamp: 52140851772  
+SysTime = 19975033565586 SSID: reznet-secure, BSSID: 00:1a:1e:64:a6:e3, capabilities: [WPA2-EAP-CCMP][ESS], level: -70, frequency: 2462, timestamp: 52140851772  
+SysTime = 19975033565586 SSID: voiceuc, BSSID: 00:1a:1e:64:a6:e0, capabilities: [WPA-PSK-TKIP][ESS], level: -70, frequency: 2462, timestamp: 52140851772  
+SysTime = 19975033565586 SSID: reznet, BSSID: 00:1a:1e:64:a6:e1, capabilities: [ESS], level: -81, frequency: 2462, timestamp: 52140851772  
+SysTime = 19975033565586 SSID: reznet-secure, BSSID: 00:1a:1e:64:a7:c3, capabilities: [WPA2-EAP-CCMP][ESS], level: -83, frequency: 2462, timestamp: 52140851833  
+SysTime = 19975033565586 SSID: reznet, BSSID: 00:1a:1e:64:ad:41, capabilities: [ESS], level: -90, frequency: 2412, timestamp: 52140851955  
+SysTime = 19975033565586 SSID: reznet-secure, BSSID: 00:1a:1e:64:98:43, capabilities: [WPA2-EAP-CCMP][ESS], level: -81, frequency: 2437, timestamp: 52140851833  
+SysTime = 19975033565586 SSID: eduroam, BSSID: 00:1a:1e:64:a7:c2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -88, frequency: 2462, timestamp: 52140851924  
+SysTime = 19975033565586 SSID: reznet-secure, BSSID: 00:1a:1e:64:8f:c3, capabilities: [WPA2-EAP-CCMP][ESS], level: -77, frequency: 2412, timestamp: 52140851802  
+SysTime = 19975033565586 SSID: reznet, BSSID: 00:1a:1e:64:8f:c1, capabilities: [ESS], level: -82, frequency: 2412, timestamp: 52140851894  
+SysTime = 19975033565586 SSID: eduroam, BSSID: 00:1a:1e:64:ad:42, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -88, frequency: 2412, timestamp: 52140851924  
+SysTime = 19975033565586 SSID: reznet-secure, BSSID: 00:1a:1e:64:ad:43, capabilities: [WPA2-EAP-CCMP][ESS], level: -88, frequency: 2412, timestamp: 52140851924  
+SysTime = 19975033565586 SSID: reznet, BSSID: 00:1a:1e:64:98:41, capabilities: [ESS], level: -81, frequency: 2437, timestamp: 52140851894  
+SysTime = 19975033565586 SSID: voiceuc, BSSID: 00:1a:1e:64:a8:20, capabilities: [WPA-PSK-TKIP][ESS], level: -84, frequency: 2462, timestamp: 52140851833  
+SysTime = 19975033565586 SSID: reznet-secure, BSSID: 00:1a:1e:64:a8:23, capabilities: [WPA2-EAP-CCMP][ESS], level: -83, frequency: 2462, timestamp: 52140851863  
+SysTime = 19975033565586 SSID: reznet, BSSID: 00:1a:1e:64:a4:61, capabilities: [ESS], level: -92, frequency: 2412, timestamp: 52140851986  
+SysTime = 19975033565586 SSID: eduroam, BSSID: 00:1a:1e:64:a8:22, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -83, frequency: 2462, timestamp: 52140851863  
+SysTime = 19975033565586 SSID: eduroam, BSSID: 00:1a:1e:64:a4:62, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -91, frequency: 2412, timestamp: 52140851986  
+SysTime = 19975033565586 SSID: eduroam, BSSID: 00:1a:1e:64:b4:a2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -89, frequency: 2437, timestamp: 52140851894  
+SysTime = 19975033565586 SSID: reznet-secure, BSSID: 00:1a:1e:64:b4:a3, capabilities: [WPA2-EAP-CCMP][ESS], level: -91, frequency: 2437, timestamp: 52140851986  
+SysTime = 19975033565586 SSID: reznet, BSSID: 00:1a:1e:64:b4:a1, capabilities: [ESS], level: -87, frequency: 2437, timestamp: 52140851955  
+SysTime = 19975033565586 SSID: reznet-secure, BSSID: 00:1a:1e:64:93:03, capabilities: [WPA2-EAP-CCMP][ESS], level: -66, frequency: 2437, timestamp: 52140851772  
+SysTime = 19975033565586 SSID: voiceuc, BSSID: 00:1a:1e:64:ad:40, capabilities: [WPA-PSK-TKIP][ESS], level: -87, frequency: 2412, timestamp: 52140851924  
+SysTime = 19975033565586 SSID: reznet, BSSID: 00:1a:1e:64:93:01, capabilities: [ESS], level: -65, frequency: 2437, timestamp: 52140851741  
+SysTime = 19975033565586 SSID: reznet, BSSID: 00:1a:1e:64:a8:21, capabilities: [ESS], level: -88, frequency: 2462, timestamp: 52140851955  
+
+
+36 networks found. eduroam is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 19975070464715 * ID: 0 SSID: "reznet" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase2: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ engine: 0
+ engine_id: 
+ key_id: 
+ ca_cert: 
+IP assignment: UNASSIGNED
+Proxy settings: UNASSIGNED
+LinkAddresses: [136.159.134.116/24,] Routes: [0.0.0.0/0 -> 136.159.134.1,] DnsAddresses: [136.159.34.201,136.159.1.21,] 
+
+SysTime = 19975070464715 ID: 1 SSID: "airuc" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase2: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ engine: 0
+ engine_id: 
+ key_id: 
+ ca_cert: 
+IP assignment: UNASSIGNED
+Proxy settings: UNASSIGNED
+LinkAddresses: [] Routes: [] DnsAddresses: [] 
+ 
+
+
+******Scanned Results******
+SysTime = 19977168251988 SSID: eduroam, BSSID: 00:1a:1e:64:93:02, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -49, frequency: 2437, timestamp: 52142302527  
+SysTime = 19977168251988 SSID: voiceuc, BSSID: 00:1a:1e:64:93:00, capabilities: [WPA-PSK-TKIP][ESS], level: -58, frequency: 2437, timestamp: 52142302527  
+SysTime = 19977168251988 SSID: reznet-secure, BSSID: 00:1a:1e:64:93:13, capabilities: [WPA2-EAP-CCMP][ESS], level: -72, frequency: 5745, timestamp: 52142302558  
+SysTime = 19977168251988 SSID: eduroam, BSSID: 00:1a:1e:64:93:12, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -75, frequency: 5745, timestamp: 52142302588  
+SysTime = 19977168251988 SSID: voiceuc, BSSID: 00:1a:1e:64:93:10, capabilities: [WPA-PSK-TKIP][ESS], level: -75, frequency: 5745, timestamp: 52142302588  
+SysTime = 19977168251988 SSID: eduroam, BSSID: 00:1a:1e:64:98:42, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -83, frequency: 2437, timestamp: 52142302619  
+SysTime = 19977168251988 SSID: eduroam, BSSID: 00:1a:1e:64:8f:c2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -80, frequency: 2412, timestamp: 52142302619  
+SysTime = 19977168251988 SSID: voiceuc, BSSID: 00:1a:1e:64:8f:c0, capabilities: [WPA-PSK-TKIP][ESS], level: -80, frequency: 2412, timestamp: 52142302619  
+SysTime = 19977168251988 SSID: voiceuc, BSSID: 00:1a:1e:64:98:40, capabilities: [WPA-PSK-TKIP][ESS], level: -69, frequency: 2437, timestamp: 52142302527  
+SysTime = 19977168251988 SSID: voiceuc, BSSID: 00:1a:1e:64:a7:c0, capabilities: [WPA-PSK-TKIP][ESS], level: -88, frequency: 2462, timestamp: 52142302710  
+SysTime = 19977168251988 SSID: reznet, BSSID: 00:1a:1e:64:93:11, capabilities: [ESS], level: -75, frequency: 5745, timestamp: 52142302588  
+SysTime = 19977168251988 SSID: eduroam, BSSID: 00:1a:1e:64:a6:e2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -69, frequency: 2462, timestamp: 52142302558  
+SysTime = 19977168251988 SSID: reznet-secure, BSSID: 00:1a:1e:64:a6:e3, capabilities: [WPA2-EAP-CCMP][ESS], level: -69, frequency: 2462, timestamp: 52142302558  
+SysTime = 19977168251988 SSID: voiceuc, BSSID: 00:1a:1e:64:a6:e0, capabilities: [WPA-PSK-TKIP][ESS], level: -68, frequency: 2462, timestamp: 52142302558  
+SysTime = 19977168251988 SSID: reznet, BSSID: 00:1a:1e:64:a6:e1, capabilities: [ESS], level: -75, frequency: 2462, timestamp: 52142302558  
+SysTime = 19977168251988 SSID: reznet-secure, BSSID: 00:1a:1e:64:a7:c3, capabilities: [WPA2-EAP-CCMP][ESS], level: -87, frequency: 2462, timestamp: 52142302710  
+SysTime = 19977168251988 SSID: reznet, BSSID: 00:1a:1e:64:ad:41, capabilities: [ESS], level: -86, frequency: 2412, timestamp: 52142302741  
+SysTime = 19977168251988 SSID: reznet-secure, BSSID: 00:1a:1e:64:98:43, capabilities: [WPA2-EAP-CCMP][ESS], level: -16, frequency: 2437, timestamp: 52142302497  
+SysTime = 19977168251988 SSID: eduroam, BSSID: 00:1a:1e:64:a7:c2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -88, frequency: 2462, timestamp: 52142302710  
+SysTime = 19977168251988 SSID: reznet-secure, BSSID: 00:1a:1e:64:8f:c3, capabilities: [WPA2-EAP-CCMP][ESS], level: -80, frequency: 2412, timestamp: 52142302588  
+SysTime = 19977168251988 SSID: reznet, BSSID: 00:1a:1e:64:8f:c1, capabilities: [ESS], level: -81, frequency: 2412, timestamp: 52142302649  
+SysTime = 19977168251988 SSID: eduroam, BSSID: 00:1a:1e:64:ad:42, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -87, frequency: 2412, timestamp: 52142302710  
+SysTime = 19977168251988 SSID: reznet-secure, BSSID: 00:1a:1e:64:ad:43, capabilities: [WPA2-EAP-CCMP][ESS], level: -88, frequency: 2412, timestamp: 52142302680  
+SysTime = 19977168251988 SSID: reznet, BSSID: 00:1a:1e:64:98:41, capabilities: [ESS], level: -16, frequency: 2437, timestamp: 52142302497  
+SysTime = 19977168251988 SSID: voiceuc, BSSID: 00:1a:1e:64:a8:20, capabilities: [WPA-PSK-TKIP][ESS], level: -84, frequency: 2462, timestamp: 52140851833  
+SysTime = 19977168251988 SSID: reznet-secure, BSSID: 00:1a:1e:64:a8:23, capabilities: [WPA2-EAP-CCMP][ESS], level: -83, frequency: 2462, timestamp: 52142302619  
+SysTime = 19977168251988 SSID: reznet, BSSID: 00:1a:1e:64:a4:61, capabilities: [ESS], level: -92, frequency: 2412, timestamp: 52142302771  
+SysTime = 19977168251988 SSID: eduroam, BSSID: 00:1a:1e:64:a8:22, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -83, frequency: 2462, timestamp: 52142302619  
+SysTime = 19977168251988 SSID: eduroam, BSSID: 00:1a:1e:64:a4:62, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -91, frequency: 2412, timestamp: 52142302771  
+SysTime = 19977168251988 SSID: eduroam, BSSID: 00:1a:1e:64:b4:a2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -89, frequency: 2437, timestamp: 52142302649  
+SysTime = 19977168251988 SSID: reznet-secure, BSSID: 00:1a:1e:64:b4:a3, capabilities: [WPA2-EAP-CCMP][ESS], level: -88, frequency: 2437, timestamp: 52142302680  
+SysTime = 19977168251988 SSID: reznet, BSSID: 00:1a:1e:64:b4:a1, capabilities: [ESS], level: -87, frequency: 2437, timestamp: 52140851955  
+SysTime = 19977168251988 SSID: reznet-secure, BSSID: 00:1a:1e:64:93:03, capabilities: [WPA2-EAP-CCMP][ESS], level: -59, frequency: 2437, timestamp: 52142302527  
+SysTime = 19977168251988 SSID: voiceuc, BSSID: 00:1a:1e:64:ad:40, capabilities: [WPA-PSK-TKIP][ESS], level: -89, frequency: 2412, timestamp: 52142302710  
+SysTime = 19977168251988 SSID: reznet, BSSID: 00:1a:1e:64:93:01, capabilities: [ESS], level: -58, frequency: 2437, timestamp: 52142302527  
+SysTime = 19977168251988 SSID: reznet, BSSID: 00:1a:1e:64:a8:21, capabilities: [ESS], level: -84, frequency: 2462, timestamp: 52142302649  
+
+
+36 networks found. reznet-secure is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 19977218061237 * ID: 0 SSID: "reznet" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase2: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ engine: 0
+ engine_id: 
+ key_id: 
+ ca_cert: 
+IP assignment: UNASSIGNED
+Proxy settings: UNASSIGNED
+LinkAddresses: [136.159.134.116/24,] Routes: [0.0.0.0/0 -> 136.159.134.1,] DnsAddresses: [136.159.34.201,136.159.1.21,] 
+
+SysTime = 19977218061237 ID: 1 SSID: "airuc" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase2: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ engine: 0
+ engine_id: 
+ key_id: 
+ ca_cert: 
+IP assignment: UNASSIGNED
+Proxy settings: UNASSIGNED
+LinkAddresses: [] Routes: [] DnsAddresses: [] 
+ 
+
+
+******Scanned Results******
+SysTime = 19983288807458 SSID: eduroam, BSSID: 00:1a:1e:64:93:02, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -60, frequency: 2437, timestamp: 52144477714  
+SysTime = 19983288807458 SSID: voiceuc, BSSID: 00:1a:1e:64:93:00, capabilities: [WPA-PSK-TKIP][ESS], level: -61, frequency: 2437, timestamp: 52144477775  
+SysTime = 19983288807458 SSID: reznet-secure, BSSID: 00:1a:1e:64:93:13, capabilities: [WPA2-EAP-CCMP][ESS], level: -76, frequency: 5745, timestamp: 52144477897  
+SysTime = 19983288807458 SSID: eduroam, BSSID: 00:1a:1e:64:93:12, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -78, frequency: 5745, timestamp: 52144477928  
+SysTime = 19983288807458 SSID: voiceuc, BSSID: 00:1a:1e:64:93:10, capabilities: [WPA-PSK-TKIP][ESS], level: -79, frequency: 5745, timestamp: 52144477928  
+SysTime = 19983288807458 SSID: eduroam, BSSID: 00:1a:1e:64:98:42, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -81, frequency: 2437, timestamp: 52144478019  
+SysTime = 19983288807458 SSID: eduroam, BSSID: 00:1a:1e:64:8f:c2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -86, frequency: 2412, timestamp: 52144478172  
+SysTime = 19983288807458 SSID: voiceuc, BSSID: 00:1a:1e:64:8f:c0, capabilities: [WPA-PSK-TKIP][ESS], level: -16, frequency: 2412, timestamp: 52144477714  
+SysTime = 19983288807458 SSID: voiceuc, BSSID: 00:1a:1e:64:98:40, capabilities: [WPA-PSK-TKIP][ESS], level: -78, frequency: 2437, timestamp: 52144477897  
+SysTime = 19983288807458 SSID: voiceuc, BSSID: 00:1a:1e:64:a7:c0, capabilities: [WPA-PSK-TKIP][ESS], level: -84, frequency: 2462, timestamp: 52144478050  
+SysTime = 19983288807458 SSID: reznet, BSSID: 00:1a:1e:64:93:11, capabilities: [ESS], level: -78, frequency: 5745, timestamp: 52144477989  
+SysTime = 19983288807458 SSID: eduroam, BSSID: 00:1a:1e:64:a6:e2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -70, frequency: 2462, timestamp: 52144477836  
+SysTime = 19983288807458 SSID: reznet-secure, BSSID: 00:1a:1e:64:a6:e3, capabilities: [WPA2-EAP-CCMP][ESS], level: -70, frequency: 2462, timestamp: 52144477806  
+SysTime = 19983288807458 SSID: voiceuc, BSSID: 00:1a:1e:64:a6:e0, capabilities: [WPA-PSK-TKIP][ESS], level: -70, frequency: 2462, timestamp: 52144477836  
+SysTime = 19983288807458 SSID: reznet, BSSID: 00:1a:1e:64:a6:e1, capabilities: [ESS], level: -75, frequency: 2462, timestamp: 52144477867  
+SysTime = 19983288807458 SSID: reznet-secure, BSSID: 00:1a:1e:64:a7:c3, capabilities: [WPA2-EAP-CCMP][ESS], level: -83, frequency: 2462, timestamp: 52144478019  
+SysTime = 19983288807458 SSID: reznet, BSSID: 00:1a:1e:64:ad:41, capabilities: [ESS], level: -85, frequency: 2412, timestamp: 52144478080  
+SysTime = 19983288807458 SSID: reznet-secure, BSSID: 00:1a:1e:64:98:43, capabilities: [WPA2-EAP-CCMP][ESS], level: -16, frequency: 2437, timestamp: 52144477684  
+SysTime = 19983288807458 SSID: eduroam, BSSID: 00:1a:1e:64:a7:c2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -84, frequency: 2462, timestamp: 52144478050  
+SysTime = 19983288807458 SSID: reznet-secure, BSSID: 00:1a:1e:64:8f:c3, capabilities: [WPA2-EAP-CCMP][ESS], level: -16, frequency: 2412, timestamp: 52144477684  
+SysTime = 19983288807458 SSID: reznet, BSSID: 00:1a:1e:64:8f:c1, capabilities: [ESS], level: -81, frequency: 2412, timestamp: 52144478080  
+SysTime = 19983288807458 SSID: eduroam, BSSID: 00:1a:1e:64:ad:42, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -87, frequency: 2412, timestamp: 52144478233  
+SysTime = 19983288807458 SSID: reznet-secure, BSSID: 00:1a:1e:64:ad:43, capabilities: [WPA2-EAP-CCMP][ESS], level: -87, frequency: 2412, timestamp: 52144478203  
+SysTime = 19983288807458 SSID: reznet, BSSID: 00:1a:1e:64:98:41, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 52144477867  
+SysTime = 19983288807458 SSID: voiceuc, BSSID: 00:1a:1e:64:a8:20, capabilities: [WPA-PSK-TKIP][ESS], level: -90, frequency: 2462, timestamp: 52144478264  
+SysTime = 19983288807458 SSID: reznet-secure, BSSID: 00:1a:1e:64:a8:23, capabilities: [WPA2-EAP-CCMP][ESS], level: -83, frequency: 2462, timestamp: 52144477989  
+SysTime = 19983288807458 SSID: reznet, BSSID: 00:1a:1e:64:a4:61, capabilities: [ESS], level: -92, frequency: 2412, timestamp: 52144478386  
+SysTime = 19983288807458 SSID: eduroam, BSSID: 00:1a:1e:64:a8:22, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -88, frequency: 2462, timestamp: 52144478264  
+SysTime = 19983288807458 SSID: eduroam, BSSID: 00:1a:1e:64:a4:62, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -91, frequency: 2412, timestamp: 52144478355  
+SysTime = 19983288807458 SSID: eduroam, BSSID: 00:1a:1e:64:b4:a2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -89, frequency: 2437, timestamp: 52142302649  
+SysTime = 19983288807458 SSID: reznet-secure, BSSID: 00:1a:1e:64:b4:a3, capabilities: [WPA2-EAP-CCMP][ESS], level: -87, frequency: 2437, timestamp: 52144478172  
+SysTime = 19983288807458 SSID: reznet, BSSID: 00:1a:1e:64:b4:a1, capabilities: [ESS], level: -87, frequency: 2437, timestamp: 52140851955  
+SysTime = 19983288807458 SSID: reznet-secure, BSSID: 00:1a:1e:64:93:03, capabilities: [WPA2-EAP-CCMP][ESS], level: -61, frequency: 2437, timestamp: 52144477745  
+SysTime = 19983288807458 SSID: voiceuc, BSSID: 00:1a:1e:64:ad:40, capabilities: [WPA-PSK-TKIP][ESS], level: -88, frequency: 2412, timestamp: 52144478233  
+SysTime = 19983288807458 SSID: reznet, BSSID: 00:1a:1e:64:93:01, capabilities: [ESS], level: -61, frequency: 2437, timestamp: 52144477806  
+SysTime = 19983288807458 SSID: reznet, BSSID: 00:1a:1e:64:a8:21, capabilities: [ESS], level: -88, frequency: 2462, timestamp: 52144478294  
+
+
+36 networks found. voiceuc is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 19983374386582 * ID: 0 SSID: "reznet" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase2: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ engine: 0
+ engine_id: 
+ key_id: 
+ ca_cert: 
+IP assignment: UNASSIGNED
+Proxy settings: UNASSIGNED
+LinkAddresses: [136.159.134.116/24,] Routes: [0.0.0.0/0 -> 136.159.134.1,] DnsAddresses: [136.159.34.201,136.159.1.21,] 
+
+SysTime = 19983374386582 ID: 1 SSID: "airuc" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase2: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ engine: 0
+ engine_id: 
+ key_id: 
+ ca_cert: 
+IP assignment: UNASSIGNED
+Proxy settings: UNASSIGNED
+LinkAddresses: [] Routes: [] DnsAddresses: [] 
+ 
+
+
+******Scanned Results******
+SysTime = 20015411102587 SSID: eduroam, BSSID: 00:1a:1e:64:93:02, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -57, frequency: 2437, timestamp: 52150625830  
+SysTime = 20015411102587 SSID: voiceuc, BSSID: 00:1a:1e:64:93:00, capabilities: [WPA-PSK-TKIP][ESS], level: -57, frequency: 2437, timestamp: 52150625860  
+SysTime = 20015411102587 SSID: reznet-secure, BSSID: 00:1a:1e:64:93:13, capabilities: [WPA2-EAP-CCMP][ESS], level: -75, frequency: 5745, timestamp: 52150626013  
+SysTime = 20015411102587 SSID: eduroam, BSSID: 00:1a:1e:64:93:12, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -77, frequency: 5745, timestamp: 52150626043  
+SysTime = 20015411102587 SSID: voiceuc, BSSID: 00:1a:1e:64:93:10, capabilities: [WPA-PSK-TKIP][ESS], level: -76, frequency: 5745, timestamp: 52150626074  
+SysTime = 20015411102587 SSID: eduroam, BSSID: 00:1a:1e:64:98:42, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -79, frequency: 2437, timestamp: 52150626013  
+SysTime = 20015411102587 SSID: eduroam, BSSID: 00:1a:1e:64:8f:c2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -81, frequency: 2412, timestamp: 52150626135  
+SysTime = 20015411102587 SSID: voiceuc, BSSID: 00:1a:1e:64:8f:c0, capabilities: [WPA-PSK-TKIP][ESS], level: -67, frequency: 2412, timestamp: 52150625921  
+SysTime = 20015411102587 SSID: voiceuc, BSSID: 00:1a:1e:64:98:40, capabilities: [WPA-PSK-TKIP][ESS], level: -78, frequency: 2437, timestamp: 52150626043  
+SysTime = 20015411102587 SSID: voiceuc, BSSID: 00:1a:1e:64:a7:c0, capabilities: [WPA-PSK-TKIP][ESS], level: -84, frequency: 2462, timestamp: 52150626104  
+SysTime = 20015411102587 SSID: reznet, BSSID: 00:1a:1e:64:93:11, capabilities: [ESS], level: -77, frequency: 5745, timestamp: 52150626074  
+SysTime = 20015411102587 SSID: eduroam, BSSID: 00:1a:1e:64:a6:e2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -70, frequency: 2462, timestamp: 52150625952  
+SysTime = 20015411102587 SSID: reznet-secure, BSSID: 00:1a:1e:64:a6:e3, capabilities: [WPA2-EAP-CCMP][ESS], level: -69, frequency: 2462, timestamp: 52150625921  
+SysTime = 20015411102587 SSID: voiceuc, BSSID: 00:1a:1e:64:a6:e0, capabilities: [WPA-PSK-TKIP][ESS], level: -69, frequency: 2462, timestamp: 52150625952  
+SysTime = 20015411102587 SSID: reznet, BSSID: 00:1a:1e:64:a6:e1, capabilities: [ESS], level: -76, frequency: 2462, timestamp: 52150625982  
+SysTime = 20015411102587 SSID: reznet-secure, BSSID: 00:1a:1e:64:a7:c3, capabilities: [WPA2-EAP-CCMP][ESS], level: -83, frequency: 2462, timestamp: 52150626104  
+SysTime = 20015411102587 SSID: reznet, BSSID: 00:1a:1e:64:ad:41, capabilities: [ESS], level: -17, frequency: 2412, timestamp: 52150625830  
+SysTime = 20015411102587 SSID: reznet-secure, BSSID: 00:1a:1e:64:98:43, capabilities: [WPA2-EAP-CCMP][ESS], level: -67, frequency: 2437, timestamp: 52150625921  
+SysTime = 20015411102587 SSID: eduroam, BSSID: 00:1a:1e:64:a7:c2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -86, frequency: 2462, timestamp: 52150626348  
+SysTime = 20015411102587 SSID: reznet-secure, BSSID: 00:1a:1e:64:8f:c3, capabilities: [WPA2-EAP-CCMP][ESS], level: -67, frequency: 2412, timestamp: 52150625891  
+SysTime = 20015411102587 SSID: reznet, BSSID: 00:1a:1e:64:8f:c1, capabilities: [ESS], level: -81, frequency: 2412, timestamp: 52150626165  
+SysTime = 20015411102587 SSID: eduroam, BSSID: 00:1a:1e:64:ad:42, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -87, frequency: 2412, timestamp: 52150626257  
+SysTime = 20015411102587 SSID: reznet-secure, BSSID: 00:1a:1e:64:ad:43, capabilities: [WPA2-EAP-CCMP][ESS], level: -87, frequency: 2412, timestamp: 52150626257  
+SysTime = 20015411102587 SSID: reznet, BSSID: 00:1a:1e:64:98:41, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 52150625982  
+SysTime = 20015411102587 SSID: voiceuc, BSSID: 00:1a:1e:64:a8:20, capabilities: [WPA-PSK-TKIP][ESS], level: -82, frequency: 2462, timestamp: 52150626165  
+SysTime = 20015411102587 SSID: reznet-secure, BSSID: 00:1a:1e:64:a8:23, capabilities: [WPA2-EAP-CCMP][ESS], level: -83, frequency: 2462, timestamp: 52150626135  
+SysTime = 20015411102587 SSID: reznet, BSSID: 00:1a:1e:64:a4:61, capabilities: [ESS], level: -92, frequency: 2412, timestamp: 52144478386  
+SysTime = 20015411102587 SSID: eduroam, BSSID: 00:1a:1e:64:a8:22, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -84, frequency: 2462, timestamp: 52150626135  
+SysTime = 20015411102587 SSID: eduroam, BSSID: 00:1a:1e:64:a4:62, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -91, frequency: 2412, timestamp: 52150626409  
+SysTime = 20015411102587 SSID: eduroam, BSSID: 00:1a:1e:64:b4:a2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP][ESS], level: -89, frequency: 2437, timestamp: 52142302649  
+SysTime = 20015411102587 SSID: reznet-secure, BSSID: 00:1a:1e:64:b4:a3, capabilities: [WPA2-EAP-CCMP][ESS], level: -87, frequency: 2437, timestamp: 52150626226  
+SysTime = 20015411102587 SSID: reznet, BSSID: 00:1a:1e:64:b4:a1, capabilities: [ESS], level: -91, frequency: 2437, timestamp: 52150626471  
+SysTime = 20015411102587 SSID: reznet-secure, BSSID: 00:1a:1e:64:93:03, capabilities: [WPA2-EAP-CCMP][ESS], level: -61, frequency: 2437, timestamp: 52150625860  
+SysTime = 20015411102587 SSID: voiceuc, BSSID: 00:1a:1e:64:ad:40, capabilities: [WPA-PSK-TKIP][ESS], level: -86, frequency: 2412, timestamp: 52150626348  
+SysTime = 20015411102587 SSID: reznet, BSSID: 00:1a:1e:64:93:01, capabilities: [ESS], level: -61, frequency: 2437, timestamp: 52150625891  
+SysTime = 20015411102587 SSID: reznet, BSSID: 00:1a:1e:64:a8:21, capabilities: [ESS], level: -84, frequency: 2462, timestamp: 52150626196  
+
+
+36 networks found. reznet is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 20015651389478 * ID: 0 SSID: "reznet" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase2: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ engine: 0
+ engine_id: 
+ key_id: 
+ ca_cert: 
+IP assignment: UNASSIGNED
+Proxy settings: UNASSIGNED
+LinkAddresses: [136.159.134.116/24,] Routes: [0.0.0.0/0 -> 136.159.134.1,] DnsAddresses: [136.159.34.201,136.159.1.21,] 
+
+SysTime = 20015651389478 ID: 1 SSID: "airuc" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase2: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ engine: 0
+ engine_id: 
+ key_id: 
+ ca_cert: 
+IP assignment: UNASSIGNED
+Proxy settings: UNASSIGNED
+LinkAddresses: [] Routes: [] DnsAddresses: [] 
+ 
+

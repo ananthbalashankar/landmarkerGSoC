@@ -1,4 +1,4 @@
-function [results threshold areas dataid] = getClusters( foldername,userid)
+function [results threshold areas dataid] = getClusters( foldername,userid,dataid)
 
 results = {};
 results_1 = {};
@@ -218,7 +218,6 @@ timeSlots = [startTime:2*10^7:startTime+(timeSteps*2*10^7)];
 LocTime = [0;LocTime];
 xpos = interp1(LocTime,xpos',timeSlots,'linear','extrap');
 ypos = interp1(LocTime,ypos',timeSlots,'linear','extrap');
-save(strcat(foldername,'/location'),'xpos','ypos','timeSlots');
 
 
 % if(wifi~=0)
@@ -233,7 +232,7 @@ save(strcat(foldername,'/location'),'xpos','ypos','timeSlots');
 try
     clusterWifi(Ndata{10},xpos,ypos,timeSlots,foldername);
 catch
-     cd D:\Documents\btp\mycode;   %continue--- less wifi data
+     cd /home/ananthbalashankar/landmarkerGSoC/Matlab/;   %continue--- less wifi data
 end
 
 for i=1:7
@@ -242,7 +241,7 @@ end
 
 light = interp1(Ndata{8}(:,2),Ndata{8}(:,1),timeSlots,'linear','extrap');
 featData = horzcat(featData,light');
-%featData = horzcat(featData,interp1(Ndata{9}(:,2),Ndata{9}(:,1),timeSlots,'linear','extrap')');
+featData = horzcat(featData,interp1(Ndata{9}(:,2),Ndata{9}(:,1),timeSlots,'linear','extrap')');
 % 
 % if(wifi~=0)
 % featData = [featData Ndata{10}(:,1)];
@@ -262,6 +261,13 @@ featData = filtfilt(b1,a1,featData);
 featData(:,[7 8 9])=[];     %orientation not needed
 featData(:,[13 14])=[];     %rotation matrix x,y not needed
 featData = horzcat(featData,[0;diff(featData(:,5))]);   %difference of mag-y
+
+%%dead reckoning using existing seed landmarks
+location = correctSeed([xpos ypos],timeSlots,featData(:,[4 5 6]),featData(:,[14 15 16]));
+xpos = location(:,1);
+ypos = location(:,2);
+save(strcat(foldername,'/location'),'xpos','ypos','timeSlots');
+
 
 newfeat = featData;
 featData = [];
@@ -339,63 +345,54 @@ end
  areas_1 = {};
  areas_2 = {};
  areas_3 = {};
-
-conn = database('sample','postgres','ananth','org.postgresql.Driver','jdbc:postgresql:sample');
-cols = {'folder','start_time','userid'};
-vals = {foldername,timeSlots(1),userid};
-fastinsert(conn,'sample',cols,vals);
-
-%query = sprintf('insert into sample(folder,start_time,userid) values(''%s'',%ld,%d)',foldername,timeSlots(1),userid);
-%exec(conn,query)
-%commit(conn);
-
-query = sprintf('select dataid from sample where folder=''%s''',foldername);
-curs = exec(conn,query)
-a = fetch(curs);
-a.DatabaseObject
-dataid = a.Data(end);
-dataid = dataid{1};
-
+featNum = 1;
+%conn = database('sample','postgres','ananth','org.postgresql.Driver','jdbc:postgresql:sample');
 %Single feature clustering
 for i=1:size(featData,2)
     result = {};
-    goodness = {};
-    areas = {};
-    [result goodness areas] = getLocationClusters(featData(:,i),xpos,ypos,i,foldername,timeSlots,dataid,conn);
-    threshold{i} = goodness; 
-    if(~isempty(result{1}))
-        results_1{end+1} = result{1};
-        areas_1{i} = areas{1}; 
+    try
+    	goodness = load('stable/goodness');
+    	goodness = goodness.goodness;
+	goodness = goodness{i};
+    	area = load('stable/areas');
+    	area = area.areas;
+	area = area{i};
+    catch
+    	goodness = [0.3];
+	area = [1];
     end
-    if(~isempty(result{2}))
-        results_2{end+1} = result{2};
-        areas_2{i} = areas{2};
+    [result goodness area] = getLocationClusters(featData(:,i),xpos,ypos,i,foldername,timeSlots,dataid,goodness,area);
+    threshold{featNum} = goodness; 
+    if(~isempty(result))
+        results{end+1} = result;
+        areas{featNum} = area; 
     end
-    if(~isempty(result{3}))
-        results_3{end+1} = result{3};
-        areas_3{i} = areas{3};
-    end
+    featNum = featNum + 1;
 end
 
 %% Two feature clustering
 
     for i=1:8
         for j=i+1:8
+    try
+    	goodness = load('stable/goodness');
+    	goodness = goodness.goodness;
+	goodness = goodness{i,j};
+    	area = load('stable/areas');
+    	area = area.areas;
+	area = area{i,j};
+    catch
+    	goodness = [0.3];
+	area = [1];
+    end
             cluster_data = [featData(:,i),featData(:,j)];
-            [result goodness areas] = getLocationClusters(cluster_data,xpos,ypos,[i j],foldername,timeSlots,dataid,conn);
-            threshold{i,j} = goodness;
-            if(~isempty(result{1}))
-                results_1{end+1} = result{1};
-                areas_1{i,j} = areas{1};
+            [result goodness area] = getLocationClusters(cluster_data,xpos,ypos,[i j],foldername,timeSlots,dataid,goodness,area);
+            threshold{featNum} = goodness;
+            if(~isempty(result))
+                results{end+1} = result;
+                areas{featNum} = area;
             end
-            if(~isempty(result{2}))
-                results_2{end+1} = result{2};
-                areas_2{i,j} = areas{2};
-            end
-            if(~isempty(result{3}))
-                results_3{end+1} = result{3};
-                areas_3{i,j} = areas{3};
-            end
+	featNum = featNum + 1;
         end
     end
     
@@ -403,28 +400,29 @@ end
    for i=1:8
        for j=i+1:8
            for k=j+1:8
+	try
+    	goodness = load('stable/goodness');
+    	goodness = goodness.goodness;
+	goodness = goodness{i,j,k};
+    	area = load('stable/areas');
+    	area = area.areas;
+	area = area{i,j,k};
+    	catch
+    	goodness = [0.3];
+	area = [1];
+    	end 
                cluster_data = [featData(:,i),featData(:,j),featData(:,k)];
-               [result goodness areas] = getLocationClusters(cluster_data,xpos,ypos,[i j k],foldername,timeSlots,dataid,conn);
-               threshold{i,j,k} = goodness;
-               if(~isempty(result{1}))
-                    results_1{end+1} = result{1};
-                    areas_1{i,j,k} = areas{1};
+               [result goodness area] = getLocationClusters(cluster_data,xpos,ypos,[i j k],foldername,timeSlots,dataid,goodness,area);
+               threshold{featNum} = goodness;
+               if(~isempty(result))
+                    results{end+1} = result;
+                    areas{featNum} = area;
                 end
-                if(~isempty(result{2}))
-                    results_2{end+1} = result{2};
-                    areas_2{i,j,k} = areas{2};
-                end
-                if(~isempty(result{3}))
-                    results_3{end+1} = result{3};
-                    areas_3{i,j,k} = areas{3};
-                end
+
+	featNum = featNum + 1;               
            end
        end
    end
-
-results = { results_1 results_2 results_3};
-areas = {areas_1 areas_2 areas_3};
-
 end
 
 

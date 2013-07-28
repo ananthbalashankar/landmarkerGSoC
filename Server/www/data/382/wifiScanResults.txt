@@ -1,0 +1,244 @@
+
+******Configured Networks******
+
+SysTime = 13636046562250 ID: 0 SSID: "attwifi" BSSID: null PRIO: 0
+Channel: 6MAC ACL: 3 KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+
+
+
+
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+IP assignment: UNASSIGNED
+Proxy settings: UNASSIGNED
+LinkAddresses: [] Routes: [] DnsAddresses: [] 
+
+SysTime = 13636046562250 ID: 1 SSID: "Starbucks" BSSID: null PRIO: 33
+Channel: 6MAC ACL: 3 KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+
+
+
+
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+IP assignment: DHCP
+Proxy settings: NONE
+LinkAddresses: [] Routes: [] DnsAddresses: [] 
+
+SysTime = 13636046562250 ID: 2 SSID: "airuc-secure" BSSID: null PRIO: 84
+Channel: 6MAC ACL: 3 KeyMgmt: WPA_EAP IEEE8021X Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+
+
+
+
+ eap: PEAP
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: lnarula
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+IP assignment: DHCP
+Proxy settings: NONE
+LinkAddresses: [] Routes: [] DnsAddresses: [] 
+
+SysTime = 13636046562250 ID: 3 SSID: "Subway-Guest" BSSID: null PRIO: 79
+Channel: 6MAC ACL: 3 KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+
+
+
+
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+IP assignment: DHCP
+Proxy settings: NONE
+LinkAddresses: [] Routes: [] DnsAddresses: [] 
+
+SysTime = 13636046562250 ID: 4 SSID: "peterwarner" BSSID: null PRIO: 46
+Channel: 6MAC ACL: 3 KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+
+
+
+
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+IP assignment: DHCP
+Proxy settings: NONE
+LinkAddresses: [] Routes: [] DnsAddresses: [] 
+
+SysTime = 13636046562250 * ID: 5 SSID: "reznet" BSSID: null PRIO: 78
+Channel: 6MAC ACL: 3 KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+
+
+
+
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+IP assignment: DHCP
+Proxy settings: NONE
+LinkAddresses: [136.159.161.127/24 ] Routes: [0.0.0.0/0 -> 136.159.161.1,] DnsAddresses: [136.159.34.201,136.159.1.21,] 
+
+SysTime = 13636046562250 ID: 6 SSID: "ShawOpen" BSSID: null PRIO: 63
+Channel: 6MAC ACL: 3 KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+
+
+
+
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+IP assignment: DHCP
+Proxy settings: NONE
+LinkAddresses: [] Routes: [] DnsAddresses: [] 
+
+SysTime = 13636046562250 ID: 7 SSID: "YYC.Free.Public.WiFi" BSSID: null PRIO: 80
+Channel: 6MAC ACL: 3 KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+
+
+
+
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+IP assignment: DHCP
+Proxy settings: NONE
+LinkAddresses: [] Routes: [] DnsAddresses: [] 
+
+SysTime = 13636046562250 ID: 8 SSID: "CLTNET" BSSID: null PRIO: 82
+Channel: 6MAC ACL: 3 KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+
+
+
+
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+IP assignment: DHCP
+Proxy settings: NONE
+LinkAddresses: [] Routes: [] DnsAddresses: [] 
+
+SysTime = 13636046562250 ID: 9 SSID: "tiger" BSSID: null PRIO: 83
+Channel: 6MAC ACL: 3 KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+
+
+
+
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+IP assignment: DHCP
+Proxy settings: NONE
+LinkAddresses: [] Routes: [] DnsAddresses: [] 
+
+

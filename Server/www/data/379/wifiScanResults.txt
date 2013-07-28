@@ -1,0 +1,3061 @@
+
+******Configured Networks******
+
+SysTime = 90355123638825 ID: 0 SSID: "Plaza Premium Lounge" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90355123638825 ID: 1 SSID: "Tata Communications Wi-Fi" BSSID: null PRIO: 3
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90355123638825 ID: 2 SSID: "Plaza Premium Lounge ( I )" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90355123638825 ID: 3 SSID: "AirportInternet" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90355123638825 ID: 4 SSID: "IGI-T3" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90355123638825 ID: 5 SSID: "Telekom" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90355123638825 ID: 6 SSID: "basic.uni-regensburg.de" BSSID: null PRIO: 12
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90355123638825 ID: 7 SSID: "HotelNET" BSSID: null PRIO: 13
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90355123638825 ID: 8 SSID: "iiserb" BSSID: null PRIO: 15
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90355123638825 ID: 9 SSID: "android" BSSID: null PRIO: 21
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90355123638825 ID: 10 SSID: "iiser_b" BSSID: null PRIO: 17
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90355123638825 ID: 11 SSID: "iiserk_wireless" BSSID: null PRIO: 25
+ KeyMgmt: WPA_EAP IEEE8021X Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: PEAP
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: visitor5
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90355123638825 ID: 12 SSID: "bluegene(10.0.0.1)" BSSID: null PRIO: 23
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90355123638825 ID: 13 SSID: "Shubham_6417" BSSID: null PRIO: 26
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90355123638825 ID: 14 SSID: "NOKIA Lumia 520_4894" BSSID: null PRIO: 28
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90355123638825 ID: 15 SSID: "Tarun’s iPhone" BSSID: null PRIO: 29
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90355123638825 ID: 16 SSID: "ARCH_MANOR1" BSSID: null PRIO: 30
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90355123638825 ID: 17 SSID: "maxspot" BSSID: null PRIO: 31
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90355123638825 ID: 18 SSID: "YYC.Free.Public.WiFi" BSSID: null PRIO: 32
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90355123638825 ID: 19 SSID: "HI Calgary" BSSID: null PRIO: 33
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90355123638825 ID: 20 SSID: "reznet-secure" BSSID: null PRIO: 34
+ KeyMgmt: WPA_EAP IEEE8021X Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: PEAP
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: chair30
+ anonymous_identity: chair30
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90355123638825 * ID: 21 SSID: "reznet" BSSID: null PRIO: 35
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90355123638825 ID: 22 SSID: "airuc" BSSID: null PRIO: 36
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90355123638825 ID: 23 SSID: "FreeKillkenny" BSSID: null PRIO: 37
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+
+
+******Scanned Results******
+SysTime = 90360572491364 SSID: voiceuc, BSSID: 00:1a:1e:64:93:00, capabilities: [WPA-PSK-TKIP], level: -74, frequency: 2437  
+SysTime = 90360572491364 SSID: eduroam, BSSID: 00:1a:1e:64:93:02, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -76, frequency: 2437  
+SysTime = 90360572491364 SSID: reznet-secure, BSSID: 00:1a:1e:64:93:03, capabilities: [WPA2-EAP-CCMP], level: -77, frequency: 2437  
+SysTime = 90360572491364 SSID: voiceuc, BSSID: 00:1a:1e:64:a6:e0, capabilities: [WPA-PSK-TKIP], level: -77, frequency: 2412  
+SysTime = 90360572491364 SSID: reznet-secure, BSSID: 00:1a:1e:64:a6:e3, capabilities: [WPA2-EAP-CCMP], level: -79, frequency: 2412  
+SysTime = 90360572491364 SSID: eduroam, BSSID: 00:1a:1e:64:a6:e2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -80, frequency: 2412  
+SysTime = 90360572491364 SSID: voiceuc, BSSID: 00:1a:1e:64:8f:c0, capabilities: [WPA-PSK-TKIP], level: -86, frequency: 2412  
+SysTime = 90360572491364 SSID: eduroam, BSSID: 00:1a:1e:64:8f:c2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -87, frequency: 2412  
+SysTime = 90360572491364 SSID: reznet-secure, BSSID: 00:1a:1e:64:8f:c3, capabilities: [WPA2-EAP-CCMP], level: -88, frequency: 2412  
+SysTime = 90360572491364 SSID: eduroam, BSSID: 00:1a:1e:64:98:42, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -89, frequency: 2412  
+SysTime = 90360572491364 SSID: reznet-secure, BSSID: 00:1a:1e:64:98:43, capabilities: [WPA2-EAP-CCMP], level: -89, frequency: 2412  
+SysTime = 90360572491364 SSID: voiceuc, BSSID: 00:1a:1e:64:98:40, capabilities: [WPA-PSK-TKIP], level: -86, frequency: 2412  
+SysTime = 90360572491364 SSID: eduroam, BSSID: 00:1a:1e:64:a8:22, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -92, frequency: 2462  
+SysTime = 90360572491364 SSID: reznet-secure, BSSID: 00:1a:1e:64:a8:23, capabilities: [WPA2-EAP-CCMP], level: -93, frequency: 2462  
+SysTime = 90360572491364 SSID: voiceuc, BSSID: 00:1a:1e:64:a8:20, capabilities: [WPA-PSK-TKIP], level: -97, frequency: 2462  
+SysTime = 90360572491364 SSID: reznet-secure, BSSID: 00:1a:1e:64:ad:43, capabilities: [WPA2-EAP-CCMP], level: -97, frequency: 2462  
+SysTime = 90360572491364 SSID: reznet, BSSID: 00:1a:1e:64:93:01, capabilities: , level: -75, frequency: 2437  
+SysTime = 90360572491364 SSID: reznet, BSSID: 00:1a:1e:64:a6:e1, capabilities: , level: -79, frequency: 2412  
+SysTime = 90360572491364 SSID: reznet, BSSID: 00:1a:1e:64:8f:c1, capabilities: , level: -88, frequency: 2412  
+SysTime = 90360572491364 SSID: reznet, BSSID: 00:1a:1e:64:98:41, capabilities: , level: -88, frequency: 2412  
+SysTime = 90360572491364 SSID: reznet, BSSID: 00:1a:1e:64:a8:21, capabilities: , level: -94, frequency: 2462  
+SysTime = 90360572491364 SSID: reznet, BSSID: 00:1a:1e:64:ad:41, capabilities: , level: -97, frequency: 2462  
+
+
+22 networks found. voiceuc is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 90360580975251 ID: 0 SSID: "Plaza Premium Lounge" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90360580975251 ID: 1 SSID: "Tata Communications Wi-Fi" BSSID: null PRIO: 3
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90360580975251 ID: 2 SSID: "Plaza Premium Lounge ( I )" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90360580975251 ID: 3 SSID: "AirportInternet" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90360580975251 ID: 4 SSID: "IGI-T3" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90360580975251 ID: 5 SSID: "Telekom" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90360580975251 ID: 6 SSID: "basic.uni-regensburg.de" BSSID: null PRIO: 12
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90360580975251 ID: 7 SSID: "HotelNET" BSSID: null PRIO: 13
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90360580975251 ID: 8 SSID: "iiserb" BSSID: null PRIO: 15
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90360580975251 ID: 9 SSID: "android" BSSID: null PRIO: 21
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90360580975251 ID: 10 SSID: "iiser_b" BSSID: null PRIO: 17
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90360580975251 ID: 11 SSID: "iiserk_wireless" BSSID: null PRIO: 25
+ KeyMgmt: WPA_EAP IEEE8021X Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: PEAP
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: visitor5
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90360580975251 ID: 12 SSID: "bluegene(10.0.0.1)" BSSID: null PRIO: 23
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90360580975251 ID: 13 SSID: "Shubham_6417" BSSID: null PRIO: 26
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90360580975251 ID: 14 SSID: "NOKIA Lumia 520_4894" BSSID: null PRIO: 28
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90360580975251 ID: 15 SSID: "Tarun’s iPhone" BSSID: null PRIO: 29
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90360580975251 ID: 16 SSID: "ARCH_MANOR1" BSSID: null PRIO: 30
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90360580975251 ID: 17 SSID: "maxspot" BSSID: null PRIO: 31
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90360580975251 ID: 18 SSID: "YYC.Free.Public.WiFi" BSSID: null PRIO: 32
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90360580975251 ID: 19 SSID: "HI Calgary" BSSID: null PRIO: 33
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90360580975251 ID: 20 SSID: "reznet-secure" BSSID: null PRIO: 34
+ KeyMgmt: WPA_EAP IEEE8021X Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: PEAP
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: chair30
+ anonymous_identity: chair30
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90360580975251 * ID: 21 SSID: "reznet" BSSID: null PRIO: 35
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90360580975251 ID: 22 SSID: "airuc" BSSID: null PRIO: 36
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90360580975251 ID: 23 SSID: "FreeKillkenny" BSSID: null PRIO: 37
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+ 
+
+
+******Scanned Results******
+SysTime = 90365693524079 SSID: voiceuc, BSSID: 00:1a:1e:64:93:00, capabilities: [WPA-PSK-TKIP], level: -74, frequency: 2437  
+SysTime = 90365693524079 SSID: eduroam, BSSID: 00:1a:1e:64:93:02, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -75, frequency: 2437  
+SysTime = 90365693524079 SSID: reznet-secure, BSSID: 00:1a:1e:64:93:03, capabilities: [WPA2-EAP-CCMP], level: -75, frequency: 2437  
+SysTime = 90365693524079 SSID: voiceuc, BSSID: 00:1a:1e:64:a6:e0, capabilities: [WPA-PSK-TKIP], level: -76, frequency: 2412  
+SysTime = 90365693524079 SSID: voiceuc, BSSID: 00:1a:1e:64:98:40, capabilities: [WPA-PSK-TKIP], level: -78, frequency: 2412  
+SysTime = 90365693524079 SSID: eduroam, BSSID: 00:1a:1e:64:a6:e2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -80, frequency: 2412  
+SysTime = 90365693524079 SSID: reznet-secure, BSSID: 00:1a:1e:64:a6:e3, capabilities: [WPA2-EAP-CCMP], level: -80, frequency: 2412  
+SysTime = 90365693524079 SSID: eduroam, BSSID: 00:1a:1e:64:98:42, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -81, frequency: 2412  
+SysTime = 90365693524079 SSID: eduroam, BSSID: 00:1a:1e:64:8f:c2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -83, frequency: 2412  
+SysTime = 90365693524079 SSID: voiceuc, BSSID: 00:1a:1e:64:8f:c0, capabilities: [WPA-PSK-TKIP], level: -83, frequency: 2412  
+SysTime = 90365693524079 SSID: reznet-secure, BSSID: 00:1a:1e:64:8f:c3, capabilities: [WPA2-EAP-CCMP], level: -83, frequency: 2412  
+SysTime = 90365693524079 SSID: reznet-secure, BSSID: 00:1a:1e:64:98:43, capabilities: [WPA2-EAP-CCMP], level: -80, frequency: 2412  
+SysTime = 90365693524079 SSID: eduroam, BSSID: 00:1a:1e:64:a8:22, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -91, frequency: 2462  
+SysTime = 90365693524079 SSID: reznet-secure, BSSID: 00:1a:1e:64:a8:23, capabilities: [WPA2-EAP-CCMP], level: -91, frequency: 2462  
+SysTime = 90365693524079 SSID: voiceuc, BSSID: 00:1a:1e:64:a8:20, capabilities: [WPA-PSK-TKIP], level: -92, frequency: 2462  
+SysTime = 90365693524079 SSID: voiceuc, BSSID: 00:1a:1e:64:ad:40, capabilities: [WPA-PSK-TKIP], level: -98, frequency: 2462  
+SysTime = 90365693524079 SSID: reznet, BSSID: 00:1a:1e:64:93:01, capabilities: , level: -75, frequency: 2437  
+SysTime = 90365693524079 SSID: reznet, BSSID: 00:1a:1e:64:a6:e1, capabilities: , level: -76, frequency: 2412  
+SysTime = 90365693524079 SSID: reznet, BSSID: 00:1a:1e:64:98:41, capabilities: , level: -80, frequency: 2412  
+SysTime = 90365693524079 SSID: reznet, BSSID: 00:1a:1e:64:8f:c1, capabilities: , level: -84, frequency: 2412  
+SysTime = 90365693524079 SSID: reznet, BSSID: 00:1a:1e:64:a8:21, capabilities: , level: -93, frequency: 2462  
+
+
+21 networks found. voiceuc is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 90365849102692 ID: 0 SSID: "Plaza Premium Lounge" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90365849102692 ID: 1 SSID: "Tata Communications Wi-Fi" BSSID: null PRIO: 3
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90365849102692 ID: 2 SSID: "Plaza Premium Lounge ( I )" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90365849102692 ID: 3 SSID: "AirportInternet" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90365849102692 ID: 4 SSID: "IGI-T3" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90365849102692 ID: 5 SSID: "Telekom" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90365849102692 ID: 6 SSID: "basic.uni-regensburg.de" BSSID: null PRIO: 12
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90365849102692 ID: 7 SSID: "HotelNET" BSSID: null PRIO: 13
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90365849102692 ID: 8 SSID: "iiserb" BSSID: null PRIO: 15
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90365849102692 ID: 9 SSID: "android" BSSID: null PRIO: 21
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90365849102692 ID: 10 SSID: "iiser_b" BSSID: null PRIO: 17
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90365849102692 ID: 11 SSID: "iiserk_wireless" BSSID: null PRIO: 25
+ KeyMgmt: WPA_EAP IEEE8021X Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: PEAP
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: visitor5
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90365849102692 ID: 12 SSID: "bluegene(10.0.0.1)" BSSID: null PRIO: 23
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90365849102692 ID: 13 SSID: "Shubham_6417" BSSID: null PRIO: 26
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90365849102692 ID: 14 SSID: "NOKIA Lumia 520_4894" BSSID: null PRIO: 28
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90365849102692 ID: 15 SSID: "Tarun’s iPhone" BSSID: null PRIO: 29
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90365849102692 ID: 16 SSID: "ARCH_MANOR1" BSSID: null PRIO: 30
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90365849102692 ID: 17 SSID: "maxspot" BSSID: null PRIO: 31
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90365849102692 ID: 18 SSID: "YYC.Free.Public.WiFi" BSSID: null PRIO: 32
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90365849102692 ID: 19 SSID: "HI Calgary" BSSID: null PRIO: 33
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90365849102692 ID: 20 SSID: "reznet-secure" BSSID: null PRIO: 34
+ KeyMgmt: WPA_EAP IEEE8021X Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: PEAP
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: chair30
+ anonymous_identity: chair30
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90365849102692 * ID: 21 SSID: "reznet" BSSID: null PRIO: 35
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90365849102692 ID: 22 SSID: "airuc" BSSID: null PRIO: 36
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90365849102692 ID: 23 SSID: "FreeKillkenny" BSSID: null PRIO: 37
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+ 
+
+
+******Scanned Results******
+SysTime = 90368664684967 SSID: voiceuc, BSSID: 00:1a:1e:64:93:00, capabilities: [WPA-PSK-TKIP], level: -73, frequency: 2437  
+SysTime = 90368664684967 SSID: eduroam, BSSID: 00:1a:1e:64:93:02, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -74, frequency: 2437  
+SysTime = 90368664684967 SSID: reznet-secure, BSSID: 00:1a:1e:64:93:03, capabilities: [WPA2-EAP-CCMP], level: -74, frequency: 2437  
+SysTime = 90368664684967 SSID: voiceuc, BSSID: 00:1a:1e:64:a6:e0, capabilities: [WPA-PSK-TKIP], level: -77, frequency: 2412  
+SysTime = 90368664684967 SSID: reznet-secure, BSSID: 00:1a:1e:64:a6:e3, capabilities: [WPA2-EAP-CCMP], level: -80, frequency: 2412  
+SysTime = 90368664684967 SSID: voiceuc, BSSID: 00:1a:1e:64:98:40, capabilities: [WPA-PSK-TKIP], level: -81, frequency: 2412  
+SysTime = 90368664684967 SSID: eduroam, BSSID: 00:1a:1e:64:a6:e2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -81, frequency: 2412  
+SysTime = 90368664684967 SSID: eduroam, BSSID: 00:1a:1e:64:98:42, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -81, frequency: 2412  
+SysTime = 90368664684967 SSID: reznet-secure, BSSID: 00:1a:1e:64:98:43, capabilities: [WPA2-EAP-CCMP], level: -82, frequency: 2412  
+SysTime = 90368664684967 SSID: reznet-secure, BSSID: 00:1a:1e:64:8f:c3, capabilities: [WPA2-EAP-CCMP], level: -83, frequency: 2412  
+SysTime = 90368664684967 SSID: eduroam, BSSID: 00:1a:1e:64:8f:c2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -84, frequency: 2412  
+SysTime = 90368664684967 SSID: voiceuc, BSSID: 00:1a:1e:64:8f:c0, capabilities: [WPA-PSK-TKIP], level: -81, frequency: 2412  
+SysTime = 90368664684967 SSID: reznet-secure, BSSID: 00:1a:1e:64:a8:23, capabilities: [WPA2-EAP-CCMP], level: -93, frequency: 2462  
+SysTime = 90368664684967 SSID: reznet-secure, BSSID: 00:1a:1e:64:a7:c3, capabilities: [WPA2-EAP-CCMP], level: -93, frequency: 2462  
+SysTime = 90368664684967 SSID: voiceuc, BSSID: 00:1a:1e:64:a7:c0, capabilities: [WPA-PSK-TKIP], level: -94, frequency: 2462  
+SysTime = 90368664684967 SSID: eduroam, BSSID: 00:1a:1e:64:a8:22, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -94, frequency: 2462  
+SysTime = 90368664684967 SSID: eduroam, BSSID: 00:1a:1e:64:a7:c2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -95, frequency: 2462  
+SysTime = 90368664684967 SSID: voiceuc, BSSID: 00:1a:1e:64:a8:20, capabilities: [WPA-PSK-TKIP], level: -95, frequency: 2462  
+SysTime = 90368664684967 SSID: reznet, BSSID: 00:1a:1e:64:93:01, capabilities: , level: -73, frequency: 2437  
+SysTime = 90368664684967 SSID: reznet, BSSID: 00:1a:1e:64:a6:e1, capabilities: , level: -81, frequency: 2412  
+SysTime = 90368664684967 SSID: reznet, BSSID: 00:1a:1e:64:98:41, capabilities: , level: -83, frequency: 2412  
+SysTime = 90368664684967 SSID: reznet, BSSID: 00:1a:1e:64:8f:c1, capabilities: , level: -84, frequency: 2412  
+SysTime = 90368664684967 SSID: reznet, BSSID: 00:1a:1e:64:a8:21, capabilities: , level: -93, frequency: 2462  
+SysTime = 90368664684967 SSID: reznet, BSSID: 00:1a:1e:64:a7:c1, capabilities: , level: -95, frequency: 2462  
+SysTime = 90368664684967 SSID: reznet, BSSID: 00:1a:1e:64:b4:a1, capabilities: , level: -98, frequency: 2437  
+
+
+25 networks found. voiceuc is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 90368822216706 ID: 0 SSID: "Plaza Premium Lounge" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90368822216706 ID: 1 SSID: "Tata Communications Wi-Fi" BSSID: null PRIO: 3
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90368822216706 ID: 2 SSID: "Plaza Premium Lounge ( I )" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90368822216706 ID: 3 SSID: "AirportInternet" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90368822216706 ID: 4 SSID: "IGI-T3" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90368822216706 ID: 5 SSID: "Telekom" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90368822216706 ID: 6 SSID: "basic.uni-regensburg.de" BSSID: null PRIO: 12
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90368822216706 ID: 7 SSID: "HotelNET" BSSID: null PRIO: 13
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90368822216706 ID: 8 SSID: "iiserb" BSSID: null PRIO: 15
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90368822216706 ID: 9 SSID: "android" BSSID: null PRIO: 21
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90368822216706 ID: 10 SSID: "iiser_b" BSSID: null PRIO: 17
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90368822216706 ID: 11 SSID: "iiserk_wireless" BSSID: null PRIO: 25
+ KeyMgmt: WPA_EAP IEEE8021X Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: PEAP
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: visitor5
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90368822216706 ID: 12 SSID: "bluegene(10.0.0.1)" BSSID: null PRIO: 23
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90368822216706 ID: 13 SSID: "Shubham_6417" BSSID: null PRIO: 26
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90368822216706 ID: 14 SSID: "NOKIA Lumia 520_4894" BSSID: null PRIO: 28
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90368822216706 ID: 15 SSID: "Tarun’s iPhone" BSSID: null PRIO: 29
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90368822216706 ID: 16 SSID: "ARCH_MANOR1" BSSID: null PRIO: 30
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90368822216706 ID: 17 SSID: "maxspot" BSSID: null PRIO: 31
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90368822216706 ID: 18 SSID: "YYC.Free.Public.WiFi" BSSID: null PRIO: 32
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90368822216706 ID: 19 SSID: "HI Calgary" BSSID: null PRIO: 33
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90368822216706 ID: 20 SSID: "reznet-secure" BSSID: null PRIO: 34
+ KeyMgmt: WPA_EAP IEEE8021X Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: PEAP
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: chair30
+ anonymous_identity: chair30
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90368822216706 * ID: 21 SSID: "reznet" BSSID: null PRIO: 35
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90368822216706 ID: 22 SSID: "airuc" BSSID: null PRIO: 36
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90368822216706 ID: 23 SSID: "FreeKillkenny" BSSID: null PRIO: 37
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+ 
+
+
+******Scanned Results******
+SysTime = 90370948834137 SSID: eduroam, BSSID: 00:1a:1e:64:93:02, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -76, frequency: 2437  
+SysTime = 90370948834137 SSID: reznet-secure, BSSID: 00:1a:1e:64:93:03, capabilities: [WPA2-EAP-CCMP], level: -76, frequency: 2437  
+SysTime = 90370948834137 SSID: voiceuc, BSSID: 00:1a:1e:64:93:00, capabilities: [WPA-PSK-TKIP], level: -76, frequency: 2437  
+SysTime = 90370948834137 SSID: reznet-secure, BSSID: 00:1a:1e:64:98:43, capabilities: [WPA2-EAP-CCMP], level: -80, frequency: 2412  
+SysTime = 90370948834137 SSID: eduroam, BSSID: 00:1a:1e:64:a6:e2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -80, frequency: 2412  
+SysTime = 90370948834137 SSID: reznet-secure, BSSID: 00:1a:1e:64:a6:e3, capabilities: [WPA2-EAP-CCMP], level: -80, frequency: 2412  
+SysTime = 90370948834137 SSID: voiceuc, BSSID: 00:1a:1e:64:98:40, capabilities: [WPA-PSK-TKIP], level: -80, frequency: 2412  
+SysTime = 90370948834137 SSID: voiceuc, BSSID: 00:1a:1e:64:a6:e0, capabilities: [WPA-PSK-TKIP], level: -80, frequency: 2412  
+SysTime = 90370948834137 SSID: eduroam, BSSID: 00:1a:1e:64:98:42, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -81, frequency: 2412  
+SysTime = 90370948834137 SSID: voiceuc, BSSID: 00:1a:1e:64:8f:c0, capabilities: [WPA-PSK-TKIP], level: -82, frequency: 2412  
+SysTime = 90370948834137 SSID: eduroam, BSSID: 00:1a:1e:64:8f:c2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -83, frequency: 2412  
+SysTime = 90370948834137 SSID: reznet-secure, BSSID: 00:1a:1e:64:8f:c3, capabilities: [WPA2-EAP-CCMP], level: -81, frequency: 2412  
+SysTime = 90370948834137 SSID: eduroam, BSSID: 00:1a:1e:64:a8:22, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -92, frequency: 2462  
+SysTime = 90370948834137 SSID: reznet-secure, BSSID: 00:1a:1e:64:a8:23, capabilities: [WPA2-EAP-CCMP], level: -93, frequency: 2462  
+SysTime = 90370948834137 SSID: voiceuc, BSSID: 00:1a:1e:64:a8:20, capabilities: [WPA-PSK-TKIP], level: -93, frequency: 2462  
+SysTime = 90370948834137 SSID: voiceuc, BSSID: 00:1a:1e:64:ad:40, capabilities: [WPA-PSK-TKIP], level: -94, frequency: 2462  
+SysTime = 90370948834137 SSID: reznet-secure, BSSID: 00:1a:1e:64:a7:c3, capabilities: [WPA2-EAP-CCMP], level: -94, frequency: 2462  
+SysTime = 90370948834137 SSID: eduroam, BSSID: 00:1a:1e:64:ad:42, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -95, frequency: 2462  
+SysTime = 90370948834137 SSID: voiceuc, BSSID: 00:1a:1e:64:a7:c0, capabilities: [WPA-PSK-TKIP], level: -95, frequency: 2462  
+SysTime = 90370948834137 SSID: voiceuc, BSSID: 00:1a:1e:64:b4:a0, capabilities: [WPA-PSK-TKIP], level: -97, frequency: 2437  
+SysTime = 90370948834137 SSID: reznet-secure, BSSID: 00:1a:1e:64:ad:43, capabilities: [WPA2-EAP-CCMP], level: -98, frequency: 2462  
+SysTime = 90370948834137 SSID: reznet, BSSID: 00:1a:1e:64:93:01, capabilities: , level: -75, frequency: 2437  
+SysTime = 90370948834137 SSID: reznet, BSSID: 00:1a:1e:64:a6:e1, capabilities: , level: -80, frequency: 2412  
+SysTime = 90370948834137 SSID: reznet, BSSID: 00:1a:1e:64:98:41, capabilities: , level: -80, frequency: 2412  
+SysTime = 90370948834137 SSID: reznet, BSSID: 00:1a:1e:64:8f:c1, capabilities: , level: -82, frequency: 2412  
+SysTime = 90370948834137 SSID: reznet, BSSID: 00:1a:1e:64:a8:21, capabilities: , level: -93, frequency: 2462  
+SysTime = 90370948834137 SSID: reznet, BSSID: 00:1a:1e:64:ad:41, capabilities: , level: -95, frequency: 2462  
+SysTime = 90370948834137 SSID: reznet, BSSID: 00:1a:1e:64:a7:c1, capabilities: , level: -98, frequency: 2462  
+
+
+28 networks found. reznet is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 90370958233551 ID: 0 SSID: "Plaza Premium Lounge" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90370958233551 ID: 1 SSID: "Tata Communications Wi-Fi" BSSID: null PRIO: 3
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90370958233551 ID: 2 SSID: "Plaza Premium Lounge ( I )" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90370958233551 ID: 3 SSID: "AirportInternet" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90370958233551 ID: 4 SSID: "IGI-T3" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90370958233551 ID: 5 SSID: "Telekom" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90370958233551 ID: 6 SSID: "basic.uni-regensburg.de" BSSID: null PRIO: 12
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90370958233551 ID: 7 SSID: "HotelNET" BSSID: null PRIO: 13
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90370958233551 ID: 8 SSID: "iiserb" BSSID: null PRIO: 15
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90370958233551 ID: 9 SSID: "android" BSSID: null PRIO: 21
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90370958233551 ID: 10 SSID: "iiser_b" BSSID: null PRIO: 17
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90370958233551 ID: 11 SSID: "iiserk_wireless" BSSID: null PRIO: 25
+ KeyMgmt: WPA_EAP IEEE8021X Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: PEAP
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: visitor5
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90370958233551 ID: 12 SSID: "bluegene(10.0.0.1)" BSSID: null PRIO: 23
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90370958233551 ID: 13 SSID: "Shubham_6417" BSSID: null PRIO: 26
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90370958233551 ID: 14 SSID: "NOKIA Lumia 520_4894" BSSID: null PRIO: 28
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90370958233551 ID: 15 SSID: "Tarun’s iPhone" BSSID: null PRIO: 29
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90370958233551 ID: 16 SSID: "ARCH_MANOR1" BSSID: null PRIO: 30
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90370958233551 ID: 17 SSID: "maxspot" BSSID: null PRIO: 31
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90370958233551 ID: 18 SSID: "YYC.Free.Public.WiFi" BSSID: null PRIO: 32
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90370958233551 ID: 19 SSID: "HI Calgary" BSSID: null PRIO: 33
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90370958233551 ID: 20 SSID: "reznet-secure" BSSID: null PRIO: 34
+ KeyMgmt: WPA_EAP IEEE8021X Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: PEAP
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: chair30
+ anonymous_identity: chair30
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90370958233551 * ID: 21 SSID: "reznet" BSSID: null PRIO: 35
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90370958233551 ID: 22 SSID: "airuc" BSSID: null PRIO: 36
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90370958233551 ID: 23 SSID: "FreeKillkenny" BSSID: null PRIO: 37
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+ 
+
+
+******Scanned Results******
+SysTime = 90372410290436 SSID: voiceuc, BSSID: 00:1a:1e:64:93:00, capabilities: [WPA-PSK-TKIP], level: -73, frequency: 2437  
+SysTime = 90372410290436 SSID: reznet-secure, BSSID: 00:1a:1e:64:93:03, capabilities: [WPA2-EAP-CCMP], level: -74, frequency: 2437  
+SysTime = 90372410290436 SSID: eduroam, BSSID: 00:1a:1e:64:93:02, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -74, frequency: 2437  
+SysTime = 90372410290436 SSID: voiceuc, BSSID: 00:1a:1e:64:a6:e0, capabilities: [WPA-PSK-TKIP], level: -79, frequency: 2412  
+SysTime = 90372410290436 SSID: reznet-secure, BSSID: 00:1a:1e:64:a6:e3, capabilities: [WPA2-EAP-CCMP], level: -79, frequency: 2412  
+SysTime = 90372410290436 SSID: eduroam, BSSID: 00:1a:1e:64:a6:e2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -79, frequency: 2412  
+SysTime = 90372410290436 SSID: eduroam, BSSID: 00:1a:1e:64:98:42, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -86, frequency: 2412  
+SysTime = 90372410290436 SSID: reznet-secure, BSSID: 00:1a:1e:64:98:43, capabilities: [WPA2-EAP-CCMP], level: -86, frequency: 2412  
+SysTime = 90372410290436 SSID: voiceuc, BSSID: 00:1a:1e:64:98:40, capabilities: [WPA-PSK-TKIP], level: -85, frequency: 2412  
+SysTime = 90372410290436 SSID: eduroam, BSSID: 00:1a:1e:64:a8:22, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -93, frequency: 2462  
+SysTime = 90372410290436 SSID: eduroam, BSSID: 00:1a:1e:64:ad:42, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -93, frequency: 2462  
+SysTime = 90372410290436 SSID: voiceuc, BSSID: 00:1a:1e:64:ad:40, capabilities: [WPA-PSK-TKIP], level: -93, frequency: 2462  
+SysTime = 90372410290436 SSID: reznet-secure, BSSID: 00:1a:1e:64:a8:23, capabilities: [WPA2-EAP-CCMP], level: -93, frequency: 2462  
+SysTime = 90372410290436 SSID: reznet-secure, BSSID: 00:1a:1e:64:a7:c3, capabilities: [WPA2-EAP-CCMP], level: -94, frequency: 2462  
+SysTime = 90372410290436 SSID: reznet-secure, BSSID: 00:1a:1e:64:ad:43, capabilities: [WPA2-EAP-CCMP], level: -94, frequency: 2462  
+SysTime = 90372410290436 SSID: voiceuc, BSSID: 00:1a:1e:64:a7:c0, capabilities: [WPA-PSK-TKIP], level: -95, frequency: 2462  
+SysTime = 90372410290436 SSID: voiceuc, BSSID: 00:1a:1e:64:a8:20, capabilities: [WPA-PSK-TKIP], level: -97, frequency: 2462  
+SysTime = 90372410290436 SSID: reznet, BSSID: 00:1a:1e:64:93:01, capabilities: , level: -74, frequency: 2437  
+SysTime = 90372410290436 SSID: reznet, BSSID: 00:1a:1e:64:a6:e1, capabilities: , level: -78, frequency: 2412  
+SysTime = 90372410290436 SSID: reznet, BSSID: 00:1a:1e:64:98:41, capabilities: , level: -86, frequency: 2412  
+SysTime = 90372410290436 SSID: reznet, BSSID: 00:1a:1e:64:a8:21, capabilities: , level: -93, frequency: 2462  
+SysTime = 90372410290436 SSID: reznet, BSSID: 00:1a:1e:64:ad:41, capabilities: , level: -94, frequency: 2462  
+
+
+22 networks found. voiceuc is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 90372432446198 ID: 0 SSID: "Plaza Premium Lounge" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90372432446198 ID: 1 SSID: "Tata Communications Wi-Fi" BSSID: null PRIO: 3
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90372432446198 ID: 2 SSID: "Plaza Premium Lounge ( I )" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90372432446198 ID: 3 SSID: "AirportInternet" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90372432446198 ID: 4 SSID: "IGI-T3" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90372432446198 ID: 5 SSID: "Telekom" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90372432446198 ID: 6 SSID: "basic.uni-regensburg.de" BSSID: null PRIO: 12
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90372432446198 ID: 7 SSID: "HotelNET" BSSID: null PRIO: 13
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90372432446198 ID: 8 SSID: "iiserb" BSSID: null PRIO: 15
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90372432446198 ID: 9 SSID: "android" BSSID: null PRIO: 21
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90372432446198 ID: 10 SSID: "iiser_b" BSSID: null PRIO: 17
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90372432446198 ID: 11 SSID: "iiserk_wireless" BSSID: null PRIO: 25
+ KeyMgmt: WPA_EAP IEEE8021X Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: PEAP
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: visitor5
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90372432446198 ID: 12 SSID: "bluegene(10.0.0.1)" BSSID: null PRIO: 23
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90372432446198 ID: 13 SSID: "Shubham_6417" BSSID: null PRIO: 26
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90372432446198 ID: 14 SSID: "NOKIA Lumia 520_4894" BSSID: null PRIO: 28
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90372432446198 ID: 15 SSID: "Tarun’s iPhone" BSSID: null PRIO: 29
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90372432446198 ID: 16 SSID: "ARCH_MANOR1" BSSID: null PRIO: 30
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90372432446198 ID: 17 SSID: "maxspot" BSSID: null PRIO: 31
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90372432446198 ID: 18 SSID: "YYC.Free.Public.WiFi" BSSID: null PRIO: 32
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90372432446198 ID: 19 SSID: "HI Calgary" BSSID: null PRIO: 33
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90372432446198 ID: 20 SSID: "reznet-secure" BSSID: null PRIO: 34
+ KeyMgmt: WPA_EAP IEEE8021X Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: PEAP
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: chair30
+ anonymous_identity: chair30
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90372432446198 * ID: 21 SSID: "reznet" BSSID: null PRIO: 35
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90372432446198 ID: 22 SSID: "airuc" BSSID: null PRIO: 36
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90372432446198 ID: 23 SSID: "FreeKillkenny" BSSID: null PRIO: 37
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+ 
+
+
+******Scanned Results******
+SysTime = 90373826824860 SSID: voiceuc, BSSID: 00:1a:1e:64:93:00, capabilities: [WPA-PSK-TKIP], level: -73, frequency: 2437  
+SysTime = 90373826824860 SSID: eduroam, BSSID: 00:1a:1e:64:93:02, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -75, frequency: 2437  
+SysTime = 90373826824860 SSID: reznet-secure, BSSID: 00:1a:1e:64:93:03, capabilities: [WPA2-EAP-CCMP], level: -75, frequency: 2437  
+SysTime = 90373826824860 SSID: voiceuc, BSSID: 00:1a:1e:64:a6:e0, capabilities: [WPA-PSK-TKIP], level: -75, frequency: 2412  
+SysTime = 90373826824860 SSID: reznet-secure, BSSID: 00:1a:1e:64:a6:e3, capabilities: [WPA2-EAP-CCMP], level: -76, frequency: 2412  
+SysTime = 90373826824860 SSID: eduroam, BSSID: 00:1a:1e:64:a6:e2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -77, frequency: 2412  
+SysTime = 90373826824860 SSID: reznet-secure, BSSID: 00:1a:1e:64:98:43, capabilities: [WPA2-EAP-CCMP], level: -84, frequency: 2412  
+SysTime = 90373826824860 SSID: reznet-secure, BSSID: 00:1a:1e:64:8f:c3, capabilities: [WPA2-EAP-CCMP], level: -86, frequency: 2412  
+SysTime = 90373826824860 SSID: eduroam, BSSID: 00:1a:1e:64:98:42, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -86, frequency: 2412  
+SysTime = 90373826824860 SSID: voiceuc, BSSID: 00:1a:1e:64:8f:c0, capabilities: [WPA-PSK-TKIP], level: -86, frequency: 2412  
+SysTime = 90373826824860 SSID: eduroam, BSSID: 00:1a:1e:64:8f:c2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -87, frequency: 2412  
+SysTime = 90373826824860 SSID: voiceuc, BSSID: 00:1a:1e:64:a7:c0, capabilities: [WPA-PSK-TKIP], level: -93, frequency: 2462  
+SysTime = 90373826824860 SSID: eduroam, BSSID: 00:1a:1e:64:a8:22, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -94, frequency: 2462  
+SysTime = 90373826824860 SSID: eduroam, BSSID: 00:1a:1e:64:a7:c2, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -94, frequency: 2462  
+SysTime = 90373826824860 SSID: reznet-secure, BSSID: 00:1a:1e:64:a7:c3, capabilities: [WPA2-EAP-CCMP], level: -94, frequency: 2462  
+SysTime = 90373826824860 SSID: reznet-secure, BSSID: 00:1a:1e:64:a8:23, capabilities: [WPA2-EAP-CCMP], level: -95, frequency: 2462  
+SysTime = 90373826824860 SSID: eduroam, BSSID: 00:1a:1e:64:ad:42, capabilities: [WPA-EAP-TKIP][WPA2-EAP-CCMP], level: -99, frequency: 2462  
+SysTime = 90373826824860 SSID: reznet, BSSID: 00:1a:1e:64:93:01, capabilities: , level: -75, frequency: 2437  
+SysTime = 90373826824860 SSID: reznet, BSSID: 00:1a:1e:64:a6:e1, capabilities: , level: -76, frequency: 2412  
+SysTime = 90373826824860 SSID: reznet, BSSID: 00:1a:1e:64:98:41, capabilities: , level: -82, frequency: 2412  
+SysTime = 90373826824860 SSID: reznet, BSSID: 00:1a:1e:64:8f:c1, capabilities: , level: -87, frequency: 2412  
+SysTime = 90373826824860 SSID: reznet, BSSID: 00:1a:1e:64:a7:c1, capabilities: , level: -93, frequency: 2462  
+SysTime = 90373826824860 SSID: reznet, BSSID: 00:1a:1e:64:a8:21, capabilities: , level: -94, frequency: 2462  
+
+
+23 networks found. voiceuc is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 90373844616608 ID: 0 SSID: "Plaza Premium Lounge" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90373844616608 ID: 1 SSID: "Tata Communications Wi-Fi" BSSID: null PRIO: 3
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90373844616608 ID: 2 SSID: "Plaza Premium Lounge ( I )" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90373844616608 ID: 3 SSID: "AirportInternet" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90373844616608 ID: 4 SSID: "IGI-T3" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90373844616608 ID: 5 SSID: "Telekom" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90373844616608 ID: 6 SSID: "basic.uni-regensburg.de" BSSID: null PRIO: 12
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90373844616608 ID: 7 SSID: "HotelNET" BSSID: null PRIO: 13
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90373844616608 ID: 8 SSID: "iiserb" BSSID: null PRIO: 15
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90373844616608 ID: 9 SSID: "android" BSSID: null PRIO: 21
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90373844616608 ID: 10 SSID: "iiser_b" BSSID: null PRIO: 17
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90373844616608 ID: 11 SSID: "iiserk_wireless" BSSID: null PRIO: 25
+ KeyMgmt: WPA_EAP IEEE8021X Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: PEAP
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: visitor5
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90373844616608 ID: 12 SSID: "bluegene(10.0.0.1)" BSSID: null PRIO: 23
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90373844616608 ID: 13 SSID: "Shubham_6417" BSSID: null PRIO: 26
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90373844616608 ID: 14 SSID: "NOKIA Lumia 520_4894" BSSID: null PRIO: 28
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90373844616608 ID: 15 SSID: "Tarun’s iPhone" BSSID: null PRIO: 29
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90373844616608 ID: 16 SSID: "ARCH_MANOR1" BSSID: null PRIO: 30
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90373844616608 ID: 17 SSID: "maxspot" BSSID: null PRIO: 31
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90373844616608 ID: 18 SSID: "YYC.Free.Public.WiFi" BSSID: null PRIO: 32
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90373844616608 ID: 19 SSID: "HI Calgary" BSSID: null PRIO: 33
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90373844616608 ID: 20 SSID: "reznet-secure" BSSID: null PRIO: 34
+ KeyMgmt: WPA_EAP IEEE8021X Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: PEAP
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: chair30
+ anonymous_identity: chair30
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90373844616608 * ID: 21 SSID: "reznet" BSSID: null PRIO: 35
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90373844616608 ID: 22 SSID: "airuc" BSSID: null PRIO: 36
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+
+SysTime = 90373844616608 ID: 23 SSID: "FreeKillkenny" BSSID: null PRIO: 37
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+ 
+

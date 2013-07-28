@@ -1,0 +1,5 @@
+#SysTime CNRI Call_State
+24763622425088 15  N/A 
+24763622425088 [Lac Cid Psc]:[11204,79047588,249]
+24763622425088 Neighbor Cell Info:[f9@-82] :[ Cid Lac Nw Psc Rssi ]: [-1-110249-82] 
+24763622425088 Neighbor Cell Info:[f9@-97] :[ Cid Lac Nw Psc Rssi ]: [-1-110249-97] 

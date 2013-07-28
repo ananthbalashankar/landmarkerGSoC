@@ -1,0 +1,160 @@
+[?1h=
+                                                                        < M A T L A B (R) >
+                                                              Copyright 1984-2012 The MathWorks, Inc.
+                                                                R2012b (8.0.0.783) 64-bit (glnxa64)
+                                                                          August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+ 
+curs =
+ 
+        Attributes: []
+              Data: 0
+    DatabaseObject: [1x1 database]
+          RowLimit: 0
+          SQLQuery: 'select dataid from sample where folder='/var/www/data/383/''
+           Message: []
+              Type: 'Database Cursor Object'
+         ResultSet: [1x1 org.postgresql.jdbc4.Jdbc4ResultSet]
+            Cursor: [1x1 com.mathworks.toolbox.database.sqlExec]
+         Statement: [1x1 org.postgresql.jdbc4.Jdbc4Statement]
+             Fetch: 0
+
+[?1h=
+string =
+
+/var/www/data/383//clusters_1.csv
+
+
+string =
+
+/var/www/data/383//clusters_3.csv
+
+
+string =
+
+/var/www/data/383//clusters_7.csv
+
+
+ans =
+
+/var/www/data/383//SensoSaur_06.18.15.10_8.txt
+
+
+ans =
+
+/var/www/data/383//SensoSaur_06.18.15.10_0.txt
+
+
+ans =
+
+/var/www/data/383//SensoSaur_06.18.15.10_1.txt
+
+
+ans =
+
+/var/www/data/383//SensoSaur_06.18.15.10_10.txt
+
+
+ans =
+
+/var/www/data/383//SensoSaur_06.18.15.10_11.txt
+
+
+ans =
+
+/var/www/data/383//SensoSaur_06.18.15.10_2.txt
+
+
+ans =
+
+/var/www/data/383//SensoSaur_06.18.15.10_7.txt
+
+
+ans =
+
+/var/www/data/383//SensoSaur_06.18.15.10_8.txt
+
+
+ans =
+
+/var/www/data/383//SensoSaur_06.18.15.10_9.txt
+
+
+ans =
+
+   2.8373e+13
+
+
+ans =
+
+       49500           3
+
+
+ans =
+
+     []
+
+3  4
+2  3  4
+3  4  6
+3  4
+2  3  4
+3  4  6
+
+commentFile =
+
+/var/www/data/383//Comments.txt
+
+
+comments = 
+
+    [2.8383e+13]    [2.5400]    'This looks good'
+    [2.8393e+13]    [3.2000]    'Not so good'    
+
+ 
+curs1 =
+ 
+        Attributes: []
+              Data: {49x2 cell}
+    DatabaseObject: [1x1 database]
+          RowLimit: 0
+          SQLQuery: 'Select id,min((landmark.centroidx+2.196282)^2+(landmark.centroidy + -0.844231)^2) as dist from landmark group by id order by dist asc;'
+           Message: []
+              Type: 'Database Cursor Object'
+         ResultSet: [1x1 org.postgresql.jdbc4.Jdbc4ResultSet]
+            Cursor: [1x1 com.mathworks.toolbox.database.sqlExec]
+         Statement: [1x1 org.postgresql.jdbc4.Jdbc4Statement]
+             Fetch: [1x1 com.mathworks.toolbox.database.fetchTheData]
+
+
+vals = 
+
+    [2.5400]    'This looks good'    [2.8383e+13]    [46]    [570]
+
+ 
+curs1 =
+ 
+        Attributes: []
+              Data: {49x2 cell}
+    DatabaseObject: [1x1 database]
+          RowLimit: 0
+          SQLQuery: 'Select id,min((landmark.centroidx+6.208576)^2+(landmark.centroidy + 5.300988)^2) as dist from landmark group by id order by dist asc;'
+           Message: []
+              Type: 'Database Cursor Object'
+         ResultSet: [1x1 org.postgresql.jdbc4.Jdbc4ResultSet]
+            Cursor: [1x1 com.mathworks.toolbox.database.sqlExec]
+         Statement: [1x1 org.postgresql.jdbc4.Jdbc4Statement]
+             Fetch: [1x1 com.mathworks.toolbox.database.fetchTheData]
+
+
+vals = 
+
+    [3.2000]    'Not so good'    [2.8393e+13]    [46]    [599]
+
+>> %-- 07/26/2013 05:02:02 PM --%%-- 07/26/2013 05:02:02 PM --%%-- 07/26/2013 05:02:02 PM --%
+>> 
+>> 

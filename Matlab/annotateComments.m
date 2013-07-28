@@ -1,4 +1,4 @@
-function annotateComments(file,dataid)
+function annotateComments(file,conn,dataid)
   commentFile = strcat(file,'/Comments.txt')
   fid = fopen(commentFile,'r');
   comments = {};
@@ -24,7 +24,7 @@ function annotateComments(file,dataid)
   ypos = location.ypos;
   timeSlots = location.timeSlots;
   %conn = database('test_db','root','ananth','Vendor','PostGreSQL');
-  conn = database('sample','postgres','ananth','org.postgresql.Driver','jdbc:postgresql:sample');
+  %conn = database('sample','postgres','ananth','org.postgresql.Driver','jdbc:postgresql:sample');
   comments 
   for i=1:size(comments,1)
       %get location from timestamp

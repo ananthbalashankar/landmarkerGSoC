@@ -1,0 +1,5 @@
+#SysTime CNRI Call_State
+19973678400012 12  N/A 
+19973678400012 [Lac Cid Psc]:[11204,79057588,249]
+19973678400012 Neighbor Cell Info:[f9@-106] :[ Cid Lac Nw Psc Rssi ]: [-1-110249-106] 
+19973678400012 Neighbor Cell Info:[f9@-104] :[ Cid Lac Nw Psc Rssi ]: [-1-110249-104] 

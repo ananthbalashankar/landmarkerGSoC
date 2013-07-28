@@ -1,0 +1,5 @@
+#SysTime CNRI Call_State
+92003496374102 11  N/A 
+92003496374102 [Lac Cid Psc]:[11204,79053588,249]
+92003496374102 Neighbor Cell Info:[f9@-84] :[ Cid Lac Nw Psc Rssi ]: [-1-110249-84] 
+92003496374102 Neighbor Cell Info:[f9@-91] :[ Cid Lac Nw Psc Rssi ]: [-1-110249-91] 

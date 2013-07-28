@@ -51,15 +51,20 @@ import android.telephony.PhoneStateListener;
 import android.telephony.SignalStrength;
 import android.telephony.TelephonyManager;
 import android.telephony.gsm.GsmCellLocation;
+import android.text.Editable;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RadioGroup;
+import android.widget.RatingBar;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -91,7 +96,11 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
 	//private BufferedWriter[] fOut = new BufferedWriter[12];
 	private File[] file =new File[12];
 	private PrintWriter[] fOut = new PrintWriter[12];
+	private PrintWriter commentFile = null;
+	private PrintWriter seedsFile = null;
 	private PrintWriter  lmFout = null;
+	private File comment = null;
+	private File seeds = null;
 	private File wifiFile = null;
 	private File gsmFile =null;
 	
@@ -101,8 +110,14 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
 	private CheckBox[] chkBoxArr =  new CheckBox[12];
 	private TextView[] txtViewsArr = new TextView[31];
 	private ToggleButton togButton =  null;
+	private Button SubmitComments = null;
+	private EditText comments = null;
+	private RatingBar ratings = null;
 	//private ToggleButton togButtonLoc = null;
 	private Button landMarkRecord = null;
+	private Button annotate = null;
+	private Button back = null;
+	private Button seedSubmit = null;
 	//private SoundMeter sMeter = null;
 	private SoundMeter sRecorder = null;
 	
@@ -148,7 +163,7 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
     public void onCreate(Bundle savedInstanceState) {
     	    super.onCreate(savedInstanceState);
     	    setContentView(R.layout.main);
-    	    
+    	    //setContentView(R.layout.comments);
     	    //sMeter = new SoundMeter("/dev/null");
     	    mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
     	    deviceSensors = mSensorManager.getSensorList(Sensor.TYPE_ALL);
@@ -593,10 +608,16 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
     	
     	//Toggle Button
     	togButton = (ToggleButton) findViewById(R.id.logToggleButton);
+    	
+    	SubmitComments = (Button) findViewById(R.id.submit);
+    	ratings = (RatingBar) findViewById(R.id.ratingBar1);
+    	comments = (EditText) findViewById(R.id.comments);
     	//togButtonLoc = (ToggleButton) findViewById(R.id.locToggleButton);
     	
     	//Button
     	landMarkRecord = (Button) findViewById(R.id.landMarkButton);
+    	annotate = (Button) findViewById(R.id.annotate);
+    	
      	
     }
     
@@ -646,15 +667,9 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
     		chkBoxArr[i].setChecked(val);
     	}
     	
-    	landMarkRecord.setOnClickListener(new View.OnClickListener(){
-    		public void onClick(View v){
-    			if( null != lmFout){
-    				long tim=System.nanoTime();
-    				lmFout.println(Long.toString(tim));
-    			}	
-    		}
-    	}
-    	);
+    	
+    	
+	    
     	//avlSensors[9] = ; for sound
     	
     	for (int i =0 ; i < numSensors; i++)
@@ -674,7 +689,7 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
     	
     	for ( int i =0 ; i<12; i++ )
     	{
-    		if( -1 == avlSensors[i]) //&& i!=9)
+    		//if( -1 == avlSensors[i]) //&& i!=9)
     		{
     			//Eliminate the views of non existent sensors
     		    childLLArr[i].setVisibility(View.GONE);
@@ -684,7 +699,46 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
   		
     }
     
-    
+    public void annotateListener()
+    {
+    	annotate.setOnClickListener(new View.OnClickListener() {
+			
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				setContentView(R.layout.seeds);
+				
+				back = (Button) findViewById(R.id.back);
+				seedSubmit = (Button) findViewById(R.id.seedsubmit);
+				
+				back.setOnClickListener(new View.OnClickListener() {
+				
+					public void onClick(View v) {
+						// TODO Auto-generated method stub
+						setContentView(R.layout.main);
+						populateGraphicalIDs();
+						registerListener();
+					}
+				});
+				
+				seedSubmit.setOnClickListener(new View.OnClickListener() {
+					
+					public void onClick(View v) {
+						// TODO Auto-generated method stub
+						RadioGroup myRadioGroup =(RadioGroup) findViewById(R.id.choice);
+						int index = myRadioGroup.indexOfChild(findViewById(myRadioGroup.getCheckedRadioButtonId()));
+						EditText xpos = (EditText) findViewById(R.id.xaxis);
+						EditText ypos = (EditText) findViewById(R.id.yaxis);
+						double x = Double.valueOf(xpos.getText().toString());
+						double y = Double.valueOf(ypos.getText().toString());
+						long tim = System.nanoTime();
+						seedsFile.println(""+Long.toString(tim)+ " "+x+" "+y+" "+index);
+						Log.d("UPLOAD","seeds inserted:"+x+","+y+";rating:"+index);
+					}
+				});
+				
+			}
+		});
+    }
     public final void onAccuracyChanged(Sensor sensor, int accuracy) {
       // Do something here if sensor accuracy changes.
     }
@@ -816,17 +870,17 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
     protected void onResume() {
       super.onResume();
       locationManager.requestLocationUpdates(bestProvider, 0, 0, this);
-      mSensorManager.registerListener(this, mLight, SensorManager.SENSOR_DELAY_FASTEST);
-      mSensorManager.registerListener(this, mAcc, SensorManager.SENSOR_DELAY_FASTEST);
-      mSensorManager.registerListener(this, mMag, SensorManager.SENSOR_DELAY_FASTEST);
-      mSensorManager.registerListener(this, mGyro, SensorManager.SENSOR_DELAY_FASTEST);//??
-      mSensorManager.registerListener(this, mProxy, SensorManager.SENSOR_DELAY_FASTEST);
-      mSensorManager.registerListener(this, mOrient, SensorManager.SENSOR_DELAY_FASTEST);
-      mSensorManager.registerListener(this, mPressure, SensorManager.SENSOR_DELAY_FASTEST);
-      mSensorManager.registerListener(this, mTemp, SensorManager.SENSOR_DELAY_FASTEST);
-      mSensorManager.registerListener(this, mLacc, SensorManager.SENSOR_DELAY_FASTEST);
-      mSensorManager.registerListener(this, mRotv, SensorManager.SENSOR_DELAY_FASTEST);
-      mSensorManager.registerListener(this, mGravity, SensorManager.SENSOR_DELAY_FASTEST);
+      mSensorManager.registerListener(this, mLight, SensorManager.SENSOR_DELAY_UI);
+      mSensorManager.registerListener(this, mAcc, SensorManager.SENSOR_DELAY_UI);
+      mSensorManager.registerListener(this, mMag, SensorManager.SENSOR_DELAY_UI);
+      mSensorManager.registerListener(this, mGyro, SensorManager.SENSOR_DELAY_UI);//??
+      mSensorManager.registerListener(this, mProxy, SensorManager.SENSOR_DELAY_UI);
+      mSensorManager.registerListener(this, mOrient, SensorManager.SENSOR_DELAY_UI);
+      mSensorManager.registerListener(this, mPressure, SensorManager.SENSOR_DELAY_UI);
+      mSensorManager.registerListener(this, mTemp, SensorManager.SENSOR_DELAY_UI);
+      mSensorManager.registerListener(this, mLacc, SensorManager.SENSOR_DELAY_UI);
+      mSensorManager.registerListener(this, mRotv, SensorManager.SENSOR_DELAY_UI);
+      mSensorManager.registerListener(this, mGravity, SensorManager.SENSOR_DELAY_UI);
       //GSM
       Tel.listen(MyListener,PhoneStateListener.LISTEN_SIGNAL_STRENGTHS);
       
@@ -844,7 +898,10 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
       locationManager.removeUpdates(this);
       
       //WiFi
+      
       unregisterReceiver(receiver);
+    
+      
       //GSM
       Tel.listen(MyListener, PhoneStateListener.LISTEN_NONE);
       //sMeter.stop();
@@ -951,11 +1008,39 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
     		}	
     }
     
+    public void sendFileToServer(File[] files)
+    {
+    	try
+    	{
+    		ServerCommunication s = new ServerCommunication();
+    		s.execute(files);
+    		//Toast.makeText(this, "Files uploaded", Toast.LENGTH_SHORT).show();    
+    	}
+    	catch (Exception ex)
+    	{
+    		Log.e("File Uploader111", "error: " + ex.getMessage(), ex);
+			Toast.makeText(this, ex.getMessage(), Toast.LENGTH_LONG).show();
+    	}
+    }
     
     public void registerListener()
     {
     	if( null != togButton )
     	{
+    		landMarkRecord.setOnClickListener(new View.OnClickListener(){
+        		public void onClick(View v){
+        			if( null != lmFout){
+        				long tim=System.nanoTime();
+        				lmFout.println(Long.toString(tim));
+        			}	
+        		}
+        	}
+        	);
+        	
+            annotateListener();
+            
+       
+            
 	    	togButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 	            public void onCheckedChanged(CompoundButton cButton,boolean bVal) {
 	                // Perform action on click
@@ -1041,6 +1126,27 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
 								// TODO Auto-generated catch block
 								e.printStackTrace();
 						}
+						
+						
+						
+						try {
+							comment = new File(fileDir, "Comments.txt");
+							if(!comment.exists())
+								comment.createNewFile();
+							commentFile = new PrintWriter(new FileWriter(comment));
+						} catch (IOException e1) {
+							e1.printStackTrace();
+						}
+						
+					     try {
+								seeds = new File(Environment.getExternalStorageDirectory().getAbsolutePath()+"/SensoSaur/"+"Seeds.txt");
+								if(!seeds.exists())
+									seeds.createNewFile();
+								seedsFile = new PrintWriter(new FileWriter(seeds));
+							} catch (IOException e1) {
+								e1.printStackTrace();
+							}
+						
 						
 						for(int i =0 ; i<12 ; i++)
 						{
@@ -1285,30 +1391,41 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
 	            			locFileOut.close();
 	            		}
 	            		
+	            		File [] files = new File[16];
 	            		if ( null != wifiFileOut )
 	            		{
 	            			wifiFileOut.close();
-	            			sendFileToServer(wifiFile.getAbsolutePath());
+	            			files[12] = wifiFile;
+	            			//sendFileToServer(wifiFile.getAbsolutePath());
 	            		}
 	            		
 	            		if ( null != gsmFileOut )
 	            		{
 	            			gsmFileOut.close();
-	            			sendFileToServer(gsmFile.getAbsolutePath());
+	            			files[13] = gsmFile; 
+	            			//sendFileToServer(gsmFile.getAbsolutePath());
 	            		}
 	            		//senLocLeader.stopLocating();
 	            		//File closed and data recording stopped
 	            		
 	            		sRecorder.stop();
 	            		
+	            		commentFile.close();
+	            		seedsFile.close();
+	            		//seedsFile = null;
+	            		files[14] = comment;
+	            		files[15] = seeds;
 	            		for( int i=0 ;i<12 ;i++)
 	            		{
 	            			if( null != fOut[i] )
 	            			{
 	            				fOut[i].close();
-	            				sendFileToServer(file[i].getAbsolutePath());
+	            				files[i] = file[i];
+	            				//sendFileToServer(file[i].getAbsolutePath());
 	            			}
 	            		}
+	            		
+	            		sendFileToServer(files);
 	            		if ( null != lmFout )
 	            		{
 	            			lmFout.close();
@@ -1326,6 +1443,18 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
 	    	});
     	}
     	
+    	if(null != SubmitComments)
+    	{
+    		SubmitComments.setOnClickListener(new OnClickListener(){
+	            public void onClick(View v) {
+	            	float rating = ratings.getRating();
+	            	String comment = comments.getText().toString();
+	            	long tim = System.nanoTime();
+	            	commentFile.println(""+Long.toString(tim)+" "+rating+" "+comment);
+	            	Log.d("UPLOAD","Comment inserted:"+comment+";rating:"+rating);
+	            }});
+	            
+    	}
     	/*if ( null != togButtonLoc )
     	{
     		togButtonLoc.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {

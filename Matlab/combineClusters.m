@@ -56,7 +56,7 @@ for j=1:size(stableFeat,2)
     newStableFeat(:,j) = feat(distance <2);
 end
 
-combined = {feature, [centroidx centroidy], combinedPoints, [combinedLocx combinedLocy], combinedTime, SinitialTime, newStableFeat ,factor+1 };
+combined = {feature, [centroidx centroidy], combinedPoints, [combinedLocx combinedLocy], combinedTime, SinitialTime, newStableFeat ,factor+1, stable{9}, stable{10} };
 
 end
 

@@ -1,0 +1,86 @@
+# Created by Octave 3.6.2, Wed Jul 10 05:28:54 2013 UTC <root@ananthbalashankar>
+# name: results
+# type: cell
+# rows: 1
+# columns: 2
+# name: <cell-element>
+# type: cell
+# rows: 1
+# columns: 4
+# name: <cell-element>
+# type: scalar
+6
+
+
+
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 2.857637140204302 -0.654602798640594
+
+
+
+# name: <cell-element>
+# type: scalar
+0.07809917457298317
+
+
+
+# name: <cell-element>
+# type: matrix
+# rows: 6
+# columns: 2
+ 2.102447440297635 -0.4769613503759648
+ 2.403540160358064 -0.5477866633537258
+ 2.698488131029504 -0.6171665617809203
+ 3.008183500234517 -0.6900154551294745
+ 3.316649919561732 -0.7625752655679154
+ 3.616513689744363 -0.8331114956355631
+
+
+
+
+
+
+# name: <cell-element>
+# type: cell
+# rows: 1
+# columns: 4
+# name: <cell-element>
+# type: scalar
+5
+
+
+
+# name: <cell-element>
+# type: matrix
+# rows: 1
+# columns: 2
+ 0.3085578241839634 -0.05498914363777647
+
+
+
+# name: <cell-element>
+# type: scalar
+0.090029444110946
+
+
+
+# name: <cell-element>
+# type: matrix
+# rows: 5
+# columns: 2
+ -0.336360989653909 0.09671309897284538
+ -0.07279384340423956 0.03471540052459458
+ 0.2393594255563684 -0.03871165864418626
+ 0.56011534366156 -0.1141622981837602
+ 1.152469184760037 -0.2535002608583758
+
+
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+#SysTime CNRI Call_State
+19253946643650 8  N/A 
+19253946643650 [Lac Cid Psc]:[11204,79060588,249]
+19253946643650 Neighbor Cell Info:[f9@-95] :[ Cid Lac Nw Psc Rssi ]: [-1-110249-95] 
+19253946643650 Neighbor Cell Info:[f9@-110] :[ Cid Lac Nw Psc Rssi ]: [-1-110249-110] 

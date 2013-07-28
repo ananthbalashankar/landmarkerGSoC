@@ -1,4 +1,4 @@
-function [stable stableFeat newLocation] = stabilize(dir_path)
+function [stable stableFeat newLocation] = stabilize(dir_path,conn,dataid)
     warning('off','all');
     clusters = {};
     err = 0;
@@ -12,9 +12,13 @@ function [stable stableFeat newLocation] = stabilize(dir_path)
                     %dir_path = strcat('../data/Landmarker_Data/',device{1},'/',place{1},'/',person{1},'/',time{1},'/');
                     filenames = dir(dir_path);
                     files = {};
+			
+		   conn = database('sample','postgres','ananth','org.postgresql.Driver','jdbc:postgresql:sample');
+		
+
                     %%%%change initial Landmarks here
 		    try
-             		 s = load(strcat('stable/cluster'));
+             		s = load(strcat('stable/cluster'));
                     	stable = s.stable;
                     	stableFeat = s.stableFeat;
          	    catch
@@ -30,11 +34,13 @@ function [stable stableFeat newLocation] = stabilize(dir_path)
 %                         err = err + sqrt(location(end,1)^2 + location(end,2)^2);
 %                         err_count = err_count + 1;
                         if(~isempty(x.cluster))
-                            cluster = x.cluster{2};
+                            cluster = x.cluster;
                             clusters{end+1} = cluster;
                         end
+
+		
                         
-                        [stable stableFeat newLocation] = getStableClusters(cluster,location,timeSlots,stable,stableFeat);                        %calculate stable clusters
+                        [stable stableFeat newLocation] = getStableClusters(cluster,location,timeSlots,stable,stableFeat,conn,dataid,dir_path);                         %calculate stable clusters
                         save(strcat(dir_path,'/newLocation'),'newLocation','timeSlots');
                         save('stable/cluster','stable','stableFeat');
                      

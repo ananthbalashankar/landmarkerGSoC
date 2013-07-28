@@ -108,6 +108,13 @@
                 android:layout_margin="2dp"
                 android:orientation="vertical" >
 
+                <Button
+                    android:id="@+id/annotate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Annotate" />
+
                 <ImageView
                     android:id="@+id/ImageView12"
                     android:layout_width="match_parent"
@@ -124,7 +131,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
-                android:orientation="horizontal" >
+                android:orientation="horizontal" android:visibility="gone">
 
                 <CheckBox
                     android:id="@+id/ssAccCheckBox"
@@ -162,7 +169,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="85dp"
                 android:layout_margin="2dp"
-                android:orientation="horizontal" >
+                android:orientation="horizontal" android:visibility="gone">
 
                 <ImageView
                     android:id="@+id/ssAccimageView"
@@ -260,7 +267,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
-                android:orientation="horizontal" >
+                android:orientation="horizontal" android:visibility="gone">
 
                 <CheckBox
                     android:id="@+id/ssMagCheckBox"
@@ -297,7 +304,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_margin="2dp"
-                android:orientation="horizontal" >
+                android:orientation="horizontal" android:visibility="gone">
 
                 <ImageView
                     android:id="@+id/ImageView13"
@@ -395,7 +402,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
-                android:orientation="horizontal" >
+                android:orientation="horizontal" android:visibility="gone">
 
                 <CheckBox
                     android:id="@+id/ssGyroCheckBox"
@@ -432,7 +439,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="85dp"
                 android:layout_margin="2dp"
-                android:orientation="horizontal" >
+                android:orientation="horizontal" android:visibility="gone">
 
                 <ImageView
                     android:id="@+id/ImageView14"
@@ -528,7 +535,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
-                android:orientation="horizontal" >
+                android:orientation="horizontal" android:visibility="gone">
 
                 <CheckBox
                     android:id="@+id/ssProxCheckBox"
@@ -565,7 +572,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:layout_margin="2dp"
-                android:orientation="horizontal" >
+                android:orientation="horizontal" android:visibility="gone">
 
                 <ImageView
                     android:id="@+id/ImageView15"
@@ -608,7 +615,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
-                android:orientation="horizontal" >
+                android:orientation="horizontal" android:visibility="gone">
 
                 <CheckBox
                     android:id="@+id/ssLightCheckBox"
@@ -645,7 +652,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:layout_margin="2dp"
-                android:orientation="horizontal" >
+                android:orientation="horizontal" android:visibility="gone">
 
                 <ImageView
                     android:id="@+id/ImageView16"
@@ -688,7 +695,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
-                android:orientation="horizontal" >
+                android:orientation="horizontal" android:visibility="gone">
 
                 <CheckBox
                     android:id="@+id/ssTempCheckBox"
@@ -725,7 +732,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:layout_margin="2dp"
-                android:orientation="horizontal" >
+                android:orientation="horizontal" android:visibility="gone">
 
                 <ImageView
                     android:id="@+id/ImageView17"
@@ -768,7 +775,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
-                android:orientation="horizontal" >
+                android:orientation="horizontal" android:visibility="gone">
 
                 <CheckBox
                     android:id="@+id/ssBaroCheckBox"
@@ -805,7 +812,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:layout_margin="2dp"
-                android:orientation="horizontal" >
+                android:orientation="horizontal" android:visibility="gone">
 
                 <ImageView
                     android:id="@+id/ImageView18"
@@ -848,7 +855,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
-                android:orientation="horizontal" >
+                android:orientation="horizontal" android:visibility="gone">
 
                 <CheckBox
                     android:id="@+id/ssRVCheckBox"
@@ -885,7 +892,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="85dp"
                 android:layout_margin="2dp"
-                android:orientation="horizontal" >
+                android:orientation="horizontal" android:visibility="gone">
 
                 <ImageView
                     android:id="@+id/ImageView20"
@@ -981,7 +988,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
-                android:orientation="horizontal" >
+                android:orientation="horizontal" android:visibility="gone">
 
                 <CheckBox
                     android:id="@+id/ssLACheckBox"
@@ -1018,7 +1025,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="85dp"
                 android:layout_margin="2dp"
-                android:orientation="horizontal" >
+                android:orientation="horizontal" android:visibility="gone">
 
                 <ImageView
                     android:id="@+id/ImageView21"
@@ -1114,7 +1121,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
-                android:orientation="horizontal" >
+                android:orientation="horizontal" android:visibility="gone">
 
                 <CheckBox
                     android:id="@+id/ssSLCheckBox"
@@ -1151,7 +1158,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:layout_margin="2dp"
-                android:orientation="horizontal" >
+                android:orientation="horizontal" android:visibility="gone">
 
                 <ImageView
                     android:id="@+id/ImageView19"
@@ -1194,7 +1201,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
-                android:orientation="horizontal" >
+                android:orientation="horizontal" android:visibility="gone">
 
                 <CheckBox
                     android:id="@+id/ssOrientCheckBox"
@@ -1231,7 +1238,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="85dp"
                 android:layout_margin="2dp"
-                android:orientation="horizontal" >
+                android:orientation="horizontal" android:visibility="gone">
 
                 <ImageView
                     android:id="@+id/ImageView22"
@@ -1327,7 +1334,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="2dp"
-                android:orientation="horizontal" >
+                android:orientation="horizontal" android:visibility="gone">
 
                 <CheckBox
                     android:id="@+id/ssGravityCheckBox"
@@ -1365,7 +1372,7 @@
                 android:layout_height="90dp"
                 android:layout_margin="2dp"
                 android:orientation="horizontal"
-                android:paddingBottom="5dp" >
+                android:paddingBottom="5dp" android:visibility="gone">
 
                 <ImageView
                     android:id="@+id/ImageView23"
@@ -1464,7 +1471,7 @@
                 android:layout_height="65dp"
                 android:layout_margin="2dp"
                 android:orientation="horizontal"
-                android:paddingBottom="5dp" >
+                android:paddingBottom="5dp" android:visibility="gone">
 
                 <ImageView
                     android:id="@+id/ImageView01"
@@ -1539,7 +1546,7 @@
                 android:layout_height="85dp"
                 android:layout_margin="2dp"
                 android:orientation="horizontal"
-                android:paddingBottom="5dp" >
+                android:paddingBottom="5dp" android:visibility="gone">
 
                 <ImageView
                     android:id="@+id/ImageView02"
@@ -1629,6 +1636,11 @@
 
                 </TableLayout>
             </LinearLayout>
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/comments" />
 
         </LinearLayout>
 

@@ -1,0 +1,4 @@
+#SysTime CNRI Call_State
+3236605527812 13  N/A 
+3236605527812 [Lac Cid Psc]:[11204,79060588,249]
+3236605527812 Neighbor Cell Info:[f9@-114] :[ Cid Lac Nw Psc Rssi ]: [-1-110249-114] 

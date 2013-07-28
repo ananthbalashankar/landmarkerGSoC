@@ -51,5 +51,7 @@
     <string name="AP_Best">AP_Best</string>
     <string name="log_data_str">LOG DATA ::</string>
     <string name="Log_Data">Log Data :</string>
-
+	<string name="Comments">Comments :</string>
+	<string name="Rating">Rating :</string>
+	<string name="SubmitComments">Submit</string>
 </resources>
