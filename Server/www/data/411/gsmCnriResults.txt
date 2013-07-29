@@ -1,0 +1,8 @@
+#SysTime CNRI Call_State
+5094407096367 17  N/A 
+5094407096367 [Lac Cid Psc]:[11204,79057588,249]
+5094407096367 Neighbor Cell Info:[f9@-97] :[ Cid Lac Nw Psc Rssi ]: [-1-110249-97] 
+5094407096367 Neighbor Cell Info:[102@-108] :[ Cid Lac Nw Psc Rssi ]: [-1-110258-108] 
+5094407096367 Neighbor Cell Info:[f9@-100] :[ Cid Lac Nw Psc Rssi ]: [-1-110249-100] 
+5097230597053 16  N/A 
+5106222936438 14  N/A 

@@ -1,0 +1,128 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+ 
+curs =
+ 
+        Attributes: []
+              Data: 0
+    DatabaseObject: [1x1 database]
+          RowLimit: 0
+          SQLQuery: [1x59 char]
+           Message: []
+              Type: 'Database Cursor Object'
+         ResultSet: [1x1 org.postgresql.jdbc4.Jdbc4ResultSet]
+            Cursor: [1x1 com.mathworks.toolbox.database.sqlExec]
+         Statement: [1x1 org.postgresql.jdbc4.Jdbc4Statement]
+             Fetch: 0
+
+
+stable =
+
+   Empty matrix: 1-by-0
+
+
+ans =
+
+/var/www/data/404//SensoSaur_28.22.38.46_8.txt
+
+
+ans =
+
+/var/www/data/404//SensoSaur_28.22.38.46_0.txt
+
+
+ans =
+
+/var/www/data/404//SensoSaur_28.22.38.46_1.txt
+
+
+ans =
+
+/var/www/data/404//SensoSaur_28.22.38.46_10.txt
+
+
+ans =
+
+/var/www/data/404//SensoSaur_28.22.38.46_11.txt
+
+
+ans =
+
+/var/www/data/404//SensoSaur_28.22.38.46_2.txt
+
+
+ans =
+
+/var/www/data/404//SensoSaur_28.22.38.46_7.txt
+
+
+ans =
+
+/var/www/data/404//SensoSaur_28.22.38.46_8.txt
+
+
+ans =
+
+/var/www/data/404//SensoSaur_28.22.38.46_9.txt
+
+
+ans =
+
+   2.2025e+12
+
+
+ans =
+
+   606     3
+
+
+ans =
+
+     []
+
+OLM of 4  5 added at (-1.458204,-0.004334)
+
+OLM of 4  7 added at (-1.452329,-0.004321)
+
+OLM of 3  5 added at (-1.462278,-0.004362)
+
+OLM of 3  4  5 added at (-1.462278,-0.004362)
+
+OLM of 3  7 added at (-1.514033,-0.004749)
+
+4
+OLM of 3  4 added at (-1.473267,-0.004451)
+
+OLM of 3  8 added at (-1.487238,-0.004610)
+
+4
+4
+4
+4
+OLM of 4 updated at (4.402788,0.020757)
+
+OLM of 2  3 added at (4.768246,0.022378)
+
+OLM of 2  4 updated at (4.768246,0.022378)
+
+OLM of 2  5 added at (4.768246,0.022378)
+
+
+commentFile =
+
+/var/www/data/404//Comments.txt
+
+
+comments = 
+
+     {}
+
+>> 

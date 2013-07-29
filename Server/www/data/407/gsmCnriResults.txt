@@ -1,0 +1,7 @@
+#SysTime CNRI Call_State
+2896967330095 14  N/A 
+2896967330095 [Lac Cid Psc]:[11204,79047588,249]
+2896967330095 Neighbor Cell Info:[102@-106] :[ Cid Lac Nw Psc Rssi ]: [-1-110258-106] 
+2896967330095 Neighbor Cell Info:[68@-108] :[ Cid Lac Nw Psc Rssi ]: [-1-110104-108] 
+2916624036946 15  N/A 
+2919631728078 14  N/A 

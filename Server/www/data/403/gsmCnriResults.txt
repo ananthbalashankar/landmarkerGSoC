@@ -1,0 +1,17 @@
+#SysTime CNRI Call_State
+1217638220604 12  N/A 
+1217638220604 [Lac Cid Psc]:[11204,79057588,249]
+1217638220604 Neighbor Cell Info:[102@-107] :[ Cid Lac Nw Psc Rssi ]: [-1-110258-107] 
+1217638220604 Neighbor Cell Info:[68@-111] :[ Cid Lac Nw Psc Rssi ]: [-1-110104-111] 
+1217638220604 Neighbor Cell Info:[f1@-112] :[ Cid Lac Nw Psc Rssi ]: [-1-110241-112] 
+1217638220604 Neighbor Cell Info:[e9@-112] :[ Cid Lac Nw Psc Rssi ]: [-1-110233-112] 
+1217638220604 Neighbor Cell Info:[f9@-112] :[ Cid Lac Nw Psc Rssi ]: [-1-110249-112] 
+1217638220604 Neighbor Cell Info:[102@-119] :[ Cid Lac Nw Psc Rssi ]: [-1-110258-119] 
+1218141471023 13  N/A 
+1221173334292 12  N/A 
+1224193721900 11  N/A 
+1236164849626 12  N/A 
+1239175959042 10  N/A 
+1242174494063 9  N/A 
+1278165276906 9  N/A 
+1284155083102 9  N/A 

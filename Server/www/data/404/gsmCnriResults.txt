@@ -1,0 +1,7 @@
+#SysTime CNRI Call_State
+2202397533223 10  N/A 
+2202397533223 [Lac Cid Psc]:[11204,79063588,249]
+2202397533223 Neighbor Cell Info:[102@-113] :[ Cid Lac Nw Psc Rssi ]: [-1-110258-113] 
+2202397533223 Neighbor Cell Info:[f9@-118] :[ Cid Lac Nw Psc Rssi ]: [-1-110249-118] 
+2202397533223 Neighbor Cell Info:[102@-97] :[ Cid Lac Nw Psc Rssi ]: [-1-110258-97] 
+2203725138900 8  N/A 

@@ -1,0 +1,254 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+ 
+curs =
+ 
+        Attributes: []
+              Data: 0
+    DatabaseObject: [1x1 database]
+          RowLimit: 0
+          SQLQuery: [1x59 char]
+           Message: []
+              Type: 'Database Cursor Object'
+         ResultSet: [1x1 org.postgresql.jdbc4.Jdbc4ResultSet]
+            Cursor: [1x1 com.mathworks.toolbox.database.sqlExec]
+         Statement: [1x1 org.postgresql.jdbc4.Jdbc4Statement]
+             Fetch: 0
+
+
+seeds =
+
+   1.0e+12 *
+
+    5.1027         0    0.0000         0
+    5.1092         0    0.0000         0
+    5.1159         0    0.0000         0
+    5.1222         0    0.0000         0
+
+
+ans =
+
+/var/www/data/411//SensoSaur_28.23.36.11_8.txt
+
+
+ans =
+
+/var/www/data/411//SensoSaur_28.23.36.11_0.txt
+
+
+ans =
+
+/var/www/data/411//SensoSaur_28.23.36.11_1.txt
+
+
+ans =
+
+/var/www/data/411//SensoSaur_28.23.36.11_10.txt
+
+
+ans =
+
+/var/www/data/411//SensoSaur_28.23.36.11_11.txt
+
+
+ans =
+
+/var/www/data/411//SensoSaur_28.23.36.11_2.txt
+
+
+ans =
+
+/var/www/data/411//SensoSaur_28.23.36.11_7.txt
+
+
+ans =
+
+/var/www/data/411//SensoSaur_28.23.36.11_8.txt
+
+
+ans =
+
+/var/www/data/411//SensoSaur_28.23.36.11_9.txt
+
+
+ans =
+
+   5.0944e+12
+
+
+ans =
+
+        3917           3
+
+
+ans =
+
+     []
+
+OLM of 4 added at (-0.559141,0.165708)
+
+OLM of 8 added at (-0.581510,0.174368)
+
+OLM of 11 added at (-0.559142,0.165708)
+
+OLM of 15 added at (-0.960051,0.322872)
+
+OLM of 1  4 added at (-0.559141,0.165708)
+
+OLM of 2  4 added at (-0.559141,0.165708)
+
+OLM of 2  3  4 added at (-0.559141,0.165708)
+
+OLM of 4 updated at (-0.559176,0.165718)
+
+OLM of 1  4 updated at (-0.559176,0.165718)
+
+OLM of 2  4 updated at (-0.559176,0.165718)
+
+OLM of 2  3  4 updated at (-0.559176,0.165718)
+
+OLM of 11 updated at (-0.559178,0.165719)
+
+OLM of 11 updated at (-0.783912,0.252649)
+
+OLM of 2  3  4 updated at (-3.041373,1.195930)
+
+OLM of 3  4  7 added at (-3.749668,1.476268)
+
+OLM of 10 added at (-1.172887,0.410406)
+
+OLM of 1  4 updated at (-3.030104,1.188219)
+
+OLM of 11 updated at (-2.338463,0.888465)
+
+OLM of 8 updated at (-1.884137,0.685395)
+
+OLM of 8 updated at (-3.426035,1.354706)
+
+OLM of 8 updated at (-2.753965,1.076153)
+
+OLM of 15 updated at (-2.754285,1.076429)
+
+OLM of 3 added at (-2.683583,1.045477)
+
+OLM of 10 updated at (-2.694086,1.050249)
+
+OLM of 7  8 added at (-3.091084,1.218349)
+
+OLM of 11 updated at (-3.587098,1.419092)
+
+OLM of 8 updated at (-4.492435,1.742867)
+
+OLM of 8 updated at (-5.646945,2.152443)
+
+OLM of 7 added at (-7.489075,2.968372)
+
+OLM of 4 updated at (-7.356640,2.888563)
+
+OLM of 1  4 updated at (-8.346113,3.353799)
+
+OLM of 11 updated at (-8.086569,3.245357)
+
+OLM of 8 updated at (-8.235664,3.313043)
+
+OLM of 15 updated at (-8.277650,3.331008)
+
+OLM of 3  4  7 updated at (-7.988375,3.199502)
+
+OLM of 2  3  4 updated at (-8.158310,3.278314)
+
+OLM of 8 updated at (-7.171123,2.797682)
+
+OLM of 11 updated at (-7.175682,2.799925)
+
+OLM of 7  8 updated at (-7.966107,3.191768)
+
+OLM of 4 updated at (-7.835588,3.119386)
+
+OLM of 11 updated at (-7.850059,3.126475)
+
+OLM of 4  7 added at (-8.738432,3.547018)
+
+OLM of 8 updated at (-8.243049,3.330120)
+
+OLM of 4 updated at (-8.445517,3.422810)
+
+OLM of 3  4  7 updated at (-9.242595,3.772134)
+
+OLM of 7 updated at (-10.083200,4.119788)
+
+OLM of 7  8 updated at (-9.039856,3.689375)
+
+OLM of 4 updated at (-9.542379,3.899926)
+
+OLM of 11 updated at (-9.549033,3.902692)
+
+OLM of 8 updated at (-9.836670,4.018422)
+
+OLM of 3 updated at (-11.720123,4.867735)
+
+OLM of 10 updated at (-12.230995,5.135615)
+
+OLM of 4 updated at (-11.070531,4.546866)
+
+OLM of 11 updated at (-11.070531,4.546866)
+
+OLM of 10 updated at (-10.537932,4.308862)
+
+OLM of 3 updated at (-10.534995,4.307505)
+
+OLM of 8 updated at (-11.779130,4.886720)
+
+OLM of 8 updated at (-10.542475,4.310491)
+
+OLM of 11 updated at (-10.340010,4.221305)
+
+OLM of 15 updated at (-10.537484,4.308333)
+
+OLM of 7  8 updated at (-10.562666,4.319374)
+
+OLM of 8 updated at (-10.106038,4.121790)
+
+OLM of 15 updated at (-10.109940,4.123430)
+
+OLM of 3  4  7 updated at (-11.653094,4.812481)
+
+OLM of 15 updated at (-11.906285,4.945299)
+
+OLM of 4  7 updated at (-11.945290,4.964991)
+
+OLM of 1  4 updated at (-11.987350,4.987879)
+
+OLM of 7 updated at (-12.274798,5.153280)
+
+OLM of 4 updated at (-11.801902,4.888052)
+
+OLM of 11 updated at (-11.882030,4.930433)
+
+OLM of 4 updated at (-12.164070,5.079928)
+
+OLM of 11 updated at (-12.610034,5.324692)
+
+OLM of 3 updated at (-12.862385,5.473249)
+
+OLM of 4 updated at (-12.696124,5.372554)
+
+
+commentFile =
+
+/var/www/data/411//Comments.txt
+
+
+comments = 
+
+     {}
+
+>> 

@@ -1,0 +1,10 @@
+#SysTime CNRI Call_State
+4948859255700 18  N/A 
+4948859255700 [Lac Cid Psc]:[11204,79057588,249]
+4948859255700 Neighbor Cell Info:[f9@-101] :[ Cid Lac Nw Psc Rssi ]: [-1-110249-101] 
+4948859255700 Neighbor Cell Info:[102@-114] :[ Cid Lac Nw Psc Rssi ]: [-1-110258-114] 
+4948859255700 Neighbor Cell Info:[f9@-105] :[ Cid Lac Nw Psc Rssi ]: [-1-110249-105] 
+4953242927300 17  N/A 
+4956225591728 15  N/A 
+4959227239828 14  N/A 
+4962227331389 13  N/A 

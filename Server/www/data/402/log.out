@@ -1,0 +1,91 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+ 
+curs =
+ 
+        Attributes: []
+              Data: 0
+    DatabaseObject: [1x1 database]
+          RowLimit: 0
+          SQLQuery: [1x59 char]
+           Message: []
+              Type: 'Database Cursor Object'
+         ResultSet: [1x1 org.postgresql.jdbc4.Jdbc4ResultSet]
+            Cursor: [1x1 com.mathworks.toolbox.database.sqlExec]
+         Statement: [1x1 org.postgresql.jdbc4.Jdbc4Statement]
+             Fetch: 0
+
+
+stable =
+
+   Empty matrix: 1-by-0
+
+
+ans =
+
+/var/www/data/402//SensoSaur_28.21.26.38_8.txt
+
+
+ans =
+
+/var/www/data/402//SensoSaur_28.21.26.38_0.txt
+
+
+ans =
+
+/var/www/data/402//SensoSaur_28.21.26.38_1.txt
+
+
+ans =
+
+/var/www/data/402//SensoSaur_28.21.26.38_10.txt
+
+
+ans =
+
+/var/www/data/402//SensoSaur_28.21.26.38_11.txt
+
+
+ans =
+
+/var/www/data/402//SensoSaur_28.21.26.38_2.txt
+
+
+ans =
+
+/var/www/data/402//SensoSaur_28.21.26.38_7.txt
+
+
+ans =
+
+/var/www/data/402//SensoSaur_28.21.26.38_8.txt
+
+
+ans =
+
+/var/www/data/402//SensoSaur_28.21.26.38_9.txt
+
+
+ans =
+
+   3.4281e+11
+
+
+ans =
+
+       16083           3
+
+
+ans =
+
+     []
+
+>> 

@@ -1,0 +1,123 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+ 
+curs =
+ 
+        Attributes: []
+              Data: 0
+    DatabaseObject: [1x1 database]
+          RowLimit: 0
+          SQLQuery: [1x59 char]
+           Message: []
+              Type: 'Database Cursor Object'
+         ResultSet: [1x1 org.postgresql.jdbc4.Jdbc4ResultSet]
+            Cursor: [1x1 com.mathworks.toolbox.database.sqlExec]
+         Statement: [1x1 org.postgresql.jdbc4.Jdbc4Statement]
+             Fetch: 0
+
+
+stable =
+
+   1.0e+14 *
+
+    1.8334    0.0000    0.0000    0.0000
+
+
+ans =
+
+/var/www/data/400//SensoSaur_28.18.55.13_8.txt
+
+
+ans =
+
+/var/www/data/400//SensoSaur_28.18.55.13_0.txt
+
+
+ans =
+
+/var/www/data/400//SensoSaur_28.18.55.13_1.txt
+
+
+ans =
+
+/var/www/data/400//SensoSaur_28.18.55.13_10.txt
+
+
+ans =
+
+/var/www/data/400//SensoSaur_28.18.55.13_11.txt
+
+
+ans =
+
+/var/www/data/400//SensoSaur_28.18.55.13_2.txt
+
+
+ans =
+
+/var/www/data/400//SensoSaur_28.18.55.13_7.txt
+
+
+ans =
+
+/var/www/data/400//SensoSaur_28.18.55.13_8.txt
+
+
+ans =
+
+/var/www/data/400//SensoSaur_28.18.55.13_9.txt
+
+
+ans =
+
+   1.8332e+14
+
+
+ans =
+
+        7579           3
+
+
+ans =
+
+     []
+
+
+commentFile =
+
+/var/www/data/400//Comments.txt
+
+
+comments = 
+
+    [1.8336e+14]    [2]    'this is incredible'
+
+ 
+curs1 =
+ 
+        Attributes: []
+              Data: {150x2 cell}
+    DatabaseObject: [1x1 database]
+          RowLimit: 0
+          SQLQuery: [1x135 char]
+           Message: []
+              Type: 'Database Cursor Object'
+         ResultSet: [1x1 org.postgresql.jdbc4.Jdbc4ResultSet]
+            Cursor: [1x1 com.mathworks.toolbox.database.sqlExec]
+         Statement: [1x1 org.postgresql.jdbc4.Jdbc4Statement]
+             Fetch: [1x1 com.mathworks.toolbox.database.fetchTheData]
+
+
+vals = 
+
+    [2]    'this is incredible'    [1.8336e+14]    [81]    [701]
+
+>> 

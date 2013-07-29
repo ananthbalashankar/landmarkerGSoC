@@ -1,0 +1,142 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+ 
+curs =
+ 
+        Attributes: []
+              Data: 0
+    DatabaseObject: [1x1 database]
+          RowLimit: 0
+          SQLQuery: [1x59 char]
+           Message: []
+              Type: 'Database Cursor Object'
+         ResultSet: [1x1 org.postgresql.jdbc4.Jdbc4ResultSet]
+            Cursor: [1x1 com.mathworks.toolbox.database.sqlExec]
+         Statement: [1x1 org.postgresql.jdbc4.Jdbc4Statement]
+             Fetch: 0
+
+
+stable =
+
+   Empty matrix: 1-by-0
+
+
+ans =
+
+/var/www/data/405//SensoSaur_28.22.40.47_8.txt
+
+
+ans =
+
+/var/www/data/405//SensoSaur_28.22.40.47_0.txt
+
+
+ans =
+
+/var/www/data/405//SensoSaur_28.22.40.47_1.txt
+
+
+ans =
+
+/var/www/data/405//SensoSaur_28.22.40.47_10.txt
+
+
+ans =
+
+/var/www/data/405//SensoSaur_28.22.40.47_11.txt
+
+
+ans =
+
+/var/www/data/405//SensoSaur_28.22.40.47_2.txt
+
+
+ans =
+
+/var/www/data/405//SensoSaur_28.22.40.47_7.txt
+
+
+ans =
+
+/var/www/data/405//SensoSaur_28.22.40.47_8.txt
+
+
+ans =
+
+/var/www/data/405//SensoSaur_28.22.40.47_9.txt
+
+
+ans =
+
+   2.3231e+12
+
+
+ans =
+
+        7078           3
+
+
+ans =
+
+     []
+
+OLM of 4 updated at (-0.428692,-1.094617)
+
+OLM of 4  6 added at (-0.393531,-1.000616)
+
+OLM of 4  8 added at (-1.607776,-4.402051)
+
+OLM of 2  4 updated at (-0.553565,-1.430053)
+
+OLM of 3  4 updated at (-0.237146,-0.589307)
+
+OLM of 2  3  4 added at (-0.217301,-0.540761)
+
+2  4
+3  4
+4  6
+4
+2  4
+2  4
+OLM of 2  4 updated at (-2.412409,-6.304799)
+
+OLM of 3  4 updated at (-3.373706,-8.122478)
+
+OLM of 4  6 updated at (-3.407093,-8.199970)
+
+OLM of 4 updated at (-3.485469,-8.332852)
+
+OLM of 3  4  5 updated at (-3.569921,-8.499097)
+
+2  4
+OLM of 2  4 updated at (-3.128421,-7.750325)
+
+OLM of 2  4 updated at (-3.390912,-8.175218)
+
+OLM of 2  3 updated at (-3.477536,-8.168943)
+
+OLM of 2  3  4 updated at (-3.689769,-8.668726)
+
+3  4
+2  3
+OLM of 2  3 updated at (-3.010006,-6.439700)
+
+
+commentFile =
+
+/var/www/data/405//Comments.txt
+
+
+comments = 
+
+     {}
+
+>> 

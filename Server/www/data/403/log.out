@@ -1,0 +1,144 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+ 
+curs =
+ 
+        Attributes: []
+              Data: 0
+    DatabaseObject: [1x1 database]
+          RowLimit: 0
+          SQLQuery: [1x59 char]
+           Message: []
+              Type: 'Database Cursor Object'
+         ResultSet: [1x1 org.postgresql.jdbc4.Jdbc4ResultSet]
+            Cursor: [1x1 com.mathworks.toolbox.database.sqlExec]
+         Statement: [1x1 org.postgresql.jdbc4.Jdbc4Statement]
+             Fetch: 0
+
+
+stable =
+
+   Empty matrix: 1-by-0
+
+
+ans =
+
+/var/www/data/403//SensoSaur_28.22.05.45_8.txt
+
+
+ans =
+
+/var/www/data/403//SensoSaur_28.22.05.45_0.txt
+
+
+ans =
+
+/var/www/data/403//SensoSaur_28.22.05.45_1.txt
+
+
+ans =
+
+/var/www/data/403//SensoSaur_28.22.05.45_10.txt
+
+
+ans =
+
+/var/www/data/403//SensoSaur_28.22.05.45_11.txt
+
+
+ans =
+
+/var/www/data/403//SensoSaur_28.22.05.45_2.txt
+
+
+ans =
+
+/var/www/data/403//SensoSaur_28.22.05.45_7.txt
+
+
+ans =
+
+/var/www/data/403//SensoSaur_28.22.05.45_8.txt
+
+
+ans =
+
+/var/www/data/403//SensoSaur_28.22.05.45_9.txt
+
+
+ans =
+
+   1.2177e+12
+
+
+ans =
+
+        9548           3
+
+
+ans =
+
+     []
+
+OLM of 4 updated at (-1.983429,-0.063699)
+
+OLM of 4 updated at (-6.572663,-1.646290)
+
+OLM of 4 updated at (-11.450054,-3.790539)
+
+OLM of 2  4 added at (-11.047441,-6.428218)
+
+OLM of 4 updated at (-12.966255,-5.375573)
+
+OLM of 4 updated at (-9.943598,-8.968148)
+
+2  4
+OLM of 2  4 updated at (-13.284377,-1.794907)
+
+OLM of 4 updated at (-11.927779,0.999041)
+
+OLM of 2  4 updated at (-9.828578,2.724680)
+
+4
+2  4
+4
+2  4
+
+commentFile =
+
+/var/www/data/403//Comments.txt
+
+
+comments = 
+
+    [1.2552e+12]    [2]    'elevator'
+
+ 
+curs1 =
+ 
+        Attributes: []
+              Data: {187x2 cell}
+    DatabaseObject: [1x1 database]
+          RowLimit: 0
+          SQLQuery: [1x134 char]
+           Message: []
+              Type: 'Database Cursor Object'
+         ResultSet: [1x1 org.postgresql.jdbc4.Jdbc4ResultSet]
+            Cursor: [1x1 com.mathworks.toolbox.database.sqlExec]
+         Statement: [1x1 org.postgresql.jdbc4.Jdbc4Statement]
+             Fetch: [1x1 com.mathworks.toolbox.database.fetchTheData]
+
+
+vals = 
+
+    [2]    'elevator'    [1.2552e+12]    [87]    [743]
+
+>> 

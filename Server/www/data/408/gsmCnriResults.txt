@@ -1,0 +1,6 @@
+#SysTime CNRI Call_State
+4545217809082 9  N/A 
+4545217809082 [Lac Cid Psc]:[11204,79060588,249]
+4545217809082 Neighbor Cell Info:[102@-111] :[ Cid Lac Nw Psc Rssi ]: [-1-110258-111] 
+4545217809082 Neighbor Cell Info:[f9@-82] :[ Cid Lac Nw Psc Rssi ]: [-1-110249-82] 
+4545217809082 Neighbor Cell Info:[f9@-91] :[ Cid Lac Nw Psc Rssi ]: [-1-110249-91] 

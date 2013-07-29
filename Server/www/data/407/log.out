@@ -1,0 +1,126 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+ 
+curs =
+ 
+        Attributes: []
+              Data: 0
+    DatabaseObject: [1x1 database]
+          RowLimit: 0
+          SQLQuery: [1x59 char]
+           Message: []
+              Type: 'Database Cursor Object'
+         ResultSet: [1x1 org.postgresql.jdbc4.Jdbc4ResultSet]
+            Cursor: [1x1 com.mathworks.toolbox.database.sqlExec]
+         Statement: [1x1 org.postgresql.jdbc4.Jdbc4Statement]
+             Fetch: 0
+
+
+stable =
+
+   1.0e+12 *
+
+  Columns 1 through 7
+
+    2.9050    2.9142    2.9247    2.9374         0         0         0
+
+  Columns 8 through 14
+
+         0    0.0000    0.0000    0.0000    0.0000         0         0
+
+  Columns 15 through 16
+
+         0         0
+
+
+ans =
+
+/var/www/data/407//SensoSaur_28.22.59.34_8.txt
+
+
+ans =
+
+/var/www/data/407//SensoSaur_28.22.59.34_0.txt
+
+
+ans =
+
+/var/www/data/407//SensoSaur_28.22.59.34_1.txt
+
+
+ans =
+
+/var/www/data/407//SensoSaur_28.22.59.34_10.txt
+
+
+ans =
+
+/var/www/data/407//SensoSaur_28.22.59.34_11.txt
+
+
+ans =
+
+/var/www/data/407//SensoSaur_28.22.59.34_2.txt
+
+
+ans =
+
+/var/www/data/407//SensoSaur_28.22.59.34_7.txt
+
+
+ans =
+
+/var/www/data/407//SensoSaur_28.22.59.34_8.txt
+
+
+ans =
+
+/var/www/data/407//SensoSaur_28.22.59.34_9.txt
+
+
+ans =
+
+   2.8971e+12
+
+
+ans =
+
+        6179           3
+
+
+ans =
+
+     []
+
+OLM of 4 updated at (-11.973999,0.151532)
+
+4
+OLM of 4  7 updated at (-23.908831,0.303339)
+
+OLM of 3  7 updated at (-23.970793,0.304267)
+
+OLM of 3  5 updated at (-24.372086,0.328709)
+
+OLM of 5  8 updated at (-24.460198,0.328426)
+
+OLM of 4 updated at (-25.485288,0.393053)
+
+
+commentFile =
+
+/var/www/data/407//Comments.txt
+
+
+comments = 
+
+     {}
+
+>> 
