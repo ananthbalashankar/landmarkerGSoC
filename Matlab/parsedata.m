@@ -15,11 +15,12 @@ a = fetch(curs);
 seeds = importdata(strcat(dir_path,'/Seeds.txt'),' ',0);
 try
 stable = load('stable/seeds');
+stable = stable.seeds;
 catch
 stable = [];
 end
-stable = [stable;seeds];
-save('stable/seeds',stable);
+seeds = [stable;seeds]
+save('stable/seeds','seeds');
 
 
 dataid = a.Data(end);

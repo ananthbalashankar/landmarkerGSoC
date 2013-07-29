@@ -32,7 +32,7 @@ function [results goodness areas ] = getLocationClusters(data,xpos,ypos,features
            
            threshold = prctile(thresholds,80);    
            if(metric < threshold)           %%%%goodness measure of the cluster
-             cluster_data = [xpos(idx==j)', ypos(idx==j)'];
+             cluster_data = [xpos(idx==j), ypos(idx==j)];
                 maxk = 5;
                 [initialseeds,optk]=kMeansInitAndStart(cluster_data,10,min(maxk,size(cluster_data,1)));
                 if(optk==-1)

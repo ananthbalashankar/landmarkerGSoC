@@ -241,7 +241,7 @@ end
 
 light = interp1(Ndata{8}(:,2),Ndata{8}(:,1),timeSlots,'linear','extrap');
 featData = horzcat(featData,light');
-featData = horzcat(featData,interp1(Ndata{9}(:,2),Ndata{9}(:,1),timeSlots,'linear','extrap')');
+%featData = horzcat(featData,interp1(Ndata{9}(:,2),Ndata{9}(:,1),timeSlots,'linear','extrap')');
 % 
 % if(wifi~=0)
 % featData = [featData Ndata{10}(:,1)];
@@ -263,7 +263,7 @@ featData(:,[13 14])=[];     %rotation matrix x,y not needed
 featData = horzcat(featData,[0;diff(featData(:,5))]);   %difference of mag-y
 
 %%dead reckoning using existing seed landmarks
-location = correctSeed([xpos ypos],timeSlots,featData(:,[4 5 6]),featData(:,[14 15 16]));
+location = correctSeed([xpos' ypos'],timeSlots,featData(:,[4 5 6]),featData(:,[14 15 16]));
 xpos = location(:,1);
 ypos = location(:,2);
 save(strcat(foldername,'/location'),'xpos','ypos','timeSlots');

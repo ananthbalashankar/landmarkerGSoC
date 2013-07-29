@@ -1,7 +1,7 @@
 function [found] = detectElevator(accz)
-    [pks loc] = findpeaks(accz,'MINPEAKHEIGHT',1.5);
+    [pks loc] = findpeaks(accz,'MINPEAKHEIGHT',1.0);
     naccz = -1.*accz;
-    [dips dloc] = findpeaks(naccz,'MINPEAKHEIGHT',1.5);
+    [dips dloc] = findpeaks(naccz,'MINPEAKHEIGHT',1.0);
     j=1;
     found = 0;
     for i=1:length(loc)
@@ -9,6 +9,9 @@ function [found] = detectElevator(accz)
         while (j <= length(dloc) && dloc(j) < pk) 
             j = j + 1;
         end
+	if(j> length(dloc))
+		break;
+	end
         if(dloc(j) - pk >= 200 && loc(i+1) > dloc(j))
             found = 1;
         end

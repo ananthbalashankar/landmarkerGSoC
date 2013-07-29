@@ -29,18 +29,18 @@ function [stable stableFeat newLocation] = stabilize(dir_path,conn,dataid)
 		                     
                         x = load(strcat(dir_path,'/cluster.mat'));
                         loc = load(strcat(dir_path,'/location'));
-                        location = [loc.xpos' loc.ypos'];
+                        location = [loc.xpos loc.ypos];
                         timeSlots = loc.timeSlots;
 %                         err = err + sqrt(location(end,1)^2 + location(end,2)^2);
 %                         err_count = err_count + 1;
                         if(~isempty(x.cluster))
-                            cluster = x.cluster;
-                            clusters{end+1} = cluster;
+                            featcluster = x.cluster;
+                            clusters{end+1} = featcluster;
                         end
 
 		
                         
-                        [stable stableFeat newLocation] = getStableClusters(cluster,location,timeSlots,stable,stableFeat,conn,dataid,dir_path);                         %calculate stable clusters
+                        [stable stableFeat newLocation] = getStableClusters(featcluster,location,timeSlots,stable,stableFeat,conn,dataid,dir_path);                         %calculate stable clusters
                         save(strcat(dir_path,'/newLocation'),'newLocation','timeSlots');
                         save('stable/cluster','stable','stableFeat');
                      

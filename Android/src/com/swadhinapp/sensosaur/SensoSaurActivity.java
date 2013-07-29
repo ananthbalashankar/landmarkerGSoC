@@ -57,6 +57,7 @@ import android.util.TypedValue;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.WindowManager;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
@@ -69,6 +70,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
+import android.widget.ViewSwitcher;
 
 //import android.util.Log;
 
@@ -103,6 +105,7 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
 	private File seeds = null;
 	private File wifiFile = null;
 	private File gsmFile =null;
+	private File lmFile = null;
 	
 	private LinearLayout[] childLLArr = new LinearLayout[12];
 	private LinearLayout[] parentLLArr = new LinearLayout[12];
@@ -117,6 +120,7 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
 	private Button landMarkRecord = null;
 	private Button annotate = null;
 	private Button back = null;
+	private ViewSwitcher switcher = null;
 	private Button seedSubmit = null;
 	//private SoundMeter sMeter = null;
 	private SoundMeter sRecorder = null;
@@ -163,6 +167,7 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
     public void onCreate(Bundle savedInstanceState) {
     	    super.onCreate(savedInstanceState);
     	    setContentView(R.layout.main);
+    	    switcher = (ViewSwitcher)findViewById(R.id.profileSwitcher);
     	    //setContentView(R.layout.comments);
     	    //sMeter = new SoundMeter("/dev/null");
     	    mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
@@ -705,7 +710,12 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
 			
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				setContentView(R.layout.seeds);
+				//setContentView(R.layout.seeds);
+				new AnimationUtils();
+                // TODO Auto-generated method stub
+                switcher.setAnimation(AnimationUtils.makeInAnimation(getApplicationContext(), true));
+                switcher.showNext();
+				
 				
 				back = (Button) findViewById(R.id.back);
 				seedSubmit = (Button) findViewById(R.id.seedsubmit);
@@ -714,9 +724,13 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
 				
 					public void onClick(View v) {
 						// TODO Auto-generated method stub
-						setContentView(R.layout.main);
+						/*setContentView(R.layout.main);
 						populateGraphicalIDs();
-						registerListener();
+						registerListener();*/
+						new AnimationUtils();
+		                // TODO Auto-generated method stub
+		                switcher.setAnimation(AnimationUtils.makeInAnimation(getApplicationContext(), true));
+		                switcher.showPrevious();
 					}
 				});
 				
@@ -1109,7 +1123,7 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
 						
 						Log.d(LOG_TAG,fileDir.getAbsolutePath());
 						//landmarks logging handler
-				    	File lmFile = new File(fileDir,"landMarks.txt");
+				    	lmFile = new File(fileDir,"landMarks.txt");
 				    	//if file does not exist, then create it			
 						if(!lmFile.exists()){
 							try {
@@ -1391,7 +1405,7 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
 	            			locFileOut.close();
 	            		}
 	            		
-	            		File [] files = new File[16];
+	            		File [] files = new File[17];
 	            		if ( null != wifiFileOut )
 	            		{
 	            			wifiFileOut.close();
@@ -1412,9 +1426,13 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
 	            		
 	            		commentFile.close();
 	            		seedsFile.close();
-	            		//seedsFile = null;
+	            		if ( null != lmFout )
+	            		{
+	            			lmFout.close();
+	            		}
 	            		files[14] = comment;
 	            		files[15] = seeds;
+	            		files[16] = lmFile;
 	            		for( int i=0 ;i<12 ;i++)
 	            		{
 	            			if( null != fOut[i] )
@@ -1426,10 +1444,7 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
 	            		}
 	            		
 	            		sendFileToServer(files);
-	            		if ( null != lmFout )
-	            		{
-	            			lmFout.close();
-	            		}
+	            		
 	            		
 	            		SharedPreferences.Editor filePrefEd = app_preferences.edit();
 	            		int val = app_preferences.getInt("fileNo",1)+1;
@@ -1450,7 +1465,7 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
 	            	float rating = ratings.getRating();
 	            	String comment = comments.getText().toString();
 	            	long tim = System.nanoTime();
-	            	commentFile.println(""+Long.toString(tim)+" "+rating+" "+comment);
+	            	commentFile.println(""+Long.toString(tim)+";"+rating+";"+comment);
 	            	Log.d("UPLOAD","Comment inserted:"+comment+";rating:"+rating);
 	            }});
 	            

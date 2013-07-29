@@ -137,6 +137,13 @@ if(move_uploaded_file($_FILES["file16"]['tmp_name'], $file_path)) {
 } else{
  echo "Server File = ".$_FILES["file16"]['tmp_name'].", Temp name = ".$file_path;
 }
+
+$file_path = $target_path . basename( $_FILES["file17"]['name']);
+if(move_uploaded_file($_FILES["file17"]['tmp_name'], $file_path)) {
+ echo "The file ".basename( $_FILE["file17"]['name']);
+} else{
+ echo "Server File = ".$_FILES["file17"]['tmp_name'].", Temp name = ".$file_path;
+}
 //system("export PATH=\$PATH:/usr/local/MATLAB/R2012b/bin/");
 system("sudo /usr/local/MATLAB/R2012b/bin/matlab -nodisplay -nosplash -r \"parsedata('".$target_path."')\" > ".$target_path."log.out");
 echo("matlab -nodisplay -nosplash -r \"parsedata('".$target_path."')\" > ".$target_path."log.out");

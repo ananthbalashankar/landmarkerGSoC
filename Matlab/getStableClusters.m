@@ -157,7 +157,9 @@ function [stable stableFeat newPath] = getStableClusters(cluster, path, timeSlot
 			cols = {'centroidx','centroidy','numofpoints','confidence','file','feat','dataid'};
 			vals = {featCluster{2}(1),featCluster{2}(2),featCluster{3},featCluster{8},featCluster{10},featCluster{1},dataid}; 
 			fastinsert(conn,'landmark',cols,vals);
-                    end
+                    	msg = sprintf('OLM of %s updated at (%f,%f)\n',featCluster{1},featCluster{2}(1),featCluster{2}(2));
+		        disp(msg); 
+		    end
                     break;
                 end
             end
@@ -199,7 +201,8 @@ function [stable stableFeat newPath] = getStableClusters(cluster, path, timeSlot
 			vals = {featCluster{2}(1),featCluster{2}(2),featCluster{3},featCluster{8},featCluster{10},featCluster{1},dataid}; 
 			fastinsert(conn,'landmark',cols,vals);
                 stableFeat{end+1} = feature;
-      
+     		msg = sprintf('OLM of %s added at (%f,%f)\n',featCluster{1},featCluster{2}(1),featCluster{2}(2));
+		disp(msg); 
                 stable{end+1} = {featCluster};
             end
        end
