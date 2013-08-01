@@ -263,7 +263,7 @@ featData(:,[13 14])=[];     %rotation matrix x,y not needed
 featData = horzcat(featData,[0;diff(featData(:,5))]);   %difference of mag-y
 
 %%dead reckoning using existing seed landmarks
-location = correctSeed([xpos' ypos'],timeSlots,featData(:,[4 5 6]),featData(:,[14 15 16]));
+location = correctSeed([xpos' ypos'],timeSlots,featData(:,[4 5 6]),featData(:,[14 15 16]),foldername);
 xpos = location(:,1);
 ypos = location(:,2);
 save(strcat(foldername,'/location'),'xpos','ypos','timeSlots');
