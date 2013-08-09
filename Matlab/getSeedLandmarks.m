@@ -8,9 +8,10 @@ macc = [];
 mmag = [];
 for i=1:size(acc,1)
 	macc(i) = sqrt(acc(i,1)^2 + acc(i,2)^2 + acc(i,3)^2);
-	mmag(i) = sqrt(mag(i,1)^2 + mag(i,2)^2 + mag(i,3)^2);
 end
-
+for i=1:size(mag,1)
+    mmag(i) = sqrt(mag(i,1)^2 + mag(i,2)^2 + mag(i,3)^2);
+end
 if(detectElevator(acc(:,3)))
     activity = 1;
 else

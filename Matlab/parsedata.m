@@ -6,10 +6,11 @@ foldername = dir_path;
 conn = database('sample','postgres','ananth','org.postgresql.Driver','jdbc:postgresql:sample');
 cols = {'folder','start_time','userid'};
 vals = {foldername,datestr(now),userid};
-fastinsert(conn,'sample',cols,vals);
-query = sprintf('select dataid from sample where folder=''%s''',foldername);
-curs = exec(conn,query)
-a = fetch(curs);
+%database
+% fastinsert(conn,'sample',cols,vals);
+% query = sprintf('select dataid from sample where folder=''%s''',foldername);
+% curs = exec(conn,query)
+% a = fetch(curs);
 
 %insert seed landmarks
 seeds = importdata(strcat(dir_path,'/Seeds.txt'),' ',0);
@@ -17,14 +18,15 @@ try
 stable = load('stable/seeds');
 stable = stable.seeds;
 catch
-stable = [];
+    mkdir('stable');
+    stable = [];
 end
 seeds = [stable;seeds]
 save('stable/seeds','seeds');
 
-
-dataid = a.Data(end);
-dataid = dataid{1};                         
+dataid = 1; 
+% dataid = a.Data(end);
+% dataid = dataid{1};                         
 file = dir_path;
 command = strcat('perl wifi_ap_info_reader.pl "',file,'"');
 status = dos(command,'-echo');

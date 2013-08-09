@@ -39,7 +39,8 @@ files{7}
 linacc = importdata(files{7},' ',1);
 ori = importdata(files{3},' ',1);
 gyro = importdata(files{5},' ',1);
-[xpos ypos LocTime]= getLocation(linacc.data,ori.data,gyro.data,foldername);
+mag = importdata(files{2},' ',1);
+[xpos ypos LocTime]= getLocation(linacc.data,ori.data,gyro.data,mag.data,foldername);
 %% Plot on Google Maps
 % lat1 = 22.317778;
 % lon1 = 87.309101;
@@ -232,7 +233,7 @@ ypos = interp1(LocTime,ypos',timeSlots,'linear','extrap');
 try
     clusterWifi(Ndata{10},xpos,ypos,timeSlots,foldername);
 catch
-     cd /home/ananthbalashankar/landmarkerGSoC/Matlab/;   %continue--- less wifi data
+     %cd /home/ananthbalashankar/landmarkerGSoC/Matlab/;   %continue--- less wifi data
 end
 
 for i=1:7

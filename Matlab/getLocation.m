@@ -1,4 +1,4 @@
-function [xarr,yarr,timeaz,brng,dist] = getLocation(linacc,ori,gyro,foldername)
+function [xarr,yarr,timeaz,brng,dist] = getLocation(linacc,ori,gyro,mag,foldername)
 height = 1.75;
 time = linacc(:,1);
 event = linacc(:,2);
@@ -79,6 +79,10 @@ ort = ori(:,3);
 %plot(ori(:,1),ori(:,3));
 %ort = angledim(ori(:,3),'degrees','radians');
 j = 1;
+k = 1;
+l = 1;
+linaccTime = linacc(:,1);
+magTime = mag(:,1);
 xarr(1) = 0;
 yarr(1) = 0;
 brng =[];
@@ -89,8 +93,51 @@ for i=1:length(timeaz)
     end
     angle = ort(j);
     brng = [brng,angle];
-    xarr(i+1) = xarr(i) + temp(i)*cos(angle);
-    yarr(i+1) = yarr(i) + temp(i)*sin(angle);
+    %Apply Pedometer algorithm only when in motion
+    %Sample linacc and mag for the next 5 seconds
+    while(timeaz(i) > linaccTime(k))
+        if(k<length(linaccTime))
+            k = k + 1;
+        else
+            break;
+        end
+    end
+    kstart = k;
+    if(k+10 > length(linaccTime))
+        k = length(linaccTime);
+    else
+        k = k + 10;
+    end
+    linaccSample = linacc(kstart:k,[3 4 5]);
+    
+    while(timeaz(i) > magTime(l))
+        if(l<length(magTime))
+            l = l + 1;
+        else
+            break;
+        end
+    end
+    lstart = l;
+    if(l+10 > length(magTime))
+        l = length(magTime);
+    else
+        l = l + 10;
+    end
+    
+    magSample = mag(lstart:l,[3 4 5]);
+    if(l - lstart < 2 || k - kstart < 2)  
+       activity = 2; 
+    else
+       activity = getSeedLandmarks(linaccSample,magSample);
+    end
+    
+%    if(activity ~= 2)
+        xarr(i+1) = xarr(i) + temp(i)*cos(angle);
+        yarr(i+1) = yarr(i) + temp(i)*sin(angle);
+%    else
+%         xarr(i+1) = xarr(i);
+%         yarr(i+1) = yarr(i);
+%     end
     dist = [dist,sqrt((xarr(i+1)-xarr(i))^2+(yarr(i+1)-yarr(i))^2)];
 end
 % figure(3);

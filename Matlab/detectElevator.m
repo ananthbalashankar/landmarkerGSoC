@@ -1,7 +1,7 @@
 function [found] = detectElevator(accz)
-    [pks loc] = findpeaks(accz,'MINPEAKHEIGHT',1.0);
+    [pks loc] = findpeaks(accz);
     naccz = -1.*accz;
-    [dips dloc] = findpeaks(naccz,'MINPEAKHEIGHT',1.0);
+    [dips dloc] = findpeaks(naccz);
     j=1;
     found = 0;
     for i=1:length(loc)
