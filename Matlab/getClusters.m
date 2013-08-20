@@ -234,6 +234,7 @@ try
     clusterWifi(Ndata{10},xpos,ypos,timeSlots,foldername);
 catch
      %cd /home/ananthbalashankar/landmarkerGSoC/Matlab/;   %continue--- less wifi data
+     cd D:\Documents\GSoC\landmarkerGSoC\Matlab\;
 end
 
 for i=1:7
