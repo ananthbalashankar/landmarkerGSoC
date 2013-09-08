@@ -13,7 +13,13 @@ import java.net.URL;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
+
+import com.swadhinapp.sensosaur.library.DatabaseHandler;
+import com.swadhinapp.sensosaur.library.UserFunctions;
 //import java.util.TimerTask;
 
 import android.annotation.SuppressLint;
@@ -87,6 +93,7 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
 	private WifiInfo wifiInfo = null;
 	private String wifiStateString = "N/A. ";
 	private BroadcastReceiver receiver = null;
+	private Timer myTimer;
 	//private Handler handler = new Handler();
 	
     /** Called when the activity is first created. */	
@@ -942,6 +949,7 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
     private File fileDir = null;
     //private PrintWriter locFout = null;
     
+    //deprecated
     public void sendFileToServer(String pathToOurFile){
     		HttpURLConnection connection = null;
     		DataOutputStream outputStream = null;
@@ -1022,12 +1030,12 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
     		}	
     }
     
-    public void sendFileToServer(File[] files)
+    public void sendFileToServer(File[] files,String uid,String newFile)
     {
     	try
     	{
     		ServerCommunication s = new ServerCommunication();
-    		s.execute(files);
+    		s.execute(files,uid,newFile);
     		//Toast.makeText(this, "Files uploaded", Toast.LENGTH_SHORT).show();    
     	}
     	catch (Exception ex)
@@ -1035,6 +1043,431 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
     		Log.e("File Uploader111", "error: " + ex.getMessage(), ex);
 			Toast.makeText(this, ex.getMessage(), Toast.LENGTH_LONG).show();
     	}
+    }
+    
+    
+    public void startLogging()
+    {
+    	landMarkRecord.setEnabled(true);
+		
+		String ftag=dtf.format(new Date());
+		//File[] file = new File[12];
+		//File fileDir = null;
+		//fDir=  fileDir;
+		boolean checkedVal = false;
+		
+		
+		fileDir = fileLocation();
+		String[] fName = new String[12];
+		
+		for( int i = 0; i<12; i++)
+		{
+			   fName[i] = "SensoSaur_"+ftag+"_"+ i +".txt"; //creating filenames
+		}
+		
+		if( null != fileDir)
+		{
+			boolean result = fileDir.mkdir();
+			Log.d(LOG_TAG,"mkdir result = " + result);
+			if( false == result )
+			{
+				result = fileDir.mkdirs();
+			}
+			Log.d(LOG_TAG,"mkdir result = " + result);
+			if (!fileDir.getParentFile().exists() && !fileDir.getParentFile().mkdirs()){
+				  Log.d(LOG_TAG,"Unable to create " + fileDir.getParentFile());
+				}
+			Toast.makeText(getApplicationContext(), "Logging started @ "+fileLocation(), Toast.LENGTH_LONG).show();
+		
+		} else {
+				
+			int fNo = app_preferences.getInt("fileNo",1);
+				
+			fileDir = new File("/sdcard/SensoSaur/SensoSaur_" + fNo); //creating directory
+			boolean result = fileDir.mkdir();
+			Log.d(LOG_TAG,"2mkdir result = " + result);
+			if( false == result )
+			{
+				result = fileDir.mkdirs();
+			}
+			Log.d(LOG_TAG,"2mkdir result = " + result);
+			
+			Toast.makeText(getApplicationContext(), "Logging started @ "+"/sdcard/SensoSaur/"+fileDir, Toast.LENGTH_LONG).show();		
+		}
+		
+		sRecorder = new SoundMeter(fileDir.getAbsolutePath()+"/soundRecord.3gp");
+		
+		try {
+			sRecorder.start();
+		} catch (IOException e1) {
+			// TODO Auto-generated catch block
+			Log.d(LOG_TAG, "start1");
+			e1.printStackTrace();
+		} catch (Throwable e1) {
+			// TODO Auto-generated catch block
+			Log.d(LOG_TAG, "start2");
+			e1.printStackTrace();
+		}
+		
+		Log.d(LOG_TAG,fileDir.getAbsolutePath());
+		//landmarks logging handler
+    	lmFile = new File(fileDir,"landMarks.txt");
+    	//if file does not exist, then create it			
+		if(!lmFile.exists()){
+			try {
+					lmFile.createNewFile();
+				} catch (IOException e) {
+				   // TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+		}
+		
+		try {
+				lmFout = new PrintWriter(new FileWriter(lmFile));
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+		}
+		
+		
+		
+		try {
+			comment = new File(fileDir, "Comments.txt");
+			if(!comment.exists())
+				comment.createNewFile();
+			commentFile = new PrintWriter(new FileWriter(comment));
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
+		
+	     try {
+				seeds = new File(Environment.getExternalStorageDirectory().getAbsolutePath()+"/SensoSaur/"+"Seeds.txt");
+				if(!seeds.exists())
+					seeds.createNewFile();
+				seedsFile = new PrintWriter(new FileWriter(seeds));
+			} catch (IOException e1) {
+				e1.printStackTrace();
+			}
+		
+		
+		for(int i =0 ; i<12 ; i++)
+		{
+		    file[i] = new File(fileDir,fName[i]); //opening files for storing each sensor's data
+		}
+	
+		for( int i =0 ; i<12; i++)
+		{
+			checkedVal = app_preferences.getBoolean(i+"_chk",true);
+			
+			if( true == checkedVal )
+			{
+				//if file does not exist, then create it
+				
+			    if(!file[i].exists()){
+			    	try {
+							file[i].createNewFile();
+						} catch (IOException e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
+						}
+			    }
+						
+				try {
+						//fOut[i] = new BufferedWriter(new FileWriter(file[i]));
+						fOut[i] = new PrintWriter(new FileWriter(file[i]));
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						Toast.makeText(getApplicationContext(), "Logging Failure! Try Again"+e, Toast.LENGTH_SHORT).show();
+						togButton.setChecked(true);
+						e.printStackTrace();
+				}
+			}else{
+				fOut[i] = null;
+			}				
+		}
+		// List available networks
+		String textWiFiString = "\n******Configured Networks******\n";
+		List<WifiConfiguration> configs = wifiM.getConfiguredNetworks();
+		long tim = System.nanoTime();
+		for (WifiConfiguration config : configs) {
+			textWiFiString += "\nSysTime = " + Long.toString(tim)+ " "+config.toString();
+		}
+		
+		//Wifi Scanning Start
+		Log.d(LOG_TAG, "onClick() wifi.startScan()");
+		wifiM.startScan();
+		//doWifiScan();
+		
+		//wifi logging handler
+    	wifiFile = new File(fileDir,"wifiScanResults.txt");
+    	
+    	//if file does not exist, then create it			
+		if(!wifiFile.exists()){
+			try {
+					wifiFile.createNewFile();
+				} catch (IOException e) {
+				   // TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+		}
+		
+		try {
+				wifiFileOut = new PrintWriter(new FileWriter(wifiFile));
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+		}
+			
+		Log.d("LOG_TAG","wifiFileOut");	
+		if( null != wifiFileOut )
+		{
+			wifiFileOut.println(textWiFiString+"\n");
+		}
+		
+		//gsm logging handler
+    	gsmFile = new File(fileDir,"gsmCnriResults.txt");
+    	
+    	//if file does not exist, then create it			
+		if(!gsmFile.exists()){
+			try {
+					gsmFile.createNewFile();
+				} catch (IOException e) {
+				   // TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+		}
+		
+		try {
+				gsmFileOut = new PrintWriter(new FileWriter(gsmFile));
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+		}
+		if( null != gsmFileOut )
+		{
+			gsmFileOut.println("#SysTime CNRI Call_State");
+		}
+		Log.d("LOG_TAG","gsmFileOut");
+		//location logging handler
+    	File lmFile1 = new File(fileDir,"locations.txt");
+    	//if file does not exist, then create it			
+		if(!lmFile1.exists()){
+			try {
+					lmFile1.createNewFile();
+				} catch (IOException e) {
+				   // TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+		}
+		
+		try {
+				locFileOut = new PrintWriter(new FileWriter(lmFile1));
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+		}
+		Log.d("LOG_TAG","locFileOut");
+		if( null != locFileOut )
+		{
+			//senLocLeader = new SensoSaurLocationLeader(locFileOut,locationManager);
+			if ( true == nwEnabled )
+			{
+					
+				if(gpsEnabled == false)
+				{
+					Log.d("LOG_TAG","gpsNot");
+					Toast.makeText(getApplicationContext(), "Enable GPS", Toast.LENGTH_LONG).show();
+				}
+					
+			}else
+			{
+				if( gpsEnabled == true)
+				{
+					Toast.makeText(getApplicationContext(), "Enable Mobile Packet Data Network", Toast.LENGTH_LONG).show();
+				}else
+				{
+					Toast.makeText(getApplicationContext(), "Enable Mobile Packet Data Network & GPS", Toast.LENGTH_LONG).show();
+				}
+			}
+		}
+		Log.d(LOG_TAG,"afterLocFileout");
+		//Writing the initial lines in each sensor data files
+		
+		if ( null != fOut[0] )
+		{
+			fOut[0].println("#SysTm EventTmStmp Acc:x Acc:y Acc:z");
+		}
+		
+		if ( null != fOut[1] )
+		{
+			fOut[1].println("#SysTm EventTmStmp Mag:x Mag:y Mag:z");		  
+		}
+	
+		if ( null != fOut[2] )
+		{
+			fOut[2].println("#SysTm EventTmStmp Gyro:x Gyro:y Gyro:z");
+		}
+			
+		if ( null != fOut[3] )
+		{
+			fOut[3].println("#SysTm EventTmStmp Prox");
+		}
+			
+		if ( null != fOut[4] )
+		{
+			fOut[4].println("#SysTm EventTmStmp Light");
+		}
+			
+		if ( null != fOut[5] )
+		{
+			fOut[5].println("#SysTm EventTmStmp Temp");			
+		}
+			
+		if ( null != fOut[6] )
+		{
+			fOut[6].println("#SysTm EventTmStmp Pressure");
+		}
+			
+		if ( null != fOut[7] )
+		{
+			fOut[7].println("#SysTm EventTmStmp Rot:x Rot:y Rot:z");
+		}
+			
+		if ( null != fOut[8] )
+		{
+			fOut[8].println("#SysTm EventTmStmp La:x La:y La:z");
+		}
+		
+		if ( null != fOut[9] )
+		{
+			fOut[9].println("#SysTm EventTmStmp Snd");
+		}
+		
+		if ( null != fOut[10] )
+		{
+			fOut[10].println("#SysTm EventTmStmp Ori:x Ori:y Ori:z");
+		}
+		
+		if ( null != fOut[11] )
+		{
+			fOut[11].println("#SysTm EventTmStmp Grav:x Grav:y Grav:z");
+		}
+		Log.d(LOG_TAG,"afterFiles");
+		//Initial Print in Gsm Strength File
+        //long tim = System.nanoTime();
+	    if( null != gsmFileOut )
+	    {
+	    	CellLocation location = Tel.getCellLocation();
+	    	List<NeighboringCellInfo> neghbCellList = Tel.getNeighboringCellInfo();
+	    	
+	    	Log.d(LOG_TAG,"afterTelCall");
+	    		    	    	
+	    	gsmFileOut.println(Long.toString(tim)+" "+gsmStrengthVal+" "+stateString);
+	    	//gsmFileOut.println(Long.toString(tim)+" CL:"+((GsmCellLocation)location).getCid()+" "+((GsmCellLocation)location).getPsc()+" "+((GsmCellLocation)location).getLac());
+	    	if( null != location )
+	    	{
+	    		gsmFileOut.println(Long.toString(tim)+" [Lac Cid Psc]:"+((GsmCellLocation)location).toString());
+	    	}else
+	    	{
+	    		gsmFileOut.println(Long.toString(tim)+" [Lac Cid Psc]:"+ " N/A");
+	    	}
+	    	
+	    	if( neghbCellList.size() == 0 )
+	    	{
+	    		gsmFileOut.println(Long.toString(tim)+" No Neighbour Cells.");
+	    	}else
+	    	{
+	    		for (NeighboringCellInfo neighbour : neghbCellList) {
+	    			gsmFileOut.println(Long.toString(tim)+" Neighbor Cell Info:"+neighbour.toString()+" :[ Cid Lac Nw Psc Rssi ]: ["+neighbour.getCid()+neighbour.getLac()+neighbour.getNetworkType()+neighbour.getPsc()+neighbour.getRssi()+"] ");
+	    		}
+	    	}
+	    }
+		
+	    Log.d(LOG_TAG,"last");
+	    
+	    myTimer = new Timer();
+		DatabaseHandler db = new DatabaseHandler(getApplicationContext());
+        HashMap<String,String> details = db.getUserDetails();
+        String uid = details.get("uid");
+        File [] files = new File[4];
+        /*for(int i=0;i<12;i++)
+        	files[i] = file[i];
+        files[12] = wifiFile;
+        files[13] = gsmFile;
+        files[14] = comment;
+        files[15] = seeds;
+		files[16] = lmFile;*/
+        files[0] = file[1];
+        files[1] = file[2];
+        files[2] = file[8];
+        files[3] = file[10];
+        
+		LoggingActivity log = new LoggingActivity(files,uid);
+		myTimer.schedule(log, (long)120000,(long)120000);
+    }
+    
+    public void stopLogging()
+    {
+    	landMarkRecord.setEnabled(false);
+		
+		if ( null != locFileOut )
+		{
+			locFileOut.close();
+		}
+		
+		File [] files = new File[17];
+		if ( null != wifiFileOut )
+		{
+			wifiFileOut.close();
+			files[12] = wifiFile;
+			//sendFileToServer(wifiFile.getAbsolutePath());
+		}
+		
+		if ( null != gsmFileOut )
+		{
+			gsmFileOut.close();
+			files[13] = gsmFile; 
+			//sendFileToServer(gsmFile.getAbsolutePath());
+		}
+		//senLocLeader.stopLocating();
+		//File closed and data recording stopped
+		
+		sRecorder.stop();
+		
+		commentFile.close();
+		seedsFile.close();
+		if ( null != lmFout )
+		{
+			lmFout.close();
+		}
+		files[14] = comment;
+		files[15] = seeds;
+		files[16] = lmFile;
+		for( int i=0 ;i<12 ;i++)
+		{
+			if( null != fOut[i] )
+			{
+				fOut[i].close();
+				files[i] = file[i];
+			}
+		}
+		
+		DatabaseHandler db = new DatabaseHandler(getApplicationContext());
+        HashMap<String,String> details = db.getUserDetails();
+        String uid = details.get("uid");
+        //String cookie = details.get("cookie");
+        //String name = cookie.substring(cookie.indexOf("[name:")+6,cookie.indexOf("][value:"));
+        //String value = cookie.substring(cookie.indexOf("][value:")+8, cookie.indexOf("][domain:"));
+		sendFileToServer(files,uid,"yes");
+		
+		
+		SharedPreferences.Editor filePrefEd = app_preferences.edit();
+		int val = app_preferences.getInt("fileNo",1)+1;
+		filePrefEd.putInt( "fileNo",val );
+		filePrefEd.commit();
+		
+		
+		Toast.makeText(getApplicationContext(), "Data Logging stopped", Toast.LENGTH_SHORT).show();
     }
     
     public void registerListener()
@@ -1054,405 +1487,36 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
             annotateListener();
             
        
+            Button btnLogout = (Button) findViewById(R.id.btnLogout);
+        	
+        	btnLogout.setOnClickListener(new View.OnClickListener() {
+    			
+    			public void onClick(View arg0) {
+    				// TODO Auto-generated method stub
+    				UserFunctions userFunctions = new UserFunctions();
+    				userFunctions.logoutUser(getApplicationContext());
+    				Intent login = new Intent(getApplicationContext(), LoginActivity.class);
+    	        	login.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+    	        	startActivity(login);
+    	        	// Closing dashboard screen
+    	        	finish();
+    			}
+    		});
             
+            
+        	
+        	
 	    	togButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
 	            public void onCheckedChanged(CompoundButton cButton,boolean bVal) {
 	                // Perform action on click
 	            	if( bVal == true )
 	            	{
-	            		landMarkRecord.setEnabled(true);
-	            		
-	            		String ftag=dtf.format(new Date());
-	            		//File[] file = new File[12];
-	            		//File fileDir = null;
-	            		//fDir=  fileDir;
-	            		boolean checkedVal = false;
-	            		
-	            		
-						fileDir = fileLocation();
-						String[] fName = new String[12];
-						
-						for( int i = 0; i<12; i++)
-						{
-							   fName[i] = "SensoSaur_"+ftag+"_"+ i +".txt"; //creating filenames
-						}
-						
-						if( null != fileDir)
-						{
-							boolean result = fileDir.mkdir();
-							Log.d(LOG_TAG,"mkdir result = " + result);
-							if( false == result )
-							{
-								result = fileDir.mkdirs();
-							}
-							Log.d(LOG_TAG,"mkdir result = " + result);
-							if (!fileDir.getParentFile().exists() && !fileDir.getParentFile().mkdirs()){
-								  Log.d(LOG_TAG,"Unable to create " + fileDir.getParentFile());
-								}
-							Toast.makeText(getApplicationContext(), "Logging started @ "+fileLocation(), Toast.LENGTH_LONG).show();
-						
-						} else {
-								
-							int fNo = app_preferences.getInt("fileNo",1);
-								
-							fileDir = new File("/sdcard/SensoSaur/SensoSaur_" + fNo); //creating directory
-							boolean result = fileDir.mkdir();
-							Log.d(LOG_TAG,"2mkdir result = " + result);
-							if( false == result )
-							{
-								result = fileDir.mkdirs();
-							}
-							Log.d(LOG_TAG,"2mkdir result = " + result);
-							
-							Toast.makeText(getApplicationContext(), "Logging started @ "+"/sdcard/SensoSaur/"+fileDir, Toast.LENGTH_LONG).show();		
-						}
-						
-						sRecorder = new SoundMeter(fileDir.getAbsolutePath()+"/soundRecord.3gp");
-						
-						try {
-							sRecorder.start();
-						} catch (IOException e1) {
-							// TODO Auto-generated catch block
-							Log.d(LOG_TAG, "start1");
-							e1.printStackTrace();
-						} catch (Throwable e1) {
-							// TODO Auto-generated catch block
-							Log.d(LOG_TAG, "start2");
-							e1.printStackTrace();
-						}
-						
-						Log.d(LOG_TAG,fileDir.getAbsolutePath());
-						//landmarks logging handler
-				    	lmFile = new File(fileDir,"landMarks.txt");
-				    	//if file does not exist, then create it			
-						if(!lmFile.exists()){
-							try {
-									lmFile.createNewFile();
-								} catch (IOException e) {
-								   // TODO Auto-generated catch block
-									e.printStackTrace();
-								}
-						}
-						
-						try {
-								lmFout = new PrintWriter(new FileWriter(lmFile));
-							} catch (IOException e) {
-								// TODO Auto-generated catch block
-								e.printStackTrace();
-						}
-						
-						
-						
-						try {
-							comment = new File(fileDir, "Comments.txt");
-							if(!comment.exists())
-								comment.createNewFile();
-							commentFile = new PrintWriter(new FileWriter(comment));
-						} catch (IOException e1) {
-							e1.printStackTrace();
-						}
-						
-					     try {
-								seeds = new File(Environment.getExternalStorageDirectory().getAbsolutePath()+"/SensoSaur/"+"Seeds.txt");
-								if(!seeds.exists())
-									seeds.createNewFile();
-								seedsFile = new PrintWriter(new FileWriter(seeds));
-							} catch (IOException e1) {
-								e1.printStackTrace();
-							}
-						
-						
-						for(int i =0 ; i<12 ; i++)
-						{
-						    file[i] = new File(fileDir,fName[i]); //opening files for storing each sensor's data
-						}
-					
-						for( int i =0 ; i<12; i++)
-						{
-							checkedVal = app_preferences.getBoolean(i+"_chk",true);
-							
-							if( true == checkedVal )
-							{
-								//if file does not exist, then create it
-								
-							    if(!file[i].exists()){
-							    	try {
-											file[i].createNewFile();
-										} catch (IOException e) {
-											// TODO Auto-generated catch block
-											e.printStackTrace();
-										}
-							    }
-										
-								try {
-										//fOut[i] = new BufferedWriter(new FileWriter(file[i]));
-										fOut[i] = new PrintWriter(new FileWriter(file[i]));
-									} catch (IOException e) {
-										// TODO Auto-generated catch block
-										Toast.makeText(getApplicationContext(), "Logging Failure! Try Again"+e, Toast.LENGTH_SHORT).show();
-										togButton.setChecked(true);
-										e.printStackTrace();
-								}
-							}else{
-								fOut[i] = null;
-							}				
-						}
-						// List available networks
-	        			String textWiFiString = "\n******Configured Networks******\n";
-	        			List<WifiConfiguration> configs = wifiM.getConfiguredNetworks();
-	        			long tim = System.nanoTime();
-	        			for (WifiConfiguration config : configs) {
-	        				textWiFiString += "\nSysTime = " + Long.toString(tim)+ " "+config.toString();
-	        			}
-	        			
-	            		//Wifi Scanning Start
-	            		Log.d(LOG_TAG, "onClick() wifi.startScan()");
-	        			wifiM.startScan();
-	        			//doWifiScan();
-	        			
-	        			//wifi logging handler
-				    	wifiFile = new File(fileDir,"wifiScanResults.txt");
-				    	
-				    	//if file does not exist, then create it			
-						if(!wifiFile.exists()){
-							try {
-									wifiFile.createNewFile();
-								} catch (IOException e) {
-								   // TODO Auto-generated catch block
-									e.printStackTrace();
-								}
-						}
-						
-						try {
-								wifiFileOut = new PrintWriter(new FileWriter(wifiFile));
-							} catch (IOException e) {
-								// TODO Auto-generated catch block
-								e.printStackTrace();
-						}
-							
-						Log.d("LOG_TAG","wifiFileOut");	
-						if( null != wifiFileOut )
-						{
-							wifiFileOut.println(textWiFiString+"\n");
-						}
-						
-						//gsm logging handler
-				    	gsmFile = new File(fileDir,"gsmCnriResults.txt");
-				    	
-				    	//if file does not exist, then create it			
-						if(!gsmFile.exists()){
-							try {
-									gsmFile.createNewFile();
-								} catch (IOException e) {
-								   // TODO Auto-generated catch block
-									e.printStackTrace();
-								}
-						}
-						
-						try {
-								gsmFileOut = new PrintWriter(new FileWriter(gsmFile));
-							} catch (IOException e) {
-								// TODO Auto-generated catch block
-								e.printStackTrace();
-						}
-						if( null != gsmFileOut )
-						{
-							gsmFileOut.println("#SysTime CNRI Call_State");
-						}
-						Log.d("LOG_TAG","gsmFileOut");
-	            		//location logging handler
-				    	File lmFile1 = new File(fileDir,"locations.txt");
-				    	//if file does not exist, then create it			
-						if(!lmFile1.exists()){
-							try {
-									lmFile1.createNewFile();
-								} catch (IOException e) {
-								   // TODO Auto-generated catch block
-									e.printStackTrace();
-								}
-						}
-						
-						try {
-								locFileOut = new PrintWriter(new FileWriter(lmFile1));
-							} catch (IOException e) {
-								// TODO Auto-generated catch block
-								e.printStackTrace();
-						}
-						Log.d("LOG_TAG","locFileOut");
-						if( null != locFileOut )
-						{
-							//senLocLeader = new SensoSaurLocationLeader(locFileOut,locationManager);
-							if ( true == nwEnabled )
-							{
-									
-								if(gpsEnabled == false)
-								{
-									Log.d("LOG_TAG","gpsNot");
-									Toast.makeText(getApplicationContext(), "Enable GPS", Toast.LENGTH_LONG).show();
-								}
-									
-							}else
-							{
-								if( gpsEnabled == true)
-								{
-									Toast.makeText(getApplicationContext(), "Enable Mobile Packet Data Network", Toast.LENGTH_LONG).show();
-								}else
-								{
-									Toast.makeText(getApplicationContext(), "Enable Mobile Packet Data Network & GPS", Toast.LENGTH_LONG).show();
-								}
-							}
-						}
-						Log.d(LOG_TAG,"afterLocFileout");
-						//Writing the initial lines in each sensor data files
-						
-						if ( null != fOut[0] )
-						{
-							fOut[0].println("#SysTm EventTmStmp Acc:x Acc:y Acc:z");
-						}
-						
-						if ( null != fOut[1] )
-						{
-							fOut[1].println("#SysTm EventTmStmp Mag:x Mag:y Mag:z");		  
-						}
-					
-						if ( null != fOut[2] )
-						{
-							fOut[2].println("#SysTm EventTmStmp Gyro:x Gyro:y Gyro:z");
-						}
-							
-						if ( null != fOut[3] )
-						{
-							fOut[3].println("#SysTm EventTmStmp Prox");
-						}
-							
-						if ( null != fOut[4] )
-						{
-							fOut[4].println("#SysTm EventTmStmp Light");
-						}
-							
-						if ( null != fOut[5] )
-						{
-							fOut[5].println("#SysTm EventTmStmp Temp");			
-						}
-							
-						if ( null != fOut[6] )
-						{
-							fOut[6].println("#SysTm EventTmStmp Pressure");
-						}
-							
-						if ( null != fOut[7] )
-						{
-							fOut[7].println("#SysTm EventTmStmp Rot:x Rot:y Rot:z");
-						}
-							
-						if ( null != fOut[8] )
-						{
-							fOut[8].println("#SysTm EventTmStmp La:x La:y La:z");
-						}
-						
-						if ( null != fOut[9] )
-						{
-							fOut[9].println("#SysTm EventTmStmp Snd");
-						}
-						
-						if ( null != fOut[10] )
-						{
-							fOut[10].println("#SysTm EventTmStmp Ori:x Ori:y Ori:z");
-						}
-						
-						if ( null != fOut[11] )
-						{
-							fOut[11].println("#SysTm EventTmStmp Grav:x Grav:y Grav:z");
-						}
-						Log.d(LOG_TAG,"afterFiles");
-						//Initial Print in Gsm Strength File
-			            //long tim = System.nanoTime();
-			    	    if( null != gsmFileOut )
-			    	    {
-			    	    	CellLocation location = Tel.getCellLocation();
-			    	    	List<NeighboringCellInfo> neghbCellList = Tel.getNeighboringCellInfo();
-			    	    	
-			    	    	Log.d(LOG_TAG,"afterTelCall");
-			    	    		    	    	
-			    	    	gsmFileOut.println(Long.toString(tim)+" "+gsmStrengthVal+" "+stateString);
-			    	    	//gsmFileOut.println(Long.toString(tim)+" CL:"+((GsmCellLocation)location).getCid()+" "+((GsmCellLocation)location).getPsc()+" "+((GsmCellLocation)location).getLac());
-			    	    	if( null != location )
-			    	    	{
-			    	    		gsmFileOut.println(Long.toString(tim)+" [Lac Cid Psc]:"+((GsmCellLocation)location).toString());
-			    	    	}else
-			    	    	{
-			    	    		gsmFileOut.println(Long.toString(tim)+" [Lac Cid Psc]:"+ " N/A");
-			    	    	}
-			    	    	
-			    	    	if( neghbCellList.size() == 0 )
-			    	    	{
-			    	    		gsmFileOut.println(Long.toString(tim)+" No Neighbour Cells.");
-			    	    	}else
-			    	    	{
-			    	    		for (NeighboringCellInfo neighbour : neghbCellList) {
-			    	    			gsmFileOut.println(Long.toString(tim)+" Neighbor Cell Info:"+neighbour.toString()+" :[ Cid Lac Nw Psc Rssi ]: ["+neighbour.getCid()+neighbour.getLac()+neighbour.getNetworkType()+neighbour.getPsc()+neighbour.getRssi()+"] ");
-			    	    		}
-			    	    	}
-			    	    }
-						
-			    	    Log.d(LOG_TAG,"last");
+	            		startLogging();
 	            	}else{
-	            		
-	            		landMarkRecord.setEnabled(false);
-	            		
-	            		if ( null != locFileOut )
-	            		{
-	            			locFileOut.close();
-	            		}
-	            		
-	            		File [] files = new File[17];
-	            		if ( null != wifiFileOut )
-	            		{
-	            			wifiFileOut.close();
-	            			files[12] = wifiFile;
-	            			//sendFileToServer(wifiFile.getAbsolutePath());
-	            		}
-	            		
-	            		if ( null != gsmFileOut )
-	            		{
-	            			gsmFileOut.close();
-	            			files[13] = gsmFile; 
-	            			//sendFileToServer(gsmFile.getAbsolutePath());
-	            		}
-	            		//senLocLeader.stopLocating();
-	            		//File closed and data recording stopped
-	            		
-	            		sRecorder.stop();
-	            		
-	            		commentFile.close();
-	            		seedsFile.close();
-	            		if ( null != lmFout )
-	            		{
-	            			lmFout.close();
-	            		}
-	            		files[14] = comment;
-	            		files[15] = seeds;
-	            		files[16] = lmFile;
-	            		for( int i=0 ;i<12 ;i++)
-	            		{
-	            			if( null != fOut[i] )
-	            			{
-	            				fOut[i].close();
-	            				files[i] = file[i];
-	            				//sendFileToServer(file[i].getAbsolutePath());
-	            			}
-	            		}
-	            		
-	            		sendFileToServer(files);
+	            		myTimer.cancel();
+	            		stopLogging();
 	            		
 	            		
-	            		SharedPreferences.Editor filePrefEd = app_preferences.edit();
-	            		int val = app_preferences.getInt("fileNo",1)+1;
-	            		filePrefEd.putInt( "fileNo",val );
-	            		filePrefEd.commit();
-	            		
-	            		
-	            		Toast.makeText(getApplicationContext(), "Data Logging stopped", Toast.LENGTH_SHORT).show();
 	            	}
 	            }
 	    	});

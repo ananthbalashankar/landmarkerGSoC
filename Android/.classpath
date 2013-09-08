@@ -2,8 +2,12 @@
 <classpath>
 	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
-	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="lib" path="C:/Users/Dell/android-sdks/extras/google/gcm/gcm-client/dist/gcm.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dell/android-sdks/extras/google/gcm/gcm-client/dist/gcm-src.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dell/android-sdks/extras/google/gcm/gcm-server/dist/gcm-server.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dell/android-sdks/extras/google/gcm/gcm-server/dist/gcm-server-src.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
