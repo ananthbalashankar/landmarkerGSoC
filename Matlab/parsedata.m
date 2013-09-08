@@ -1,16 +1,15 @@
-function  parsedata(dir_path)
+function  parsedata(dir_path,userid)
 warning('off','all');
 
-userid = 10;
 foldername = dir_path;
-conn = database('sample','postgres','ananth','org.postgresql.Driver','jdbc:postgresql:sample');
+conn = database('landmark','root','swadhin','com.mysql.jdbc.Driver','jdbc:mysql://localhost/landmark');
 cols = {'folder','start_time','userid'};
 vals = {foldername,datestr(now),userid};
 %database
-% fastinsert(conn,'sample',cols,vals);
-% query = sprintf('select dataid from sample where folder=''%s''',foldername);
-% curs = exec(conn,query)
-% a = fetch(curs);
+fastinsert(conn,'sample',cols,vals);
+query = sprintf('select dataid from sample where folder=''%s''',foldername);
+curs = exec(conn,query);
+a = fetch(curs);
 
 %insert seed landmarks
 seeds = importdata(strcat(dir_path,'/Seeds.txt'),' ',0);
@@ -24,9 +23,9 @@ end
 seeds = [stable;seeds]
 save('stable/seeds','seeds');
 
-dataid = 1; 
-% dataid = a.Data(end);
-% dataid = dataid{1};                         
+%dataid = 1; 
+dataid = a.Data(end);
+dataid = dataid{1};                         
 file = dir_path;
 command = strcat('perl wifi_ap_info_reader.pl "',file,'"');
 status = dos(command,'-echo');

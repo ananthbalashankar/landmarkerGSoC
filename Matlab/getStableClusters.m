@@ -115,10 +115,10 @@ for p =1:length(clusters)
                 
                 
                 %database
-%                 query = sprintf('update landmark set centroidx=%f ,centroidy=%f,numofpoints=%d,confidence=%d where id=%d',xposition,yposition,numOfPoints,confidence,id);
-%                 curs = exec(conn,query);
-%                 a = fetch(curs);
-%                 
+                query = sprintf('update landmark set centroidx=%f ,centroidy=%f,numofpoints=%d,confidence=%d where id=%d',xposition,yposition,numOfPoints,confidence,id);
+                curs = exec(conn,query);
+                a = fetch(curs);
+                
                 
                 diff = (stable{k}{min_cluster}{2} - centroid);
                 correctionVector = correctionVector + diff;
@@ -126,11 +126,11 @@ for p =1:length(clusters)
                 k_stable = stable{k};
                 featCluster{8} = 1;
                 %database
-%                 query = 'Select max(id) from landmark';
-%                 curs = exec(conn,query);
-%                 landmarkid = fetch(curs);
-%                 landmarkid = landmarkid.Data(1);
-%                 landmarkid = landmarkid{1} + 1;
+                query = 'Select max(id) from landmark';
+                curs = exec(conn,query);
+                landmarkid = fetch(curs);
+                landmarkid = landmarkid.Data(1);
+                landmarkid = landmarkid{1} + 1;
                 landmarkid = landmarkid + 1;
                 filename = sprintf('%s/landmarks%d.txt',foldername,landmarkid);
                 featCluster{10} = filename;
@@ -157,9 +157,9 @@ for p =1:length(clusters)
                 k_stable{end+1} = featCluster;
                 stable{k} = k_stable;
                 found = 1;
-%                 cols = {'centroidx','centroidy','numofpoints','confidence','file','feat','dataid'};
-%                 vals = {featCluster{2}(1),featCluster{2}(2),featCluster{3},featCluster{8},featCluster{10},featCluster{1},dataid};
-%                 fastinsert(conn,'landmark',cols,vals);
+                cols = {'centroidx','centroidy','numofpoints','confidence','file','feat','dataid'};
+                vals = {featCluster{2}(1),featCluster{2}(2),featCluster{3},featCluster{8},featCluster{10},featCluster{1},dataid};
+                fastinsert(conn,'landmark',cols,vals);
                 msg = sprintf('OLM of %s updated at (%f,%f)\n',featCluster{1},featCluster{2}(1),featCluster{2}(2));
                 disp(msg);
             end
@@ -173,11 +173,11 @@ for p =1:length(clusters)
     if(~found)
         
         featCluster{8} = 1;
-%         query = 'Select max(id) from landmark';
-%         curs = exec(conn,query);
-%         landmarkid = fetch(curs);
-%         landmarkid = landmarkid.Data(1);
-%         landmarkid = landmarkid{1} + 1;
+        query = 'Select max(id) from landmark';
+        curs = exec(conn,query);
+        landmarkid = fetch(curs);
+        landmarkid = landmarkid.Data(1);
+        landmarkid = landmarkid{1} + 1;
         landmarkid = landmarkid + 1;
         filename = sprintf('%s/landmarks%d.txt',foldername,landmarkid);
         featCluster{10} = filename;
@@ -201,9 +201,9 @@ for p =1:length(clusters)
         end
         fclose(fid);
         
-%         cols = {'centroidx','centroidy','numofpoints','confidence','file','feat','dataid'};
-%         vals = {featCluster{2}(1),featCluster{2}(2),featCluster{3},featCluster{8},featCluster{10},featCluster{1},dataid};
-%         fastinsert(conn,'landmark',cols,vals);
+        cols = {'centroidx','centroidy','numofpoints','confidence','file','feat','dataid'};
+        vals = {featCluster{2}(1),featCluster{2}(2),featCluster{3},featCluster{8},featCluster{10},featCluster{1},dataid};
+        fastinsert(conn,'landmark',cols,vals);
         stableFeat{end+1} = feature;
         msg = sprintf('OLM of %s added at (%f,%f)\n',featCluster{1},featCluster{2}(1),featCluster{2}(2));
         disp(msg);

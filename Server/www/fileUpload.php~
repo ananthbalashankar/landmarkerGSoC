@@ -1,5 +1,10 @@
 <?php
+session_id($_POST["sessionId"]);
+session_start();
+var_dump($_SESSION);
 
+if(isset($_SESSION['username']))
+{
 $fid = fopen("folder-id.txt","r");
 if(!feof($fid))
 {
@@ -175,5 +180,9 @@ else
 {
 system("sudo /usr/local/MATLAB/R2012b/bin/matlab -nodisplay -nosplash -r \"/home/swadhin/Landmark/landmarkerGSoC/Matlab/updateLocation('".$target_path."',".$uid.")\" >> ".$target_path."log.out");
 }
-
+}
+else
+{
+	echo "Access Denied";
+}
 ?>
