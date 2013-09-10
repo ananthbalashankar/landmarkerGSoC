@@ -1,0 +1,118 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+ updateLocation('/home/ananthbalashankar/landmarkerGSoC/Server/www/data/427/',)
+                                                                             |
+{Error: Unbalanced or unexpected parenthesis or bracket.
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+{Attempted to access ortime(1794); index out of bounds because
+numel(ortime)=1793.
+
+Error in getLocation (line 91)
+    while timeaz(i) > ortime(j)
+
+Error in updateLocation (line 17)
+[xpos ypos LocTime]=
+getLocation(linacc.data,ori.data,gyro.data,mag.data,foldername);
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+seeds =
+
+     []
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/427//SensoSaur_09.20.37.15_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/427//SensoSaur_09.20.37.15_0.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/427//SensoSaur_09.20.37.15_1.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/427//SensoSaur_09.20.37.15_10.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/427//SensoSaur_09.20.37.15_11.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/427//SensoSaur_09.20.37.15_2.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/427//SensoSaur_09.20.37.15_7.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/427//SensoSaur_09.20.37.15_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/427//SensoSaur_09.20.37.15_9.txt
+
+
+ans =
+
+   2.3481e+14
+
+
+ans =
+
+       17740           3
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/427//SensoSaur_09.20.37.15_4.txt
+
+{Attempt to reference field of non-structure array.
+
+Error in getClusters (line 129)
+       startTime = min(startTime,min(x.data(:,1)));
+
+Error in parsedata (line 32)
+[cluster goodness areas dataid] = getClusters(file,userid,dataid);
+} 
+>> 

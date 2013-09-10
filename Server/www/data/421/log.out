@@ -1,0 +1,105 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+ updateLocation('/home/ananthbalashankar/landmarkerGSoC/Server/www/data/421/',)
+                                                                             |
+{Error: Unbalanced or unexpected parenthesis or bracket.
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+seeds =
+
+     []
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/421//SensoSaur_09.01.48.54_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/421//SensoSaur_09.01.48.54_0.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/421//SensoSaur_09.01.48.54_1.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/421//SensoSaur_09.01.48.54_10.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/421//SensoSaur_09.01.48.54_11.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/421//SensoSaur_09.01.48.54_2.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/421//SensoSaur_09.01.48.54_7.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/421//SensoSaur_09.01.48.54_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/421//SensoSaur_09.01.48.54_9.txt
+
+
+ans =
+
+   1.9571e+14
+
+
+ans =
+
+        1436           3
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/421//SensoSaur_09.01.48.54_4.txt
+
+4
+{Error using fprintf
+Invalid file identifier.  Use fopen to generate a valid file identifier.
+
+Error in getStableClusters (line 109)
+                    fprintf(fid,'%d %f %f',Time(h),X(h),Y(h));
+
+Error in stabilize (line 34)
+[stable stableFeat newLocation] =
+getStableClusters(featcluster,location,timeSlots,stable,stableFeat,conn,dataid,dir_path);
+%calculate stable clusters
+
+Error in parsedata (line 39)
+stabilize(file,conn,dataid);
+} 
+>> 

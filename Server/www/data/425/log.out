@@ -1,0 +1,100 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+ updateLocation('/home/ananthbalashankar/landmarkerGSoC/Server/www/data/425/',)
+                                                                             |
+{Error: Unbalanced or unexpected parenthesis or bracket.
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+seeds =
+
+     []
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/425//SensoSaur_09.02.12.11_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/425//SensoSaur_09.02.12.11_0.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/425//SensoSaur_09.02.12.11_1.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/425//SensoSaur_09.02.12.11_10.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/425//SensoSaur_09.02.12.11_11.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/425//SensoSaur_09.02.12.11_2.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/425//SensoSaur_09.02.12.11_7.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/425//SensoSaur_09.02.12.11_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/425//SensoSaur_09.02.12.11_9.txt
+
+
+ans =
+
+   1.9710e+14
+
+
+ans =
+
+       35347           3
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/425//SensoSaur_09.02.12.11_4.txt
+
+{Undefined function or variable "featcluster".
+
+Error in stabilize (line 34)
+[stable stableFeat newLocation] =
+getStableClusters(featcluster,location,timeSlots,stable,stableFeat,conn,dataid,dir_path);
+%calculate stable clusters
+
+Error in parsedata (line 39)
+stabilize(file,conn,dataid);
+} 
+>> 

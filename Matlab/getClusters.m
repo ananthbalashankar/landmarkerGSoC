@@ -22,7 +22,7 @@ close all;
 % wifi --- 10
 % gsm --- 11
 
-for j = [0 1 10 11 2 7 8 9 4]
+for j = [0 1 10 11 2 7 8 9]
     for(i=1:length(filenames))
         match=regexpi(filenames(i).name,strcat('._',num2str(j),'\.txt'));
         if(isempty(match) == false)
@@ -102,16 +102,6 @@ for i=1:10   %no wifi, no gsm
         size(x)
     elseif(i==10)
         x = importdata(files{i},' ',0);
-   elseif(i==11)
-        y = importdata(files{i});
-        x = [];
-        k=1;
-        for g =5:length(y)
-            gsm_t = textscan(y{g},'%d64 %d %s');
-            x(k,1) = gsm_t{1};
-            x(k,2) = gsm_t{2};
-            k=k+1;
-        end
     else
         files{i}
         try
@@ -125,7 +115,7 @@ for i=1:10   %no wifi, no gsm
             startTime = min(startTime,min(x(:,1)));
            stopTime = max(stopTime,max(x(:,1)));
         end
-    else if(i~=10 && i~=8)
+    else if(i~=10 && i~=8 && i~=9)
        startTime = min(startTime,min(x.data(:,1)));
        stopTime = max(stopTime,max(x.data(:,1)));
         end
@@ -233,8 +223,8 @@ ypos = interp1(LocTime,ypos',timeSlots,'linear','extrap');
 try
     clusterWifi(Ndata{10},xpos,ypos,timeSlots,foldername);
 catch
-     %cd /home/ananthbalashankar/landmarkerGSoC/Matlab/;   %continue--- less wifi data
-     cd D:\Documents\GSoC\landmarkerGSoC\Matlab\;
+     cd /home/ananthbalashankar/landmarkerGSoC/Matlab/;   %continue--- less wifi data
+     %cd D:\Documents\GSoC\landmarkerGSoC\Matlab\;
 end
 
 for i=1:7

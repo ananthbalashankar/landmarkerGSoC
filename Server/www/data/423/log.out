@@ -1,0 +1,318 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+seeds =
+
+     []
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/423//SensoSaur_09.02.08.09_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/423//SensoSaur_09.02.08.09_0.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/423//SensoSaur_09.02.08.09_1.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/423//SensoSaur_09.02.08.09_10.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/423//SensoSaur_09.02.08.09_11.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/423//SensoSaur_09.02.08.09_2.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/423//SensoSaur_09.02.08.09_7.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/423//SensoSaur_09.02.08.09_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/423//SensoSaur_09.02.08.09_9.txt
+
+
+ans =
+
+   1.9686e+14
+
+
+ans =
+
+   592     3
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/423//SensoSaur_09.02.08.09_4.txt
+
+OLM of 2 added at (-0.749182,-0.000099)
+
+OLM of 3 added at (-0.526293,-0.000111)
+
+OLM of 4 added at (-0.437499,-0.000163)
+
+OLM of 9 added at (-0.623065,-0.000100)
+
+OLM of 11 added at (-0.784682,-0.000055)
+
+OLM of 16 added at (-0.698743,-0.000065)
+
+OLM of 18 added at (-0.765648,-0.000074)
+
+OLM of 20 added at (-0.745447,-0.000067)
+
+OLM of 2  5 added at (-0.778318,-0.000110)
+
+OLM of 2  7 added at (-0.717490,-0.000100)
+
+OLM of 5  7 added at (-0.604038,-0.000075)
+
+OLM of 2  5  7 added at (-0.743043,-0.000111)
+
+OLM of 3 updated at (-0.530303,-0.000131)
+
+OLM of 10 added at (-0.564934,-0.000120)
+
+OLM of 16 updated at (-0.437499,-0.000163)
+
+OLM of 3  7 added at (-0.569992,-0.000118)
+
+OLM of 4 updated at (-0.885596,-0.000072)
+
+OLM of 20 updated at (-0.728221,-0.000099)
+
+OLM of 15 added at (-0.606851,-0.000106)
+
+OLM of 3  6 added at (-0.579841,-0.000115)
+
+OLM of 16 updated at (-0.437499,-0.000163)
+
+OLM of 18 updated at (-0.539596,-0.000128)
+
+OLM of 1  2 added at (-0.794602,-0.000103)
+
+OLM of 1  3 added at (-0.554603,-0.000123)
+
+OLM of 1  4 added at (-0.629744,-0.000063)
+
+OLM of 5  8 added at (-0.621034,-0.000074)
+
+OLM of 6  7 added at (-0.771141,-0.000078)
+
+OLM of 1  8 added at (-0.751913,-0.000074)
+
+OLM of 3  8 added at (-0.560940,-0.000121)
+
+OLM of 7  8 added at (-0.675592,-0.000073)
+
+OLM of 3  4  8 added at (-0.602384,-0.000107)
+
+OLM of 20 updated at (-0.623650,-0.000109)
+
+OLM of 6  7 updated at (-0.684733,-0.000095)
+
+OLM of 11 updated at (-0.757338,-0.000074)
+
+OLM of 15 updated at (-0.772463,-0.000069)
+
+OLM of 5  8 updated at (-0.890103,-0.000076)
+
+OLM of 9 updated at (-0.753829,-0.000094)
+
+OLM of 4 updated at (-0.590677,-0.000058)
+
+OLM of 16 updated at (-0.437500,-0.000163)
+
+OLM of 2  7 updated at (-0.608029,-0.000105)
+
+OLM of 7  8 updated at (-0.434865,-0.000100)
+
+OLM of 15 updated at (-0.733741,-0.000071)
+
+OLM of 16 updated at (-0.636893,-0.000097)
+
+OLM of 1  4 updated at (-0.600323,-0.000108)
+
+OLM of 1  8 updated at (-0.728409,-0.000072)
+
+OLM of 5  6 added at (-0.437499,-0.000163)
+
+OLM of 4 updated at (-0.749064,-0.000104)
+
+OLM of 4  7 added at (-0.699988,-0.000063)
+
+OLM of 7  8 updated at (-0.749280,-0.000066)
+
+OLM of 9 updated at (-0.721624,-0.000119)
+
+OLM of 11 updated at (-0.531079,-0.000131)
+
+OLM of 4  7 updated at (-0.528397,-0.000132)
+
+OLM of 4 updated at (-0.534022,-0.000130)
+
+OLM of 1  4 updated at (-0.488231,-0.000146)
+
+OLM of 2 updated at (-0.701654,-0.000047)
+
+OLM of 4  5 added at (-0.858948,-0.000100)
+
+OLM of 5  6 updated at (-0.816762,-0.000037)
+
+OLM of 3 updated at (-0.973932,-0.000044)
+
+OLM of 10 updated at (-0.826341,-0.000031)
+
+OLM of 16 updated at (-0.842043,-0.000029)
+
+OLM of 4  5 updated at (-0.820361,-0.000033)
+
+OLM of 3 updated at (-0.829331,-0.000030)
+
+OLM of 4 updated at (-0.829331,-0.000030)
+
+OLM of 1  4 updated at (-0.908477,-0.000022)
+
+OLM of 4  5 updated at (-0.892526,-0.000020)
+
+OLM of 3 updated at (-0.905979,-0.000021)
+
+OLM of 10 updated at (-0.908626,-0.000022)
+
+OLM of 9 updated at (-0.998625,-0.000043)
+
+OLM of 1  2 updated at (-0.794048,-0.000037)
+
+OLM of 3  7 updated at (-1.032139,-0.000046)
+
+OLM of 1  2  8 added at (-0.791387,-0.000037)
+
+OLM of 10 updated at (-1.030315,-0.000045)
+
+OLM of 3  6 updated at (-1.023333,-0.000044)
+
+OLM of 1  3 updated at (-1.032960,-0.000046)
+
+OLM of 3  8 updated at (-1.032960,-0.000046)
+
+OLM of 3  4  8 updated at (-0.995933,-0.000039)
+
+OLM of 11 updated at (-1.133461,-0.000065)
+
+OLM of 1  4 updated at (-1.133461,-0.000065)
+
+OLM of 4  7 updated at (-1.123984,-0.000064)
+
+OLM of 4 updated at (-1.130816,-0.000065)
+
+OLM of 9 updated at (-0.410497,-0.000015)
+
+OLM of 7  8 updated at (-1.219195,-0.000087)
+
+OLM of 3 updated at (-1.185877,-0.000078)
+
+OLM of 9 updated at (-1.226028,-0.000084)
+
+OLM of 2  7 updated at (-1.278924,-0.000094)
+
+OLM of 3 updated at (0.930447,0.000077)
+
+OLM of 3  7 updated at (0.807914,0.000068)
+
+OLM of 4  7 updated at (2.890986,0.000233)
+
+OLM of 18 updated at (2.768452,0.000223)
+
+OLM of 6  7 updated at (2.964506,0.000238)
+
+OLM of 20 updated at (3.013520,0.000242)
+
+OLM of 5  8 updated at (3.503654,0.000281)
+
+OLM of 11 updated at (6.199395,0.000495)
+
+OLM of 9 updated at (5.954327,0.000475)
+
+OLM of 1  4 updated at (6.934596,0.000553)
+
+OLM of 15 updated at (7.669798,0.000611)
+
+OLM of 6  7 updated at (7.424731,0.000592)
+
+OLM of 7  8 updated at (7.424731,0.000592)
+
+OLM of 9 updated at (7.669798,0.000611)
+
+OLM of 1  8 updated at (7.914866,0.000631)
+
+OLM of 5  8 updated at (8.159933,0.000650)
+
+OLM of 2 updated at (8.772601,0.000699)
+
+OLM of 11 updated at (8.772601,0.000699)
+
+OLM of 2  5 updated at (8.772601,0.000699)
+
+OLM of 2  7 updated at (8.935979,0.000712)
+
+OLM of 2  5  7 updated at (9.189216,0.000732)
+
+OLM of 20 updated at (8.748094,0.000697)
+
+OLM of 4  7 updated at (9.238229,0.000736)
+
+OLM of 1  4 updated at (8.772601,0.000699)
+
+OLM of 4 updated at (9.262736,0.000737)
+
+OLM of 9 updated at (9.262736,0.000737)
+
+OLM of 4  5 updated at (9.017669,0.000718)
+
+OLM of 1  2 updated at (9.507803,0.000757)
+
+OLM of 15 updated at (9.752870,0.000776)
+
+OLM of 16 updated at (9.875404,0.000786)
+
+OLM of 20 updated at (9.875404,0.000786)
+
+
+commentFile =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/423//Comments.txt
+
+
+comments = 
+
+     {}
+
+>> 

@@ -1,0 +1,110 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+seeds =
+
+     []
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/422//SensoSaur_09.01.58.11_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/422//SensoSaur_09.01.58.11_0.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/422//SensoSaur_09.01.58.11_1.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/422//SensoSaur_09.01.58.11_10.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/422//SensoSaur_09.01.58.11_11.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/422//SensoSaur_09.01.58.11_2.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/422//SensoSaur_09.01.58.11_7.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/422//SensoSaur_09.01.58.11_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/422//SensoSaur_09.01.58.11_9.txt
+
+
+ans =
+
+   1.9626e+14
+
+
+ans =
+
+   938     3
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/422//SensoSaur_09.01.58.11_4.txt
+
+{Error using database/fastinsert (line 259)
+Java exception occurred:
+java.sql.BatchUpdateException: Data truncation: Data too long for column 'file'
+at row 1
+	at
+        com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:2056)
+        	at
+        com.mysql.jdbc.PreparedStatement.executeBatch(PreparedStatement.java:1467)
+        Caused by: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data
+        too long for column 'file' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4188)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4122)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2570)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2731)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2818)
+	at
+        com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2157)
+        	at
+        com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2460)
+        	at
+        com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:2008)
+        	... 1 more
+
+Error in getStableClusters (line 206)
+        fastinsert(conn,'landmark',cols,vals);
+
+Error in stabilize (line 34)
+[stable stableFeat newLocation] =
+getStableClusters(featcluster,location,timeSlots,stable,stableFeat,conn,dataid,dir_path);
+%calculate stable clusters
+
+Error in parsedata (line 39)
+stabilize(file,conn,dataid);
+} 
+>> 

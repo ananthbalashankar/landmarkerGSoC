@@ -1,0 +1,236 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+ updateLocation('/home/ananthbalashankar/landmarkerGSoC/Server/www/data/432/',)
+                                                                             |
+{Error: Unbalanced or unexpected parenthesis or bracket.
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+{Index exceeds matrix dimensions.
+
+Error in updateLocation (line 16)
+mag = importdata(files{4},' ',1);
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+{Index exceeds matrix dimensions.
+
+Error in updateLocation (line 16)
+mag = importdata(files{4},' ',1);
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+{Index exceeds matrix dimensions.
+
+Error in updateLocation (line 16)
+mag = importdata(files{4},' ',1);
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+{Attempt to reference field of non-structure array.
+
+Error in updateLocation (line 17)
+[xpos ypos LocTime]=
+getLocation(linacc.data,ori.data,gyro.data,mag.data,foldername);
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: This functionality is no longer supported under the -nodisplay and
+-noFigureWindows startup options. For more information, see "Changes to
+-nodisplay and -noFigureWindows Startup Options" in the MATLAB Release Notes.
+To view the release note in your system browser, run
+web('http://www.mathworks.com/access/helpdesk/help/techdoc/rn/br5ktrh-1.html#br5ktrh-3',
+'-browser')] 
+[> In uitools/private/warnfiguredialog at 19
+  In dialog at 37
+  In getLocation at 203
+  In updateLocation at 17] 
+{Undefined function 'min' for input arguments of type 'struct'.
+
+Error in updateLocation (line 20)
+startTime = min(startTime,linacc(:,1));
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+ updateLocation('/home/ananthbalashankar/landmarkerGSoC/Server/www/data/432/',)
+                                                                             |
+{Error: Unbalanced or unexpected parenthesis or bracket.
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+ updateLocation('/home/ananthbalashankar/landmarkerGSoC/Server/www/data/432/',)
+                                                                             |
+{Error: Unbalanced or unexpected parenthesis or bracket.
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: This functionality is no longer supported under the -nodisplay and
+-noFigureWindows startup options. For more information, see "Changes to
+-nodisplay and -noFigureWindows Startup Options" in the MATLAB Release Notes.
+To view the release note in your system browser, run
+web('http://www.mathworks.com/access/helpdesk/help/techdoc/rn/br5ktrh-1.html#br5ktrh-3',
+'-browser')] 
+[> In uitools/private/warnfiguredialog at 19
+  In dialog at 37
+  In getLocation at 203
+  In updateLocation at 17] 
+{Undefined function 'min' for input arguments of type 'struct'.
+
+Error in updateLocation (line 20)
+startTime = min(startTime,linacc(:,1));
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+ updateLocation('/home/ananthbalashankar/landmarkerGSoC/Server/www/data/432/',)
+                                                                             |
+{Error: Unbalanced or unexpected parenthesis or bracket.
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+seeds =
+
+     []
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/432//SensoSaur_10.22.07.02_11.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/432//SensoSaur_10.22.07.02_0.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/432//SensoSaur_10.21.50.21_1.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/432//SensoSaur_10.22.01.54_1.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/432//SensoSaur_10.22.07.02_1.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/432//SensoSaur_10.22.01.54_10.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/432//SensoSaur_10.22.07.02_10.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/432//SensoSaur_10.22.07.02_11.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/432//SensoSaur_10.21.50.21_2.txt
+
+{Attempted to access h(1,1); index out of bounds because size(h)=[0,1].
+
+Error in getClusters (line 89)
+        h(1,1)
+
+Error in parsedata (line 32)
+[cluster goodness areas dataid] = getClusters(file,userid,dataid);
+} 
+>> 

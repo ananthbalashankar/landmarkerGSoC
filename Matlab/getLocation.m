@@ -88,7 +88,7 @@ yarr(1) = 0;
 brng =[];
 dist = [];
 for i=1:length(timeaz)
-    while timeaz(i) > ortime(j)
+    while j<length(ortime) && timeaz(i) > ortime(j)
         j = j + 1;
     end
     angle = ort(j);
