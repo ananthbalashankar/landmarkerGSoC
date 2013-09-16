@@ -1,2 +1,2 @@
-addpath /home/ananthbalashankar/landmarkerGSoC/Matlab/
-cd /home/ananthbalashankar/landmarkerGSoC/Matlab/
+addpath /home/swadhin/Landmark/landmarkerGSoC/Matlab/
+cd /home/swadhin/Landmark/landmarkerGSoC/Matlab/

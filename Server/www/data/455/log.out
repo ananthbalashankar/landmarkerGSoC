@@ -1,0 +1,456 @@
+/usr/local/MATLAB/R2011a/bin/matlab: 1: /usr/local/MATLAB/R2011a/bin/util/oscheck.sh: /lib64/libc.so.6: not found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+>> /usr/local/MATLAB/R2011a/bin/matlab: 1: /usr/local/MATLAB/R2011a/bin/util/oscheck.sh: /lib64/libc.so.6: not found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+
+seeds =
+
+     []
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/455//SensoSaur_16.08.59.54_8.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/455//SensoSaur_16.08.59.54_0.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/455//SensoSaur_16.08.59.54_1.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/455//SensoSaur_16.08.59.54_10.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/455//SensoSaur_16.08.59.54_11.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/455//SensoSaur_16.08.59.54_2.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/455//SensoSaur_16.08.59.54_7.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/455//SensoSaur_16.08.59.54_8.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/455//SensoSaur_16.08.59.54_9.txt
+
+
+ans =
+
+   7.4745e+13
+
+
+ans =
+
+        2369           3
+
+
+ans =
+
+     []
+
+OLM of 1  2 added at (-2.247446,-1.208768)
+
+OLM of 2  4 updated at (-1.952012,-1.039851)
+
+2  5
+
+query =
+
+update landmark set centroidx=-0.835306 ,centroidy=-0.290510,numofpoints=26,confidence=2 where id=235
+
+2  4  7
+
+query =
+
+update landmark set centroidx=-0.958428 ,centroidy=-0.378500,numofpoints=155,confidence=2 where id=259
+
+OLM of 14 updated at (-0.579395,-0.129968)
+
+OLM of 18 updated at (-0.572712,-0.126974)
+
+OLM of 18 updated at (-0.643729,-0.158790)
+
+2  5
+
+query =
+
+update landmark set centroidx=-1.211200 ,centroidy=-0.182938,numofpoints=38,confidence=2 where id=277
+
+OLM of 3  7 updated at (-4.906762,-0.897174)
+
+OLM of 2  4 updated at (-7.024320,0.011896)
+
+OLM of 1  2 updated at (-6.282285,0.445555)
+
+OLM of 2  5 updated at (-6.329335,0.417195)
+
+OLM of 2  3 updated at (-7.038472,0.030179)
+
+OLM of 2  4  7 updated at (-7.063159,0.062141)
+
+OLM of 3  7 updated at (-6.374558,0.440925)
+
+OLM of 4  7 added at (-7.549195,0.818141)
+
+4  7
+
+query =
+
+update landmark set centroidx=-6.528410 ,centroidy=2.917780,numofpoints=90,confidence=2 where id=373
+
+OLM of 3  7 updated at (-7.878032,1.966535)
+
+OLM of 14 updated at (-7.882499,2.006235)
+
+OLM of 2 updated at (-7.758941,1.589958)
+
+OLM of 9 updated at (-7.759352,1.593997)
+
+3  7
+
+query =
+
+update landmark set centroidx=-5.801737 ,centroidy=3.196683,numofpoints=168,confidence=2 where id=374
+
+OLM of 19 updated at (-7.870909,2.563122)
+
+OLM of 11 updated at (-7.393396,2.093774)
+
+OLM of 4  7 updated at (-7.875112,2.565514)
+
+OLM of 4 updated at (-7.389476,2.090012)
+
+OLM of 3  4 updated at (-7.377543,2.078479)
+
+OLM of 1  2 updated at (-7.383166,2.105832)
+
+OLM of 2  3 updated at (-7.352450,2.070363)
+
+OLM of 2  4 updated at (-7.444200,2.176554)
+
+OLM of 2  4  7 updated at (-7.293933,1.995763)
+
+OLM of 19 updated at (-7.779989,2.511364)
+
+OLM of 14 updated at (-7.654992,2.411319)
+
+OLM of 4  5 updated at (-7.551397,2.303224)
+
+2  5
+
+query =
+
+update landmark set centroidx=-4.146111 ,centroidy=4.172858,numofpoints=57,confidence=2 where id=369
+
+4  5
+
+query =
+
+update landmark set centroidx=-2.437173 ,centroidy=5.088547,numofpoints=44,confidence=2 where id=389
+
+2  4
+
+query =
+
+update landmark set centroidx=-0.271284 ,centroidy=6.121159,numofpoints=114,confidence=2 where id=367
+
+2  3
+
+query =
+
+update landmark set centroidx=2.760429 ,centroidy=8.768760,numofpoints=138,confidence=2 where id=370
+
+2  4  7
+
+query =
+
+update landmark set centroidx=7.016950 ,centroidy=13.143837,numofpoints=123,confidence=2 where id=371
+
+OLM of 4 updated at (-5.369543,-0.244832)
+
+OLM of 11 updated at (-5.369543,-0.244832)
+
+OLM of 3  4 updated at (-5.369543,-0.244832)
+
+OLM of 4  5 updated at (-5.860743,0.224518)
+
+OLM of 4  7 updated at (-4.611905,-0.918696)
+
+OLM of 2  4 updated at (-5.484126,-0.253616)
+
+OLM of 2  3  4 updated at (-4.849782,-0.691122)
+
+OLM of 1  2 updated at (-5.005090,-0.752330)
+
+OLM of 2  5 updated at (-5.075455,-0.715242)
+
+OLM of 2  4  7 updated at (-4.965844,-0.775314)
+
+2  4
+
+query =
+
+update landmark set centroidx=15.517323 ,centroidy=18.075114,numofpoints=120,confidence=2 where id=395
+
+OLM of 4  7 updated at (-1.360442,-0.345565)
+
+
+commentFile =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/455//Comments.txt
+
+
+comments = 
+
+    [7.4756e+13]    [2]    'cortidor'
+
+
+query1 =
+
+Select id,min(POWER(centroidx+7.628987,2)+POWER(centroidy + -2.404028,2)) as dist from landmark group by id order by dist asc
+
+
+ans = 
+
+    [387]    [7.2940e-04]
+    [388]    [    0.0162]
+    [386]    [    0.0343]
+    [377]    [    0.0838]
+    [384]    [    0.0859]
+    [379]    [    0.0867]
+    [382]    [    0.1493]
+    [378]    [    0.1518]
+    [380]    [    0.1560]
+    [381]    [    0.1692]
+    [383]    [    0.1878]
+    [373]    [    0.2534]
+    [385]    [    0.2789]
+    [376]    [    0.6731]
+    [375]    [    0.6796]
+    [372]    [    2.5214]
+    [374]    [    3.9671]
+    [368]    [    5.6366]
+    [366]    [    6.0879]
+    [392]    [    7.8769]
+    [394]    [   11.6635]
+    [391]    [   12.1215]
+    [389]    [   12.1215]
+    [390]    [   12.1215]
+    [369]    [   15.2592]
+    [397]    [   16.2504]
+    [396]    [   16.8474]
+    [398]    [   17.2005]
+    [365]    [   18.3084]
+    [393]    [   20.1433]
+    [349]    [   24.1570]
+    [348]    [   24.2788]
+    [354]    [   24.8909]
+    [353]    [   25.2109]
+    [355]    [   25.6659]
+    [344]    [   26.6170]
+    [345]    [   26.7839]
+    [343]    [   26.8082]
+    [347]    [   26.8545]
+    [346]    [   27.0176]
+    [321]    [   27.0469]
+    [326]    [   27.2233]
+    [324]    [   27.2697]
+    [333]    [   27.3073]
+    [319]    [   27.4048]
+    [315]    [   27.4183]
+    [314]    [   27.4807]
+    [313]    [   27.4817]
+    [309]    [   27.5382]
+    [340]    [   27.5838]
+    [318]    [   27.6119]
+    [335]    [   27.6255]
+    [320]    [   27.6606]
+    [325]    [   27.7004]
+    [341]    [   27.9138]
+    [322]    [   27.9477]
+    [323]    [   27.9477]
+    [342]    [   27.9717]
+    [316]    [   27.9807]
+    [338]    [   27.9849]
+    [317]    [   28.0003]
+    [336]    [   28.0542]
+    [306]    [   28.1223]
+    [327]    [   28.2100]
+    [311]    [   28.4445]
+    [305]    [   28.4869]
+    [312]    [   28.5440]
+    [332]    [   28.6662]
+    [310]    [   28.7076]
+    [307]    [   28.9123]
+    [304]    [   28.9590]
+    [291]    [   28.9665]
+    [292]    [   28.9809]
+    [303]    [   28.9817]
+    [300]    [   28.9865]
+    [302]    [   29.0005]
+    [301]    [   29.0151]
+    [288]    [   29.1103]
+    [308]    [   29.1559]
+    [337]    [   29.1565]
+    [296]    [   29.1675]
+    [293]    [   29.1750]
+    [289]    [   29.2626]
+    [299]    [   29.3637]
+    [331]    [   29.4445]
+    [294]    [   29.4640]
+    [287]    [   29.4981]
+    [297]    [   29.5095]
+    [298]    [   29.7528]
+    [339]    [   29.9280]
+    [334]    [   29.9475]
+    [284]    [   29.9756]
+    [350]    [   29.9770]
+    [351]    [   29.9770]
+    [290]    [   29.9786]
+    [295]    [   30.0673]
+    [286]    [   30.2370]
+    [330]    [   30.5097]
+    [281]    [   30.7979]
+    [285]    [   30.8016]
+    [282]    [   30.8812]
+    [280]    [   31.0281]
+    [283]    [   31.1140]
+    [352]    [   31.4845]
+    [279]    [   31.5918]
+    [275]    [   31.6349]
+    [328]    [   31.7480]
+    [273]    [   31.7780]
+    [274]    [   31.8108]
+    [276]    [   32.0600]
+    [278]    [   32.0781]
+    [329]    [   32.1431]
+    [272]    [   41.0165]
+    [360]    [   42.0133]
+    [361]    [   44.0884]
+    [399]    [   46.8549]
+    [277]    [   47.8804]
+    [259]    [   52.2388]
+    [238]    [   53.3213]
+    [235]    [   53.4146]
+    [242]    [   53.7558]
+    [228]    [   54.4821]
+    [240]    [   54.4821]
+    [221]    [   54.5571]
+    [218]    [   54.5571]
+    [263]    [   54.6405]
+    [236]    [   54.6405]
+    [252]    [   54.7219]
+    [243]    [   54.7219]
+    [267]    [   54.7219]
+    [250]    [   54.7219]
+    [229]    [   54.7219]
+    [251]    [   54.7785]
+    [239]    [   54.8012]
+    [266]    [   54.8980]
+    [241]    [   55.0266]
+    [256]    [   55.0266]
+    [268]    [   55.0471]
+    [264]    [   55.1680]
+    [247]    [   55.1680]
+    [248]    [   55.1680]
+    [262]    [   55.1680]
+    [233]    [   55.2367]
+    [258]    [   55.2367]
+    [265]    [   55.2952]
+    [232]    [   55.3039]
+    [254]    [   55.3039]
+    [220]    [   55.3203]
+    [364]    [   55.3619]
+    [257]    [   55.3696]
+    [255]    [   55.4117]
+    [219]    [   55.4325]
+    [237]    [   55.5579]
+    [222]    [   55.5685]
+    [245]    [   55.5900]
+    [230]    [   55.6271]
+    [253]    [   55.9195]
+    [225]    [   55.9783]
+    [227]    [   55.9783]
+    [249]    [   56.0543]
+    [224]    [   56.0562]
+    [226]    [   56.0562]
+    [269]    [   56.0936]
+    [246]    [   56.1096]
+    [362]    [   56.1179]
+    [223]    [   56.1323]
+    [363]    [   56.1970]
+    [260]    [   56.2154]
+    [271]    [   56.2528]
+    [261]    [   56.3396]
+    [234]    [   56.5723]
+    [270]    [   56.6265]
+    [217]    [   56.7425]
+    [231]    [   56.8815]
+    [244]    [   56.9279]
+    [367]    [   67.9529]
+    [359]    [   81.8446]
+    [356]    [   81.8446]
+    [357]    [   83.9910]
+    [358]    [   88.2430]
+    [370]    [  148.4498]
+    [371]    [  329.8470]
+    [395]    [  781.3346]
+
+
+vals = 
+
+    [2]    'cortidor'    [7.4756e+13]    [16]    [387]
+
+{??? Error using ==> datevecmx
+Date number out of range.
+
+Error in ==> datevec at 304
+   y = datevecmx(t);
+
+Error in ==> database.fastinsert at 229
+            ts = datevec(tmp);
+
+Error in ==> annotateComments at 73
+      fastinsert(conn,'comments',cols,vals);
+
+Error in ==> parsedata at 43
+annotateComments(file,conn,dataid);
+} 
+>> 

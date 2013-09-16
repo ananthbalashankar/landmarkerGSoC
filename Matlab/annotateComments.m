@@ -46,11 +46,13 @@ function annotateComments(file,conn,dataid)
       y = interp1(timeSlots,ypos,timestamp,'linear','extrap');
       
       %make database query in landmarks table
-	query1 = sprintf('Select id,min((landmark.centroidx+%f)^2+(landmark.centroidy + %f)^2) as dist from landmark group by id order by dist asc;',-1*x,-1*y);
+	query1 = sprintf('Select id,min(POWER(centroidx+%f,2)+POWER(centroidy + %f,2)) as dist from landmark group by id order by dist asc',-1*x,-1*y);
 	curs1 = exec(conn,query1);
  	curs1 = fetch(curs1);
+	query1
+	curs1.Data;
 	d = curs1.Data(1,1);
-	v = curs1.Data(1,2);
+	dist = curs1.Data(1,2);
     landmarkid = d{1};
 %      minid = -1; dist = Inf;
 %      for j=1:length(stable)
@@ -65,12 +67,12 @@ function annotateComments(file,conn,dataid)
 %     landmarkid = minid;
      
      %make entry in comments table
-     vals{i} = {rating,comment,timestamp,dataid,landmarkid};
-      cols = {'rating','comment','time','dataid','landmarkid'};
-      vals = {rating,comment,timestamp,dataid,landmarkid}
-      fastinsert(conn,'comments',cols,vals);
-     query = sprintf('Insert into comments(rating,comment,time,dataid,landmarkid) Values (%f,''%s'',%ld,%d,%d)',rating,comment,timestamp,dataid,landmarkid);
-     database.exec(conn, query);
+     %vals{i} = {rating,comment,timestamp,dataid,landmarkid};
+%       cols = {'rating','comment','time','dataid','landmarkid'};
+%       vals = {rating,comment,datestr(timestamp),dataid,landmarkid}
+%       fastinsert(conn,'comments',cols,vals);
+     query = sprintf('Insert into comments(rating,comment,time,dataid,landmarkid) Values (%f,''%s'',NOW(),%d,%d)',rating,comment,dataid,landmarkid);
+     exec(conn, query);
   end
   try
   comments = load('stable/comments');

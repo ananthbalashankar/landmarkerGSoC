@@ -1,0 +1,173 @@
+/usr/local/MATLAB/R2011a/bin/matlab: 1: /usr/local/MATLAB/R2011a/bin/util/oscheck.sh: /lib64/libc.so.6: not found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+>> /usr/local/MATLAB/R2011a/bin/matlab: 1: /usr/local/MATLAB/R2011a/bin/util/oscheck.sh: /lib64/libc.so.6: not found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+
+seeds =
+
+     []
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/456//SensoSaur_16.10.34.28_8.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/456//SensoSaur_16.10.34.28_0.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/456//SensoSaur_16.10.34.28_1.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/456//SensoSaur_16.10.34.28_10.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/456//SensoSaur_16.10.34.28_11.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/456//SensoSaur_16.10.34.28_2.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/456//SensoSaur_16.10.34.28_7.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/456//SensoSaur_16.10.34.28_8.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/456//SensoSaur_16.10.34.28_9.txt
+
+
+ans =
+
+   8.0127e+13
+
+
+ans =
+
+        4586           3
+
+
+ans =
+
+     []
+
+OLM of 2 added at (-0.563326,0.011639)
+
+OLM of 1  4 added at (-2.051615,0.057673)
+
+OLM of 4  8 added at (-2.080028,0.056550)
+
+OLM of 4  6  7 added at (-2.067626,0.060799)
+
+OLM of 2 updated at (-1.729370,0.049561)
+
+OLM of 4  5 added at (-1.786306,0.050282)
+
+OLM of 2 updated at (-11.262913,0.141422)
+
+OLM of 2 updated at (-11.426355,0.405997)
+
+OLM of 1  4 updated at (-11.173618,0.889925)
+
+OLM of 4  8 updated at (-11.163399,0.903224)
+
+OLM of 4  5 updated at (-9.504648,1.469331)
+
+OLM of 4 added at (-10.865089,1.140358)
+
+OLM of 3  4 added at (-10.821566,1.079472)
+
+OLM of 11 added at (-9.617114,1.457806)
+
+OLM of 2 updated at (-9.826482,1.427745)
+
+OLM of 1  4 updated at (-9.283215,1.554842)
+
+OLM of 4  8 updated at (-9.305688,1.552853)
+
+OLM of 2  4 added at (-9.367838,1.536686)
+
+OLM of 2 updated at (-9.053555,1.572313)
+
+OLM of 2 updated at (-8.573602,1.637602)
+
+OLM of 1  4 updated at (-9.270228,1.542681)
+
+OLM of 4  8 updated at (-9.268921,1.542312)
+
+OLM of 4 updated at (-9.244182,1.546109)
+
+OLM of 3  4 updated at (-8.586390,1.619847)
+
+OLM of 11 updated at (-7.820598,1.729659)
+
+OLM of 4  8 updated at (-7.948495,1.715618)
+
+OLM of 1  4 updated at (-7.892372,1.721504)
+
+OLM of 2  4 updated at (-7.782606,1.734825)
+
+OLM of 4 updated at (-7.460343,1.756602)
+
+OLM of 4  8 updated at (-5.402490,1.838584)
+
+OLM of 2 updated at (-4.846185,1.802448)
+
+OLM of 4  8 updated at (-4.665301,1.781181)
+
+OLM of 11 updated at (-4.743623,1.801619)
+
+OLM of 1  4 updated at (-4.675417,1.793382)
+
+OLM of 2  4 updated at (-4.743623,1.801619)
+
+
+commentFile =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/456//Comments.txt
+
+
+comments = 
+
+    [8.0146e+13]    [2]    'd'
+
+
+query1 =
+
+Select id,min(POWER(centroidx+10.197635,2)+POWER(centroidy + -1.499336,2)) as dist from landmark group by id order by dist asc
+
+>> 

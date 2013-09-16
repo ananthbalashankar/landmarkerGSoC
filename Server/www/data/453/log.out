@@ -1,0 +1,261 @@
+/usr/local/MATLAB/R2011a/bin/matlab: 1: /usr/local/MATLAB/R2011a/bin/util/oscheck.sh: /lib64/libc.so.6: not found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+>> /usr/local/MATLAB/R2011a/bin/matlab: 1: /usr/local/MATLAB/R2011a/bin/util/oscheck.sh: /lib64/libc.so.6: not found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+
+seeds =
+
+     []
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/453//SensoSaur_16.08.43.02_8.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/453//SensoSaur_16.08.43.02_0.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/453//SensoSaur_16.08.43.02_1.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/453//SensoSaur_16.08.43.02_10.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/453//SensoSaur_16.08.43.02_11.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/453//SensoSaur_16.08.43.02_2.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/453//SensoSaur_16.08.43.02_7.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/453//SensoSaur_16.08.43.02_8.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/453//SensoSaur_16.08.43.02_9.txt
+
+
+ans =
+
+   7.3733e+13
+
+
+ans =
+
+        3372           3
+
+
+ans =
+
+     []
+
+2  4  8
+
+query =
+
+update landmark set centroidx=0.334541 ,centroidy=0.168980,numofpoints=69,confidence=3 where id=105
+
+OLM of 4  5  8 updated at (-0.579755,0.013609)
+
+OLM of 2  7 updated at (-0.754381,0.023512)
+
+OLM of 4  8 updated at (-1.365228,0.286518)
+
+OLM of 1  4  8 updated at (-1.365228,0.286518)
+
+OLM of 1  3  4 updated at (-1.645304,0.374761)
+
+OLM of 2  4  8 updated at (-1.348560,0.292089)
+
+OLM of 2  7 updated at (-1.715339,0.414262)
+
+OLM of 2  4  8 updated at (-2.796483,0.639508)
+
+OLM of 4  8 updated at (-3.191301,0.685610)
+
+1  4  8
+
+query =
+
+update landmark set centroidx=-2.269655 ,centroidy=0.690299,numofpoints=204,confidence=2 where id=189
+
+1  3  4
+
+query =
+
+update landmark set centroidx=-1.862978 ,centroidy=0.702186,numofpoints=181,confidence=2 where id=190
+
+OLM of 4  5  8 updated at (-3.258026,0.706045)
+
+OLM of 2  7 updated at (-3.362905,0.723618)
+
+2  4  8
+
+query =
+
+update landmark set centroidx=-2.663517 ,centroidy=0.306865,numofpoints=123,confidence=2 where id=167
+
+OLM of 3  4 updated at (-4.000966,0.306583)
+
+OLM of 3  4  8 updated at (-4.001392,0.301778)
+
+OLM of 1  3  4 updated at (-4.003682,0.295767)
+
+OLM of 2  4 updated at (-4.004749,0.292743)
+
+OLM of 4  5 updated at (-4.017035,0.214005)
+
+OLM of 3  4  5 updated at (-4.017035,0.214005)
+
+2  7
+
+query =
+
+update landmark set centroidx=-1.984989 ,centroidy=0.009108,numofpoints=81,confidence=2 where id=196
+
+3  4
+
+query =
+
+update landmark set centroidx=-0.980104 ,centroidy=-0.295143,numofpoints=83,confidence=2 where id=197
+
+2  4
+
+query =
+
+update landmark set centroidx=0.568126 ,centroidy=-0.182548,numofpoints=83,confidence=2 where id=200
+
+1  3  4
+
+query =
+
+update landmark set centroidx=2.892780 ,centroidy=0.014194,numofpoints=82,confidence=2 where id=199
+
+3  4  8
+
+query =
+
+update landmark set centroidx=6.377798 ,centroidy=0.298925,numofpoints=84,confidence=2 where id=198
+
+4  5
+
+query =
+
+update landmark set centroidx=11.607223 ,centroidy=0.721867,numofpoints=82,confidence=2 where id=201
+
+3  4  5
+
+query =
+
+update landmark set centroidx=19.451189 ,centroidy=1.370772,numofpoints=82,confidence=2 where id=202
+
+OLM of 3  4 updated at (-4.410902,-1.280729)
+
+1  3  4
+
+query =
+
+update landmark set centroidx=30.372669 ,centroidy=2.128746,numofpoints=54,confidence=2 where id=44
+
+OLM of 2  4 updated at (-4.512639,-1.304031)
+
+OLM of 4  5 updated at (-4.460328,-1.300110)
+
+OLM of 3  4  5 updated at (-4.460328,-1.300110)
+
+OLM of 3  4  8 updated at (-4.576324,-1.312122)
+
+OLM of 2  7 updated at (-7.027309,-0.895853)
+
+OLM of 1  3  4 updated at (-6.745616,-0.971276)
+
+OLM of 3  4 updated at (-6.751321,-0.970182)
+
+OLM of 7  8 updated at (-6.758045,-0.992294)
+
+OLM of 3  8 updated at (-7.112903,-0.858320)
+
+3  4  8
+
+query =
+
+update landmark set centroidx=47.154615 ,centroidy=3.140532,numofpoints=29,confidence=2 where id=207
+
+OLM of 7  8 updated at (-8.731049,-0.325057)
+
+OLM of 2  7 updated at (-9.783678,-0.032402)
+
+OLM of 3  8 updated at (-10.406544,0.213580)
+
+OLM of 7  8 updated at (-10.750690,0.230216)
+
+OLM of 3  6 added at (-11.189388,0.553102)
+
+
+commentFile =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/453//Comments.txt
+
+
+comments = 
+
+    [7.3756e+13]    [2]    'cortidor'
+
+
+query1 =
+
+Select id,min((landmark.centroidx+9.788336)^2+(landmark.centroidy + 0.094661)^2) as dist from landmark group by id order by dist asc;
+
+
+ans =
+
+     0
+
+{??? Index exceeds matrix dimensions.
+
+Error in ==> cursor.subsref at 65
+  eval(tmpcomm)
+
+Error in ==> annotateComments at 55
+	v = curs1.Data(1,2);
+
+Error in ==> parsedata at 43
+annotateComments(file,conn,dataid);
+} 
+>> 

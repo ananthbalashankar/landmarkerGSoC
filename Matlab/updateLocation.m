@@ -17,23 +17,25 @@ mag = importdata(files{4},' ',1);
 [xpos ypos LocTime]= getLocation(linacc.data,ori.data,gyro.data,mag.data,foldername);
 
 startTime = Inf;
-startTime = min(startTime,linacc(:,1));
-startTime = min(startTime,ori(:,1));
-startTime = min(startTime,gyro(:,1));
-startTime = min(startTime,mag(:,1));
+startTime = min(startTime,min(linacc.data(:,1)));
+startTime = min(startTime,min(ori.data(:,1)));
+startTime = min(startTime,min(gyro.data(:,1)));
+startTime = min(startTime,min(mag.data(:,1)));
 
 stopTime = -Inf;
-stopTime = max(stopTime,linacc(:,1));
-stopTime = max(stopTime,ori(:,1));
-stopTime = max(stopTime,gyro(:,1));
-stopTime = max(stopTime,mag(:,1));
+stopTime = max(stopTime,max(linacc.data(:,1)));
+stopTime = max(stopTime,max(ori.data(:,1)));
+stopTime = max(stopTime,max(gyro.data(:,1)));
+stopTime = max(stopTime,max(mag.data(:,1)));
+
+timeSteps = ceil((stopTime - startTime)/(2*10^7)); 
 
 timeSlots = [startTime:2*10^7:startTime+(timeSteps*2*10^7)];
 LocTime = [0;LocTime];
 xpos = interp1(LocTime,xpos',timeSlots,'linear','extrap');
 ypos = interp1(LocTime,ypos',timeSlots,'linear','extrap');
 
-location = correctSeed([xpos' ypos'],timeSlots,mag(:,[3 4 5]),linacc(:,[3 4 5]),foldername);
+location = correctSeed([xpos' ypos'],timeSlots,mag.data(:,[3 4 5]),linacc.data(:,[3 4 5]),foldername);
 
 landmarks = load('stable/cluster');
 landmarks = landmarks.stable;
@@ -47,6 +49,9 @@ end
 end
 
 minid = -1; dist = Inf;
+x = location(end,1);
+y = location(end,2);    %Current location
+
  for j=1:length(stable)
     landmark = stable{j};
     centroid = landmark(2);
@@ -57,6 +62,7 @@ minid = -1; dist = Inf;
      end
  end
 landmarkid = minid;
+landmarkid = landmarkid{1};
 
 comments = load('stable/comments');
 comments = comments.comments;
@@ -71,30 +77,34 @@ conn = database('landmark','root','swadhin','com.mysql.jdbc.Driver','jdbc:mysql:
 query = sprintf('select landmarkid, updated_at from users where uid = %d',userid);
 ans= exec(conn,query);
 data = fetch(ans);
-prevLandmark = data.Data(1);
-prevTime = data.Data(2);
-prevTime = prevTime{1};
-a = sscanf(prevTime,'%d-%d-%d %d:%d:%f');
-prevTime = datenum(a(1),a(2),a(3),a(4),a(5),a(6));
-
-change = 0;
-sent =[];
-if(prevLandmark ~= landmarkid)
+prevLandmark = data.Data(1)
+prevTime = data.Data(2)
+landmarkid
+if(strcmp(prevTime,'null')~=0 && ~isnan(prevLandmark{1}))
+    prevTime = prevTime{1};
+    a = sscanf(prevTime,'%d-%d-%d %d:%d:%f');
+    prevTime = datenum(a(1),a(2),a(3),a(4),a(5),a(6));
+    change = 0;sent =[];
+    if(prevLandmark ~= landmarkid)
+        change = 1;
+        sent = selected;
+    else
+        for i=1:size(selected,1)
+            Time = selected(i,3);
+            Time = Time{1};
+            a = sscanf(Time,'%d-%d-%d %d:%d:%f');
+            Time = datenum(a(1),a(2),a(3),a(4),a(5),a(6));
+            if(Time > prevTime)
+                sent = vertcat(sent,selected(i,:));
+            end
+        end
+        if(size(sent,1) > 0)
+            change = 1;
+        end
+    end   
+else
     change = 1;
     sent = selected;
-else
-    for i=1:size(selected,1)
-        Time = selected(i,3);
-        Time = Time{1};
-        a = sscanf(Time,'%d-%d-%d %d:%d:%f');
-        Time = datenum(a(1),a(2),a(3),a(4),a(5),a(6));
-        if(Time > prevTime)
-            sent = vertcat(sent,selected(i,:));
-        end
-    end
-    if(size(sent,1) > 0)
-        change = 1;
-    end
 end
 
 if(change == 1)
@@ -105,8 +115,8 @@ if(change == 1)
     end
     fclose(fid);
     
-    query = sprintf('update users set updated_at=NOW() where uid=%d',userid);
+    query = sprintf('update users set updated_at=NOW(), landmarkid=%d where uid=%d',landmarkid,userid);
     exec(conn,query);
 end
-
+disp('update ended');
 end

@@ -1,0 +1,124 @@
+/usr/local/MATLAB/R2011a/bin/matlab: 1: /usr/local/MATLAB/R2011a/bin/util/oscheck.sh: /lib64/libc.so.6: not found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+>> /usr/local/MATLAB/R2011a/bin/matlab: 1: /usr/local/MATLAB/R2011a/bin/util/oscheck.sh: /lib64/libc.so.6: not found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+
+seeds =
+
+     []
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/443//SensoSaur_10.23.35.30_8.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/443//SensoSaur_10.23.35.30_0.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/443//SensoSaur_10.23.35.30_1.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/443//SensoSaur_10.23.35.30_10.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/443//SensoSaur_10.23.35.30_11.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/443//SensoSaur_10.23.35.30_2.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/443//SensoSaur_10.23.35.30_7.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/443//SensoSaur_10.23.35.30_8.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/443//SensoSaur_10.23.35.30_9.txt
+
+
+ans =
+
+   2.8985e+14
+
+
+ans =
+
+        1512           3
+
+
+ans =
+
+     []
+
+{??? Java exception occurred:
+java.sql.BatchUpdateException: Data truncation: Data too long for column 'file'
+at row 1
+	at
+        com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:2056)
+        	at
+        com.mysql.jdbc.PreparedStatement.executeBatch(PreparedStatement.java:1467)
+        Caused by: com.mysql.jdbc.MysqlDataTruncation: Data truncation: Data
+        too long for column 'file' at row 1
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4188)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4122)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2570)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2731)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2818)
+	at
+        com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2157)
+        	at
+        com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2460)
+        	at
+        com.mysql.jdbc.PreparedStatement.executeBatchSerially(PreparedStatement.java:2008)
+        	... 1 more
+
+Error in ==> database.fastinsert at 249
+StatementObject.executeBatch;
+
+Error in ==> getStableClusters at 206
+        fastinsert(conn,'landmark',cols,vals);
+
+Error in ==> stabilize at 34
+[stable stableFeat newLocation] =
+getStableClusters(featcluster,location,timeSlots,stable,stableFeat,conn,dataid,dir_path);
+%calculate stable clusters
+
+Error in ==> parsedata at 39
+stabilize(file,conn,dataid);
+} 
+>> 

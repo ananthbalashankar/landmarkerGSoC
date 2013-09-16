@@ -203,7 +203,7 @@ end
 h=dialog ( 'visible', 'off', 'windowstyle', 'normal' );
 ax=axes('parent', h, 'nextplot', 'add' );
 plot(ax,xarr,yarr,'-');
-saveas ( ax, strcat(foldername,'\','path'), 'png' )
+%saveas ( ax, strcat(foldername,'/','path'), 'png' )
 close(h)
 end
 

@@ -117,6 +117,11 @@ class DB_Functions {
 	return $result; 
    }
 
+  public function execQuery($query){
+	$result = mysql_query($query);
+	return $result;
+	}
+
 
 }
 

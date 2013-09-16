@@ -1,0 +1,39 @@
+/usr/local/MATLAB/R2011a/bin/matlab: 1: /usr/local/MATLAB/R2011a/bin/util/oscheck.sh: /lib64/libc.so.6: not found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+{Warning: Name is nonexistent or not a directory:
+/home/ananthbalashankar/landmarkerGSoC/Matlab.} 
+> In path at 110
+  In addpath at 87
+  In startup at 1
+  In matlabrc at 222
+{Warning: Executing startup failed in matlabrc.
+This indicates a potentially serious problem in your MATLAB setup,
+which should be resolved as soon as possible.  Error detected was:
+MATLAB:cd:NonExistentDirectory
+Cannot CD to /home/ananthbalashankar/landmarkerGSoC/Matlab/ (Name is
+nonexistent or not a directory).} 
+> In matlabrc at 225
+{??? Undefined function or method 'updateLocation' for input arguments of type
+'char'.
+} 
+>> /usr/local/MATLAB/R2011a/bin/matlab: 1: /usr/local/MATLAB/R2011a/bin/util/oscheck.sh: /lib64/libc.so.6: not found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+>> 

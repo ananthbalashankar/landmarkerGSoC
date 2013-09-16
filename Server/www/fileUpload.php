@@ -28,7 +28,7 @@ fclose($fid);
 
 echo "Reached Here";
 $n = floor($num);
-$target_path = "/home/ananthbalashankar/landmarkerGSoC/Server/www/data/".$n;
+$target_path = "/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/".$n;
 $target_path=$target_path;
 echo $target_path;
 $save = umask(0);
@@ -57,11 +57,11 @@ $i =  $i + 1;
 $uid = $_POST['uid'];
 //system("export PATH=\$PATH:/usr/local/MATLAB/R2012b/bin/");
 if(strcmp($_POST['new'],"yes")==0){
-system("sudo /usr/local/MATLAB/R2012b/bin/matlab -nodisplay -nosplash -r \"parsedata('".$target_path."',".$uid.")\" >> ".$target_path."log.out 2>&1");
+exec(" /usr/local/MATLAB/R2011a/bin/matlab -nodisplay -nosplash -r \"parsedata('".$target_path."',".$uid.")\" >> ".$target_path."log.out 2>&1 &");
 //echo("matlab -nodisplay -nosplash -r \"parsedata('".$target_path."')\" > ".$target_path."log.out");
 }
 else
 {
-system("sudo /usr/local/MATLAB/R2012b/bin/matlab -nodisplay -nosplash -r \"updateLocation('".$target_path."',".$uid.")\" >> ".$target_path."log.out 2>&1");
+exec(" /usr/local/MATLAB/R2011a/bin/matlab -nodisplay -nosplash -r \"updateLocation('".$target_path."',".$uid.")\" >> ".$target_path."log.out 2>&1 &");
 }  
 ?>

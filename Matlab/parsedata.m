@@ -2,7 +2,7 @@ function  parsedata(dir_path,userid)
 warning('off','all');
 
 foldername = dir_path;
-conn = database('landmark','root','ananth','com.mysql.jdbc.Driver','jdbc:mysql://localhost/landmark');
+conn = database('landmark','root','swadhin','com.mysql.jdbc.Driver','jdbc:mysql://localhost/landmark');
 cols = {'folder','start_time','userid'};
 vals = {foldername,datestr(now),userid};
 %database

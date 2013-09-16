@@ -1,0 +1,111 @@
+/usr/local/MATLAB/R2011a/bin/matlab: 1: /usr/local/MATLAB/R2011a/bin/util/oscheck.sh: /lib64/libc.so.6: not found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+>> /usr/local/MATLAB/R2011a/bin/matlab: 1: /usr/local/MATLAB/R2011a/bin/util/oscheck.sh: /lib64/libc.so.6: not found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+
+seeds =
+
+     []
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/448//SensoSaur_11.00.53.55_8.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/448//SensoSaur_11.00.53.55_0.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/448//SensoSaur_11.00.53.55_1.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/448//SensoSaur_11.00.53.55_10.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/448//SensoSaur_11.00.53.55_11.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/448//SensoSaur_11.00.53.55_2.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/448//SensoSaur_11.00.53.55_7.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/448//SensoSaur_11.00.53.55_8.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/448//SensoSaur_11.00.53.55_9.txt
+
+
+ans =
+
+   2.9455e+14
+
+
+ans =
+
+   575     3
+
+
+ans =
+
+     []
+
+OLM of 2  4 updated at (-0.437482,0.003806)
+
+OLM of 4  8 updated at (-0.471027,0.004185)
+
+OLM of 5  7 added at (-0.607184,0.006618)
+
+OLM of 5  8 updated at (-0.539519,0.005137)
+
+4  8
+6  7
+{??? Undefined function or method 'fetch' for input arguments of type 'struct'.
+
+Error in ==> getStableClusters at 120
+                a = fetch(curs);
+
+Error in ==> stabilize at 34
+[stable stableFeat newLocation] =
+getStableClusters(featcluster,location,timeSlots,stable,stableFeat,conn,dataid,dir_path);
+%calculate stable clusters
+
+Error in ==> parsedata at 39
+stabilize(file,conn,dataid);
+} 
+>> 

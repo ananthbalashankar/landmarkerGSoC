@@ -1,0 +1,156 @@
+/usr/local/MATLAB/R2011a/bin/matlab: 1: /usr/local/MATLAB/R2011a/bin/util/oscheck.sh: /lib64/libc.so.6: not found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+
+seeds =
+
+     []
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/452//SensoSaur_15.23.25.37_8.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/452//SensoSaur_15.23.25.37_0.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/452//SensoSaur_15.23.25.37_1.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/452//SensoSaur_15.23.25.37_10.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/452//SensoSaur_15.23.25.37_11.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/452//SensoSaur_15.23.25.37_2.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/452//SensoSaur_15.23.25.37_7.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/452//SensoSaur_15.23.25.37_8.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/452//SensoSaur_15.23.25.37_9.txt
+
+
+ans =
+
+   4.3744e+13
+
+
+ans =
+
+        2448           3
+
+
+ans =
+
+     []
+
+OLM of 4  5 updated at (-0.826563,0.015617)
+
+5  7
+OLM of 4  5  7 updated at (-1.007934,0.010920)
+
+OLM of 3  7 updated at (-1.382481,-0.007084)
+
+OLM of 5  8 updated at (-1.223708,-0.003454)
+
+OLM of 4  5  8 updated at (-0.539201,0.016731)
+
+7  8
+OLM of 4  8 updated at (-0.530266,0.016575)
+
+5  8
+OLM of 1  2  5 updated at (-0.437253,0.014574)
+
+OLM of 2  5  8 updated at (-0.437253,0.014574)
+
+OLM of 5  7  8 updated at (-1.210020,-0.004803)
+
+4  5
+4  5  8
+4  8
+4  5  8
+2  5  8
+4  5  7
+1  2  5
+5  8
+OLM of 4  5  8 updated at (-1.772681,-0.017513)
+
+OLM of 1  2  5 updated at (-1.775158,-0.017509)
+
+OLM of 2  5  8 updated at (-1.703011,-0.017618)
+
+2  5  8
+OLM of 5  8 updated at (-1.847239,-0.017400)
+
+4  5
+4  5  8
+4  8
+OLM of 4  5  7 updated at (-2.814508,-0.005118)
+
+5  8
+7  8
+5  7  8
+3  7
+5  7
+
+commentFile =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/452//Comments.txt
+
+
+comments = 
+
+    [4.3759e+13]    [2]    'corridor'
+
+
+query1 =
+
+Select id,min((landmark.centroidx+4.753586)^2+(landmark.centroidy + -0.124845)^2) as dist from landmark group by id order by dist asc;
+
+
+ans =
+
+     0
+
+{??? Index exceeds matrix dimensions.
+
+Error in ==> cursor.subsref at 65
+  eval(tmpcomm)
+
+Error in ==> annotateComments at 55
+	v = curs1.Data(1,2);
+
+Error in ==> parsedata at 43
+annotateComments(file,conn,dataid);
+} 
+>> 

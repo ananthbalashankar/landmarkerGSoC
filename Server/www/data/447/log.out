@@ -1,0 +1,262 @@
+/usr/local/MATLAB/R2011a/bin/matlab: 1: /usr/local/MATLAB/R2011a/bin/util/oscheck.sh: /lib64/libc.so.6: not found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+>> /usr/local/MATLAB/R2011a/bin/matlab: 1: /usr/local/MATLAB/R2011a/bin/util/oscheck.sh: /lib64/libc.so.6: not found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+
+seeds =
+
+     []
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/447//SensoSaur_11.00.46.36_8.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/447//SensoSaur_11.00.46.36_0.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/447//SensoSaur_11.00.46.36_1.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/447//SensoSaur_11.00.46.36_10.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/447//SensoSaur_11.00.46.36_11.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/447//SensoSaur_11.00.46.36_2.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/447//SensoSaur_11.00.46.36_7.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/447//SensoSaur_11.00.46.36_8.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/447//SensoSaur_11.00.46.36_9.txt
+
+
+ans =
+
+   2.9411e+14
+
+
+ans =
+
+        2642           3
+
+
+ans =
+
+     []
+
+OLM of 2  3 updated at (-0.511057,0.005091)
+
+OLM of 2  4 updated at (-0.454601,0.002929)
+
+OLM of 2  5 updated at (-0.502616,0.004768)
+
+OLM of 2  7 updated at (-0.505587,0.004882)
+
+OLM of 2  8 added at (-0.453341,0.002880)
+
+OLM of 3  4 added at (-0.449797,0.002745)
+
+OLM of 3  5 updated at (-0.447644,0.002662)
+
+OLM of 3  7 updated at (-0.447859,0.002670)
+
+OLM of 3  8 added at (-0.449797,0.002745)
+
+OLM of 4  5 added at (-0.447644,0.002662)
+
+OLM of 4  7 added at (-0.448755,0.002705)
+
+OLM of 4  8 added at (-0.454601,0.002929)
+
+1  2  3
+1  2  4
+OLM of 1  2  5 updated at (-0.447644,0.002662)
+
+OLM of 1  2  8 added at (-0.452119,0.002834)
+
+OLM of 1  3  4 updated at (-0.450938,0.002788)
+
+OLM of 1  3  8 added at (-0.449797,0.002745)
+
+OLM of 2  3  4 updated at (-0.450938,0.002788)
+
+OLM of 2  3  5 updated at (-0.504696,0.004847)
+
+OLM of 2  3  8 updated at (-0.449797,0.002745)
+
+OLM of 2  4  5 updated at (-0.448699,0.002703)
+
+OLM of 2  4  8 updated at (-0.454601,0.002929)
+
+OLM of 2  5  8 added at (-0.448699,0.002703)
+
+OLM of 3  4  5 updated at (-0.448699,0.002703)
+
+OLM of 3  4  8 updated at (-0.450938,0.002788)
+
+OLM of 3  5  8 updated at (-0.448699,0.002703)
+
+OLM of 3  7  8 updated at (-0.449797,0.002745)
+
+OLM of 4  5  7 added at (-0.448755,0.002705)
+
+OLM of 4  5  8 updated at (-0.448699,0.002703)
+
+1  2  4
+1  2  4
+3  7
+3  5
+4  5
+1  2  5
+4  7
+2  4  5
+2  5  8
+3  4  5
+3  5  8
+4  5  7
+4  5  8
+3  4
+3  8
+1  2  3
+1  3  8
+2  3  8
+3  7  8
+1  3  4
+2  3  4
+3  4  8
+1  2  8
+2  8
+2  4
+4  8
+2  4  8
+1  2  4
+OLM of 3  8 updated at (-1.187686,0.058264)
+
+OLM of 1  3  4 updated at (-1.193163,0.058935)
+
+OLM of 1  3  6 added at (-1.230646,0.063729)
+
+OLM of 3  4  8 updated at (-1.193163,0.058935)
+
+OLM of 1  2  8 updated at (-1.215517,0.061733)
+
+OLM of 2  3 updated at (-1.221175,0.062443)
+
+OLM of 2  8 updated at (-1.221175,0.062443)
+
+1  3  6
+OLM of 4  8 updated at (-1.232579,0.063873)
+
+2  4  8
+OLM of 3  4 updated at (-1.266744,0.068185)
+
+OLM of 3  5 updated at (-1.295860,0.071910)
+
+OLM of 3  5  8 updated at (-1.292104,0.071424)
+
+OLM of 3  4  5 updated at (-1.303362,0.072854)
+
+OLM of 2  7 updated at (-1.369484,0.081207)
+
+OLM of 1  3  6 updated at (-2.281958,0.197216)
+
+2  3
+2  8
+3  8
+4  8
+1  2  8
+1  3  4
+OLM of 2  4  8 updated at (-2.339026,0.204394)
+
+3  4  8
+3  4
+3  5
+3  4  5
+3  5  8
+2  7
+1  3  6
+OLM of 3  4 updated at (-2.710860,0.241281)
+
+OLM of 4  8 updated at (-2.729779,0.243313)
+
+OLM of 1  4  8 added at (-2.730694,0.243384)
+
+OLM of 3  4  5 updated at (-3.069476,0.271473)
+
+3  4
+4  8
+1  4  8
+
+commentFile =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/447//Comments.txt
+
+
+comments = 
+
+    [2.9411e+14]    [3.5000]    'wing'    
+    [2.9412e+14]    [3.5000]    'bathroom'
+
+
+query1 =
+
+Select id,min((landmark.centroidx+0.513807)^2+(landmark.centroidy + -0.005196)^2) as dist from landmark group by id order by dist asc;
+
+
+ans =
+
+     0
+
+{??? Index exceeds matrix dimensions.
+
+Error in ==> cursor.subsref at 65
+  eval(tmpcomm)
+
+Error in ==> annotateComments at 55
+	v = curs1.Data(1,2);
+
+Error in ==> parsedata at 43
+annotateComments(file,conn,dataid);
+} 
+>> 

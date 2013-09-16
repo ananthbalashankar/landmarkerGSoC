@@ -63,8 +63,8 @@ for p =1:length(clusters)
     for k=1:size(stableFeat,2)
         if(strcmp(feature,stableFeat{k}))
             stableClusters = stable{k};
-            min_val = 4; min_cluster = 0;
-            minFeat = 1;
+            min_val = 2; min_cluster = 0;
+            minFeat = 0.5;
             for m =1:size(stableClusters,2)
                 if(mean(mean(pdist2(location,stableClusters{m}{4},'euclidean'))) < min_val && mean(mean(pdist2(featData,stableClusters{m}{7},'euclidean')))< minFeat) %TODO:nearness in feature space
                     found = 1;
@@ -81,6 +81,7 @@ for p =1:length(clusters)
                 lastLandmark =  {stableClusters{min_cluster}{2}, firstTime};
                 
                 result = combineClusters(featCluster,stableClusters{min_cluster},correctionVector);     %Stabilization
+                
                 disp(stableFeat{k});
                 stable{k}{min_cluster} = result;
                 
@@ -112,12 +113,13 @@ for p =1:length(clusters)
                     end
                     fprintf(fid,'\n');
                 end
-                
+                fclose(fid);
                 
                 %database
                 query = sprintf('update landmark set centroidx=%f ,centroidy=%f,numofpoints=%d,confidence=%d where id=%d',xposition,yposition,numOfPoints,confidence,id);
                 curs = exec(conn,query);
-                a = fetch(curs);
+                query
+                %a = fetch(curs);
                 
                 
                 diff = (stable{k}{min_cluster}{2} - centroid);
