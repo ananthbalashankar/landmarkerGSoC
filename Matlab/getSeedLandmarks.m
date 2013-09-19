@@ -1,20 +1,25 @@
-function activity = getSeedLandmarks(acc, mag)
+function activity = getSeedLandmarks(acc, mag, ori)
 % 1: Elevator
 % 2: Stationary
 % 3: Escalator
 % 4: Stairs
 % 5: Walking
+% 6: Corner
 macc = [];
 mmag = [];
+
 for i=1:size(acc,1)
 	macc(i) = sqrt(acc(i,1)^2 + acc(i,2)^2 + acc(i,3)^2);
 end
 for i=1:size(mag,1)
     mmag(i) = sqrt(mag(i,1)^2 + mag(i,2)^2 + mag(i,3)^2);
 end
-if(detectElevator(acc(:,3)))
-    activity = 1;
-else
+if(detectCorner(ori,1))
+    activity = 6;
+else 
+    if(detectElevator(acc(:,3)))
+        activity = 1;
+    else
     if(detectVariance(macc,1.5))
         R = corrcoef([acc(:,2)';acc(:,3)']);
         threshold = 0.5;
@@ -29,6 +34,7 @@ else
         else
             activity = 2;
         end
+    end
     end
 end
 end

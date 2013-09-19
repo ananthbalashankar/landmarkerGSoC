@@ -12,16 +12,16 @@ curs = exec(conn,query);
 a = fetch(curs);
 
 %insert seed landmarks
-seeds = importdata(strcat(dir_path,'/Seeds.txt'),' ',0);
-try
-stable = load('stable/seeds');
-stable = stable.seeds;
-catch
-    mkdir('stable');
-    stable = [];
-end
-seeds = [stable;seeds]
-save('stable/seeds','seeds');
+% seeds = importdata(strcat(dir_path,'/Seeds.txt'),' ',0);
+% try
+% stable = load('stable/seeds');
+% stable = stable.seeds;
+% catch
+%     mkdir('stable');
+%     stable = [];
+% end
+% seeds = [stable;seeds]
+% save('stable/seeds','seeds');
 
 %dataid = 1; 
 dataid = a.Data(end);
@@ -36,7 +36,7 @@ save(strcat('stable/goodness'),'goodness');
 
 %stabilize the landmarks
 
-stabilize(file,conn,dataid);			    
+stabilize(file,conn,dataid,1);			    
 
 % location = load(strcat(file,'/location'));
 %annotate comments with landmarks

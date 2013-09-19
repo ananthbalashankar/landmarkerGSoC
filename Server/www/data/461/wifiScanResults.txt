@@ -1,0 +1,4078 @@
+
+******Configured Networks******
+
+SysTime = 121905718134732 ID: 0 SSID: "router_linksys" BSSID: null PRIO: 0
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121905718134732 ID: 1 SSID: "Red Rock Coffee" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121905718134732 ID: 2 SSID: "GoogleWiFi" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121905718134732 ID: 3 SSID: "AndroidHotspot3690" BSSID: null PRIO: 5
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121905718134732 ID: 4 SSID: "SFO-WiFi" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121905718134732 ID: 5 SSID: "AWG-WiFi" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121905718134732 ID: 6 SSID: "WA1003A" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121905718134732 * ID: 7 SSID: "Guest_User" BSSID: null PRIO: 11
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: STATIC
+{InterfaceName: wlan0 LinkAddresses: [10.132.138.93/16,]  Routes: [10.132.0.0/16 -> 0.0.0.0,0.0.0.0/0 -> 10.132.0.2,] DnsAddresses: [144.16.192.55,144.16.192.1,] Domains: HttpProxy: [144.16.192.247] 8080 xl=local }
+
+
+
+******Scanned Results******
+SysTime = 121906306109705 SSID: Residence, BSSID: e8:ba:70:61:2d:62, capabilities: [ESS], level: -61, frequency: 2412, timestamp: 209577902829  
+SysTime = 121906306109705 SSID: UG_5thyr, BSSID: e8:ba:70:61:2d:68, capabilities: [ESS], level: -62, frequency: 2412, timestamp: 209577902798  
+SysTime = 121906306109705 SSID: Departments, BSSID: e8:ba:70:61:2d:61, capabilities: [ESS], level: -62, frequency: 2412, timestamp: 209577902829  
+SysTime = 121906306109705 SSID: Guest_User, BSSID: e8:ba:70:61:2f:e0, capabilities: [ESS], level: -82, frequency: 2462, timestamp: 209577903043  
+SysTime = 121906306109705 SSID: UG_1styr, BSSID: e8:ba:70:61:2d:64, capabilities: [ESS], level: -61, frequency: 2412, timestamp: 209577902798  
+SysTime = 121906306109705 SSID: PG_1styr, BSSID: e8:ba:70:61:2d:69, capabilities: [ESS], level: -61, frequency: 2412, timestamp: 209577902798  
+SysTime = 121906306109705 SSID: PG_2ndyr, BSSID: e8:ba:70:61:2d:6a, capabilities: [ESS], level: -61, frequency: 2412, timestamp: 209577902768  
+SysTime = 121906306109705 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2d:66, capabilities: [ESS], level: -61, frequency: 2412, timestamp: 209577902798  
+SysTime = 121906306109705 SSID: Departments, BSSID: e8:ba:70:61:2f:e1, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209577903043  
+SysTime = 121906306109705 SSID: Faculty, BSSID: e8:ba:70:61:2f:ec, capabilities: [ESS], level: -75, frequency: 2462, timestamp: 209543438954  
+SysTime = 121906306109705 SSID: Faculty, BSSID: e8:ba:70:61:2d:6c, capabilities: [ESS], level: -62, frequency: 2412, timestamp: 209577902768  
+SysTime = 121906306109705 SSID: Mainbldg, BSSID: e8:ba:70:61:2f:e3, capabilities: [ESS], level: -84, frequency: 2462, timestamp: 209577903012  
+SysTime = 121906306109705 SSID: Guest_User, BSSID: e8:ba:70:61:2d:60, capabilities: [ESS], level: -76, frequency: 2412, timestamp: 209577902829  
+SysTime = 121906306109705 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2f:e5, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209577903012  
+SysTime = 121906306109705 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2f:e6, capabilities: [ESS], level: -82, frequency: 2462, timestamp: 209577903012  
+SysTime = 121906306109705 SSID: Guest_User, BSSID: e8:ba:70:61:3c:10, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209577902921  
+SysTime = 121906306109705 SSID: UG_1styr, BSSID: 88:f0:77:bf:9a:94, capabilities: [ESS], level: -78, frequency: 2437, timestamp: 209577902982  
+SysTime = 121906306109705 SSID: Admin, BSSID: e8:ba:70:61:2d:6d, capabilities: [WEP][ESS], level: -60, frequency: 2412, timestamp: 209577902768  
+SysTime = 121906306109705 SSID: UG_4thyr, BSSID: e8:ba:70:61:2d:67, capabilities: [ESS], level: -60, frequency: 2412, timestamp: 209577902737  
+SysTime = 121906306109705 SSID: UG_5thyr, BSSID: e8:ba:70:61:3c:18, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209543439198  
+SysTime = 121906306109705 SSID: UG_5thyr, BSSID: e8:ba:70:61:2f:e8, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209577902982  
+SysTime = 121906306109705 SSID: UG_1styr, BSSID: e8:ba:70:61:3c:14, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209577902921  
+SysTime = 121906306109705 SSID: PG_1styr, BSSID: e8:ba:70:61:3c:19, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209577902890  
+SysTime = 121906306109705 SSID: Admin, BSSID: e8:ba:70:61:2f:ed, capabilities: [WEP][ESS], level: -82, frequency: 2462, timestamp: 209577903043  
+SysTime = 121906306109705 SSID: PG_1styr, BSSID: 88:f0:77:bf:9a:99, capabilities: [ESS], level: -78, frequency: 2437, timestamp: 209577902951  
+SysTime = 121906306109705 SSID: RS, BSSID: 88:f0:77:bf:9a:9b, capabilities: [ESS], level: -74, frequency: 2437, timestamp: 209577902860  
+SysTime = 121906306109705 SSID: Residence, BSSID: 88:f0:77:bf:9a:92, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 209543438679  
+SysTime = 121906306109705 SSID: UG_3rdyr, BSSID: 88:f0:77:bf:9a:96, capabilities: [ESS], level: -75, frequency: 2437, timestamp: 209577902860  
+SysTime = 121906306109705 SSID: UG_4thyr, BSSID: e8:ba:70:61:2f:e7, capabilities: [ESS], level: -82, frequency: 2462, timestamp: 209577902982  
+SysTime = 121906306109705 SSID: Departments, BSSID: 88:f0:77:bf:9a:91, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209543438801  
+SysTime = 121906306109705 SSID: PG_2ndyr, BSSID: 88:f0:77:bf:9a:9a, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209577902951  
+SysTime = 121906306109705 SSID: Residence, BSSID: e8:ba:70:61:3c:12, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209577902921  
+SysTime = 121906306109705 SSID: Guest_User, BSSID: 88:f0:77:bf:9a:90, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209577902829  
+SysTime = 121906306109705 SSID: Mainbldg, BSSID: 88:f0:77:bf:9a:93, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209543438801  
+SysTime = 121906306109705 SSID: RS, BSSID: e8:ba:70:61:2d:6b, capabilities: [ESS], level: -61, frequency: 2412, timestamp: 209577902768  
+SysTime = 121906306109705 SSID: UG_5thyr, BSSID: 88:f0:77:bf:9a:98, capabilities: [ESS], level: -76, frequency: 2437, timestamp: 209577902951  
+SysTime = 121906306109705 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2d:65, capabilities: [ESS], level: -62, frequency: 2412, timestamp: 209577902798  
+SysTime = 121906306109705 SSID: Mainbldg, BSSID: e8:ba:70:61:2d:63, capabilities: [ESS], level: -60, frequency: 2412, timestamp: 209577902737  
+SysTime = 121906306109705 SSID: Admin, BSSID: e8:ba:70:61:3c:1d, capabilities: [WEP][ESS], level: -78, frequency: 2437, timestamp: 209543439442  
+
+
+39 networks found. Admin is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 121906354453976 ID: 0 SSID: "router_linksys" BSSID: null PRIO: 0
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121906354453976 ID: 1 SSID: "Red Rock Coffee" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121906354453976 ID: 2 SSID: "GoogleWiFi" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121906354453976 ID: 3 SSID: "AndroidHotspot3690" BSSID: null PRIO: 5
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121906354453976 ID: 4 SSID: "SFO-WiFi" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121906354453976 ID: 5 SSID: "AWG-WiFi" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121906354453976 ID: 6 SSID: "WA1003A" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121906354453976 * ID: 7 SSID: "Guest_User" BSSID: null PRIO: 11
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: STATIC
+{InterfaceName: wlan0 LinkAddresses: [10.132.138.93/16,]  Routes: [10.132.0.0/16 -> 0.0.0.0,0.0.0.0/0 -> 10.132.0.2,] DnsAddresses: [144.16.192.55,144.16.192.1,] Domains: HttpProxy: [144.16.192.247] 8080 xl=local }
+ 
+
+
+******Scanned Results******
+SysTime = 121906924574531 SSID: Residence, BSSID: e8:ba:70:61:2d:62, capabilities: [ESS], level: -62, frequency: 2412, timestamp: 209578534204  
+SysTime = 121906924574531 SSID: UG_5thyr, BSSID: e8:ba:70:61:2d:68, capabilities: [ESS], level: -62, frequency: 2412, timestamp: 209578534173  
+SysTime = 121906924574531 SSID: Departments, BSSID: e8:ba:70:61:2d:61, capabilities: [ESS], level: -62, frequency: 2412, timestamp: 209578534204  
+SysTime = 121906924574531 SSID: Guest_User, BSSID: e8:ba:70:61:2f:e0, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209578534479  
+SysTime = 121906924574531 SSID: UG_1styr, BSSID: e8:ba:70:61:2d:64, capabilities: [ESS], level: -60, frequency: 2412, timestamp: 209578534143  
+SysTime = 121906924574531 SSID: PG_1styr, BSSID: e8:ba:70:61:2d:69, capabilities: [ESS], level: -61, frequency: 2412, timestamp: 209578534173  
+SysTime = 121906924574531 SSID: PG_2ndyr, BSSID: e8:ba:70:61:2d:6a, capabilities: [ESS], level: -62, frequency: 2412, timestamp: 209578534173  
+SysTime = 121906924574531 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2d:66, capabilities: [ESS], level: -62, frequency: 2412, timestamp: 209578534204  
+SysTime = 121906924574531 SSID: Departments, BSSID: e8:ba:70:61:2f:e1, capabilities: [ESS], level: -82, frequency: 2462, timestamp: 209578534479  
+SysTime = 121906924574531 SSID: Faculty, BSSID: e8:ba:70:61:2f:ec, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209578534387  
+SysTime = 121906924574531 SSID: Faculty, BSSID: e8:ba:70:61:2d:6c, capabilities: [ESS], level: -63, frequency: 2412, timestamp: 209578534143  
+SysTime = 121906924574531 SSID: Mainbldg, BSSID: e8:ba:70:61:2f:e3, capabilities: [ESS], level: -84, frequency: 2462, timestamp: 209578534387  
+SysTime = 121906924574531 SSID: Guest_User, BSSID: e8:ba:70:61:2d:60, capabilities: [ESS], level: -76, frequency: 2412, timestamp: 209578534204  
+SysTime = 121906924574531 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2f:e5, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209578534387  
+SysTime = 121906924574531 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2f:e6, capabilities: [ESS], level: -81, frequency: 2462, timestamp: 209578534448  
+SysTime = 121906924574531 SSID: Guest_User, BSSID: e8:ba:70:61:3c:10, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209578534265  
+SysTime = 121906924574531 SSID: UG_1styr, BSSID: 88:f0:77:bf:9a:94, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209578534296  
+SysTime = 121906924574531 SSID: Admin, BSSID: e8:ba:70:61:2d:6d, capabilities: [WEP][ESS], level: -60, frequency: 2412, timestamp: 209578534143  
+SysTime = 121906924574531 SSID: UG_4thyr, BSSID: e8:ba:70:61:2d:67, capabilities: [ESS], level: -60, frequency: 2412, timestamp: 209578534112  
+SysTime = 121906924574531 SSID: UG_5thyr, BSSID: e8:ba:70:61:2f:e8, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209578534448  
+SysTime = 121906924574531 SSID: UG_1styr, BSSID: e8:ba:70:61:3c:14, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209578534234  
+SysTime = 121906924574531 SSID: PG_1styr, BSSID: e8:ba:70:61:3c:19, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209578534326  
+SysTime = 121906924574531 SSID: Admin, BSSID: e8:ba:70:61:2f:ed, capabilities: [WEP][ESS], level: -82, frequency: 2462, timestamp: 209578534509  
+SysTime = 121906924574531 SSID: PG_1styr, BSSID: 88:f0:77:bf:9a:99, capabilities: [ESS], level: -70, frequency: 2437, timestamp: 209578534234  
+SysTime = 121906924574531 SSID: RS, BSSID: 88:f0:77:bf:9a:9b, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209578534265  
+SysTime = 121906924574531 SSID: Residence, BSSID: 88:f0:77:bf:9a:92, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209578534296  
+SysTime = 121906924574531 SSID: UG_3rdyr, BSSID: 88:f0:77:bf:9a:96, capabilities: [ESS], level: -75, frequency: 2437, timestamp: 209578534234  
+SysTime = 121906924574531 SSID: UG_4thyr, BSSID: e8:ba:70:61:2f:e7, capabilities: [ESS], level: -81, frequency: 2462, timestamp: 209578534448  
+SysTime = 121906924574531 SSID: Departments, BSSID: 88:f0:77:bf:9a:91, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209578534296  
+SysTime = 121906924574531 SSID: PG_2ndyr, BSSID: 88:f0:77:bf:9a:9a, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209578534265  
+SysTime = 121906924574531 SSID: Residence, BSSID: e8:ba:70:61:3c:12, capabilities: [ESS], level: -78, frequency: 2437, timestamp: 209578534357  
+SysTime = 121906924574531 SSID: Guest_User, BSSID: 88:f0:77:bf:9a:90, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209578534326  
+SysTime = 121906924574531 SSID: RS, BSSID: e8:ba:70:61:2d:6b, capabilities: [ESS], level: -62, frequency: 2412, timestamp: 209578534173  
+SysTime = 121906924574531 SSID: UG_5thyr, BSSID: 88:f0:77:bf:9a:98, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209578534296  
+SysTime = 121906924574531 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2d:65, capabilities: [ESS], level: -61, frequency: 2412, timestamp: 209578534204  
+SysTime = 121906924574531 SSID: Mainbldg, BSSID: e8:ba:70:61:2d:63, capabilities: [ESS], level: -60, frequency: 2412, timestamp: 209578534143  
+SysTime = 121906924574531 SSID: PG_2ndyr, BSSID: e8:ba:70:61:3c:1a, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209578534326  
+SysTime = 121906924574531 SSID: Departments, BSSID: e8:ba:70:61:3c:11, capabilities: [ESS], level: -79, frequency: 2437, timestamp: 209578534387  
+SysTime = 121906924574531 SSID: Faculty, BSSID: e8:ba:70:61:3c:1c, capabilities: [ESS], level: -78, frequency: 2437, timestamp: 209578534326  
+
+
+39 networks found. UG_1styr is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 121906944779017 ID: 0 SSID: "router_linksys" BSSID: null PRIO: 0
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121906944779017 ID: 1 SSID: "Red Rock Coffee" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121906944779017 ID: 2 SSID: "GoogleWiFi" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121906944779017 ID: 3 SSID: "AndroidHotspot3690" BSSID: null PRIO: 5
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121906944779017 ID: 4 SSID: "SFO-WiFi" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121906944779017 ID: 5 SSID: "AWG-WiFi" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121906944779017 ID: 6 SSID: "WA1003A" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121906944779017 * ID: 7 SSID: "Guest_User" BSSID: null PRIO: 11
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: STATIC
+{InterfaceName: wlan0 LinkAddresses: [10.132.138.93/16,]  Routes: [10.132.0.0/16 -> 0.0.0.0,0.0.0.0/0 -> 10.132.0.2,] DnsAddresses: [144.16.192.55,144.16.192.1,] Domains: HttpProxy: [144.16.192.247] 8080 xl=local }
+ 
+
+
+******Scanned Results******
+SysTime = 121907499364703 SSID: Residence, BSSID: e8:ba:70:61:2d:62, capabilities: [ESS], level: -65, frequency: 2412, timestamp: 209579123980  
+SysTime = 121907499364703 SSID: UG_5thyr, BSSID: e8:ba:70:61:2d:68, capabilities: [ESS], level: -62, frequency: 2412, timestamp: 209579123919  
+SysTime = 121907499364703 SSID: Departments, BSSID: e8:ba:70:61:2d:61, capabilities: [ESS], level: -63, frequency: 2412, timestamp: 209579123980  
+SysTime = 121907499364703 SSID: Guest_User, BSSID: e8:ba:70:61:2f:e0, capabilities: [ESS], level: -82, frequency: 2462, timestamp: 209579124315  
+SysTime = 121907499364703 SSID: UG_1styr, BSSID: e8:ba:70:61:2d:64, capabilities: [ESS], level: -62, frequency: 2412, timestamp: 209579123949  
+SysTime = 121907499364703 SSID: PG_1styr, BSSID: e8:ba:70:61:2d:69, capabilities: [ESS], level: -64, frequency: 2412, timestamp: 209579123919  
+SysTime = 121907499364703 SSID: PG_2ndyr, BSSID: e8:ba:70:61:2d:6a, capabilities: [ESS], level: -65, frequency: 2412, timestamp: 209579123919  
+SysTime = 121907499364703 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2d:66, capabilities: [ESS], level: -65, frequency: 2412, timestamp: 209579123949  
+SysTime = 121907499364703 SSID: Departments, BSSID: e8:ba:70:61:2f:e1, capabilities: [ESS], level: -82, frequency: 2462, timestamp: 209579124315  
+SysTime = 121907499364703 SSID: Faculty, BSSID: e8:ba:70:61:2f:ec, capabilities: [ESS], level: -82, frequency: 2462, timestamp: 209579124254  
+SysTime = 121907499364703 SSID: Faculty, BSSID: e8:ba:70:61:2d:6c, capabilities: [ESS], level: -63, frequency: 2412, timestamp: 209579123888  
+SysTime = 121907499364703 SSID: Mainbldg, BSSID: e8:ba:70:61:2f:e3, capabilities: [ESS], level: -84, frequency: 2462, timestamp: 209579124193  
+SysTime = 121907499364703 SSID: Guest_User, BSSID: e8:ba:70:61:2d:60, capabilities: [ESS], level: -71, frequency: 2412, timestamp: 209579123980  
+SysTime = 121907499364703 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2f:e5, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209579124163  
+SysTime = 121907499364703 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2f:e6, capabilities: [ESS], level: -81, frequency: 2462, timestamp: 209579124285  
+SysTime = 121907499364703 SSID: Guest_User, BSSID: e8:ba:70:61:3c:10, capabilities: [ESS], level: -80, frequency: 2437, timestamp: 209579124132  
+SysTime = 121907499364703 SSID: UG_1styr, BSSID: 88:f0:77:bf:9a:94, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209579124041  
+SysTime = 121907499364703 SSID: Admin, BSSID: e8:ba:70:61:2d:6d, capabilities: [WEP][ESS], level: -64, frequency: 2412, timestamp: 209579124010  
+SysTime = 121907499364703 SSID: UG_4thyr, BSSID: e8:ba:70:61:2d:67, capabilities: [ESS], level: -63, frequency: 2412, timestamp: 209579123949  
+SysTime = 121907499364703 SSID: UG_5thyr, BSSID: e8:ba:70:61:2f:e8, capabilities: [ESS], level: -80, frequency: 2462, timestamp: 209579124163  
+SysTime = 121907499364703 SSID: UG_1styr, BSSID: e8:ba:70:61:3c:14, capabilities: [ESS], level: -81, frequency: 2437, timestamp: 209579124254  
+SysTime = 121907499364703 SSID: PG_1styr, BSSID: e8:ba:70:61:3c:19, capabilities: [ESS], level: -79, frequency: 2437, timestamp: 209579124132  
+SysTime = 121907499364703 SSID: Admin, BSSID: e8:ba:70:61:2f:ed, capabilities: [WEP][ESS], level: -82, frequency: 2462, timestamp: 209579124315  
+SysTime = 121907499364703 SSID: PG_1styr, BSSID: 88:f0:77:bf:9a:99, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209579124010  
+SysTime = 121907499364703 SSID: RS, BSSID: 88:f0:77:bf:9a:9b, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209579124071  
+SysTime = 121907499364703 SSID: Residence, BSSID: 88:f0:77:bf:9a:92, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209579124041  
+SysTime = 121907499364703 SSID: UG_3rdyr, BSSID: 88:f0:77:bf:9a:96, capabilities: [ESS], level: -75, frequency: 2437, timestamp: 209579124041  
+SysTime = 121907499364703 SSID: UG_4thyr, BSSID: e8:ba:70:61:2f:e7, capabilities: [ESS], level: -81, frequency: 2462, timestamp: 209579124193  
+SysTime = 121907499364703 SSID: Departments, BSSID: 88:f0:77:bf:9a:91, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209579124071  
+SysTime = 121907499364703 SSID: PG_2ndyr, BSSID: 88:f0:77:bf:9a:9a, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209579124010  
+SysTime = 121907499364703 SSID: Residence, BSSID: e8:ba:70:61:3c:12, capabilities: [ESS], level: -78, frequency: 2437, timestamp: 209579124132  
+SysTime = 121907499364703 SSID: Guest_User, BSSID: 88:f0:77:bf:9a:90, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209579124041  
+SysTime = 121907499364703 SSID: RS, BSSID: e8:ba:70:61:2d:6b, capabilities: [ESS], level: -62, frequency: 2412, timestamp: 209579123919  
+SysTime = 121907499364703 SSID: UG_5thyr, BSSID: 88:f0:77:bf:9a:98, capabilities: [ESS], level: -70, frequency: 2437, timestamp: 209579124010  
+SysTime = 121907499364703 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2d:65, capabilities: [ESS], level: -64, frequency: 2412, timestamp: 209579123949  
+SysTime = 121907499364703 SSID: Mainbldg, BSSID: e8:ba:70:61:2d:63, capabilities: [ESS], level: -64, frequency: 2412, timestamp: 209579123980  
+SysTime = 121907499364703 SSID: PG_2ndyr, BSSID: e8:ba:70:61:3c:1a, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209579124102  
+SysTime = 121907499364703 SSID: Departments, BSSID: e8:ba:70:61:3c:11, capabilities: [ESS], level: -79, frequency: 2437, timestamp: 209579124132  
+SysTime = 121907499364703 SSID: Faculty, BSSID: e8:ba:70:61:3c:1c, capabilities: [ESS], level: -78, frequency: 2437, timestamp: 209579124071  
+
+
+39 networks found. UG_5thyr is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 121907525917427 ID: 0 SSID: "router_linksys" BSSID: null PRIO: 0
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121907525917427 ID: 1 SSID: "Red Rock Coffee" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121907525917427 ID: 2 SSID: "GoogleWiFi" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121907525917427 ID: 3 SSID: "AndroidHotspot3690" BSSID: null PRIO: 5
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121907525917427 ID: 4 SSID: "SFO-WiFi" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121907525917427 ID: 5 SSID: "AWG-WiFi" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121907525917427 ID: 6 SSID: "WA1003A" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121907525917427 * ID: 7 SSID: "Guest_User" BSSID: null PRIO: 11
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: STATIC
+{InterfaceName: wlan0 LinkAddresses: [10.132.138.93/16,]  Routes: [10.132.0.0/16 -> 0.0.0.0,0.0.0.0/0 -> 10.132.0.2,] DnsAddresses: [144.16.192.55,144.16.192.1,] Domains: HttpProxy: [144.16.192.247] 8080 xl=local }
+ 
+
+
+******Scanned Results******
+SysTime = 121908102691423 SSID: Residence, BSSID: e8:ba:70:61:2d:62, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209579724315  
+SysTime = 121908102691423 SSID: UG_5thyr, BSSID: e8:ba:70:61:2d:68, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209579724285  
+SysTime = 121908102691423 SSID: Departments, BSSID: e8:ba:70:61:2d:61, capabilities: [ESS], level: -66, frequency: 2412, timestamp: 209579724315  
+SysTime = 121908102691423 SSID: Guest_User, BSSID: e8:ba:70:61:2f:e0, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209579724560  
+SysTime = 121908102691423 SSID: UG_1styr, BSSID: e8:ba:70:61:2d:64, capabilities: [ESS], level: -71, frequency: 2412, timestamp: 209579724346  
+SysTime = 121908102691423 SSID: PG_1styr, BSSID: e8:ba:70:61:2d:69, capabilities: [ESS], level: -70, frequency: 2412, timestamp: 209579724285  
+SysTime = 121908102691423 SSID: PG_2ndyr, BSSID: e8:ba:70:61:2d:6a, capabilities: [ESS], level: -70, frequency: 2412, timestamp: 209579724285  
+SysTime = 121908102691423 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2d:66, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209579724315  
+SysTime = 121908102691423 SSID: Departments, BSSID: e8:ba:70:61:2f:e1, capabilities: [ESS], level: -82, frequency: 2462, timestamp: 209579724498  
+SysTime = 121908102691423 SSID: Faculty, BSSID: e8:ba:70:61:2f:ec, capabilities: [ESS], level: -82, frequency: 2462, timestamp: 209579724468  
+SysTime = 121908102691423 SSID: Faculty, BSSID: e8:ba:70:61:2d:6c, capabilities: [ESS], level: -63, frequency: 2412, timestamp: 209579724132  
+SysTime = 121908102691423 SSID: Mainbldg, BSSID: e8:ba:70:61:2f:e3, capabilities: [ESS], level: -84, frequency: 2462, timestamp: 209579124193  
+SysTime = 121908102691423 SSID: Guest_User, BSSID: e8:ba:70:61:2d:60, capabilities: [ESS], level: -71, frequency: 2412, timestamp: 209579724315  
+SysTime = 121908102691423 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2f:e5, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209579124163  
+SysTime = 121908102691423 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2f:e6, capabilities: [ESS], level: -81, frequency: 2462, timestamp: 209579724498  
+SysTime = 121908102691423 SSID: Guest_User, BSSID: e8:ba:70:61:3c:10, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209579724437  
+SysTime = 121908102691423 SSID: UG_1styr, BSSID: 88:f0:77:bf:9a:94, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 209579724224  
+SysTime = 121908102691423 SSID: Admin, BSSID: e8:ba:70:61:2d:6d, capabilities: [WEP][ESS], level: -64, frequency: 2412, timestamp: 209579724163  
+SysTime = 121908102691423 SSID: UG_4thyr, BSSID: e8:ba:70:61:2d:67, capabilities: [ESS], level: -63, frequency: 2412, timestamp: 209579724132  
+SysTime = 121908102691423 SSID: UG_5thyr, BSSID: e8:ba:70:61:2f:e8, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209579724529  
+SysTime = 121908102691423 SSID: UG_1styr, BSSID: e8:ba:70:61:3c:14, capabilities: [ESS], level: -81, frequency: 2437, timestamp: 209579724468  
+SysTime = 121908102691423 SSID: PG_1styr, BSSID: e8:ba:70:61:3c:19, capabilities: [ESS], level: -79, frequency: 2437, timestamp: 209579724376  
+SysTime = 121908102691423 SSID: Admin, BSSID: e8:ba:70:61:2f:ed, capabilities: [WEP][ESS], level: -82, frequency: 2462, timestamp: 209579724560  
+SysTime = 121908102691423 SSID: PG_1styr, BSSID: 88:f0:77:bf:9a:99, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209579724193  
+SysTime = 121908102691423 SSID: RS, BSSID: 88:f0:77:bf:9a:9b, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 209579724193  
+SysTime = 121908102691423 SSID: Residence, BSSID: 88:f0:77:bf:9a:92, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209579724254  
+SysTime = 121908102691423 SSID: UG_3rdyr, BSSID: 88:f0:77:bf:9a:96, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 209579724224  
+SysTime = 121908102691423 SSID: UG_4thyr, BSSID: e8:ba:70:61:2f:e7, capabilities: [ESS], level: -81, frequency: 2462, timestamp: 209579724437  
+SysTime = 121908102691423 SSID: Departments, BSSID: 88:f0:77:bf:9a:91, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 209579724254  
+SysTime = 121908102691423 SSID: PG_2ndyr, BSSID: 88:f0:77:bf:9a:9a, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 209579724193  
+SysTime = 121908102691423 SSID: Residence, BSSID: e8:ba:70:61:3c:12, capabilities: [ESS], level: -78, frequency: 2437, timestamp: 209579724376  
+SysTime = 121908102691423 SSID: Guest_User, BSSID: 88:f0:77:bf:9a:90, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 209579724254  
+SysTime = 121908102691423 SSID: RS, BSSID: e8:ba:70:61:2d:6b, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209579724285  
+SysTime = 121908102691423 SSID: UG_5thyr, BSSID: 88:f0:77:bf:9a:98, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 209579724193  
+SysTime = 121908102691423 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2d:65, capabilities: [ESS], level: -64, frequency: 2412, timestamp: 209579724163  
+SysTime = 121908102691423 SSID: Mainbldg, BSSID: e8:ba:70:61:2d:63, capabilities: [ESS], level: -64, frequency: 2412, timestamp: 209579724163  
+SysTime = 121908102691423 SSID: PG_2ndyr, BSSID: e8:ba:70:61:3c:1a, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209579724346  
+SysTime = 121908102691423 SSID: Departments, BSSID: e8:ba:70:61:3c:11, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209579724437  
+SysTime = 121908102691423 SSID: Faculty, BSSID: e8:ba:70:61:3c:1c, capabilities: [ESS], level: -78, frequency: 2437, timestamp: 209579724376  
+
+
+39 networks found. Faculty is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 121908136050191 ID: 0 SSID: "router_linksys" BSSID: null PRIO: 0
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121908136050191 ID: 1 SSID: "Red Rock Coffee" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121908136050191 ID: 2 SSID: "GoogleWiFi" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121908136050191 ID: 3 SSID: "AndroidHotspot3690" BSSID: null PRIO: 5
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121908136050191 ID: 4 SSID: "SFO-WiFi" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121908136050191 ID: 5 SSID: "AWG-WiFi" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121908136050191 ID: 6 SSID: "WA1003A" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121908136050191 * ID: 7 SSID: "Guest_User" BSSID: null PRIO: 11
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: STATIC
+{InterfaceName: wlan0 LinkAddresses: [10.132.138.93/16,]  Routes: [10.132.0.0/16 -> 0.0.0.0,0.0.0.0/0 -> 10.132.0.2,] DnsAddresses: [144.16.192.55,144.16.192.1,] Domains: HttpProxy: [144.16.192.247] 8080 xl=local }
+ 
+
+
+******Scanned Results******
+SysTime = 121908687126034 SSID: Residence, BSSID: e8:ba:70:61:2d:62, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209580304019  
+SysTime = 121908687126034 SSID: UG_5thyr, BSSID: e8:ba:70:61:2d:68, capabilities: [ESS], level: -65, frequency: 2412, timestamp: 209580303867  
+SysTime = 121908687126034 SSID: Departments, BSSID: e8:ba:70:61:2d:61, capabilities: [ESS], level: -63, frequency: 2412, timestamp: 209580303897  
+SysTime = 121908687126034 SSID: Guest_User, BSSID: e8:ba:70:61:2f:e0, capabilities: [ESS], level: -81, frequency: 2462, timestamp: 209580304263  
+SysTime = 121908687126034 SSID: UG_1styr, BSSID: e8:ba:70:61:2d:64, capabilities: [ESS], level: -66, frequency: 2412, timestamp: 209580304019  
+SysTime = 121908687126034 SSID: PG_1styr, BSSID: e8:ba:70:61:2d:69, capabilities: [ESS], level: -66, frequency: 2412, timestamp: 209580303989  
+SysTime = 121908687126034 SSID: PG_2ndyr, BSSID: e8:ba:70:61:2d:6a, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209580303989  
+SysTime = 121908687126034 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2d:66, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209580303989  
+SysTime = 121908687126034 SSID: Departments, BSSID: e8:ba:70:61:2f:e1, capabilities: [ESS], level: -81, frequency: 2462, timestamp: 209580304233  
+SysTime = 121908687126034 SSID: Faculty, BSSID: e8:ba:70:61:2f:ec, capabilities: [ESS], level: -81, frequency: 2462, timestamp: 209580304202  
+SysTime = 121908687126034 SSID: Faculty, BSSID: e8:ba:70:61:2d:6c, capabilities: [ESS], level: -63, frequency: 2412, timestamp: 209580303867  
+SysTime = 121908687126034 SSID: Mainbldg, BSSID: e8:ba:70:61:2f:e3, capabilities: [ESS], level: -84, frequency: 2462, timestamp: 209579124193  
+SysTime = 121908687126034 SSID: Guest_User, BSSID: e8:ba:70:61:2d:60, capabilities: [ESS], level: -71, frequency: 2412, timestamp: 209580303897  
+SysTime = 121908687126034 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2f:e5, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209579124163  
+SysTime = 121908687126034 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2f:e6, capabilities: [ESS], level: -81, frequency: 2462, timestamp: 209580304233  
+SysTime = 121908687126034 SSID: Guest_User, BSSID: e8:ba:70:61:3c:10, capabilities: [ESS], level: -79, frequency: 2437, timestamp: 209580304141  
+SysTime = 121908687126034 SSID: UG_1styr, BSSID: 88:f0:77:bf:9a:94, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 209580303928  
+SysTime = 121908687126034 SSID: Admin, BSSID: e8:ba:70:61:2d:6d, capabilities: [WEP][ESS], level: -64, frequency: 2412, timestamp: 209580303897  
+SysTime = 121908687126034 SSID: UG_4thyr, BSSID: e8:ba:70:61:2d:67, capabilities: [ESS], level: -63, frequency: 2412, timestamp: 209580303867  
+SysTime = 121908687126034 SSID: UG_5thyr, BSSID: e8:ba:70:61:2f:e8, capabilities: [ESS], level: -81, frequency: 2462, timestamp: 209580304233  
+SysTime = 121908687126034 SSID: UG_1styr, BSSID: e8:ba:70:61:3c:14, capabilities: [ESS], level: -81, frequency: 2437, timestamp: 209580304172  
+SysTime = 121908687126034 SSID: PG_1styr, BSSID: e8:ba:70:61:3c:19, capabilities: [ESS], level: -80, frequency: 2437, timestamp: 209580304080  
+SysTime = 121908687126034 SSID: Admin, BSSID: e8:ba:70:61:2f:ed, capabilities: [WEP][ESS], level: -82, frequency: 2462, timestamp: 209579724560  
+SysTime = 121908687126034 SSID: PG_1styr, BSSID: 88:f0:77:bf:9a:99, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209580303897  
+SysTime = 121908687126034 SSID: RS, BSSID: 88:f0:77:bf:9a:9b, capabilities: [ESS], level: -70, frequency: 2437, timestamp: 209580303958  
+SysTime = 121908687126034 SSID: Residence, BSSID: 88:f0:77:bf:9a:92, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209580304050  
+SysTime = 121908687126034 SSID: UG_3rdyr, BSSID: 88:f0:77:bf:9a:96, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209580303958  
+SysTime = 121908687126034 SSID: UG_4thyr, BSSID: e8:ba:70:61:2f:e7, capabilities: [ESS], level: -80, frequency: 2462, timestamp: 209580304141  
+SysTime = 121908687126034 SSID: Departments, BSSID: 88:f0:77:bf:9a:91, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209580304050  
+SysTime = 121908687126034 SSID: PG_2ndyr, BSSID: 88:f0:77:bf:9a:9a, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209580304050  
+SysTime = 121908687126034 SSID: Residence, BSSID: e8:ba:70:61:3c:12, capabilities: [ESS], level: -78, frequency: 2437, timestamp: 209579724376  
+SysTime = 121908687126034 SSID: Guest_User, BSSID: 88:f0:77:bf:9a:90, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 209580303958  
+SysTime = 121908687126034 SSID: RS, BSSID: e8:ba:70:61:2d:6b, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209580303989  
+SysTime = 121908687126034 SSID: UG_5thyr, BSSID: 88:f0:77:bf:9a:98, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 209580303928  
+SysTime = 121908687126034 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2d:65, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209580304019  
+SysTime = 121908687126034 SSID: Mainbldg, BSSID: e8:ba:70:61:2d:63, capabilities: [ESS], level: -66, frequency: 2412, timestamp: 209580304019  
+SysTime = 121908687126034 SSID: PG_2ndyr, BSSID: e8:ba:70:61:3c:1a, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209579724346  
+SysTime = 121908687126034 SSID: Departments, BSSID: e8:ba:70:61:3c:11, capabilities: [ESS], level: -78, frequency: 2437, timestamp: 209580304111  
+SysTime = 121908687126034 SSID: Faculty, BSSID: e8:ba:70:61:3c:1c, capabilities: [ESS], level: -78, frequency: 2437, timestamp: 209580304050  
+
+
+39 networks found. Departments is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 121908704278483 ID: 0 SSID: "router_linksys" BSSID: null PRIO: 0
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121908704278483 ID: 1 SSID: "Red Rock Coffee" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121908704278483 ID: 2 SSID: "GoogleWiFi" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121908704278483 ID: 3 SSID: "AndroidHotspot3690" BSSID: null PRIO: 5
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121908704278483 ID: 4 SSID: "SFO-WiFi" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121908704278483 ID: 5 SSID: "AWG-WiFi" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121908704278483 ID: 6 SSID: "WA1003A" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121908704278483 * ID: 7 SSID: "Guest_User" BSSID: null PRIO: 11
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: STATIC
+{InterfaceName: wlan0 LinkAddresses: [10.132.138.93/16,]  Routes: [10.132.0.0/16 -> 0.0.0.0,0.0.0.0/0 -> 10.132.0.2,] DnsAddresses: [144.16.192.55,144.16.192.1,] Domains: HttpProxy: [144.16.192.247] 8080 xl=local }
+ 
+
+
+******Scanned Results******
+SysTime = 121909278855012 SSID: Residence, BSSID: e8:ba:70:61:2d:62, capabilities: [ESS], level: -70, frequency: 2412, timestamp: 209580884700  
+SysTime = 121909278855012 SSID: UG_5thyr, BSSID: e8:ba:70:61:2d:68, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209580884669  
+SysTime = 121909278855012 SSID: Departments, BSSID: e8:ba:70:61:2d:61, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209580884700  
+SysTime = 121909278855012 SSID: Guest_User, BSSID: e8:ba:70:61:2f:e0, capabilities: [ESS], level: -86, frequency: 2462, timestamp: 209580885005  
+SysTime = 121909278855012 SSID: UG_1styr, BSSID: e8:ba:70:61:2d:64, capabilities: [ESS], level: -70, frequency: 2412, timestamp: 209580884700  
+SysTime = 121909278855012 SSID: PG_1styr, BSSID: e8:ba:70:61:2d:69, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209580884669  
+SysTime = 121909278855012 SSID: PG_2ndyr, BSSID: e8:ba:70:61:2d:6a, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209580884669  
+SysTime = 121909278855012 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2d:66, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209580884700  
+SysTime = 121909278855012 SSID: Departments, BSSID: e8:ba:70:61:2f:e1, capabilities: [ESS], level: -79, frequency: 2462, timestamp: 209580884914  
+SysTime = 121909278855012 SSID: Faculty, BSSID: e8:ba:70:61:2f:ec, capabilities: [ESS], level: -78, frequency: 2462, timestamp: 209580884853  
+SysTime = 121909278855012 SSID: Faculty, BSSID: e8:ba:70:61:2d:6c, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209580884639  
+SysTime = 121909278855012 SSID: Mainbldg, BSSID: e8:ba:70:61:2f:e3, capabilities: [ESS], level: -79, frequency: 2462, timestamp: 209580884883  
+SysTime = 121909278855012 SSID: Guest_User, BSSID: e8:ba:70:61:2d:60, capabilities: [ESS], level: -71, frequency: 2412, timestamp: 209580884730  
+SysTime = 121909278855012 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2f:e5, capabilities: [ESS], level: -79, frequency: 2462, timestamp: 209580884883  
+SysTime = 121909278855012 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2f:e6, capabilities: [ESS], level: -79, frequency: 2462, timestamp: 209580884883  
+SysTime = 121909278855012 SSID: Guest_User, BSSID: e8:ba:70:61:3c:10, capabilities: [ESS], level: -79, frequency: 2437, timestamp: 209580884791  
+SysTime = 121909278855012 SSID: UG_1styr, BSSID: 88:f0:77:bf:9a:94, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 209580884578  
+SysTime = 121909278855012 SSID: Admin, BSSID: e8:ba:70:61:2d:6d, capabilities: [WEP][ESS], level: -68, frequency: 2412, timestamp: 209580884730  
+SysTime = 121909278855012 SSID: UG_4thyr, BSSID: e8:ba:70:61:2d:67, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209580884669  
+SysTime = 121909278855012 SSID: UG_5thyr, BSSID: e8:ba:70:61:2f:e8, capabilities: [ESS], level: -86, frequency: 2462, timestamp: 209580884975  
+SysTime = 121909278855012 SSID: UG_1styr, BSSID: e8:ba:70:61:3c:14, capabilities: [ESS], level: -76, frequency: 2437, timestamp: 209580884822  
+SysTime = 121909278855012 SSID: PG_1styr, BSSID: e8:ba:70:61:3c:19, capabilities: [ESS], level: -76, frequency: 2437, timestamp: 209580884822  
+SysTime = 121909278855012 SSID: Admin, BSSID: e8:ba:70:61:2f:ed, capabilities: [WEP][ESS], level: -79, frequency: 2462, timestamp: 209580884914  
+SysTime = 121909278855012 SSID: PG_1styr, BSSID: 88:f0:77:bf:9a:99, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209580884547  
+SysTime = 121909278855012 SSID: RS, BSSID: 88:f0:77:bf:9a:9b, capabilities: [ESS], level: -70, frequency: 2437, timestamp: 209580884578  
+SysTime = 121909278855012 SSID: Residence, BSSID: 88:f0:77:bf:9a:92, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209580884761  
+SysTime = 121909278855012 SSID: UG_3rdyr, BSSID: 88:f0:77:bf:9a:96, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209580884608  
+SysTime = 121909278855012 SSID: UG_4thyr, BSSID: e8:ba:70:61:2f:e7, capabilities: [ESS], level: -78, frequency: 2462, timestamp: 209580884853  
+SysTime = 121909278855012 SSID: Departments, BSSID: 88:f0:77:bf:9a:91, capabilities: [ESS], level: -67, frequency: 2437, timestamp: 209580884608  
+SysTime = 121909278855012 SSID: PG_2ndyr, BSSID: 88:f0:77:bf:9a:9a, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209580884730  
+SysTime = 121909278855012 SSID: Residence, BSSID: e8:ba:70:61:3c:12, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209580884853  
+SysTime = 121909278855012 SSID: Guest_User, BSSID: 88:f0:77:bf:9a:90, capabilities: [ESS], level: -66, frequency: 2437, timestamp: 209580884639  
+SysTime = 121909278855012 SSID: RS, BSSID: e8:ba:70:61:2d:6b, capabilities: [ESS], level: -70, frequency: 2412, timestamp: 209580884639  
+SysTime = 121909278855012 SSID: UG_5thyr, BSSID: 88:f0:77:bf:9a:98, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 209580884547  
+SysTime = 121909278855012 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2d:65, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209580884608  
+SysTime = 121909278855012 SSID: Mainbldg, BSSID: e8:ba:70:61:2d:63, capabilities: [ESS], level: -66, frequency: 2412, timestamp: 209580884608  
+SysTime = 121909278855012 SSID: PG_2ndyr, BSSID: e8:ba:70:61:3c:1a, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209579724346  
+SysTime = 121909278855012 SSID: Departments, BSSID: e8:ba:70:61:3c:11, capabilities: [ESS], level: -78, frequency: 2437, timestamp: 209580884791  
+SysTime = 121909278855012 SSID: Faculty, BSSID: e8:ba:70:61:3c:1c, capabilities: [ESS], level: -78, frequency: 2437, timestamp: 209580884761  
+
+
+39 networks found. Guest_User is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 121909336752160 ID: 0 SSID: "router_linksys" BSSID: null PRIO: 0
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121909336752160 ID: 1 SSID: "Red Rock Coffee" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121909336752160 ID: 2 SSID: "GoogleWiFi" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121909336752160 ID: 3 SSID: "AndroidHotspot3690" BSSID: null PRIO: 5
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121909336752160 ID: 4 SSID: "SFO-WiFi" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121909336752160 ID: 5 SSID: "AWG-WiFi" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121909336752160 ID: 6 SSID: "WA1003A" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121909336752160 * ID: 7 SSID: "Guest_User" BSSID: null PRIO: 11
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: STATIC
+{InterfaceName: wlan0 LinkAddresses: [10.132.138.93/16,]  Routes: [10.132.0.0/16 -> 0.0.0.0,0.0.0.0/0 -> 10.132.0.2,] DnsAddresses: [144.16.192.55,144.16.192.1,] Domains: HttpProxy: [144.16.192.247] 8080 xl=local }
+ 
+
+
+******Scanned Results******
+SysTime = 121909900280313 SSID: Residence, BSSID: e8:ba:70:61:2d:62, capabilities: [ESS], level: -70, frequency: 2412, timestamp: 209581514610  
+SysTime = 121909900280313 SSID: UG_5thyr, BSSID: e8:ba:70:61:2d:68, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209581514579  
+SysTime = 121909900280313 SSID: Departments, BSSID: e8:ba:70:61:2d:61, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209581514610  
+SysTime = 121909900280313 SSID: Guest_User, BSSID: e8:ba:70:61:2f:e0, capabilities: [ESS], level: -81, frequency: 2462, timestamp: 209581514854  
+SysTime = 121909900280313 SSID: UG_1styr, BSSID: e8:ba:70:61:2d:64, capabilities: [ESS], level: -70, frequency: 2412, timestamp: 209581514579  
+SysTime = 121909900280313 SSID: PG_1styr, BSSID: e8:ba:70:61:2d:69, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209581514549  
+SysTime = 121909900280313 SSID: PG_2ndyr, BSSID: e8:ba:70:61:2d:6a, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209581514549  
+SysTime = 121909900280313 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2d:66, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209581514579  
+SysTime = 121909900280313 SSID: Departments, BSSID: e8:ba:70:61:2f:e1, capabilities: [ESS], level: -79, frequency: 2462, timestamp: 209581514824  
+SysTime = 121909900280313 SSID: Faculty, BSSID: e8:ba:70:61:2f:ec, capabilities: [ESS], level: -78, frequency: 2462, timestamp: 209581514732  
+SysTime = 121909900280313 SSID: Faculty, BSSID: e8:ba:70:61:2d:6c, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209581514549  
+SysTime = 121909900280313 SSID: Mainbldg, BSSID: e8:ba:70:61:2f:e3, capabilities: [ESS], level: -79, frequency: 2462, timestamp: 209581514793  
+SysTime = 121909900280313 SSID: Guest_User, BSSID: e8:ba:70:61:2d:60, capabilities: [ESS], level: -71, frequency: 2412, timestamp: 209581514610  
+SysTime = 121909900280313 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2f:e5, capabilities: [ESS], level: -79, frequency: 2462, timestamp: 209581514793  
+SysTime = 121909900280313 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2f:e6, capabilities: [ESS], level: -79, frequency: 2462, timestamp: 209581514762  
+SysTime = 121909900280313 SSID: Guest_User, BSSID: e8:ba:70:61:3c:10, capabilities: [ESS], level: -75, frequency: 2437, timestamp: 209581514671  
+SysTime = 121909900280313 SSID: UG_1styr, BSSID: 88:f0:77:bf:9a:94, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209581514518  
+SysTime = 121909900280313 SSID: Admin, BSSID: e8:ba:70:61:2d:6d, capabilities: [WEP][ESS], level: -68, frequency: 2412, timestamp: 209581514610  
+SysTime = 121909900280313 SSID: UG_4thyr, BSSID: e8:ba:70:61:2d:67, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209581514579  
+SysTime = 121909900280313 SSID: UG_5thyr, BSSID: e8:ba:70:61:2f:e8, capabilities: [ESS], level: -80, frequency: 2462, timestamp: 209581514762  
+SysTime = 121909900280313 SSID: UG_1styr, BSSID: e8:ba:70:61:3c:14, capabilities: [ESS], level: -76, frequency: 2437, timestamp: 209581514671  
+SysTime = 121909900280313 SSID: PG_1styr, BSSID: e8:ba:70:61:3c:19, capabilities: [ESS], level: -76, frequency: 2437, timestamp: 209581514671  
+SysTime = 121909900280313 SSID: Admin, BSSID: e8:ba:70:61:2f:ed, capabilities: [WEP][ESS], level: -79, frequency: 2462, timestamp: 209581514824  
+SysTime = 121909900280313 SSID: PG_1styr, BSSID: 88:f0:77:bf:9a:99, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209581514488  
+SysTime = 121909900280313 SSID: RS, BSSID: 88:f0:77:bf:9a:9b, capabilities: [ESS], level: -70, frequency: 2437, timestamp: 209581514457  
+SysTime = 121909900280313 SSID: Residence, BSSID: 88:f0:77:bf:9a:92, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209581514640  
+SysTime = 121909900280313 SSID: UG_3rdyr, BSSID: 88:f0:77:bf:9a:96, capabilities: [ESS], level: -70, frequency: 2437, timestamp: 209581514488  
+SysTime = 121909900280313 SSID: UG_4thyr, BSSID: e8:ba:70:61:2f:e7, capabilities: [ESS], level: -78, frequency: 2462, timestamp: 209581514762  
+SysTime = 121909900280313 SSID: Departments, BSSID: 88:f0:77:bf:9a:91, capabilities: [ESS], level: -67, frequency: 2437, timestamp: 209581514457  
+SysTime = 121909900280313 SSID: PG_2ndyr, BSSID: 88:f0:77:bf:9a:9a, capabilities: [ESS], level: -70, frequency: 2437, timestamp: 209581514488  
+SysTime = 121909900280313 SSID: Residence, BSSID: e8:ba:70:61:3c:12, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209581514701  
+SysTime = 121909900280313 SSID: Guest_User, BSSID: 88:f0:77:bf:9a:90, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209581514518  
+SysTime = 121909900280313 SSID: RS, BSSID: e8:ba:70:61:2d:6b, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209581514549  
+SysTime = 121909900280313 SSID: UG_5thyr, BSSID: 88:f0:77:bf:9a:98, capabilities: [ESS], level: -70, frequency: 2437, timestamp: 209581514488  
+SysTime = 121909900280313 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2d:65, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209581514457  
+SysTime = 121909900280313 SSID: Mainbldg, BSSID: e8:ba:70:61:2d:63, capabilities: [ESS], level: -66, frequency: 2412, timestamp: 209581514457  
+SysTime = 121909900280313 SSID: PG_2ndyr, BSSID: e8:ba:70:61:3c:1a, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209579724346  
+SysTime = 121909900280313 SSID: Departments, BSSID: e8:ba:70:61:3c:11, capabilities: [ESS], level: -76, frequency: 2437, timestamp: 209581514732  
+SysTime = 121909900280313 SSID: Faculty, BSSID: e8:ba:70:61:3c:1c, capabilities: [ESS], level: -75, frequency: 2437, timestamp: 209581514640  
+
+
+39 networks found. Mainbldg is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 121909914716449 ID: 0 SSID: "router_linksys" BSSID: null PRIO: 0
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121909914716449 ID: 1 SSID: "Red Rock Coffee" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121909914716449 ID: 2 SSID: "GoogleWiFi" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121909914716449 ID: 3 SSID: "AndroidHotspot3690" BSSID: null PRIO: 5
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121909914716449 ID: 4 SSID: "SFO-WiFi" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121909914716449 ID: 5 SSID: "AWG-WiFi" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121909914716449 ID: 6 SSID: "WA1003A" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121909914716449 * ID: 7 SSID: "Guest_User" BSSID: null PRIO: 11
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: STATIC
+{InterfaceName: wlan0 LinkAddresses: [10.132.138.93/16,]  Routes: [10.132.0.0/16 -> 0.0.0.0,0.0.0.0/0 -> 10.132.0.2,] DnsAddresses: [144.16.192.55,144.16.192.1,] Domains: HttpProxy: [144.16.192.247] 8080 xl=local }
+ 
+
+
+******Scanned Results******
+SysTime = 121910476016617 SSID: Residence, BSSID: e8:ba:70:61:2d:62, capabilities: [ESS], level: -70, frequency: 2412, timestamp: 209582084181  
+SysTime = 121910476016617 SSID: UG_5thyr, BSSID: e8:ba:70:61:2d:68, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209582084181  
+SysTime = 121910476016617 SSID: Departments, BSSID: e8:ba:70:61:2d:61, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209582084059  
+SysTime = 121910476016617 SSID: Guest_User, BSSID: e8:ba:70:61:2f:e0, capabilities: [ESS], level: -81, frequency: 2462, timestamp: 209582084395  
+SysTime = 121910476016617 SSID: UG_1styr, BSSID: e8:ba:70:61:2d:64, capabilities: [ESS], level: -70, frequency: 2412, timestamp: 209582084181  
+SysTime = 121910476016617 SSID: PG_1styr, BSSID: e8:ba:70:61:2d:69, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209582084151  
+SysTime = 121910476016617 SSID: PG_2ndyr, BSSID: e8:ba:70:61:2d:6a, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209582084151  
+SysTime = 121910476016617 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2d:66, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209582084059  
+SysTime = 121910476016617 SSID: Departments, BSSID: e8:ba:70:61:2f:e1, capabilities: [ESS], level: -80, frequency: 2462, timestamp: 209582084364  
+SysTime = 121910476016617 SSID: Faculty, BSSID: e8:ba:70:61:2f:ec, capabilities: [ESS], level: -78, frequency: 2462, timestamp: 209582084273  
+SysTime = 121910476016617 SSID: Faculty, BSSID: e8:ba:70:61:2d:6c, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209582084028  
+SysTime = 121910476016617 SSID: Mainbldg, BSSID: e8:ba:70:61:2f:e3, capabilities: [ESS], level: -81, frequency: 2462, timestamp: 209582084456  
+SysTime = 121910476016617 SSID: Guest_User, BSSID: e8:ba:70:61:2d:60, capabilities: [ESS], level: -71, frequency: 2412, timestamp: 209582084181  
+SysTime = 121910476016617 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2f:e5, capabilities: [ESS], level: -79, frequency: 2462, timestamp: 209582084303  
+SysTime = 121910476016617 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2f:e6, capabilities: [ESS], level: -82, frequency: 2462, timestamp: 209582084425  
+SysTime = 121910476016617 SSID: Guest_User, BSSID: e8:ba:70:61:3c:10, capabilities: [ESS], level: -76, frequency: 2437, timestamp: 209582084364  
+SysTime = 121910476016617 SSID: UG_1styr, BSSID: 88:f0:77:bf:9a:94, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209582084120  
+SysTime = 121910476016617 SSID: Admin, BSSID: e8:ba:70:61:2d:6d, capabilities: [WEP][ESS], level: -68, frequency: 2412, timestamp: 209582084212  
+SysTime = 121910476016617 SSID: UG_4thyr, BSSID: e8:ba:70:61:2d:67, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209582084059  
+SysTime = 121910476016617 SSID: UG_5thyr, BSSID: e8:ba:70:61:2f:e8, capabilities: [ESS], level: -80, frequency: 2462, timestamp: 209582084273  
+SysTime = 121910476016617 SSID: UG_1styr, BSSID: e8:ba:70:61:3c:14, capabilities: [ESS], level: -76, frequency: 2437, timestamp: 209582084242  
+SysTime = 121910476016617 SSID: PG_1styr, BSSID: e8:ba:70:61:3c:19, capabilities: [ESS], level: -76, frequency: 2437, timestamp: 209582084242  
+SysTime = 121910476016617 SSID: Admin, BSSID: e8:ba:70:61:2f:ed, capabilities: [WEP][ESS], level: -79, frequency: 2462, timestamp: 209582084364  
+SysTime = 121910476016617 SSID: PG_1styr, BSSID: 88:f0:77:bf:9a:99, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209582084090  
+SysTime = 121910476016617 SSID: RS, BSSID: 88:f0:77:bf:9a:9b, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 209582084090  
+SysTime = 121910476016617 SSID: Residence, BSSID: 88:f0:77:bf:9a:92, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209582084120  
+SysTime = 121910476016617 SSID: UG_3rdyr, BSSID: 88:f0:77:bf:9a:96, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209582084120  
+SysTime = 121910476016617 SSID: UG_4thyr, BSSID: e8:ba:70:61:2f:e7, capabilities: [ESS], level: -78, frequency: 2462, timestamp: 209582084303  
+SysTime = 121910476016617 SSID: Departments, BSSID: 88:f0:77:bf:9a:91, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 209582084151  
+SysTime = 121910476016617 SSID: PG_2ndyr, BSSID: 88:f0:77:bf:9a:9a, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209582084090  
+SysTime = 121910476016617 SSID: Residence, BSSID: e8:ba:70:61:3c:12, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209582084334  
+SysTime = 121910476016617 SSID: Guest_User, BSSID: 88:f0:77:bf:9a:90, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209582084151  
+SysTime = 121910476016617 SSID: RS, BSSID: e8:ba:70:61:2d:6b, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209582084059  
+SysTime = 121910476016617 SSID: UG_5thyr, BSSID: 88:f0:77:bf:9a:98, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209582084090  
+SysTime = 121910476016617 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2d:65, capabilities: [ESS], level: -71, frequency: 2412, timestamp: 209582084242  
+SysTime = 121910476016617 SSID: Mainbldg, BSSID: e8:ba:70:61:2d:63, capabilities: [ESS], level: -66, frequency: 2412, timestamp: 209581514457  
+SysTime = 121910476016617 SSID: PG_2ndyr, BSSID: e8:ba:70:61:3c:1a, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209579724346  
+SysTime = 121910476016617 SSID: Departments, BSSID: e8:ba:70:61:3c:11, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209582084334  
+SysTime = 121910476016617 SSID: Faculty, BSSID: e8:ba:70:61:3c:1c, capabilities: [ESS], level: -75, frequency: 2437, timestamp: 209582084212  
+
+
+39 networks found. Mainbldg is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 121910497838685 ID: 0 SSID: "router_linksys" BSSID: null PRIO: 0
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121910497838685 ID: 1 SSID: "Red Rock Coffee" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121910497838685 ID: 2 SSID: "GoogleWiFi" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121910497838685 ID: 3 SSID: "AndroidHotspot3690" BSSID: null PRIO: 5
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121910497838685 ID: 4 SSID: "SFO-WiFi" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121910497838685 ID: 5 SSID: "AWG-WiFi" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121910497838685 ID: 6 SSID: "WA1003A" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121910497838685 * ID: 7 SSID: "Guest_User" BSSID: null PRIO: 11
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: STATIC
+{InterfaceName: wlan0 LinkAddresses: [10.132.138.93/16,]  Routes: [10.132.0.0/16 -> 0.0.0.0,0.0.0.0/0 -> 10.132.0.2,] DnsAddresses: [144.16.192.55,144.16.192.1,] Domains: HttpProxy: [144.16.192.247] 8080 xl=local }
+ 
+
+
+******Scanned Results******
+SysTime = 121911108398733 SSID: Residence, BSSID: e8:ba:70:61:2d:62, capabilities: [ESS], level: -70, frequency: 2412, timestamp: 209582674537  
+SysTime = 121911108398733 SSID: UG_5thyr, BSSID: e8:ba:70:61:2d:68, capabilities: [ESS], level: -72, frequency: 2412, timestamp: 209582674720  
+SysTime = 121911108398733 SSID: Departments, BSSID: e8:ba:70:61:2d:61, capabilities: [ESS], level: -72, frequency: 2412, timestamp: 209582674811  
+SysTime = 121911108398733 SSID: Guest_User, BSSID: e8:ba:70:61:2f:e0, capabilities: [ESS], level: -77, frequency: 2462, timestamp: 209582675330  
+SysTime = 121911108398733 SSID: UG_1styr, BSSID: e8:ba:70:61:2d:64, capabilities: [ESS], level: -73, frequency: 2412, timestamp: 209582674781  
+SysTime = 121911108398733 SSID: PG_1styr, BSSID: e8:ba:70:61:2d:69, capabilities: [ESS], level: -71, frequency: 2412, timestamp: 209582674689  
+SysTime = 121911108398733 SSID: PG_2ndyr, BSSID: e8:ba:70:61:2d:6a, capabilities: [ESS], level: -71, frequency: 2412, timestamp: 209582674689  
+SysTime = 121911108398733 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2d:66, capabilities: [ESS], level: -71, frequency: 2412, timestamp: 209582674750  
+SysTime = 121911108398733 SSID: Departments, BSSID: e8:ba:70:61:2f:e1, capabilities: [ESS], level: -80, frequency: 2462, timestamp: 209582675025  
+SysTime = 121911108398733 SSID: Faculty, BSSID: e8:ba:70:61:2f:ec, capabilities: [ESS], level: -78, frequency: 2462, timestamp: 209582674933  
+SysTime = 121911108398733 SSID: Faculty, BSSID: e8:ba:70:61:2d:6c, capabilities: [ESS], level: -72, frequency: 2412, timestamp: 209582674628  
+SysTime = 121911108398733 SSID: Mainbldg, BSSID: e8:ba:70:61:2f:e3, capabilities: [ESS], level: -77, frequency: 2462, timestamp: 209582675269  
+SysTime = 121911108398733 SSID: Guest_User, BSSID: e8:ba:70:61:2d:60, capabilities: [ESS], level: -64, frequency: 2412, timestamp: 209582674842  
+SysTime = 121911108398733 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2f:e5, capabilities: [ESS], level: -79, frequency: 2462, timestamp: 209582674933  
+SysTime = 121911108398733 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2f:e6, capabilities: [ESS], level: -78, frequency: 2462, timestamp: 209582675239  
+SysTime = 121911108398733 SSID: Guest_User, BSSID: e8:ba:70:61:3c:10, capabilities: [ESS], level: -79, frequency: 2437, timestamp: 209582675117  
+SysTime = 121911108398733 SSID: UG_1styr, BSSID: 88:f0:77:bf:9a:94, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209582674598  
+SysTime = 121911108398733 SSID: Admin, BSSID: e8:ba:70:61:2d:6d, capabilities: [WEP][ESS], level: -72, frequency: 2412, timestamp: 209582674872  
+SysTime = 121911108398733 SSID: UG_4thyr, BSSID: e8:ba:70:61:2d:67, capabilities: [ESS], level: -74, frequency: 2412, timestamp: 209582674720  
+SysTime = 121911108398733 SSID: UG_5thyr, BSSID: e8:ba:70:61:2f:e8, capabilities: [ESS], level: -76, frequency: 2462, timestamp: 209582675208  
+SysTime = 121911108398733 SSID: UG_1styr, BSSID: e8:ba:70:61:3c:14, capabilities: [ESS], level: -79, frequency: 2437, timestamp: 209582675117  
+SysTime = 121911108398733 SSID: PG_1styr, BSSID: e8:ba:70:61:3c:19, capabilities: [ESS], level: -76, frequency: 2437, timestamp: 209582084242  
+SysTime = 121911108398733 SSID: Admin, BSSID: e8:ba:70:61:2f:ed, capabilities: [WEP][ESS], level: -76, frequency: 2462, timestamp: 209582675391  
+SysTime = 121911108398733 SSID: PG_1styr, BSSID: 88:f0:77:bf:9a:99, capabilities: [ESS], level: -70, frequency: 2437, timestamp: 209582674476  
+SysTime = 121911108398733 SSID: RS, BSSID: 88:f0:77:bf:9a:9b, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209582674567  
+SysTime = 121911108398733 SSID: Residence, BSSID: 88:f0:77:bf:9a:92, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209582674628  
+SysTime = 121911108398733 SSID: UG_3rdyr, BSSID: 88:f0:77:bf:9a:96, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209582674598  
+SysTime = 121911108398733 SSID: UG_4thyr, BSSID: e8:ba:70:61:2f:e7, capabilities: [ESS], level: -76, frequency: 2462, timestamp: 209582675208  
+SysTime = 121911108398733 SSID: Departments, BSSID: 88:f0:77:bf:9a:91, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 209582674445  
+SysTime = 121911108398733 SSID: PG_2ndyr, BSSID: 88:f0:77:bf:9a:9a, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209582674415  
+SysTime = 121911108398733 SSID: Residence, BSSID: e8:ba:70:61:3c:12, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209582674994  
+SysTime = 121911108398733 SSID: Guest_User, BSSID: 88:f0:77:bf:9a:90, capabilities: [ESS], level: -70, frequency: 2437, timestamp: 209582674506  
+SysTime = 121911108398733 SSID: RS, BSSID: e8:ba:70:61:2d:6b, capabilities: [ESS], level: -71, frequency: 2412, timestamp: 209582674659  
+SysTime = 121911108398733 SSID: UG_5thyr, BSSID: 88:f0:77:bf:9a:98, capabilities: [ESS], level: -70, frequency: 2437, timestamp: 209582674476  
+SysTime = 121911108398733 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2d:65, capabilities: [ESS], level: -72, frequency: 2412, timestamp: 209582674781  
+SysTime = 121911108398733 SSID: Mainbldg, BSSID: e8:ba:70:61:2d:63, capabilities: [ESS], level: -73, frequency: 2412, timestamp: 209582674811  
+SysTime = 121911108398733 SSID: PG_2ndyr, BSSID: e8:ba:70:61:3c:1a, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209579724346  
+SysTime = 121911108398733 SSID: Departments, BSSID: e8:ba:70:61:3c:11, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209582674994  
+SysTime = 121911108398733 SSID: Faculty, BSSID: e8:ba:70:61:3c:1c, capabilities: [ESS], level: -80, frequency: 2437, timestamp: 209582675055  
+
+
+39 networks found. Guest_User is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 121911144931618 ID: 0 SSID: "router_linksys" BSSID: null PRIO: 0
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121911144931618 ID: 1 SSID: "Red Rock Coffee" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121911144931618 ID: 2 SSID: "GoogleWiFi" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121911144931618 ID: 3 SSID: "AndroidHotspot3690" BSSID: null PRIO: 5
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121911144931618 ID: 4 SSID: "SFO-WiFi" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121911144931618 ID: 5 SSID: "AWG-WiFi" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121911144931618 ID: 6 SSID: "WA1003A" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121911144931618 * ID: 7 SSID: "Guest_User" BSSID: null PRIO: 11
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: STATIC
+{InterfaceName: wlan0 LinkAddresses: [10.132.138.93/16,]  Routes: [10.132.0.0/16 -> 0.0.0.0,0.0.0.0/0 -> 10.132.0.2,] DnsAddresses: [144.16.192.55,144.16.192.1,] Domains: HttpProxy: [144.16.192.247] 8080 xl=local }
+ 
+
+
+******Scanned Results******
+SysTime = 121911797304577 SSID: Residence, BSSID: e8:ba:70:61:2d:62, capabilities: [ESS], level: -66, frequency: 2412, timestamp: 209583357857  
+SysTime = 121911797304577 SSID: UG_5thyr, BSSID: e8:ba:70:61:2d:68, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209583357735  
+SysTime = 121911797304577 SSID: Departments, BSSID: e8:ba:70:61:2d:61, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209583357857  
+SysTime = 121911797304577 SSID: Guest_User, BSSID: e8:ba:70:61:2f:e0, capabilities: [ESS], level: -78, frequency: 2462, timestamp: 209583358468  
+SysTime = 121911797304577 SSID: UG_1styr, BSSID: e8:ba:70:61:2d:64, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209583357796  
+SysTime = 121911797304577 SSID: PG_1styr, BSSID: e8:ba:70:61:2d:69, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209583357705  
+SysTime = 121911797304577 SSID: PG_2ndyr, BSSID: e8:ba:70:61:2d:6a, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209583357705  
+SysTime = 121911797304577 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2d:66, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209583357766  
+SysTime = 121911797304577 SSID: Departments, BSSID: e8:ba:70:61:2f:e1, capabilities: [ESS], level: -80, frequency: 2462, timestamp: 209583358437  
+SysTime = 121911797304577 SSID: Faculty, BSSID: e8:ba:70:61:2f:ec, capabilities: [ESS], level: -79, frequency: 2462, timestamp: 209583358254  
+SysTime = 121911797304577 SSID: Faculty, BSSID: e8:ba:70:61:2d:6c, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209583357674  
+SysTime = 121911797304577 SSID: Mainbldg, BSSID: e8:ba:70:61:2f:e3, capabilities: [ESS], level: -77, frequency: 2462, timestamp: 209583358101  
+SysTime = 121911797304577 SSID: Guest_User, BSSID: e8:ba:70:61:2d:60, capabilities: [ESS], level: -64, frequency: 2412, timestamp: 209583357888  
+SysTime = 121911797304577 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2f:e5, capabilities: [ESS], level: -79, frequency: 2462, timestamp: 209582674933  
+SysTime = 121911797304577 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2f:e6, capabilities: [ESS], level: -78, frequency: 2462, timestamp: 209583358376  
+SysTime = 121911797304577 SSID: Guest_User, BSSID: e8:ba:70:61:3c:10, capabilities: [ESS], level: -79, frequency: 2437, timestamp: 209583358101  
+SysTime = 121911797304577 SSID: UG_1styr, BSSID: 88:f0:77:bf:9a:94, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 209583357583  
+SysTime = 121911797304577 SSID: Admin, BSSID: e8:ba:70:61:2d:6d, capabilities: [WEP][ESS], level: -68, frequency: 2412, timestamp: 209583357918  
+SysTime = 121911797304577 SSID: UG_4thyr, BSSID: e8:ba:70:61:2d:67, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209583357766  
+SysTime = 121911797304577 SSID: UG_5thyr, BSSID: e8:ba:70:61:2f:e8, capabilities: [ESS], level: -78, frequency: 2462, timestamp: 209583358346  
+SysTime = 121911797304577 SSID: UG_1styr, BSSID: e8:ba:70:61:3c:14, capabilities: [ESS], level: -79, frequency: 2437, timestamp: 209583358223  
+SysTime = 121911797304577 SSID: PG_1styr, BSSID: e8:ba:70:61:3c:19, capabilities: [ESS], level: -80, frequency: 2437, timestamp: 209583358162  
+SysTime = 121911797304577 SSID: Admin, BSSID: e8:ba:70:61:2f:ed, capabilities: [WEP][ESS], level: -76, frequency: 2462, timestamp: 209583358529  
+SysTime = 121911797304577 SSID: PG_1styr, BSSID: 88:f0:77:bf:9a:99, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209583357491  
+SysTime = 121911797304577 SSID: RS, BSSID: 88:f0:77:bf:9a:9b, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 209583357460  
+SysTime = 121911797304577 SSID: Residence, BSSID: 88:f0:77:bf:9a:92, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209583357613  
+SysTime = 121911797304577 SSID: UG_3rdyr, BSSID: 88:f0:77:bf:9a:96, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209583357552  
+SysTime = 121911797304577 SSID: UG_4thyr, BSSID: e8:ba:70:61:2f:e7, capabilities: [ESS], level: -78, frequency: 2462, timestamp: 209583358376  
+SysTime = 121911797304577 SSID: Departments, BSSID: 88:f0:77:bf:9a:91, capabilities: [ESS], level: -67, frequency: 2437, timestamp: 209583357644  
+SysTime = 121911797304577 SSID: PG_2ndyr, BSSID: 88:f0:77:bf:9a:9a, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209583357460  
+SysTime = 121911797304577 SSID: Residence, BSSID: e8:ba:70:61:3c:12, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209583358010  
+SysTime = 121911797304577 SSID: Guest_User, BSSID: 88:f0:77:bf:9a:90, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 209583357644  
+SysTime = 121911797304577 SSID: RS, BSSID: e8:ba:70:61:2d:6b, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209583357674  
+SysTime = 121911797304577 SSID: UG_5thyr, BSSID: 88:f0:77:bf:9a:98, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 209583357491  
+SysTime = 121911797304577 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2d:65, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209583357796  
+SysTime = 121911797304577 SSID: Mainbldg, BSSID: e8:ba:70:61:2d:63, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209583357827  
+SysTime = 121911797304577 SSID: PG_2ndyr, BSSID: e8:ba:70:61:3c:1a, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209579724346  
+SysTime = 121911797304577 SSID: Departments, BSSID: e8:ba:70:61:3c:11, capabilities: [ESS], level: -80, frequency: 2437, timestamp: 209583358223  
+SysTime = 121911797304577 SSID: Faculty, BSSID: e8:ba:70:61:3c:1c, capabilities: [ESS], level: -80, frequency: 2437, timestamp: 209583358010  
+
+
+39 networks found. Guest_User is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 121911814762230 ID: 0 SSID: "router_linksys" BSSID: null PRIO: 0
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121911814762230 ID: 1 SSID: "Red Rock Coffee" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121911814762230 ID: 2 SSID: "GoogleWiFi" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121911814762230 ID: 3 SSID: "AndroidHotspot3690" BSSID: null PRIO: 5
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121911814762230 ID: 4 SSID: "SFO-WiFi" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121911814762230 ID: 5 SSID: "AWG-WiFi" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121911814762230 ID: 6 SSID: "WA1003A" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121911814762230 * ID: 7 SSID: "Guest_User" BSSID: null PRIO: 11
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: STATIC
+{InterfaceName: wlan0 LinkAddresses: [10.132.138.93/16,]  Routes: [10.132.0.0/16 -> 0.0.0.0,0.0.0.0/0 -> 10.132.0.2,] DnsAddresses: [144.16.192.55,144.16.192.1,] Domains: HttpProxy: [144.16.192.247] 8080 xl=local }
+ 
+
+
+******Scanned Results******
+SysTime = 121912442230565 SSID: Residence, BSSID: e8:ba:70:61:2d:62, capabilities: [ESS], level: -65, frequency: 2412, timestamp: 209584013984  
+SysTime = 121912442230565 SSID: UG_5thyr, BSSID: e8:ba:70:61:2d:68, capabilities: [ESS], level: -66, frequency: 2412, timestamp: 209584014259  
+SysTime = 121912442230565 SSID: Departments, BSSID: e8:ba:70:61:2d:61, capabilities: [ESS], level: -65, frequency: 2412, timestamp: 209584014015  
+SysTime = 121912442230565 SSID: Guest_User, BSSID: e8:ba:70:61:2f:e0, capabilities: [ESS], level: -77, frequency: 2462, timestamp: 209584014869  
+SysTime = 121912442230565 SSID: UG_1styr, BSSID: e8:ba:70:61:2d:64, capabilities: [ESS], level: -65, frequency: 2412, timestamp: 209584013954  
+SysTime = 121912442230565 SSID: PG_1styr, BSSID: e8:ba:70:61:2d:69, capabilities: [ESS], level: -64, frequency: 2412, timestamp: 209584013923  
+SysTime = 121912442230565 SSID: PG_2ndyr, BSSID: e8:ba:70:61:2d:6a, capabilities: [ESS], level: -65, frequency: 2412, timestamp: 209584013893  
+SysTime = 121912442230565 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2d:66, capabilities: [ESS], level: -65, frequency: 2412, timestamp: 209584013954  
+SysTime = 121912442230565 SSID: Departments, BSSID: e8:ba:70:61:2f:e1, capabilities: [ESS], level: -80, frequency: 2462, timestamp: 209584014686  
+SysTime = 121912442230565 SSID: Faculty, BSSID: e8:ba:70:61:2f:ec, capabilities: [ESS], level: -79, frequency: 2462, timestamp: 209584014564  
+SysTime = 121912442230565 SSID: Faculty, BSSID: e8:ba:70:61:2d:6c, capabilities: [ESS], level: -65, frequency: 2412, timestamp: 209584013862  
+SysTime = 121912442230565 SSID: Mainbldg, BSSID: e8:ba:70:61:2f:e3, capabilities: [ESS], level: -77, frequency: 2462, timestamp: 209584014839  
+SysTime = 121912442230565 SSID: Guest_User, BSSID: e8:ba:70:61:2d:60, capabilities: [ESS], level: -64, frequency: 2412, timestamp: 209584014259  
+SysTime = 121912442230565 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2f:e5, capabilities: [ESS], level: -76, frequency: 2462, timestamp: 209584014808  
+SysTime = 121912442230565 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2f:e6, capabilities: [ESS], level: -78, frequency: 2462, timestamp: 209584014625  
+SysTime = 121912442230565 SSID: Guest_User, BSSID: e8:ba:70:61:3c:10, capabilities: [ESS], level: -79, frequency: 2437, timestamp: 209584014442  
+SysTime = 121912442230565 SSID: UG_1styr, BSSID: 88:f0:77:bf:9a:94, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 209584014076  
+SysTime = 121912442230565 SSID: Admin, BSSID: e8:ba:70:61:2d:6d, capabilities: [WEP][ESS], level: -67, frequency: 2412, timestamp: 209584014289  
+SysTime = 121912442230565 SSID: UG_4thyr, BSSID: e8:ba:70:61:2d:67, capabilities: [ESS], level: -65, frequency: 2412, timestamp: 209584013923  
+SysTime = 121912442230565 SSID: UG_5thyr, BSSID: e8:ba:70:61:2f:e8, capabilities: [ESS], level: -77, frequency: 2462, timestamp: 209584014778  
+SysTime = 121912442230565 SSID: UG_1styr, BSSID: e8:ba:70:61:3c:14, capabilities: [ESS], level: -79, frequency: 2437, timestamp: 209584014503  
+SysTime = 121912442230565 SSID: PG_1styr, BSSID: e8:ba:70:61:3c:19, capabilities: [ESS], level: -80, frequency: 2437, timestamp: 209584014473  
+SysTime = 121912442230565 SSID: Admin, BSSID: e8:ba:70:61:2f:ed, capabilities: [WEP][ESS], level: -76, frequency: 2462, timestamp: 209584014900  
+SysTime = 121912442230565 SSID: PG_1styr, BSSID: 88:f0:77:bf:9a:99, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209584014289  
+SysTime = 121912442230565 SSID: RS, BSSID: 88:f0:77:bf:9a:9b, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209584014137  
+SysTime = 121912442230565 SSID: Residence, BSSID: 88:f0:77:bf:9a:92, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209584014320  
+SysTime = 121912442230565 SSID: UG_3rdyr, BSSID: 88:f0:77:bf:9a:96, capabilities: [ESS], level: -70, frequency: 2437, timestamp: 209584014167  
+SysTime = 121912442230565 SSID: UG_4thyr, BSSID: e8:ba:70:61:2f:e7, capabilities: [ESS], level: -78, frequency: 2462, timestamp: 209584014625  
+SysTime = 121912442230565 SSID: Departments, BSSID: 88:f0:77:bf:9a:91, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209584014198  
+SysTime = 121912442230565 SSID: PG_2ndyr, BSSID: 88:f0:77:bf:9a:9a, capabilities: [ESS], level: -70, frequency: 2437, timestamp: 209584014167  
+SysTime = 121912442230565 SSID: Residence, BSSID: e8:ba:70:61:3c:12, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209583358010  
+SysTime = 121912442230565 SSID: Guest_User, BSSID: 88:f0:77:bf:9a:90, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209584014350  
+SysTime = 121912442230565 SSID: RS, BSSID: e8:ba:70:61:2d:6b, capabilities: [ESS], level: -66, frequency: 2412, timestamp: 209584014228  
+SysTime = 121912442230565 SSID: UG_5thyr, BSSID: 88:f0:77:bf:9a:98, capabilities: [ESS], level: -68, frequency: 2437, timestamp: 209584014015  
+SysTime = 121912442230565 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2d:65, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209584014106  
+SysTime = 121912442230565 SSID: Mainbldg, BSSID: e8:ba:70:61:2d:63, capabilities: [ESS], level: -65, frequency: 2412, timestamp: 209584013984  
+SysTime = 121912442230565 SSID: Departments, BSSID: e8:ba:70:61:3c:11, capabilities: [ESS], level: -80, frequency: 2437, timestamp: 209584014534  
+SysTime = 121912442230565 SSID: Faculty, BSSID: e8:ba:70:61:3c:1c, capabilities: [ESS], level: -76, frequency: 2437, timestamp: 209584014686  
+SysTime = 121912442230565 SSID: UG_3rdyr, BSSID: e8:ba:70:61:3c:16, capabilities: [ESS], level: -79, frequency: 2437, timestamp: 209584014503  
+
+
+39 networks found. PG_1styr is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 121912476382861 ID: 0 SSID: "router_linksys" BSSID: null PRIO: 0
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121912476382861 ID: 1 SSID: "Red Rock Coffee" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121912476382861 ID: 2 SSID: "GoogleWiFi" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121912476382861 ID: 3 SSID: "AndroidHotspot3690" BSSID: null PRIO: 5
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121912476382861 ID: 4 SSID: "SFO-WiFi" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121912476382861 ID: 5 SSID: "AWG-WiFi" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121912476382861 ID: 6 SSID: "WA1003A" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121912476382861 * ID: 7 SSID: "Guest_User" BSSID: null PRIO: 11
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: STATIC
+{InterfaceName: wlan0 LinkAddresses: [10.132.138.93/16,]  Routes: [10.132.0.0/16 -> 0.0.0.0,0.0.0.0/0 -> 10.132.0.2,] DnsAddresses: [144.16.192.55,144.16.192.1,] Domains: HttpProxy: [144.16.192.247] 8080 xl=local }
+ 
+
+
+******Scanned Results******
+SysTime = 121913067043629 SSID: Residence, BSSID: e8:ba:70:61:2d:62, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209584678962  
+SysTime = 121913067043629 SSID: UG_5thyr, BSSID: e8:ba:70:61:2d:68, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209584678871  
+SysTime = 121913067043629 SSID: Departments, BSSID: e8:ba:70:61:2d:61, capabilities: [ESS], level: -70, frequency: 2412, timestamp: 209584678993  
+SysTime = 121913067043629 SSID: Guest_User, BSSID: e8:ba:70:61:2f:e0, capabilities: [ESS], level: -82, frequency: 2462, timestamp: 209584679603  
+SysTime = 121913067043629 SSID: UG_1styr, BSSID: e8:ba:70:61:2d:64, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209584678932  
+SysTime = 121913067043629 SSID: PG_1styr, BSSID: e8:ba:70:61:2d:69, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209584678871  
+SysTime = 121913067043629 SSID: PG_2ndyr, BSSID: e8:ba:70:61:2d:6a, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209584678840  
+SysTime = 121913067043629 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2d:66, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209584678901  
+SysTime = 121913067043629 SSID: Departments, BSSID: e8:ba:70:61:2f:e1, capabilities: [ESS], level: -80, frequency: 2462, timestamp: 209584679420  
+SysTime = 121913067043629 SSID: Faculty, BSSID: e8:ba:70:61:2f:ec, capabilities: [ESS], level: -79, frequency: 2462, timestamp: 209584679298  
+SysTime = 121913067043629 SSID: Faculty, BSSID: e8:ba:70:61:2d:6c, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209584678809  
+SysTime = 121913067043629 SSID: Mainbldg, BSSID: e8:ba:70:61:2f:e3, capabilities: [ESS], level: -77, frequency: 2462, timestamp: 209584679481  
+SysTime = 121913067043629 SSID: Guest_User, BSSID: e8:ba:70:61:2d:60, capabilities: [ESS], level: -64, frequency: 2412, timestamp: 209584678993  
+SysTime = 121913067043629 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2f:e5, capabilities: [ESS], level: -76, frequency: 2462, timestamp: 209584679481  
+SysTime = 121913067043629 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2f:e6, capabilities: [ESS], level: -78, frequency: 2462, timestamp: 209584679389  
+SysTime = 121913067043629 SSID: Guest_User, BSSID: e8:ba:70:61:3c:10, capabilities: [ESS], level: -75, frequency: 2437, timestamp: 209584679176  
+SysTime = 121913067043629 SSID: UG_1styr, BSSID: 88:f0:77:bf:9a:94, capabilities: [ESS], level: -76, frequency: 2437, timestamp: 209584679542  
+SysTime = 121913067043629 SSID: Admin, BSSID: e8:ba:70:61:2d:6d, capabilities: [WEP][ESS], level: -68, frequency: 2412, timestamp: 209584679023  
+SysTime = 121913067043629 SSID: UG_4thyr, BSSID: e8:ba:70:61:2d:67, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209584678901  
+SysTime = 121913067043629 SSID: UG_5thyr, BSSID: e8:ba:70:61:2f:e8, capabilities: [ESS], level: -77, frequency: 2462, timestamp: 209584679450  
+SysTime = 121913067043629 SSID: UG_1styr, BSSID: e8:ba:70:61:3c:14, capabilities: [ESS], level: -75, frequency: 2437, timestamp: 209584679176  
+SysTime = 121913067043629 SSID: PG_1styr, BSSID: e8:ba:70:61:3c:19, capabilities: [ESS], level: -80, frequency: 2437, timestamp: 209584679267  
+SysTime = 121913067043629 SSID: Admin, BSSID: e8:ba:70:61:2f:ed, capabilities: [WEP][ESS], level: -76, frequency: 2462, timestamp: 209584679542  
+SysTime = 121913067043629 SSID: PG_1styr, BSSID: 88:f0:77:bf:9a:99, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209584679023  
+SysTime = 121913067043629 SSID: RS, BSSID: 88:f0:77:bf:9a:9b, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209584678748  
+SysTime = 121913067043629 SSID: Residence, BSSID: 88:f0:77:bf:9a:92, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209584679054  
+SysTime = 121913067043629 SSID: UG_3rdyr, BSSID: 88:f0:77:bf:9a:96, capabilities: [ESS], level: -70, frequency: 2437, timestamp: 209584678779  
+SysTime = 121913067043629 SSID: UG_4thyr, BSSID: e8:ba:70:61:2f:e7, capabilities: [ESS], level: -78, frequency: 2462, timestamp: 209584679359  
+SysTime = 121913067043629 SSID: Departments, BSSID: 88:f0:77:bf:9a:91, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209584678809  
+SysTime = 121913067043629 SSID: PG_2ndyr, BSSID: 88:f0:77:bf:9a:9a, capabilities: [ESS], level: -70, frequency: 2437, timestamp: 209584678748  
+SysTime = 121913067043629 SSID: Residence, BSSID: e8:ba:70:61:3c:12, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209583358010  
+SysTime = 121913067043629 SSID: Guest_User, BSSID: 88:f0:77:bf:9a:90, capabilities: [ESS], level: -74, frequency: 2437, timestamp: 209584679115  
+SysTime = 121913067043629 SSID: RS, BSSID: e8:ba:70:61:2d:6b, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209584678840  
+SysTime = 121913067043629 SSID: UG_5thyr, BSSID: 88:f0:77:bf:9a:98, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209584679115  
+SysTime = 121913067043629 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2d:65, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209584678932  
+SysTime = 121913067043629 SSID: Mainbldg, BSSID: e8:ba:70:61:2d:63, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209584678962  
+SysTime = 121913067043629 SSID: Departments, BSSID: e8:ba:70:61:3c:11, capabilities: [ESS], level: -80, frequency: 2437, timestamp: 209584679298  
+SysTime = 121913067043629 SSID: Faculty, BSSID: e8:ba:70:61:3c:1c, capabilities: [ESS], level: -76, frequency: 2437, timestamp: 209584679450  
+SysTime = 121913067043629 SSID: UG_3rdyr, BSSID: e8:ba:70:61:3c:16, capabilities: [ESS], level: -79, frequency: 2437, timestamp: 209584679267  
+
+
+39 networks found. Guest_User is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 121913080899878 ID: 0 SSID: "router_linksys" BSSID: null PRIO: 0
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121913080899878 ID: 1 SSID: "Red Rock Coffee" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121913080899878 ID: 2 SSID: "GoogleWiFi" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121913080899878 ID: 3 SSID: "AndroidHotspot3690" BSSID: null PRIO: 5
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121913080899878 ID: 4 SSID: "SFO-WiFi" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121913080899878 ID: 5 SSID: "AWG-WiFi" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121913080899878 ID: 6 SSID: "WA1003A" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121913080899878 * ID: 7 SSID: "Guest_User" BSSID: null PRIO: 11
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: STATIC
+{InterfaceName: wlan0 LinkAddresses: [10.132.138.93/16,]  Routes: [10.132.0.0/16 -> 0.0.0.0,0.0.0.0/0 -> 10.132.0.2,] DnsAddresses: [144.16.192.55,144.16.192.1,] Domains: HttpProxy: [144.16.192.247] 8080 xl=local }
+ 
+
+
+******Scanned Results******
+SysTime = 121913634875155 SSID: Residence, BSSID: e8:ba:70:61:2d:62, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209585244474  
+SysTime = 121913634875155 SSID: UG_5thyr, BSSID: e8:ba:70:61:2d:68, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209585244444  
+SysTime = 121913634875155 SSID: Departments, BSSID: e8:ba:70:61:2d:61, capabilities: [ESS], level: -71, frequency: 2412, timestamp: 209585244657  
+SysTime = 121913634875155 SSID: Guest_User, BSSID: e8:ba:70:61:2f:e0, capabilities: [ESS], level: -84, frequency: 2462, timestamp: 209585244810  
+SysTime = 121913634875155 SSID: UG_1styr, BSSID: e8:ba:70:61:2d:64, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209585244474  
+SysTime = 121913634875155 SSID: PG_1styr, BSSID: e8:ba:70:61:2d:69, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209585244444  
+SysTime = 121913634875155 SSID: PG_2ndyr, BSSID: e8:ba:70:61:2d:6a, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209585244444  
+SysTime = 121913634875155 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2d:66, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209585244474  
+SysTime = 121913634875155 SSID: Departments, BSSID: e8:ba:70:61:2f:e1, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209585244779  
+SysTime = 121913634875155 SSID: Faculty, BSSID: e8:ba:70:61:2f:ec, capabilities: [ESS], level: -79, frequency: 2462, timestamp: 209584679298  
+SysTime = 121913634875155 SSID: Faculty, BSSID: e8:ba:70:61:2d:6c, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209585244444  
+SysTime = 121913634875155 SSID: Mainbldg, BSSID: e8:ba:70:61:2f:e3, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209585244779  
+SysTime = 121913634875155 SSID: Guest_User, BSSID: e8:ba:70:61:2d:60, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209585244505  
+SysTime = 121913634875155 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2f:e5, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209585244749  
+SysTime = 121913634875155 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2f:e6, capabilities: [ESS], level: -82, frequency: 2462, timestamp: 209585244749  
+SysTime = 121913634875155 SSID: Guest_User, BSSID: e8:ba:70:61:3c:10, capabilities: [ESS], level: -75, frequency: 2437, timestamp: 209585244535  
+SysTime = 121913634875155 SSID: UG_1styr, BSSID: 88:f0:77:bf:9a:94, capabilities: [ESS], level: -76, frequency: 2437, timestamp: 209585244688  
+SysTime = 121913634875155 SSID: Admin, BSSID: e8:ba:70:61:2d:6d, capabilities: [WEP][ESS], level: -68, frequency: 2412, timestamp: 209585244505  
+SysTime = 121913634875155 SSID: UG_4thyr, BSSID: e8:ba:70:61:2d:67, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209585244474  
+SysTime = 121913634875155 SSID: UG_5thyr, BSSID: e8:ba:70:61:2f:e8, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209585244718  
+SysTime = 121913634875155 SSID: UG_1styr, BSSID: e8:ba:70:61:3c:14, capabilities: [ESS], level: -75, frequency: 2437, timestamp: 209585244535  
+SysTime = 121913634875155 SSID: PG_1styr, BSSID: e8:ba:70:61:3c:19, capabilities: [ESS], level: -80, frequency: 2437, timestamp: 209584679267  
+SysTime = 121913634875155 SSID: Admin, BSSID: e8:ba:70:61:2f:ed, capabilities: [WEP][ESS], level: -81, frequency: 2462, timestamp: 209585244810  
+SysTime = 121913634875155 SSID: PG_1styr, BSSID: 88:f0:77:bf:9a:99, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209585244505  
+SysTime = 121913634875155 SSID: RS, BSSID: 88:f0:77:bf:9a:9b, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209585244566  
+SysTime = 121913634875155 SSID: Residence, BSSID: 88:f0:77:bf:9a:92, capabilities: [ESS], level: -74, frequency: 2437, timestamp: 209585244596  
+SysTime = 121913634875155 SSID: UG_3rdyr, BSSID: 88:f0:77:bf:9a:96, capabilities: [ESS], level: -74, frequency: 2437, timestamp: 209585244596  
+SysTime = 121913634875155 SSID: UG_4thyr, BSSID: e8:ba:70:61:2f:e7, capabilities: [ESS], level: -84, frequency: 2462, timestamp: 209585244749  
+SysTime = 121913634875155 SSID: Departments, BSSID: 88:f0:77:bf:9a:91, capabilities: [ESS], level: -69, frequency: 2437, timestamp: 209585244413  
+SysTime = 121913634875155 SSID: PG_2ndyr, BSSID: 88:f0:77:bf:9a:9a, capabilities: [ESS], level: -74, frequency: 2437, timestamp: 209585244566  
+SysTime = 121913634875155 SSID: Residence, BSSID: e8:ba:70:61:3c:12, capabilities: [ESS], level: -77, frequency: 2437, timestamp: 209583358010  
+SysTime = 121913634875155 SSID: Guest_User, BSSID: 88:f0:77:bf:9a:90, capabilities: [ESS], level: -74, frequency: 2437, timestamp: 209585244535  
+SysTime = 121913634875155 SSID: RS, BSSID: e8:ba:70:61:2d:6b, capabilities: [ESS], level: -71, frequency: 2412, timestamp: 209585244657  
+SysTime = 121913634875155 SSID: UG_5thyr, BSSID: 88:f0:77:bf:9a:98, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209585244505  
+SysTime = 121913634875155 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2d:65, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209585244413  
+SysTime = 121913634875155 SSID: Mainbldg, BSSID: e8:ba:70:61:2d:63, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209585244444  
+SysTime = 121913634875155 SSID: Departments, BSSID: e8:ba:70:61:3c:11, capabilities: [ESS], level: -74, frequency: 2437, timestamp: 209585244627  
+SysTime = 121913634875155 SSID: Faculty, BSSID: e8:ba:70:61:3c:1c, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209585244596  
+SysTime = 121913634875155 SSID: UG_3rdyr, BSSID: e8:ba:70:61:3c:16, capabilities: [ESS], level: -79, frequency: 2437, timestamp: 209584679267  
+
+
+39 networks found. Mainbldg is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 121913654774438 ID: 0 SSID: "router_linksys" BSSID: null PRIO: 0
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121913654774438 ID: 1 SSID: "Red Rock Coffee" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121913654774438 ID: 2 SSID: "GoogleWiFi" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121913654774438 ID: 3 SSID: "AndroidHotspot3690" BSSID: null PRIO: 5
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121913654774438 ID: 4 SSID: "SFO-WiFi" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121913654774438 ID: 5 SSID: "AWG-WiFi" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121913654774438 ID: 6 SSID: "WA1003A" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121913654774438 * ID: 7 SSID: "Guest_User" BSSID: null PRIO: 11
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: STATIC
+{InterfaceName: wlan0 LinkAddresses: [10.132.138.93/16,]  Routes: [10.132.0.0/16 -> 0.0.0.0,0.0.0.0/0 -> 10.132.0.2,] DnsAddresses: [144.16.192.55,144.16.192.1,] Domains: HttpProxy: [144.16.192.247] 8080 xl=local }
+ 
+
+
+******Scanned Results******
+SysTime = 121914219645490 SSID: Residence, BSSID: e8:ba:70:61:2d:62, capabilities: [ESS], level: -71, frequency: 2412, timestamp: 209585835837  
+SysTime = 121914219645490 SSID: UG_5thyr, BSSID: e8:ba:70:61:2d:68, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209585835593  
+SysTime = 121914219645490 SSID: Departments, BSSID: e8:ba:70:61:2d:61, capabilities: [ESS], level: -71, frequency: 2412, timestamp: 209585835684  
+SysTime = 121914219645490 SSID: Guest_User, BSSID: e8:ba:70:61:2f:e0, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209585835989  
+SysTime = 121914219645490 SSID: UG_1styr, BSSID: e8:ba:70:61:2d:64, capabilities: [ESS], level: -70, frequency: 2412, timestamp: 209585835593  
+SysTime = 121914219645490 SSID: PG_1styr, BSSID: e8:ba:70:61:2d:69, capabilities: [ESS], level: -70, frequency: 2412, timestamp: 209585835562  
+SysTime = 121914219645490 SSID: PG_2ndyr, BSSID: e8:ba:70:61:2d:6a, capabilities: [ESS], level: -70, frequency: 2412, timestamp: 209585835562  
+SysTime = 121914219645490 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2d:66, capabilities: [ESS], level: -70, frequency: 2412, timestamp: 209585835593  
+SysTime = 121914219645490 SSID: Departments, BSSID: e8:ba:70:61:2f:e1, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209585835989  
+SysTime = 121914219645490 SSID: Faculty, BSSID: e8:ba:70:61:2f:ec, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209585835867  
+SysTime = 121914219645490 SSID: Faculty, BSSID: e8:ba:70:61:2d:6c, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209585835562  
+SysTime = 121914219645490 SSID: Mainbldg, BSSID: e8:ba:70:61:2f:e3, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209585835959  
+SysTime = 121914219645490 SSID: Guest_User, BSSID: e8:ba:70:61:2d:60, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209585835593  
+SysTime = 121914219645490 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2f:e5, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209585835928  
+SysTime = 121914219645490 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2f:e6, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209585835928  
+SysTime = 121914219645490 SSID: Guest_User, BSSID: e8:ba:70:61:3c:10, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209585835837  
+SysTime = 121914219645490 SSID: UG_1styr, BSSID: 88:f0:77:bf:9a:94, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209585835745  
+SysTime = 121914219645490 SSID: Admin, BSSID: e8:ba:70:61:2d:6d, capabilities: [WEP][ESS], level: -68, frequency: 2412, timestamp: 209585835623  
+SysTime = 121914219645490 SSID: UG_4thyr, BSSID: e8:ba:70:61:2d:67, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209585835562  
+SysTime = 121914219645490 SSID: UG_5thyr, BSSID: e8:ba:70:61:2f:e8, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209585835898  
+SysTime = 121914219645490 SSID: UG_1styr, BSSID: e8:ba:70:61:3c:14, capabilities: [ESS], level: -74, frequency: 2437, timestamp: 209585835806  
+SysTime = 121914219645490 SSID: PG_1styr, BSSID: e8:ba:70:61:3c:19, capabilities: [ESS], level: -74, frequency: 2437, timestamp: 209585835776  
+SysTime = 121914219645490 SSID: Admin, BSSID: e8:ba:70:61:2f:ed, capabilities: [WEP][ESS], level: -83, frequency: 2462, timestamp: 209585835989  
+SysTime = 121914219645490 SSID: PG_1styr, BSSID: 88:f0:77:bf:9a:99, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209585835684  
+SysTime = 121914219645490 SSID: RS, BSSID: 88:f0:77:bf:9a:9b, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209585835623  
+SysTime = 121914219645490 SSID: Residence, BSSID: 88:f0:77:bf:9a:92, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209585835745  
+SysTime = 121914219645490 SSID: UG_3rdyr, BSSID: 88:f0:77:bf:9a:96, capabilities: [ESS], level: -75, frequency: 2437, timestamp: 209585835715  
+SysTime = 121914219645490 SSID: UG_4thyr, BSSID: e8:ba:70:61:2f:e7, capabilities: [ESS], level: -84, frequency: 2462, timestamp: 209585835928  
+SysTime = 121914219645490 SSID: Departments, BSSID: 88:f0:77:bf:9a:91, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209585835745  
+SysTime = 121914219645490 SSID: PG_2ndyr, BSSID: 88:f0:77:bf:9a:9a, capabilities: [ESS], level: -74, frequency: 2437, timestamp: 209585835623  
+SysTime = 121914219645490 SSID: Residence, BSSID: e8:ba:70:61:3c:12, capabilities: [ESS], level: -74, frequency: 2437, timestamp: 209585835806  
+SysTime = 121914219645490 SSID: Guest_User, BSSID: 88:f0:77:bf:9a:90, capabilities: [ESS], level: -74, frequency: 2437, timestamp: 209585835745  
+SysTime = 121914219645490 SSID: RS, BSSID: e8:ba:70:61:2d:6b, capabilities: [ESS], level: -71, frequency: 2412, timestamp: 209585835837  
+SysTime = 121914219645490 SSID: UG_5thyr, BSSID: 88:f0:77:bf:9a:98, capabilities: [ESS], level: -74, frequency: 2437, timestamp: 209585835715  
+SysTime = 121914219645490 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2d:65, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209585835532  
+SysTime = 121914219645490 SSID: Mainbldg, BSSID: e8:ba:70:61:2d:63, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209585835562  
+SysTime = 121914219645490 SSID: Departments, BSSID: e8:ba:70:61:3c:11, capabilities: [ESS], level: -74, frequency: 2437, timestamp: 209585835684  
+SysTime = 121914219645490 SSID: Faculty, BSSID: e8:ba:70:61:3c:1c, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209585835654  
+SysTime = 121914219645490 SSID: UG_3rdyr, BSSID: e8:ba:70:61:3c:16, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209585835806  
+
+
+39 networks found. Mainbldg is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 121914263564305 ID: 0 SSID: "router_linksys" BSSID: null PRIO: 0
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121914263564305 ID: 1 SSID: "Red Rock Coffee" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121914263564305 ID: 2 SSID: "GoogleWiFi" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121914263564305 ID: 3 SSID: "AndroidHotspot3690" BSSID: null PRIO: 5
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121914263564305 ID: 4 SSID: "SFO-WiFi" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121914263564305 ID: 5 SSID: "AWG-WiFi" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121914263564305 ID: 6 SSID: "WA1003A" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121914263564305 * ID: 7 SSID: "Guest_User" BSSID: null PRIO: 11
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: STATIC
+{InterfaceName: wlan0 LinkAddresses: [10.132.138.93/16,]  Routes: [10.132.0.0/16 -> 0.0.0.0,0.0.0.0/0 -> 10.132.0.2,] DnsAddresses: [144.16.192.55,144.16.192.1,] Domains: HttpProxy: [144.16.192.247] 8080 xl=local }
+ 
+
+
+******Scanned Results******
+SysTime = 121914784394459 SSID: Residence, BSSID: e8:ba:70:61:2d:62, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209586413496  
+SysTime = 121914784394459 SSID: UG_5thyr, BSSID: e8:ba:70:61:2d:68, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209586413465  
+SysTime = 121914784394459 SSID: Departments, BSSID: e8:ba:70:61:2d:61, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209586413496  
+SysTime = 121914784394459 SSID: Guest_User, BSSID: e8:ba:70:61:2f:e0, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209586413832  
+SysTime = 121914784394459 SSID: UG_1styr, BSSID: e8:ba:70:61:2d:64, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209586413465  
+SysTime = 121914784394459 SSID: PG_1styr, BSSID: e8:ba:70:61:2d:69, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209586413435  
+SysTime = 121914784394459 SSID: PG_2ndyr, BSSID: e8:ba:70:61:2d:6a, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209586413435  
+SysTime = 121914784394459 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2d:66, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209586413465  
+SysTime = 121914784394459 SSID: Departments, BSSID: e8:ba:70:61:2f:e1, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209586413832  
+SysTime = 121914784394459 SSID: Faculty, BSSID: e8:ba:70:61:2f:ec, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209586413740  
+SysTime = 121914784394459 SSID: Faculty, BSSID: e8:ba:70:61:2d:6c, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209586413404  
+SysTime = 121914784394459 SSID: Mainbldg, BSSID: e8:ba:70:61:2f:e3, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209586413801  
+SysTime = 121914784394459 SSID: Guest_User, BSSID: e8:ba:70:61:2d:60, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209586413496  
+SysTime = 121914784394459 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2f:e5, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209586413771  
+SysTime = 121914784394459 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2f:e6, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209586413771  
+SysTime = 121914784394459 SSID: Guest_User, BSSID: e8:ba:70:61:3c:10, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209586413618  
+SysTime = 121914784394459 SSID: UG_1styr, BSSID: 88:f0:77:bf:9a:94, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209586413648  
+SysTime = 121914784394459 SSID: Admin, BSSID: e8:ba:70:61:2d:6d, capabilities: [WEP][ESS], level: -66, frequency: 2412, timestamp: 209586413496  
+SysTime = 121914784394459 SSID: UG_4thyr, BSSID: e8:ba:70:61:2d:67, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209586413465  
+SysTime = 121914784394459 SSID: UG_5thyr, BSSID: e8:ba:70:61:2f:e8, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209586413771  
+SysTime = 121914784394459 SSID: UG_1styr, BSSID: e8:ba:70:61:3c:14, capabilities: [ESS], level: -74, frequency: 2437, timestamp: 209586413618  
+SysTime = 121914784394459 SSID: PG_1styr, BSSID: e8:ba:70:61:3c:19, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209586413679  
+SysTime = 121914784394459 SSID: Admin, BSSID: e8:ba:70:61:2f:ed, capabilities: [WEP][ESS], level: -83, frequency: 2462, timestamp: 209586413832  
+SysTime = 121914784394459 SSID: PG_1styr, BSSID: 88:f0:77:bf:9a:99, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209586413587  
+SysTime = 121914784394459 SSID: RS, BSSID: 88:f0:77:bf:9a:9b, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209586413526  
+SysTime = 121914784394459 SSID: Residence, BSSID: 88:f0:77:bf:9a:92, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209586413648  
+SysTime = 121914784394459 SSID: UG_3rdyr, BSSID: 88:f0:77:bf:9a:96, capabilities: [ESS], level: -75, frequency: 2437, timestamp: 209586413587  
+SysTime = 121914784394459 SSID: UG_4thyr, BSSID: e8:ba:70:61:2f:e7, capabilities: [ESS], level: -84, frequency: 2462, timestamp: 209586413771  
+SysTime = 121914784394459 SSID: Departments, BSSID: 88:f0:77:bf:9a:91, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209586413587  
+SysTime = 121914784394459 SSID: PG_2ndyr, BSSID: 88:f0:77:bf:9a:9a, capabilities: [ESS], level: -74, frequency: 2437, timestamp: 209586413526  
+SysTime = 121914784394459 SSID: Residence, BSSID: e8:ba:70:61:3c:12, capabilities: [ESS], level: -75, frequency: 2437, timestamp: 209586413710  
+SysTime = 121914784394459 SSID: Guest_User, BSSID: 88:f0:77:bf:9a:90, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209586413648  
+SysTime = 121914784394459 SSID: RS, BSSID: e8:ba:70:61:2d:6b, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209586413435  
+SysTime = 121914784394459 SSID: UG_5thyr, BSSID: 88:f0:77:bf:9a:98, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209586413618  
+SysTime = 121914784394459 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2d:65, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209586413465  
+SysTime = 121914784394459 SSID: Mainbldg, BSSID: e8:ba:70:61:2d:63, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209586413496  
+SysTime = 121914784394459 SSID: Departments, BSSID: e8:ba:70:61:3c:11, capabilities: [ESS], level: -74, frequency: 2437, timestamp: 209586413557  
+SysTime = 121914784394459 SSID: Faculty, BSSID: e8:ba:70:61:3c:1c, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209586413526  
+SysTime = 121914784394459 SSID: UG_3rdyr, BSSID: e8:ba:70:61:3c:16, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209586413679  
+
+
+39 networks found. Admin is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 121914793947336 ID: 0 SSID: "router_linksys" BSSID: null PRIO: 0
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121914793947336 ID: 1 SSID: "Red Rock Coffee" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121914793947336 ID: 2 SSID: "GoogleWiFi" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121914793947336 ID: 3 SSID: "AndroidHotspot3690" BSSID: null PRIO: 5
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121914793947336 ID: 4 SSID: "SFO-WiFi" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121914793947336 ID: 5 SSID: "AWG-WiFi" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121914793947336 ID: 6 SSID: "WA1003A" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121914793947336 * ID: 7 SSID: "Guest_User" BSSID: null PRIO: 11
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: STATIC
+{InterfaceName: wlan0 LinkAddresses: [10.132.138.93/16,]  Routes: [10.132.0.0/16 -> 0.0.0.0,0.0.0.0/0 -> 10.132.0.2,] DnsAddresses: [144.16.192.55,144.16.192.1,] Domains: HttpProxy: [144.16.192.247] 8080 xl=local }
+ 
+
+
+******Scanned Results******
+SysTime = 121915364067892 SSID: Residence, BSSID: e8:ba:70:61:2d:62, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209586973453  
+SysTime = 121915364067892 SSID: UG_5thyr, BSSID: e8:ba:70:61:2d:68, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209586973392  
+SysTime = 121915364067892 SSID: Departments, BSSID: e8:ba:70:61:2d:61, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209586973453  
+SysTime = 121915364067892 SSID: Guest_User, BSSID: e8:ba:70:61:2f:e0, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209586973728  
+SysTime = 121915364067892 SSID: UG_1styr, BSSID: e8:ba:70:61:2d:64, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209586973423  
+SysTime = 121915364067892 SSID: PG_1styr, BSSID: e8:ba:70:61:2d:69, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209586973392  
+SysTime = 121915364067892 SSID: PG_2ndyr, BSSID: e8:ba:70:61:2d:6a, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209586973392  
+SysTime = 121915364067892 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2d:66, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209586973423  
+SysTime = 121915364067892 SSID: Departments, BSSID: e8:ba:70:61:2f:e1, capabilities: [ESS], level: -85, frequency: 2462, timestamp: 209586973758  
+SysTime = 121915364067892 SSID: Faculty, BSSID: e8:ba:70:61:2f:ec, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209586973636  
+SysTime = 121915364067892 SSID: Faculty, BSSID: e8:ba:70:61:2d:6c, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209586973362  
+SysTime = 121915364067892 SSID: Mainbldg, BSSID: e8:ba:70:61:2f:e3, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209586973697  
+SysTime = 121915364067892 SSID: Guest_User, BSSID: e8:ba:70:61:2d:60, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209586973453  
+SysTime = 121915364067892 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2f:e5, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209586973697  
+SysTime = 121915364067892 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2f:e6, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209586973667  
+SysTime = 121915364067892 SSID: Guest_User, BSSID: e8:ba:70:61:3c:10, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209586973636  
+SysTime = 121915364067892 SSID: UG_1styr, BSSID: 88:f0:77:bf:9a:94, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209586973575  
+SysTime = 121915364067892 SSID: Admin, BSSID: e8:ba:70:61:2d:6d, capabilities: [WEP][ESS], level: -67, frequency: 2412, timestamp: 209586973453  
+SysTime = 121915364067892 SSID: UG_4thyr, BSSID: e8:ba:70:61:2d:67, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209586973423  
+SysTime = 121915364067892 SSID: UG_5thyr, BSSID: e8:ba:70:61:2f:e8, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209586973667  
+SysTime = 121915364067892 SSID: UG_1styr, BSSID: e8:ba:70:61:3c:14, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209586973606  
+SysTime = 121915364067892 SSID: PG_1styr, BSSID: e8:ba:70:61:3c:19, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209586973606  
+SysTime = 121915364067892 SSID: Admin, BSSID: e8:ba:70:61:2f:ed, capabilities: [WEP][ESS], level: -83, frequency: 2462, timestamp: 209586973758  
+SysTime = 121915364067892 SSID: PG_1styr, BSSID: 88:f0:77:bf:9a:99, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209586973545  
+SysTime = 121915364067892 SSID: RS, BSSID: 88:f0:77:bf:9a:9b, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209586973545  
+SysTime = 121915364067892 SSID: Residence, BSSID: 88:f0:77:bf:9a:92, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209586973575  
+SysTime = 121915364067892 SSID: UG_3rdyr, BSSID: 88:f0:77:bf:9a:96, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209586973545  
+SysTime = 121915364067892 SSID: UG_4thyr, BSSID: e8:ba:70:61:2f:e7, capabilities: [ESS], level: -84, frequency: 2462, timestamp: 209586973667  
+SysTime = 121915364067892 SSID: Departments, BSSID: 88:f0:77:bf:9a:91, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209586973575  
+SysTime = 121915364067892 SSID: PG_2ndyr, BSSID: 88:f0:77:bf:9a:9a, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209586973545  
+SysTime = 121915364067892 SSID: Residence, BSSID: e8:ba:70:61:3c:12, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209586973636  
+SysTime = 121915364067892 SSID: Guest_User, BSSID: 88:f0:77:bf:9a:90, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209586973606  
+SysTime = 121915364067892 SSID: RS, BSSID: e8:ba:70:61:2d:6b, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209586973392  
+SysTime = 121915364067892 SSID: UG_5thyr, BSSID: 88:f0:77:bf:9a:98, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209586973484  
+SysTime = 121915364067892 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2d:65, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209586973423  
+SysTime = 121915364067892 SSID: Mainbldg, BSSID: e8:ba:70:61:2d:63, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209586973423  
+SysTime = 121915364067892 SSID: Departments, BSSID: e8:ba:70:61:3c:11, capabilities: [ESS], level: -74, frequency: 2437, timestamp: 209586413557  
+SysTime = 121915364067892 SSID: Faculty, BSSID: e8:ba:70:61:3c:1c, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209586413526  
+SysTime = 121915364067892 SSID: UG_3rdyr, BSSID: e8:ba:70:61:3c:16, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209586973514  
+
+
+39 networks found. Residence is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 121915407376299 ID: 0 SSID: "router_linksys" BSSID: null PRIO: 0
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121915407376299 ID: 1 SSID: "Red Rock Coffee" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121915407376299 ID: 2 SSID: "GoogleWiFi" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121915407376299 ID: 3 SSID: "AndroidHotspot3690" BSSID: null PRIO: 5
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121915407376299 ID: 4 SSID: "SFO-WiFi" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121915407376299 ID: 5 SSID: "AWG-WiFi" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121915407376299 ID: 6 SSID: "WA1003A" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121915407376299 * ID: 7 SSID: "Guest_User" BSSID: null PRIO: 11
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: STATIC
+{InterfaceName: wlan0 LinkAddresses: [10.132.138.93/16,]  Routes: [10.132.0.0/16 -> 0.0.0.0,0.0.0.0/0 -> 10.132.0.2,] DnsAddresses: [144.16.192.55,144.16.192.1,] Domains: HttpProxy: [144.16.192.247] 8080 xl=local }
+ 
+
+
+******Scanned Results******
+SysTime = 121915974933144 SSID: Residence, BSSID: e8:ba:70:61:2d:62, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209587583800  
+SysTime = 121915974933144 SSID: UG_5thyr, BSSID: e8:ba:70:61:2d:68, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209587583769  
+SysTime = 121915974933144 SSID: Departments, BSSID: e8:ba:70:61:2d:61, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209587583800  
+SysTime = 121915974933144 SSID: Guest_User, BSSID: e8:ba:70:61:2f:e0, capabilities: [ESS], level: -85, frequency: 2462, timestamp: 209587584105  
+SysTime = 121915974933144 SSID: UG_1styr, BSSID: e8:ba:70:61:2d:64, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209587583800  
+SysTime = 121915974933144 SSID: PG_1styr, BSSID: e8:ba:70:61:2d:69, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209587583739  
+SysTime = 121915974933144 SSID: PG_2ndyr, BSSID: e8:ba:70:61:2d:6a, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209587583739  
+SysTime = 121915974933144 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2d:66, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209587583769  
+SysTime = 121915974933144 SSID: Departments, BSSID: e8:ba:70:61:2f:e1, capabilities: [ESS], level: -85, frequency: 2462, timestamp: 209587584074  
+SysTime = 121915974933144 SSID: Faculty, BSSID: e8:ba:70:61:2f:ec, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209586973636  
+SysTime = 121915974933144 SSID: Faculty, BSSID: e8:ba:70:61:2d:6c, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209587583739  
+SysTime = 121915974933144 SSID: Mainbldg, BSSID: e8:ba:70:61:2f:e3, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209586973697  
+SysTime = 121915974933144 SSID: Guest_User, BSSID: e8:ba:70:61:2d:60, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209587583800  
+SysTime = 121915974933144 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2f:e5, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209586973697  
+SysTime = 121915974933144 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2f:e6, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209586973667  
+SysTime = 121915974933144 SSID: Guest_User, BSSID: e8:ba:70:61:3c:10, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209587584044  
+SysTime = 121915974933144 SSID: UG_1styr, BSSID: 88:f0:77:bf:9a:94, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209587583952  
+SysTime = 121915974933144 SSID: Admin, BSSID: e8:ba:70:61:2d:6d, capabilities: [WEP][ESS], level: -66, frequency: 2412, timestamp: 209587583830  
+SysTime = 121915974933144 SSID: UG_4thyr, BSSID: e8:ba:70:61:2d:67, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209587583769  
+SysTime = 121915974933144 SSID: UG_5thyr, BSSID: e8:ba:70:61:2f:e8, capabilities: [ESS], level: -85, frequency: 2462, timestamp: 209587584074  
+SysTime = 121915974933144 SSID: UG_1styr, BSSID: e8:ba:70:61:3c:14, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209587584013  
+SysTime = 121915974933144 SSID: PG_1styr, BSSID: e8:ba:70:61:3c:19, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209587583922  
+SysTime = 121915974933144 SSID: Admin, BSSID: e8:ba:70:61:2f:ed, capabilities: [WEP][ESS], level: -83, frequency: 2462, timestamp: 209586973758  
+SysTime = 121915974933144 SSID: PG_1styr, BSSID: 88:f0:77:bf:9a:99, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209587583922  
+SysTime = 121915974933144 SSID: RS, BSSID: 88:f0:77:bf:9a:9b, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209587583861  
+SysTime = 121915974933144 SSID: Residence, BSSID: 88:f0:77:bf:9a:92, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209587583891  
+SysTime = 121915974933144 SSID: UG_3rdyr, BSSID: 88:f0:77:bf:9a:96, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209587583891  
+SysTime = 121915974933144 SSID: UG_4thyr, BSSID: e8:ba:70:61:2f:e7, capabilities: [ESS], level: -84, frequency: 2462, timestamp: 209586973667  
+SysTime = 121915974933144 SSID: Departments, BSSID: 88:f0:77:bf:9a:91, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209587583891  
+SysTime = 121915974933144 SSID: PG_2ndyr, BSSID: 88:f0:77:bf:9a:9a, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209587583861  
+SysTime = 121915974933144 SSID: Residence, BSSID: e8:ba:70:61:3c:12, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209587583922  
+SysTime = 121915974933144 SSID: Guest_User, BSSID: 88:f0:77:bf:9a:90, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209587583983  
+SysTime = 121915974933144 SSID: RS, BSSID: e8:ba:70:61:2d:6b, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209587583739  
+SysTime = 121915974933144 SSID: UG_5thyr, BSSID: 88:f0:77:bf:9a:98, capabilities: [ESS], level: -70, frequency: 2437, timestamp: 209587583708  
+SysTime = 121915974933144 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2d:65, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209587583769  
+SysTime = 121915974933144 SSID: Mainbldg, BSSID: e8:ba:70:61:2d:63, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209587583800  
+SysTime = 121915974933144 SSID: Departments, BSSID: e8:ba:70:61:3c:11, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209587584013  
+SysTime = 121915974933144 SSID: Faculty, BSSID: e8:ba:70:61:3c:1c, capabilities: [ESS], level: -74, frequency: 2437, timestamp: 209587583983  
+SysTime = 121915974933144 SSID: UG_3rdyr, BSSID: e8:ba:70:61:3c:16, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209587583861  
+
+
+39 networks found. Admin is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 121915990315412 ID: 0 SSID: "router_linksys" BSSID: null PRIO: 0
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121915990315412 ID: 1 SSID: "Red Rock Coffee" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121915990315412 ID: 2 SSID: "GoogleWiFi" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121915990315412 ID: 3 SSID: "AndroidHotspot3690" BSSID: null PRIO: 5
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121915990315412 ID: 4 SSID: "SFO-WiFi" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121915990315412 ID: 5 SSID: "AWG-WiFi" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121915990315412 ID: 6 SSID: "WA1003A" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121915990315412 * ID: 7 SSID: "Guest_User" BSSID: null PRIO: 11
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: STATIC
+{InterfaceName: wlan0 LinkAddresses: [10.132.138.93/16,]  Routes: [10.132.0.0/16 -> 0.0.0.0,0.0.0.0/0 -> 10.132.0.2,] DnsAddresses: [144.16.192.55,144.16.192.1,] Domains: HttpProxy: [144.16.192.247] 8080 xl=local }
+ 
+
+
+******Scanned Results******
+SysTime = 121916572644115 SSID: Residence, BSSID: e8:ba:70:61:2d:62, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209588182396  
+SysTime = 121916572644115 SSID: UG_5thyr, BSSID: e8:ba:70:61:2d:68, capabilities: [ESS], level: -65, frequency: 2412, timestamp: 209588182304  
+SysTime = 121916572644115 SSID: Departments, BSSID: e8:ba:70:61:2d:61, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209588182396  
+SysTime = 121916572644115 SSID: Guest_User, BSSID: e8:ba:70:61:2f:e0, capabilities: [ESS], level: -84, frequency: 2462, timestamp: 209588182670  
+SysTime = 121916572644115 SSID: UG_1styr, BSSID: e8:ba:70:61:2d:64, capabilities: [ESS], level: -68, frequency: 2412, timestamp: 209588182396  
+SysTime = 121916572644115 SSID: PG_1styr, BSSID: e8:ba:70:61:2d:69, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209588182365  
+SysTime = 121916572644115 SSID: PG_2ndyr, BSSID: e8:ba:70:61:2d:6a, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209588182365  
+SysTime = 121916572644115 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2d:66, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209588182365  
+SysTime = 121916572644115 SSID: Departments, BSSID: e8:ba:70:61:2f:e1, capabilities: [ESS], level: -84, frequency: 2462, timestamp: 209588182670  
+SysTime = 121916572644115 SSID: Faculty, BSSID: e8:ba:70:61:2f:ec, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209586973636  
+SysTime = 121916572644115 SSID: Faculty, BSSID: e8:ba:70:61:2d:6c, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209588182365  
+SysTime = 121916572644115 SSID: Mainbldg, BSSID: e8:ba:70:61:2f:e3, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209586973697  
+SysTime = 121916572644115 SSID: Guest_User, BSSID: e8:ba:70:61:2d:60, capabilities: [ESS], level: -69, frequency: 2412, timestamp: 209588182335  
+SysTime = 121916572644115 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2f:e5, capabilities: [ESS], level: -83, frequency: 2462, timestamp: 209586973697  
+SysTime = 121916572644115 SSID: UG_3rdyr, BSSID: e8:ba:70:61:2f:e6, capabilities: [ESS], level: -86, frequency: 2462, timestamp: 209588182701  
+SysTime = 121916572644115 SSID: Guest_User, BSSID: e8:ba:70:61:3c:10, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209588182518  
+SysTime = 121916572644115 SSID: UG_1styr, BSSID: 88:f0:77:bf:9a:94, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209588182487  
+SysTime = 121916572644115 SSID: Admin, BSSID: e8:ba:70:61:2d:6d, capabilities: [WEP][ESS], level: -66, frequency: 2412, timestamp: 209588182426  
+SysTime = 121916572644115 SSID: UG_4thyr, BSSID: e8:ba:70:61:2d:67, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209588182396  
+SysTime = 121916572644115 SSID: UG_5thyr, BSSID: e8:ba:70:61:2f:e8, capabilities: [ESS], level: -84, frequency: 2462, timestamp: 209588182640  
+SysTime = 121916572644115 SSID: UG_1styr, BSSID: e8:ba:70:61:3c:14, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209588182548  
+SysTime = 121916572644115 SSID: PG_1styr, BSSID: e8:ba:70:61:3c:19, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209588182548  
+SysTime = 121916572644115 SSID: Admin, BSSID: e8:ba:70:61:2f:ed, capabilities: [WEP][ESS], level: -83, frequency: 2462, timestamp: 209586973758  
+SysTime = 121916572644115 SSID: PG_1styr, BSSID: 88:f0:77:bf:9a:99, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209588182457  
+SysTime = 121916572644115 SSID: RS, BSSID: 88:f0:77:bf:9a:9b, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209588182426  
+SysTime = 121916572644115 SSID: Residence, BSSID: 88:f0:77:bf:9a:92, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209588182457  
+SysTime = 121916572644115 SSID: UG_3rdyr, BSSID: 88:f0:77:bf:9a:96, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209588182457  
+SysTime = 121916572644115 SSID: UG_4thyr, BSSID: e8:ba:70:61:2f:e7, capabilities: [ESS], level: -84, frequency: 2462, timestamp: 209586973667  
+SysTime = 121916572644115 SSID: Departments, BSSID: 88:f0:77:bf:9a:91, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209588182457  
+SysTime = 121916572644115 SSID: PG_2ndyr, BSSID: 88:f0:77:bf:9a:9a, capabilities: [ESS], level: -72, frequency: 2437, timestamp: 209588182426  
+SysTime = 121916572644115 SSID: Residence, BSSID: e8:ba:70:61:3c:12, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209588182579  
+SysTime = 121916572644115 SSID: Guest_User, BSSID: 88:f0:77:bf:9a:90, capabilities: [ESS], level: -71, frequency: 2437, timestamp: 209588182487  
+SysTime = 121916572644115 SSID: RS, BSSID: e8:ba:70:61:2d:6b, capabilities: [ESS], level: -67, frequency: 2412, timestamp: 209588182335  
+SysTime = 121916572644115 SSID: UG_5thyr, BSSID: 88:f0:77:bf:9a:98, capabilities: [ESS], level: -70, frequency: 2437, timestamp: 209588182335  
+SysTime = 121916572644115 SSID: UG_2ndyr, BSSID: e8:ba:70:61:2d:65, capabilities: [ESS], level: -65, frequency: 2412, timestamp: 209588182335  
+SysTime = 121916572644115 SSID: Mainbldg, BSSID: e8:ba:70:61:2d:63, capabilities: [ESS], level: -66, frequency: 2412, timestamp: 209588182396  
+SysTime = 121916572644115 SSID: Departments, BSSID: e8:ba:70:61:3c:11, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209588182518  
+SysTime = 121916572644115 SSID: Faculty, BSSID: e8:ba:70:61:3c:1c, capabilities: [ESS], level: -74, frequency: 2437, timestamp: 209588182548  
+SysTime = 121916572644115 SSID: UG_3rdyr, BSSID: e8:ba:70:61:3c:16, capabilities: [ESS], level: -73, frequency: 2437, timestamp: 209587583861  
+
+
+39 networks found. UG_5thyr is the strongest.
+
+
+******Configured Networks******
+
+SysTime = 121916592970684 ID: 0 SSID: "router_linksys" BSSID: null PRIO: 0
+ KeyMgmt: WPA_PSK Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: *anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121916592970684 ID: 1 SSID: "Red Rock Coffee" BSSID: null PRIO: 4
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121916592970684 ID: 2 SSID: "GoogleWiFi" BSSID: null PRIO: 2
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121916592970684 ID: 3 SSID: "AndroidHotspot3690" BSSID: null PRIO: 5
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121916592970684 ID: 4 SSID: "SFO-WiFi" BSSID: null PRIO: 8
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121916592970684 ID: 5 SSID: "AWG-WiFi" BSSID: null PRIO: 7
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121916592970684 ID: 6 SSID: "WA1003A" BSSID: null PRIO: 9
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms: OPEN SHARED
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: NONE
+{LinkAddresses: []  Routes: [] DnsAddresses: [] Domains: null}
+
+SysTime = 121916592970684 * ID: 7 SSID: "Guest_User" BSSID: null PRIO: 11
+ KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: anonymous_identity NULL
+ca_cert NULL
+identity NULL
+phase2 NULL
+engine 0
+client_cert NULL
+eap NULL
+engine_id NULL
+subject_match NULL
+password NULL
+key_id NULL
+
+IP assignment: DHCP
+Proxy settings: STATIC
+{InterfaceName: wlan0 LinkAddresses: [10.132.138.93/16,]  Routes: [10.132.0.0/16 -> 0.0.0.0,0.0.0.0/0 -> 10.132.0.2,] DnsAddresses: [144.16.192.55,144.16.192.1,] Domains: HttpProxy: [144.16.192.247] 8080 xl=local }
+ 
+

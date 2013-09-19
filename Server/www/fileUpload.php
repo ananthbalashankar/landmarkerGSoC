@@ -13,7 +13,7 @@ echo var_dump($_POST);
 echo strcmp($_POST['new'],"yes");
 
 $fid = fopen("folder-id.txt","w");
-if(strcmp($_POST['new'],"yes") == 0)
+if(strcmp($_POST['new'],"yes") == 0 || strcmp($_POST['new'],"seed") == 0)
 {
 $new = $num + 1;	
 fwrite($fid,$new."\n");
@@ -59,6 +59,9 @@ $uid = $_POST['uid'];
 if(strcmp($_POST['new'],"yes")==0){
 exec(" /usr/local/MATLAB/R2011a/bin/matlab -nodisplay -nosplash -r \"parsedata('".$target_path."',".$uid.")\" >> ".$target_path."log.out 2>&1 &");
 //echo("matlab -nodisplay -nosplash -r \"parsedata('".$target_path."')\" > ".$target_path."log.out");
+}
+else if(strcmp($_POST['new'],"seed")==0){
+exec("/usr/local/MATLAB/R2011a/bin/matlab -nodisplay -nosplash -r \"enterSeed('".$target_path."')\" >> ".$target_path."log.out 2>&1 &");
 }
 else
 {

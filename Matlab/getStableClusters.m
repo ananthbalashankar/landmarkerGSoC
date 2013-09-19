@@ -1,10 +1,8 @@
-function [stable stableFeat newPath] = getStableClusters(cluster, path, timeSlots, old_stable, old_stableFeat,conn,dataid,foldername)
+function [stable stableFeat newPath] = getStableClusters(cluster, path, timeSlots, old_stable, old_stableFeat,conn,dataid,foldername,commit)
 stable =  old_stable;
 stableFeat = old_stableFeat;
 newPath = path;
-%     numSamples = size(clusters,2);
-%     for i=1:numSamples
-%         cluster = clusters{i};
+
 if(isempty(old_stable))
     i=1;
 else
@@ -96,29 +94,31 @@ for p =1:length(clusters)
                 timeaxis = result{5};
                 featCluster = result{7};
                 %write to file the cluster points
-                filename = result{10};
-                
-                
-                xaxis = cluster_data(:,1);
-                yaxis = cluster_data(:,2);
-                
-                fid = fopen(filename,'w');
-                Time = timeaxis';
-                X = xaxis;
-                Y = yaxis;
-                for h=1:size(X,1)
-                    fprintf(fid,'%d %f %f',Time(h),X(h),Y(h));
-                    for b=1:size(featCluster,2)
-                        fprintf(fid,'%f ',featCluster(h,b));
-                    end
-                    fprintf(fid,'\n');
-                end
-                fclose(fid);
+%                 filename = result{10};
+%                 
+%                 
+%                 xaxis = cluster_data(:,1);
+%                 yaxis = cluster_data(:,2);
+%                 
+%                 fid = fopen(filename,'w');
+%                 Time = timeaxis';
+%                 X = xaxis;
+%                 Y = yaxis;
+%                 for h=1:size(X,1)
+%                     fprintf(fid,'%d %f %f',Time(h),X(h),Y(h));
+%                     for b=1:size(featCluster,2)
+%                         fprintf(fid,'%f ',featCluster(h,b));
+%                     end
+%                     fprintf(fid,'\n');
+%                 end
+%                 fclose(fid);
                 
                 %database
-                query = sprintf('update landmark set centroidx=%f ,centroidy=%f,numofpoints=%d,confidence=%d where id=%d',xposition,yposition,numOfPoints,confidence,id);
-                curs = exec(conn,query);
-                query
+                if(commit)
+                    query = sprintf('update landmark set centroidx=%f ,centroidy=%f,numofpoints=%d,confidence=%d where id=%d',xposition,yposition,numOfPoints,confidence,id);
+                    curs = exec(conn,query);
+                    query
+                end
                 %a = fetch(curs);
                 
                 
@@ -128,40 +128,46 @@ for p =1:length(clusters)
                 k_stable = stable{k};
                 featCluster{8} = 1;
                 %database
-                query = 'Select max(id) from landmark';
-                curs = exec(conn,query);
-                landmarkid = fetch(curs);
-                landmarkid = landmarkid.Data(1);
-                landmarkid = landmarkid{1} + 1;
-                landmarkid = landmarkid + 1;
-                filename = sprintf('%s/landmarks%d.txt',foldername,landmarkid);
-                featCluster{10} = filename;
-                featCluster{9} = landmarkid;
-                cluster_data = featCluster{4};
-                timeaxis = featCluster{5};
-                
-                xaxis = cluster_data(:,1);
-                yaxis = cluster_data(:,2);
-                
-                fid = fopen(filename,'w');
-                Time = timeaxis';
-                X = xaxis;
-                Y = yaxis;
-                for h=1:size(X,1)
-                    fprintf(fid,'%d %f %f',Time(h),X(h),Y(h));
-                    for b=1:size(featCluster{7},2)
-                        fprintf(fid,'%f ',featCluster{7}(h,b));
-                    end
-                    fprintf(fid,'\n');
+                if(commit)
+                    query = 'Select max(id) from landmark';
+                    curs = exec(conn,query);
+                    landmarkid = fetch(curs);
+                    landmarkid = landmarkid.Data(1);
+                    landmarkid = landmarkid{1};
+                    landmarkid = landmarkid + 1;
+                    filename = sprintf('%s/landmarks%d.txt',foldername,landmarkid);
+                    featCluster{10} = filename;
+                    featCluster{9} = landmarkid;
+                    cluster_data = featCluster{4};
+                    timeaxis = featCluster{5};
+                else
+                    featCluster{9} = -1;
+                    featCluster{10} = 'none';
                 end
-                fclose(fid);
-                
+%                 xaxis = cluster_data(:,1);
+%                 yaxis = cluster_data(:,2);
+%                 
+%                 fid = fopen(filename,'w');
+%                 Time = timeaxis';
+%                 X = xaxis;
+%                 Y = yaxis;
+%                 for h=1:size(X,1)
+%                     fprintf(fid,'%d %f %f',Time(h),X(h),Y(h));
+%                     for b=1:size(featCluster{7},2)
+%                         fprintf(fid,'%f ',featCluster{7}(h,b));
+%                     end
+%                     fprintf(fid,'\n');
+%                 end
+%                 fclose(fid);
+%                 
                 k_stable{end+1} = featCluster;
                 stable{k} = k_stable;
                 found = 1;
-                cols = {'centroidx','centroidy','numofpoints','confidence','file','feat','dataid'};
-                vals = {featCluster{2}(1),featCluster{2}(2),featCluster{3},featCluster{8},featCluster{10},featCluster{1},dataid};
-                fastinsert(conn,'landmark',cols,vals);
+                if(commit)
+                    cols = {'centroidx','centroidy','numofpoints','confidence','file','feat','dataid'};
+                    vals = {featCluster{2}(1),featCluster{2}(2),featCluster{3},featCluster{8},featCluster{10},featCluster{1},dataid};
+                    fastinsert(conn,'landmark',cols,vals); 
+                end
                 msg = sprintf('OLM of %s updated at (%f,%f)\n',featCluster{1},featCluster{2}(1),featCluster{2}(2));
                 disp(msg);
             end
@@ -175,37 +181,45 @@ for p =1:length(clusters)
     if(~found)
         
         featCluster{8} = 1;
-        query = 'Select max(id) from landmark';
-        curs = exec(conn,query);
-        landmarkid = fetch(curs);
-        landmarkid = landmarkid.Data(1);
-        landmarkid = landmarkid{1} + 1;
-        landmarkid = landmarkid + 1;
-        filename = sprintf('%s/landmarks%d.txt',foldername,landmarkid);
-        featCluster{10} = filename;
-        featCluster{9} = landmarkid;
-        cluster_data = featCluster{4};
-        timeaxis = featCluster{5};
+        if(commit)
+            cols = {'centroidx','centroidy','numofpoints','confidence','file','feat','dataid'};
+            vals = {featCluster{2}(1),featCluster{2}(2),featCluster{3},featCluster{8},'none',featCluster{1},dataid};
+            fastinsert(conn,'landmark',cols,vals);
         
-        xaxis = cluster_data(:,1);
-        yaxis = cluster_data(:,2);
-        
-        fid = fopen(filename,'w');
-        Time = timeaxis';
-        X = xaxis;
-        Y = yaxis;
-        for h=1:size(X,1)
-            fprintf(fid,'%d %f %f',Time(h),X(h),Y(h));
-            for b=1:size(featCluster{7},2)
-                fprintf(fid,'%f ',featCluster{7}(h,b));
-            end
-            fprintf(fid,'\n');
+            query = 'Select max(id) from landmark';
+            curs = exec(conn,query);
+            landmarkid = fetch(curs);
+            landmarkid = landmarkid.Data(1);
+            landmarkid = landmarkid{1};
+            featCluster{9} = landmarkid;
+            featCluster{10} = 'none';
+        else
+            featCluster{9} = -1;
+            featCluster{10} = 'none';
         end
-        fclose(fid);
+%         filename = sprintf('%s/landmarks%d.txt',foldername,landmarkid);
+%         featCluster{10} = filename;
         
-        cols = {'centroidx','centroidy','numofpoints','confidence','file','feat','dataid'};
-        vals = {featCluster{2}(1),featCluster{2}(2),featCluster{3},featCluster{8},featCluster{10},featCluster{1},dataid};
-        fastinsert(conn,'landmark',cols,vals);
+%         cluster_data = featCluster{4};
+%         timeaxis = featCluster{5};
+        
+%         xaxis = cluster_data(:,1);
+%         yaxis = cluster_data(:,2);
+%         
+%         fid = fopen(filename,'w');
+%         Time = timeaxis';
+%         X = xaxis;
+%         Y = yaxis;
+%         for h=1:size(X,1)
+%             fprintf(fid,'%d %f %f',Time(h),X(h),Y(h));
+%             for b=1:size(featCluster{7},2)
+%                 fprintf(fid,'%f ',featCluster{7}(h,b));
+%             end
+%             fprintf(fid,'\n');
+%         end
+%         fclose(fid);
+        
+        
         stableFeat{end+1} = feature;
         msg = sprintf('OLM of %s added at (%f,%f)\n',featCluster{1},featCluster{2}(1),featCluster{2}(2));
         disp(msg);

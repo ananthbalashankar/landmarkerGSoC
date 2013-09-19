@@ -1,4 +1,6 @@
 import java.awt.EventQueue;
+import java.awt.Graphics2D;
+import java.awt.RenderingHints;
 
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
@@ -27,7 +29,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import com.SensoSaur.*;
+import com.Sensosaur.*;
 import com.mathworks.toolbox.javabuilder.*;
 
 
@@ -36,7 +38,7 @@ public class MainWindow {
 	private JFrame frame;
 	private String foldername;
 	private List<File> features;
-	private JComboBox<String> comboBox;
+	private JComboBox comboBox;
 	private JLabel lblPicture;
 	private visualize v;
 	/**
@@ -117,12 +119,16 @@ public class MainWindow {
 			 filenames[i] = files[i].getAbsolutePath();
 		 
 		 Object[] result = null;
-		 result = v.makeSqr(1, 5);
-		 for (int i=0;i<filenames.length;i++)
-			 v.stabilize(0,filenames[i],1,1);
-		 v.heatMap();
 		 
-		 String image = "D:/Documents/GSoC/landmarkerGSoC/Matlab/heatMap.png";
+		 //for (int i=0;i<filenames.length;i++)
+			// v.stabilize(0,filenames[i],1,1);
+		 MWCellArray file = null;
+		 file = new MWCellArray(filenames.length,1);
+		 for(int j=0;j<filenames.length;j++)
+			 file.set(j+1,filenames[j]);
+		 v.heatMap(file);
+		 
+		 String image = "/home/swadhin/Landmark/landmarkerGSoC/sensosaur/stable/heatMap.png";
 		 BufferedImage img;
 		img = ImageIO.read(new File(image));
 		ImageIcon icon = new ImageIcon(img);
@@ -131,7 +137,7 @@ public class MainWindow {
 		frame.getContentPane().add(lblPicture);
 		
 		
-	} catch (MWException | IOException e) {
+	} catch (Exception e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 	}
@@ -139,6 +145,20 @@ public class MainWindow {
 	 
 	}
 	
+	public BufferedImage scaleImage(int WIDTH, int HEIGHT, String filename) {
+	    BufferedImage bi = null;
+	    try {
+	        ImageIcon ii = new ImageIcon(filename);//path to image
+	        bi = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
+	        Graphics2D g2d = (Graphics2D) bi.createGraphics();
+	        g2d.addRenderingHints(new RenderingHints(RenderingHints.KEY_RENDERING,RenderingHints.VALUE_RENDER_QUALITY));
+	        g2d.drawImage(ii.getImage(), 0, 0, WIDTH, HEIGHT, null);
+	    } catch (Exception e) {
+	        e.printStackTrace();
+	        return null;
+	    }
+	    return bi;
+	}
 	
 	private void readComments()
 	{
@@ -152,12 +172,12 @@ public class MainWindow {
 			String image = "stable/comments.png";
 			 BufferedImage img;
 			try {
-				img = ImageIO.read(new File(image));
+				img = scaleImage(600,450,image);
 				ImageIcon icon = new ImageIcon(img);
 				lblPicture.setIcon(icon);
-				lblPicture.setBounds(10, 104, 1200, 900);
+				lblPicture.setBounds(10, 100, 600, 450);
 				frame.getContentPane().add(lblPicture);
-			} catch (IOException e) {
+			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
@@ -174,8 +194,8 @@ public class MainWindow {
 			String comment = r.toString();
 			
 			MWArray pos = arr.getCell(new int[]{1,6});
-			double xval = (double)pos.get(1);
-			double yval = (double)pos.get(2);
+			Double xval = (Double)pos.get(1);
+			Double yval = (Double)pos.get(2);
 			System.out.println(xval);
 			System.out.println(yval);
 			System.out.println(pos);
@@ -189,7 +209,8 @@ public class MainWindow {
 			data[index][3] = new Double(yval);
 			}
 			JTable table = new JTable(data,columns);
-			table.setBounds(1000, 0, 300, 200);
+			table.setAutoscrolls(true);
+			table.setBounds(900, 100, 300, 200);
 			frame.getContentPane().add(table);
 			
 		} catch (MWException e) {
@@ -265,7 +286,7 @@ public class MainWindow {
 		mnFile.add(mntmViewComments);
 		mnFile.add(mntmOpen);
 		
-		comboBox = new JComboBox<String>();
+		comboBox = new JComboBox();
 		comboBox.setBounds(125, 29, 117, 21);
 		frame.getContentPane().add(comboBox);
 		

@@ -95,41 +95,43 @@ for i=1:length(timeaz)
     brng = [brng,angle];
     %Apply Pedometer algorithm only when in motion
     %Sample linacc and mag for the next 5 seconds
-    while(timeaz(i) > linaccTime(k))
-        if(k<length(linaccTime))
-            k = k + 1;
-        else
-            break;
-        end
-    end
-    kstart = k;
-    if(k+10 > length(linaccTime))
-        k = length(linaccTime);
-    else
-        k = k + 10;
-    end
-    linaccSample = linacc(kstart:k,[3 4 5]);
     
-    while(timeaz(i) > magTime(l))
-        if(l<length(magTime))
-            l = l + 1;
-        else
-            break;
-        end
-    end
-    lstart = l;
-    if(l+10 > length(magTime))
-        l = length(magTime);
-    else
-        l = l + 10;
-    end
     
-    magSample = mag(lstart:l,[3 4 5]);
-    if(l - lstart < 2 || k - kstart < 2)  
-       activity = 2; 
-    else
-       activity = getSeedLandmarks(linaccSample,magSample);
-    end
+%     while(timeaz(i) > linaccTime(k))
+%         if(k<length(linaccTime))
+%             k = k + 1;
+%         else
+%             break;
+%         end
+%     end
+%     kstart = k;
+%     if(k+10 > length(linaccTime))
+%         k = length(linaccTime);
+%     else
+%         k = k + 10;
+%     end
+%     linaccSample = linacc(kstart:k,[3 4 5]);
+%     
+%     while(timeaz(i) > magTime(l))
+%         if(l<length(magTime))
+%             l = l + 1;
+%         else
+%             break;
+%         end
+%     end
+%     lstart = l;
+%     if(l+10 > length(magTime))
+%         l = length(magTime);
+%     else
+%         l = l + 10;
+%     end
+%     
+%     magSample = mag(lstart:l,[3 4 5]);
+%     if(l - lstart < 2 || k - kstart < 2)  
+%        activity = 2; 
+%     else
+%        activity = getSeedLandmarks(linaccSample,magSample);
+%     end
     
 %    if(activity ~= 2)
         xarr(i+1) = xarr(i) + temp(i)*cos(angle);

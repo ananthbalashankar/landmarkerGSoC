@@ -1,4 +1,4 @@
-function newlocation = correctSeed(location,timeSlots,mag,acc,foldername)
+function newlocation = correctSeed(location,timeSlots,mag,acc,ori,foldername)
 try
     seeds = load('stable/seeds');
     seeds = seeds.seeds;
@@ -12,8 +12,8 @@ try
     landmarks = importdata(strcat(foldername,'/landMarks.txt'),' ',0);
     landmarks = landmarks.data;
     %Correct location with ticks
-    types = seeds(:,4);
-    ticks = seeds(types == 3,:);
+    types = seeds(:,3);
+    ticks = seeds(types ==2,:);
     lastCentroid = [0 0];
     for j=1:size(landmarks,1)
         newLocationx = location(:,1);
@@ -26,6 +26,7 @@ try
         location(pos:end,1) = newLocationx(pos:end)*cos(angle) - newLocationy(pos:end)*sin(angle);
         location(pos:end,2) = newLocationx(pos:end)*sin(angle) + newLocationy(pos:end)*cos(angle);
         lastCentroid = [ticks(j,2) ticks(j,3)];
+        disp('correcting using tick');
         %     location(pos:end,1) = newLocationx(pos:end) + (ticks(j,2)-newLocationx(pos));
         %     location(pos:end,2) = newLocationy(pos:end) + (ticks(j,3)-newLocationy(pos));
     end
@@ -41,17 +42,14 @@ while(i<size(mag,1))
     
     index = -1;
     if(i+250 <= size(mag,1))
-        activity = getSeedLandmarks(acc(i:i+250,:),mag(i:i+250,:));
+        activity = getSeedLandmarks(acc(i:i+250,:),mag(i:i+250,:),ori(i:i+250,:));
     else
-        activity = getSeedLandmarks(acc(i:end,:),mag(i:end,:));
+        activity = getSeedLandmarks(acc(i:end,:),mag(i:end,:),ori(i:end,:));
     end
-    if(activity == 1)
+    if(activity == 6)
         index = 0;
     else if(activity == 4)
             index = 1;
-        else if(activity == 3)
-                index = 2;
-            end
         end
     end
     if(index ~= -1)
@@ -98,7 +96,5 @@ while(i<size(mag,1))
     %     end
     i = i + 50;
 end
-seeds = [seeds;newseeds];
-save('stable/seeds','seeds');
 
 end

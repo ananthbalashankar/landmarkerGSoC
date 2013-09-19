@@ -35,7 +35,11 @@ LocTime = [0;LocTime];
 xpos = interp1(LocTime,xpos',timeSlots,'linear','extrap');
 ypos = interp1(LocTime,ypos',timeSlots,'linear','extrap');
 
-location = correctSeed([xpos' ypos'],timeSlots,mag.data(:,[3 4 5]),linacc.data(:,[3 4 5]),foldername);
+Mag = interp1(LocTime,mag.data(:,[3 4 5]), timeSlots,'linear','extrap');
+Ori = interp1(LocTime,linacc.data(:,[3 4 5]), timeSlots,'linear','extrap');
+Acc = interp1(LocTime,ori.data(:,[3 4 5]), timeSlots,'linear','extrap');
+
+location = correctSeed([xpos' ypos'],timeSlots,Mag,Acc,Ori,foldername);
 
 landmarks = load('stable/cluster');
 landmarks = landmarks.stable;

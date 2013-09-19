@@ -1,0 +1,49 @@
+/usr/local/MATLAB/R2011a/bin/matlab: 1: /usr/local/MATLAB/R2011a/bin/util/oscheck.sh: /lib64/libc.so.6: not found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+>> /usr/local/MATLAB/R2011a/bin/matlab: 1: /usr/local/MATLAB/R2011a/bin/util/oscheck.sh: /lib64/libc.so.6: not found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+
+seeds =
+
+   -1.4050    0.3092         0
+   -0.9962    1.3718    2.0000
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/464//SensoSaur_17.08.41.20_8.txt
+
+{??? Input argument "ori" is undefined.
+
+Error in ==> getSeedLandmarks at 17
+if(detectCorner(ori,1))
+
+Error in ==> getLocation at 131
+       activity = getSeedLandmarks(linaccSample,magSample);
+
+Error in ==> getClusters at 43
+[xpos ypos LocTime]=
+getLocation(linacc.data,ori.data,gyro.data,mag.data,foldername);
+
+Error in ==> parsedata at 32
+[cluster goodness areas dataid] = getClusters(file,userid,dataid);
+} 
+>> 

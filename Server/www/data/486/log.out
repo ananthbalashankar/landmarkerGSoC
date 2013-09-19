@@ -1,0 +1,144 @@
+/usr/local/MATLAB/R2011a/bin/matlab: 1: /usr/local/MATLAB/R2011a/bin/util/oscheck.sh: /lib64/libc.so.6: not found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+>> /usr/local/MATLAB/R2011a/bin/matlab: 1: /usr/local/MATLAB/R2011a/bin/util/oscheck.sh: /lib64/libc.so.6: not found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+
+seeds =
+
+   -1.2975   -0.0996    2.0000
+   -4.6062   -0.7636    2.0000
+   -7.9917   -0.9614         0
+   -8.6458    1.4550    2.0000
+   -8.8411    3.0247         0
+   -7.0889    3.5518    2.0000
+   -4.8131    3.7477         0
+   -4.7800    2.8041    2.0000
+   -1.8379   -1.2346         0
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/486//SensoSaur_19.13.28.45_8.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/486//SensoSaur_19.13.28.45_0.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/486//SensoSaur_19.13.28.45_1.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/486//SensoSaur_19.13.28.45_10.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/486//SensoSaur_19.13.28.45_11.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/486//SensoSaur_19.13.28.45_2.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/486//SensoSaur_19.13.28.45_7.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/486//SensoSaur_19.13.28.45_8.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/486//SensoSaur_19.13.28.45_9.txt
+
+
+ans =
+
+   3.1302e+14
+
+
+ans =
+
+       11100           3
+
+
+ans =
+
+     []
+
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+{??? Subscript indices must either be real positive integers or logicals.
+
+Error in ==> getClusters at 305
+featData(stationary,:) = [];
+
+Error in ==> parsedata at 32
+[cluster goodness areas dataid] = getClusters(file,userid,dataid);
+} 
+>> 

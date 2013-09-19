@@ -1,0 +1,134 @@
+/usr/local/MATLAB/R2011a/bin/matlab: 1: /usr/local/MATLAB/R2011a/bin/util/oscheck.sh: /lib64/libc.so.6: not found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+>> /usr/local/MATLAB/R2011a/bin/matlab: 1: /usr/local/MATLAB/R2011a/bin/util/oscheck.sh: /lib64/libc.so.6: not found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+
+seeds =
+
+   -2.4453   -0.0021    2.0000
+   -2.8778   -0.0030    2.0000
+   -0.7677   -0.0008    2.0000
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/466//SensoSaur_17.11.37.25_8.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/466//SensoSaur_17.11.37.25_0.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/466//SensoSaur_17.11.37.25_1.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/466//SensoSaur_17.11.37.25_10.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/466//SensoSaur_17.11.37.25_11.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/466//SensoSaur_17.11.37.25_2.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/466//SensoSaur_17.11.37.25_7.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/466//SensoSaur_17.11.37.25_8.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/466//SensoSaur_17.11.37.25_9.txt
+
+
+ans =
+
+   1.6075e+14
+
+
+ans =
+
+        2425           3
+
+
+ans =
+
+     []
+
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+OLM of 4 updated at (-0.215885,0.046235)
+
+OLM of 2  7 updated at (-0.637036,0.096867)
+
+OLM of 4  7 added at (-0.481713,0.074160)
+
+OLM of 4  7 updated at (-0.391590,0.052114)
+
+OLM of 3  4  8 updated at (-0.347264,0.043638)
+
+4
+{??? Error using ==> fprintf
+Invalid file identifier.  Use fopen to generate a valid file identifier.
+
+Error in ==> getStableClusters at 110
+                    fprintf(fid,'%d %f %f',Time(h),X(h),Y(h));
+
+Error in ==> stabilize at 34
+[stable stableFeat newLocation] =
+getStableClusters(featcluster,location,timeSlots,stable,stableFeat,conn,dataid,dir_path);
+%calculate stable clusters
+
+Error in ==> parsedata at 39
+stabilize(file,conn,dataid);
+} 
+>> 

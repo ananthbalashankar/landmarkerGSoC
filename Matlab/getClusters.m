@@ -250,12 +250,16 @@ f_norm = f_cutoff/(f_sample/2);
 [b1 a1]= butter(3,f_norm,'low');
 featData = filtfilt(b1,a1,featData);
 
+ori = featData(:,[7 8 9]);
 featData(:,[7 8 9])=[];     %orientation not needed
 featData(:,[13 14])=[];     %rotation matrix x,y not needed
+
 featData = horzcat(featData,[0;diff(featData(:,5))]);   %difference of mag-y
+linacc = featData(:,[14 15 16]);
+mag = featData(:,[4 5 6]);
 
 %%dead reckoning using existing seed landmarks
-location = correctSeed([xpos' ypos'],timeSlots,featData(:,[4 5 6]),featData(:,[14 15 16]),foldername);
+location = correctSeed([xpos' ypos'],timeSlots,mag,linacc,ori,foldername);
 xpos = location(:,1);
 ypos = location(:,2);
 save(strcat(foldername,'/location'),'xpos','ypos','timeSlots');
@@ -280,6 +284,25 @@ featData = horzcat(featData, newfeat(:,18));                                    
 % if(gsm~=0)
 %  featData = horzcat(featData, newfeat(:,gsm)); 
 % end
+
+%Remove feature data when stationary
+% stationary = zeros(size(mag,1),1);
+% i = 1;
+% while(i<size(mag,1))
+%     if(i+250 <= size(mag,1))
+%         last = i+ 250;
+%     else
+%         last = size(mag,1);
+%     end
+%     activity = getSeedLandmarks(linacc(i:last,:),mag(i:last,:),ori(i:last,:));
+%     if(activity == 2)
+%         stationary(i:last) = 1;
+%         disp('Removing data');
+%     end 
+%     i = i + 50;
+% end
+% 
+% featData(stationary==1,:) = [];
 
 %
 %%%% Features 1-21: x 3: normalized,mean,variance

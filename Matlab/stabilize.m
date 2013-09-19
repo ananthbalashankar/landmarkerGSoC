@@ -1,4 +1,4 @@
-function [stable stableFeat newLocation] = stabilize(dir_path,conn,dataid)
+function [stable stableFeat newLocation] = stabilize(dir_path,conn,dataid,commit,oldStable,oldStableFeat)
 warning('off','all');
 clusters = {};
 err = 0;
@@ -11,14 +11,19 @@ files = {};
 
 
 %%%%change initial Landmarks here
-try
-    s = load(strcat('stable/cluster'));
-    stable = s.stable;
-    stableFeat = s.stableFeat;
-catch
-    mkdir('stable');
-    stable = {};
-    stableFeat = {};
+if(commit)
+    try
+        s = load(strcat('stable/cluster'));
+        stable = s.stable;
+        stableFeat = s.stableFeat;
+    catch
+        mkdir('stable');
+        stable = {};
+        stableFeat = {};
+    end
+else
+    stable = oldStable;
+    stableFeat = oldStableFeat;
 end
 
 x = load(strcat(dir_path,'/cluster.mat'));
@@ -31,8 +36,9 @@ if(~isempty(x.cluster))
     clusters{end+1} = featcluster;
 end
 
-[stable stableFeat newLocation] = getStableClusters(featcluster,location,timeSlots,stable,stableFeat,conn,dataid,dir_path);                         %calculate stable clusters
-save(strcat(dir_path,'/newLocation'),'newLocation','timeSlots');
-save('stable/cluster','stable','stableFeat');
-
+[stable stableFeat newLocation] = getStableClusters(featcluster,location,timeSlots,stable,stableFeat,conn,dataid,dir_path,commit);                         %calculate stable clusters
+if(commit)
+    save(strcat(dir_path,'/newLocation'),'newLocation','timeSlots');
+    save('stable/cluster','stable','stableFeat');
+end
 end

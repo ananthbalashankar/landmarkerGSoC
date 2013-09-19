@@ -67,9 +67,10 @@ function annotateComments(file,conn,dataid)
 %     landmarkid = minid;
      
      %make entry in comments table
-     %vals{i} = {rating,comment,timestamp,dataid,landmarkid};
+     c = clock;
+     vals{i} = {rating,comment,c,dataid,landmarkid};
 %       cols = {'rating','comment','time','dataid','landmarkid'};
-%       vals = {rating,comment,datestr(timestamp),dataid,landmarkid}
+     %vals = {rating,comment,c,dataid,landmarkid};
 %       fastinsert(conn,'comments',cols,vals);
      query = sprintf('Insert into comments(rating,comment,time,dataid,landmarkid) Values (%f,''%s'',NOW(),%d,%d)',rating,comment,dataid,landmarkid);
      exec(conn, query);

@@ -1,0 +1,259 @@
+/usr/local/MATLAB/R2011a/bin/matlab: 1: /usr/local/MATLAB/R2011a/bin/util/oscheck.sh: /lib64/libc.so.6: not found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+>> /usr/local/MATLAB/R2011a/bin/matlab: 1: /usr/local/MATLAB/R2011a/bin/util/oscheck.sh: /lib64/libc.so.6: not found
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2010 The MathWorks, Inc.
+                Version 7.12.0.635 (R2011a) 64-bit (glnxa64)
+                               March 18, 2011
+
+ 
+  To get started, type one of these: helpwin, helpdesk, or demo.
+  For product information, visit www.mathworks.com.
+ 
+
+seeds =
+
+   -0.4583   -0.0115    2.0000
+   -2.9294   -0.0710    2.0000
+   -4.0640   -0.4983         0
+   -4.2381   -1.3349         0
+   -5.8966   -0.8363         0
+   -5.8102   -0.1977         0
+   -5.2432   -0.1045    2.0000
+    0.6750    0.0900    2.0000
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/472//SensoSaur_17.22.40.50_8.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/472//SensoSaur_17.22.40.50_0.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/472//SensoSaur_17.22.40.50_1.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/472//SensoSaur_17.22.40.50_10.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/472//SensoSaur_17.22.40.50_11.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/472//SensoSaur_17.22.40.50_2.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/472//SensoSaur_17.22.40.50_7.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/472//SensoSaur_17.22.40.50_8.txt
+
+
+ans =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/472//SensoSaur_17.22.40.50_9.txt
+
+
+ans =
+
+   1.8819e+14
+
+
+ans =
+
+        4451           3
+
+
+ans =
+
+     []
+
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+Removing data
+OLM of 4 added at (-1.296632,-0.139375)
+
+OLM of 9 added at (-1.042752,-0.106623)
+
+OLM of 11 added at (-1.296632,-0.139375)
+
+OLM of 22 added at (-1.430110,-0.673701)
+
+OLM of 1  4 added at (-0.616397,-0.038533)
+
+OLM of 4  5 added at (-1.296632,-0.139375)
+
+OLM of 5  7 added at (-1.342732,-0.496227)
+
+OLM of 6  7 added at (-1.078954,-0.729451)
+
+OLM of 1  4 updated at (-1.488383,-0.159573)
+
+OLM of 1  7 added at (-0.385387,-1.147089)
+
+OLM of 4  8 added at (-1.510152,-0.160685)
+
+OLM of 7  8 added at (-0.391824,-1.157892)
+
+OLM of 1  4 updated at (-1.474826,-0.168789)
+
+OLM of 9 updated at (-1.382110,-0.166097)
+
+OLM of 9 updated at (-1.451382,-0.167508)
+
+OLM of 9 updated at (-2.833670,-1.082797)
+
+OLM of 4 updated at (-2.945556,-0.312461)
+
+OLM of 11 updated at (-2.945556,-0.312461)
+
+OLM of 22 updated at (-2.913818,-0.242628)
+
+OLM of 4  5 updated at (-2.917195,-0.282375)
+
+OLM of 1  4 updated at (-2.915811,-0.283168)
+
+OLM of 4  8 updated at (-2.918637,-0.283878)
+
+OLM of 1  4 updated at (-3.097264,-0.995043)
+
+OLM of 9 updated at (-3.026634,-0.344450)
+
+OLM of 9 updated at (-3.022714,-0.709804)
+
+OLM of 9 updated at (-3.233365,-1.492487)
+
+OLM of 19 added at (-2.865833,-1.486013)
+
+OLM of 4  7 added at (-3.080140,-1.327289)
+
+OLM of 22 updated at (-3.128213,-1.576815)
+
+OLM of 4 updated at (-3.221539,-1.808068)
+
+OLM of 11 updated at (-3.221539,-1.808068)
+
+OLM of 4  5 updated at (-3.228603,-1.804931)
+
+OLM of 1  4 updated at (-3.211186,-1.798028)
+
+OLM of 1  7 updated at (-2.751342,-1.438761)
+
+OLM of 4  8 updated at (-3.210640,-1.802314)
+
+OLM of 7  8 updated at (-2.747380,-1.438036)
+
+OLM of 9 updated at (-3.177030,-1.642103)
+
+OLM of 4 updated at (-2.320799,-1.311307)
+
+OLM of 11 updated at (-2.320799,-1.311307)
+
+OLM of 1  4 updated at (-2.574519,-1.347374)
+
+OLM of 4  7 updated at (-2.253922,-1.327538)
+
+OLM of 4  8 updated at (-3.034461,-1.369182)
+
+OLM of 1  4 updated at (-2.674869,-1.358570)
+
+OLM of 4  8 updated at (-2.695222,-1.359346)
+
+OLM of 4  8 updated at (-1.690627,-1.307073)
+
+OLM of 4  7 updated at (-1.982944,-1.320080)
+
+OLM of 9 updated at (-1.762520,-1.310635)
+
+OLM of 4  8 updated at (-0.302150,-1.250426)
+
+OLM of 1  4 updated at (-0.287703,-1.249847)
+
+OLM of 9 updated at (-0.332690,-1.272188)
+
+OLM of 4  7 updated at (-1.049504,-1.280210)
+
+OLM of 4 updated at (0.255486,-1.182297)
+
+OLM of 11 updated at (0.255486,-1.182297)
+
+OLM of 4  7 updated at (0.294201,-1.253966)
+
+OLM of 5  7 updated at (0.325535,-1.243582)
+
+OLM of 22 updated at (0.341506,-1.245764)
+
+OLM of 1  4 updated at (0.421889,-1.264571)
+
+OLM of 4  8 updated at (0.413055,-1.238981)
+
+OLM of 4  7 updated at (0.413463,-1.047846)
+
+OLM of 9 updated at (0.462734,-1.263887)
+
+OLM of 4  7 updated at (-0.908911,1.195137)
+
+
+commentFile =
+
+/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/472//Comments.txt
+
+
+comments = 
+
+     {}
+
+>> 
