@@ -1,0 +1,37 @@
+function getTrend(files)
+    seeds = load('stable/seeds');
+    seeds = seeds.seeds;
+    
+    areas = [];
+    k=0;
+    for i=1:size(seeds,1)
+        if(seeds(i,3) == 2)
+            k = k+1;
+            areas(k,:) = seeds(i,:);
+        end
+    end
+    
+    Areas ={};
+    fid= fopen('stable/Areas.txt');
+    for i=1:k
+        Areas{i} = fgetl(fid);
+    end
+    
+    percent = zeros(size(areas,1),1);
+    for i=1:length(files)
+        loc = load(strcat(files{i},'newLocation'));
+        class = knnclassify(loc.newLocation, areas(:,[1,2]), [1:k]);
+        for j=1:k
+            percent(j) = percent(j) + (sum(class==j)/length(class));
+        end
+    end
+    percent = percent./length(files);
+    pie(percent);
+    colormap jet;
+    legend(Areas{:},'Location','NorthWest');
+    
+    im = getframe(gcf);
+    im = imresize(im.cdata, [600 600]);
+    imwrite (im, 'stable/Trend.png', 'png');
+    close all;
+end
