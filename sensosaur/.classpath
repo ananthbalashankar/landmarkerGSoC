@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
-	<classpathentry exported="true" kind="lib" path="/opt/MATLAB/MATLAB_Compiler_Runtime/v715/toolbox/javabuilder/jar/javabuilder.jar"/>
-	<classpathentry kind="lib" path="/home/swadhin/Landmark/landmarkerGSoC/Matlab/Sensosaur/distrib/Sensosaur.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/ananthbalashankar/landmarkerGSoC/sensosaur/javabuilder.jar"/>
+	<classpathentry exported="true" kind="lib" path="/home/ananthbalashankar/landmarkerGSoC/sensosaur/Sensosaur.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

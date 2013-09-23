@@ -431,7 +431,7 @@ public class MainWindow {
 			public void actionPerformed(ActionEvent arg0) {
 				JFileChooser chooser = new JFileChooser();
 				chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
-				chooser.setCurrentDirectory(new File("/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/"));
+				chooser.setCurrentDirectory(new File("/home/ananthbalashankar/landmarkerGSoC/Server/www/data/"));
 			    int returnVal = chooser.showOpenDialog(null);
 			    if(returnVal == JFileChooser.APPROVE_OPTION) {
 			       System.out.println("You chose to open this file: " +
@@ -446,7 +446,7 @@ public class MainWindow {
 		mntmChooseTraces.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				JFileChooser chooser = new JFileChooser();
-				chooser.setCurrentDirectory(new File("/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/"));
+				chooser.setCurrentDirectory(new File("/home/ananthbalashankar/landmarkerGSoC/Server/www/data/"));
 				chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
 				chooser.setMultiSelectionEnabled(true);
 			    int returnVal = chooser.showOpenDialog(null);
@@ -474,7 +474,7 @@ public class MainWindow {
 		mntmViewTrend.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				JFileChooser chooser = new JFileChooser();
-				chooser.setCurrentDirectory(new File("/home/swadhin/Landmark/landmarkerGSoC/Server/www/data/"));
+				chooser.setCurrentDirectory(new File("/home/ananthbalashankar/landmarkerGSoC/Server/www/data/"));
 				chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
 				chooser.setMultiSelectionEnabled(true);
 			    int returnVal = chooser.showOpenDialog(null);
