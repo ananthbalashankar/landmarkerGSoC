@@ -1,0 +1,4 @@
+export LC_ALL="en_US.utf8"
+export PATH=$PATH:/usr/local/MATLAB/R2012b/bin/
+export LD_LIBRARY_PATH = /opt/MATLAB/MATLAB_Compiler_Runtime/v715/runtime/glnxa64/
+export XAPPLRESDIR=/usr/local/MATLAB/R2012b/X11/app-defaults/
