@@ -1,0 +1,69 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+{Attempt to reference field of non-structure array.
+
+Error in updateLocation (line 17)
+[xpos ypos LocTime]=
+getLocation(linacc.data,ori.data,gyro.data,mag.data,foldername);
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+{Attempt to reference field of non-structure array.
+
+Error in updateLocation (line 17)
+[xpos ypos LocTime]=
+getLocation(linacc.data,ori.data,gyro.data,mag.data,foldername);
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: This functionality is no longer supported under the -nodisplay and
+-noFigureWindows startup options. For more information, see "Changes to
+-nodisplay and -noFigureWindows Startup Options" in the MATLAB Release Notes.
+To view the release note in your system browser, run
+web('http://www.mathworks.com/access/helpdesk/help/techdoc/rn/br5ktrh-1.html#br5ktrh-3',
+'-browser')] 
+[> In uitools/private/warnfiguredialog at 19
+  In dialog at 37
+  In getLocation at 205
+  In updateLocation at 17] 
+
+prevLandmark = 
+
+    [1838]
+
+
+prevTime = 
+
+    '2013-09-23 12:46:26.0'
+
+
+landmarkid =
+
+        1853
+
+update ended
+>> 

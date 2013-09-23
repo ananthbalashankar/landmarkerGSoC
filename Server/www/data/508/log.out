@@ -1,0 +1,81 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/508//SensoSaur_23.18.20.47_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/508//SensoSaur_23.18.20.47_0.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/508//SensoSaur_23.18.20.47_1.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/508//SensoSaur_23.18.20.47_10.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/508//SensoSaur_23.18.20.47_11.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/508//SensoSaur_23.18.20.47_2.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/508//SensoSaur_23.18.20.47_7.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/508//SensoSaur_23.18.20.47_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/508//SensoSaur_23.18.20.47_9.txt
+
+
+ans =
+
+   4.2639e+13
+
+
+ans =
+
+       13457           3
+
+
+ans =
+
+     []
+
+{Undefined function or variable "featcluster".
+
+Error in stabilize (line 39)
+[stable stableFeat newLocation] =
+getStableClusters(featcluster,location,timeSlots,stable,stableFeat,conn,dataid,dir_path,commit);
+%calculate stable clusters
+
+Error in parsedata (line 39)
+stabilize(file,conn,dataid,1);
+} 
+>> 

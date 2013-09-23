@@ -1,0 +1,100 @@
+
+******Configured Networks******
+
+SysTime = 42775128128687 ID: 0 SSID: "Department" BSSID: null PRIO: 0
+Channel: 6MAC ACL: 3 KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+
+
+
+
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+IP assignment: DHCP
+Proxy settings: STATIC
+LinkAddresses: [] Routes: [] DnsAddresses: [] HttpProxy: [144.16.192.245] 8080 xl= 
+
+SysTime = 42775128128687 ID: 1 SSID: "Guest_User" BSSID: null PRIO: 0
+Channel: 6MAC ACL: 3 KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+
+
+
+
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+IP assignment: DHCP
+Proxy settings: STATIC
+LinkAddresses: [] Routes: [] DnsAddresses: [] HttpProxy: [144.16.192.245] 8080 xl= 
+
+SysTime = 42775128128687 ID: 2 SSID: "FGSC" BSSID: null PRIO: 3
+Channel: 6MAC ACL: 3 KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+
+
+
+
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+IP assignment: DHCP
+Proxy settings: NONE
+LinkAddresses: [] Routes: [] DnsAddresses: [] 
+
+SysTime = 42775128128687 ID: 3 SSID: "Departments" BSSID: null PRIO: 5
+Channel: 6MAC ACL: 3 KeyMgmt: NONE Protocols: WPA RSN
+ AuthAlgorithms:
+ PairwiseCiphers: TKIP CCMP
+ GroupCiphers: WEP40 WEP104 TKIP CCMP
+ PSK: 
+
+
+
+
+ eap: 
+ phase1: 
+ phase2: 
+ pac_file: 
+ identity: 
+ anonymous_identity: 
+ password: 
+ client_cert: 
+ private_key: 
+ ca_cert: 
+IP assignment: DHCP
+Proxy settings: STATIC
+LinkAddresses: [] Routes: [] DnsAddresses: [] HttpProxy: [144.16.192.245] 8080 xl= 
+
+

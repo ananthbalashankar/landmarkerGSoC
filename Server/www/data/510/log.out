@@ -1,0 +1,108 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/510//SensoSaur_23.18.25.24_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/510//SensoSaur_23.18.25.24_0.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/510//SensoSaur_23.18.25.24_1.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/510//SensoSaur_23.18.25.24_10.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/510//SensoSaur_23.18.25.24_11.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/510//SensoSaur_23.18.25.24_2.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/510//SensoSaur_23.18.25.24_7.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/510//SensoSaur_23.18.25.24_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/510//SensoSaur_23.18.25.24_9.txt
+
+
+ans =
+
+   4.2916e+13
+
+
+ans =
+
+       15126           3
+
+
+ans =
+
+     []
+
+OLM of 11 updated at (11.776735,10.635020)
+
+OLM of 11 updated at (2.551057,-18.006941)
+
+
+commentFile =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/510//Comments.txt
+
+
+comments = 
+
+    [4.2940e+13]    [     1]    'bad jeans'      
+    [4.2967e+13]    [     4]    'nice collection'
+    [4.2994e+13]    [0.5000]    'bad food'       
+    [4.3025e+13]    [0.5000]    'bad shampoo'    
+
+
+query1 =
+
+Select id,min(POWER(centroidx+22.655810,2)+POWER(centroidy + -6.584518,2)) as dist from landmark group by id order by dist asc
+
+
+query1 =
+
+Select id,min(POWER(centroidx+19.297176,2)+POWER(centroidy + -20.665982,2)) as dist from landmark group by id order by dist asc
+
+
+query1 =
+
+Select id,min(POWER(centroidx+-11.091358,2)+POWER(centroidy + -11.514030,2)) as dist from landmark group by id order by dist asc
+
+
+query1 =
+
+Select id,min(POWER(centroidx+-2.499699,2)+POWER(centroidy + 18.000605,2)) as dist from landmark group by id order by dist asc
+
+>> 

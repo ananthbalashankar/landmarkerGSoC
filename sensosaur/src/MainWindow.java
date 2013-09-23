@@ -53,8 +53,7 @@ public class MainWindow {
 	private String foldername;
 	private List<File> features;
 	private JComboBox comboBox;
-	private Connection connect;
-	private Statement statement;
+	private String homeFolder = "/home/ananthbalashankar/landmarkerGSoC/Server/www/data/" ;
 	
 	private visualize v;
 	JTabbedPane tab;
@@ -207,8 +206,9 @@ public class MainWindow {
 		 result = v.heatMap(1,file);
 		 
 		 //String image = "/home/swadhin/Landmark/landmarkerGSoC/sensosaur/stable/heatMap.png";
-		MWArray im = (MWArray)result[0];
-		String image = im.toString();
+		MWCellArray im = (MWCellArray)result[0];
+		
+		String image = im.getCell(new int[]{1,1}).toString();
 		 BufferedImage img;
 		img = scaleImage(600,600,image);
 		ImageIcon icon = new ImageIcon(img);
@@ -218,8 +218,21 @@ public class MainWindow {
 		JPanel heatMapPane = new JPanel();
 		heatMapPane.add(lblPicture);
 		int index = tab.getTabCount();
-		tab.addTab("Heat Map", heatMapPane);
+		tab.addTab("Landmark Map", heatMapPane);
 		setCloseButton(index);
+		
+		String image1 = im.getCell(new int[]{1,2}).toString();
+		 BufferedImage img1;
+		img1 = scaleImage(600,600,image1);
+		ImageIcon icon1 = new ImageIcon(img1);
+		JLabel lblPicture1 = new JLabel();
+		lblPicture1.setIcon(icon1);
+		lblPicture1.setBounds(10, 104, 600, 600);
+		JPanel heatMapPane1 = new JPanel();
+		heatMapPane1.add(lblPicture1);
+		int index1 = tab.getTabCount();
+		tab.addTab("Heat Map", heatMapPane1);
+		setCloseButton(index1);
 		
 		
 	} catch (Exception e) {
@@ -431,7 +444,7 @@ public class MainWindow {
 			public void actionPerformed(ActionEvent arg0) {
 				JFileChooser chooser = new JFileChooser();
 				chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
-				chooser.setCurrentDirectory(new File("/home/ananthbalashankar/landmarkerGSoC/Server/www/data/"));
+				chooser.setCurrentDirectory(new File(homeFolder));
 			    int returnVal = chooser.showOpenDialog(null);
 			    if(returnVal == JFileChooser.APPROVE_OPTION) {
 			       System.out.println("You chose to open this file: " +
@@ -446,7 +459,7 @@ public class MainWindow {
 		mntmChooseTraces.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				JFileChooser chooser = new JFileChooser();
-				chooser.setCurrentDirectory(new File("/home/ananthbalashankar/landmarkerGSoC/Server/www/data/"));
+				chooser.setCurrentDirectory(new File(homeFolder));
 				chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
 				chooser.setMultiSelectionEnabled(true);
 			    int returnVal = chooser.showOpenDialog(null);
@@ -474,7 +487,7 @@ public class MainWindow {
 		mntmViewTrend.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				JFileChooser chooser = new JFileChooser();
-				chooser.setCurrentDirectory(new File("/home/ananthbalashankar/landmarkerGSoC/Server/www/data/"));
+				chooser.setCurrentDirectory(new File(homeFolder));
 				chooser.setFileSelectionMode(JFileChooser.DIRECTORIES_ONLY);
 				chooser.setMultiSelectionEnabled(true);
 			    int returnVal = chooser.showOpenDialog(null);

@@ -1,0 +1,4 @@
+42798228824490;3.0;good jeans
+42824661244044;1.0;good pan not available
+42852122176100;1.0;Chinese food not good
+42885537798490;1.0;body soap collection is bad
