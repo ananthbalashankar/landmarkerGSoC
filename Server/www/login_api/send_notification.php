@@ -1,7 +1,7 @@
 #!/usr/bin/php
 <?php
 error_reporting(-1);
-set_include_path('/home/swadhin/Landmark/landmarkerGSoC/Server/www/login_api/');
+set_include_path('/home/ananthbalashankar/landmarkerGSoC/Server/www/login_api/');
 require_once 'include/DB_Functions.php';
 include_once 'GCM.php';
 echo "starting at ".date('Y/m/d H:i:s')."\n";
@@ -21,17 +21,17 @@ echo "starting at ".date('Y/m/d H:i:s')."\n";
 		echo $date2;	
 		if(!is_null($date1) && ($date1 > $date2 || is_null($date2)))
 		{
-			$str = file_get_contents('/home/swadhin/Landmark/landmarkerGSoC/Matlab/stable/notifications_'.$row["uid"].'.txt');
+			$str = file_get_contents('/home/ananthbalashankar/landmarkerGSoC/Matlab/stable/notifications_'.$row["uid"].'.txt');
 			echo $str;
-			$arr = explode("\n",$str);
-			for($i=0;$i<count($arr);$i++)
+			$arr = explode(";",$str);
+			for($i=0;$i<count($arr)-1;$i++)
 			{
 				$registatoin_ids = array($row["gcm_regid"]);
 				$message = array("price" => $arr[$i]);
 				echo "sending ".$row["gcm_regid"]." ,user=".$row["uid"].",message = ".$arr[$i]."\n";
 				$result = $gcm->send_notification($registatoin_ids, $message);
 				$result .= "\n";
-				file_put_contents($file,$result,FILE_APPEND | LOCK_EX);
+			//	file_put_contents($file,$result,FILE_APPEND | LOCK_EX);
 				echo $result;
 
 			}

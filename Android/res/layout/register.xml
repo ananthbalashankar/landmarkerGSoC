@@ -11,7 +11,6 @@
         android:orientation="vertical"
         android:padding="10dip" >
 		<!--  View Title Label -->
-		<include layout="@layout/message"/> 
 		
         <TextView
             android:layout_width="fill_parent"

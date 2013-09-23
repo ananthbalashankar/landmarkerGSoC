@@ -13,6 +13,7 @@ import org.apache.http.client.ResponseHandler;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.protocol.ClientContext;
 import org.apache.http.cookie.Cookie;
+import org.apache.http.entity.mime.FormBodyPart;
 import org.apache.http.entity.mime.HttpMultipartMode;
 import org.apache.http.entity.mime.MultipartEntity;
 import org.apache.http.entity.mime.content.FileBody;
@@ -65,18 +66,21 @@ public class ServerCommunication extends AsyncTask<Object,Void,String>{
 	        try {
 
 	        	
-	            HttpPost httppost = new HttpPost("http://10.5.18.202/fileUpload.php");
+	            HttpPost httppost = new HttpPost("http://131.252.130.215/fileUpload.php");
 	            	
-	            MultipartEntity multipartEntity = new MultipartEntity(HttpMultipartMode.BROWSER_COMPATIBLE);  
+	            //HttpPost httppost = new HttpPost("http://131.252.130.215/fileUpload.php");
+	            //MultipartEntity multipartEntity = new MultipartEntity(HttpMultipartMode.BROWSER_COMPATIBLE);  
          
+	            MultipartEntity multipartEntity = new MultipartEntity();
+	            multipartEntity.addPart(new FormBodyPart("uid", new StringBody(uid)));
+	            multipartEntity.addPart(new FormBodyPart("new", new StringBody(newFile)));
 	            for (int i=0;i<files.length;i++)
 	            {
 	            	String tag = "file" + (i+1);
 	            	multipartEntity.addPart(tag , new FileBody(files[i]));
 	            	Log.d("UPLOAD",tag+","+files[i].getAbsolutePath());
 	            }
-	            multipartEntity.addPart("uid", new StringBody(uid));
-	            multipartEntity.addPart("new", new StringBody(newFile));
+	            
 	            //multipartEntity.addPart("sessionId",new StringBody(value));
 	            httppost.setEntity(multipartEntity);
             	

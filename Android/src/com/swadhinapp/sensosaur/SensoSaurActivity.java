@@ -129,6 +129,7 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
 	private Button back = null;
 	private ViewSwitcher switcher = null;
 	private Button seedSubmit = null;
+	private ToggleButton logon = null;     //Start logging data to collect seed landmarks
 	//private SoundMeter sMeter = null;
 	private SoundMeter sRecorder = null;
 	
@@ -726,6 +727,19 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
 				
 				back = (Button) findViewById(R.id.back);
 				seedSubmit = (Button) findViewById(R.id.seedsubmit);
+				logon = (ToggleButton)findViewById(R.id.logon);
+				
+				logon.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+		            public void onCheckedChanged(CompoundButton cButton,boolean bVal) {
+		                // Perform action on click
+		            	if( bVal == true )
+		            	{
+		            		startLogging();
+		            	}else{
+		            		stopLogging("seed");
+		            	}
+		            }
+		    	});
 				
 				back.setOnClickListener(new View.OnClickListener() {
 				
@@ -747,13 +761,10 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
 						// TODO Auto-generated method stub
 						RadioGroup myRadioGroup =(RadioGroup) findViewById(R.id.choice);
 						int index = myRadioGroup.indexOfChild(findViewById(myRadioGroup.getCheckedRadioButtonId()));
-						EditText xpos = (EditText) findViewById(R.id.xaxis);
-						EditText ypos = (EditText) findViewById(R.id.yaxis);
-						double x = Double.valueOf(xpos.getText().toString());
-						double y = Double.valueOf(ypos.getText().toString());
+						
 						long tim = System.nanoTime();
-						seedsFile.println(""+Long.toString(tim)+ " "+x+" "+y+" "+index);
-						Log.d("UPLOAD","seeds inserted:"+x+","+y+";rating:"+index);
+						seedsFile.println(""+Long.toString(tim)+ " "+index);
+						Log.d("UPLOAD","seeds inserted:"+";type:"+index);
 					}
 				});
 				
@@ -912,6 +923,7 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
     @Override
     protected void onPause() {
       super.onPause();
+      try{ 
       for(int i =0 ; i< numSensors ; i++)
       {
           mSensorManager.unregisterListener(this);
@@ -921,10 +933,11 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
       //WiFi
       
       unregisterReceiver(receiver);
-    
       
       //GSM
       Tel.listen(MyListener, PhoneStateListener.LISTEN_NONE);
+      }
+      catch(Exception e){}
       //sMeter.stop();
       //Release Wake Lock
       //wakeLock.release();
@@ -1141,7 +1154,7 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
 		}
 		
 	     try {
-				seeds = new File(Environment.getExternalStorageDirectory().getAbsolutePath()+"/SensoSaur/"+"Seeds.txt");
+				seeds = new File(fileDir,"Seeds.txt");
 				if(!seeds.exists())
 					seeds.createNewFile();
 				seedsFile = new PrintWriter(new FileWriter(seeds));
@@ -1186,17 +1199,26 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
 			}				
 		}
 		// List available networks
-		String textWiFiString = "\n******Configured Networks******\n";
-		List<WifiConfiguration> configs = wifiM.getConfiguredNetworks();
 		long tim = System.nanoTime();
+		String textWiFiString = "";
+		try{
+		textWiFiString = "\n******Configured Networks******\n";
+		List<WifiConfiguration> configs = wifiM.getConfiguredNetworks();
+		
 		for (WifiConfiguration config : configs) {
 			textWiFiString += "\nSysTime = " + Long.toString(tim)+ " "+config.toString();
 		}
+		
+		
 		
 		//Wifi Scanning Start
 		Log.d(LOG_TAG, "onClick() wifi.startScan()");
 		wifiM.startScan();
 		//doWifiScan();
+		}
+		catch(Exception ex){
+			//No Wifi
+		}
 		
 		//wifi logging handler
     	wifiFile = new File(fileDir,"wifiScanResults.txt");
@@ -1385,29 +1407,14 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
 		
 	    Log.d(LOG_TAG,"last");
 	    
-	    myTimer = new Timer();
-		DatabaseHandler db = new DatabaseHandler(getApplicationContext());
-        HashMap<String,String> details = db.getUserDetails();
-        String uid = details.get("uid");
-        File [] files = new File[4];
-        /*for(int i=0;i<12;i++)
-        	files[i] = file[i];
-        files[12] = wifiFile;
-        files[13] = gsmFile;
-        files[14] = comment;
-        files[15] = seeds;
-		files[16] = lmFile;*/
-        files[0] = file[1];
-        files[1] = file[2];
-        files[2] = file[8];
-        files[3] = file[10];
-        
-		LoggingActivity log = new LoggingActivity(files,uid);
-		myTimer.schedule(log, (long)120000,(long)120000);
+	    
     }
     
-    public void stopLogging()
+    public void stopLogging(String... params)
     {
+    	String type = "yes";
+    	if(params.length==1)
+    		type = "seed";
     	landMarkRecord.setEnabled(false);
 		
 		if ( null != locFileOut )
@@ -1458,7 +1465,7 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
         //String cookie = details.get("cookie");
         //String name = cookie.substring(cookie.indexOf("[name:")+6,cookie.indexOf("][value:"));
         //String value = cookie.substring(cookie.indexOf("][value:")+8, cookie.indexOf("][domain:"));
-		sendFileToServer(files,uid,"yes");
+		sendFileToServer(files,uid,type);
 		
 		
 		SharedPreferences.Editor filePrefEd = app_preferences.edit();
@@ -1512,8 +1519,29 @@ public class SensoSaurActivity extends Activity implements SensorEventListener,L
 	            	if( bVal == true )
 	            	{
 	            		startLogging();
+	            		myTimer = new Timer();
+	            		DatabaseHandler db = new DatabaseHandler(getApplicationContext());
+	                    HashMap<String,String> details = db.getUserDetails();
+	                    String uid = details.get("uid");
+	                    File [] files = new File[4];
+	                    /*for(int i=0;i<12;i++)
+	                    	files[i] = file[i];
+	                    files[12] = wifiFile;
+	                    files[13] = gsmFile;
+	                    files[14] = comment;
+	                    files[15] = seeds;
+	            		files[16] = lmFile;*/
+	                    files[0] = file[1];
+	                    files[1] = file[2];
+	                    files[2] = file[8];
+	                    files[3] = file[10];
+	                    
+	            		LoggingActivity log = new LoggingActivity(files,uid);
+	            		myTimer.schedule(log, (long)1000,(long)60000);
 	            	}else{
 	            		myTimer.cancel();
+	            		myTimer.purge();
+	            		myTimer = null;
 	            		stopLogging();
 	            		
 	            		

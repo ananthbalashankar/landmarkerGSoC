@@ -20,8 +20,8 @@ public class UserFunctions extends AsyncTask<String,Void,JSONObject> {
 	//private static String loginURL = "http://131.252.130.215/login_api/";
 	//private static String registerURL = "http://131.252.130.215/login_api/";
 	
-	private static String loginURL = "http://10.5.18.202/login_api/";
-	private static String registerURL = "http://10.5.18.202/login_api/";
+	private static String loginURL = "http://131.252.130.215/login_api/";
+	private static String registerURL = "http://131.252.130.215/login_api/";
 	
 	
 	private static String login_tag = "login";

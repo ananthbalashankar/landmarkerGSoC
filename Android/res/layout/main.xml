@@ -5,7 +5,6 @@
     android:layout_height="fill_parent"
     android:background="@drawable/bg2" >
 
-    
     <ViewSwitcher
         android:id="@+id/profileSwitcher"
         android:layout_width="fill_parent"
@@ -18,7 +17,8 @@
             android:gravity="center"
             android:orientation="vertical" >
 
-            <include layout="@layout/message"/> 
+            <include layout="@layout/message" />
+
             <LinearLayout
                 android:id="@+id/ssTopTabLinearLayout"
                 android:layout_width="match_parent"
@@ -26,16 +26,17 @@
                 android:gravity="center|center_vertical"
                 android:orientation="horizontal" >
 
-                <Button android:layout_width="100dp"
-		        android:layout_height="wrap_content"
-		        android:text="Logout"
-		        android:textSize="20dip"
-		        android:textColor="#21dbd4"
-		        android:textStyle="bold" 
-		        android:id="@+id/btnLogout"
-		        android:layout_marginTop="1dip"
-		        android:background="@null"/>
-                
+                <Button
+                    android:id="@+id/btnLogout"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="1dip"
+                    android:background="@null"
+                    android:text="Logout"
+                    android:textColor="#21dbd4"
+                    android:textSize="20dip"
+                    android:textStyle="bold" />
+
                 <ImageView
                     android:id="@+id/ssAboutImageView"
                     android:layout_width="100dp"
@@ -1672,12 +1673,12 @@
                 android:orientation="vertical" >
 
                 <RadioButton
-                    android:id="@+id/elevator"
+                    android:id="@+id/corner"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:checked="true"
-                    android:text="Elevator" />
+                    android:text="@string/Corner" />
 
                 <RadioButton
                     android:id="@+id/stairs"
@@ -1687,52 +1688,31 @@
                     android:text="Stairs" />
 
                 <RadioButton
-                    android:id="@+id/escalator"
+                    android:id="@+id/door"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="Escalator" />
+                    android:text="@string/Door" />
             </RadioGroup>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content"
+                android:gravity="center" >
 
-                <TextView
-                    android:id="@+id/textView1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="X Pos"
-                    android:textAppearance="?android:attr/textAppearanceMedium" />
-
-                <EditText
-                    android:id="@+id/xaxis"
-                    android:layout_width="246dp"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="numberDecimal|numberSigned" >
-
-                    <requestFocus />
-                </EditText>
+                <ToggleButton
+            android:id="@+id/logon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logon"
+            android:textOn="Log On"
+            android:textOff = "Log Off" />
+                
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="292dp"
                 android:layout_height="wrap_content" >
-
-                <TextView
-                    android:id="@+id/textView2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Y Pos"
-                    android:textAppearance="?android:attr/textAppearanceMedium" />
-
-                <EditText
-                    android:id="@+id/yaxis"
-                    android:layout_width="259dp"
-                    android:layout_height="wrap_content"
-                    android:ems="10"
-                    android:inputType="numberDecimal|numberSigned" />
             </LinearLayout>
 
             <LinearLayout
@@ -1752,7 +1732,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="Submit" />
+                    android:text="Tick" />
             </LinearLayout>
         </LinearLayout>
     </ViewSwitcher>

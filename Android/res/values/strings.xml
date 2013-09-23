@@ -74,4 +74,7 @@
 	<string name="Comments">Comments :</string>
 	<string name="Rating">Rating :</string>
 	<string name="SubmitComments">Submit</string>
+	<string name="Corner">Corner</string>
+	<string name="Door">Door</string>
+	<string name="logon">Log On</string>
 </resources>

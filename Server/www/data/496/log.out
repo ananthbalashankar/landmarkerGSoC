@@ -1,0 +1,91 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/496//SensoSaur_22.17.26.49_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/496//SensoSaur_22.17.26.49_0.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/496//SensoSaur_22.17.26.49_1.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/496//SensoSaur_22.17.26.49_10.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/496//SensoSaur_22.17.26.49_11.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/496//SensoSaur_22.17.26.49_2.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/496//SensoSaur_22.17.26.49_7.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/496//SensoSaur_22.17.26.49_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/496//SensoSaur_22.17.26.49_9.txt
+
+
+ans =
+
+   5.2385e+14
+
+
+ans =
+
+        1172           3
+
+
+ans =
+
+     []
+
+OLM of 2  5 updated at (-0.861283,0.000108)
+
+OLM of 2  6 added at (-0.973216,0.000106)
+
+OLM of 2  6 updated at (-1.742216,0.000227)
+
+OLM of 2  5 updated at (-4.350747,0.001114)
+
+OLM of 2  5 updated at (9.747672,-0.002623)
+
+
+commentFile =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/496//Comments.txt
+
+
+comments = 
+
+     {}
+
+>> 

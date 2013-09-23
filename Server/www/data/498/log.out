@@ -1,0 +1,125 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/498//SensoSaur_22.17.37.18_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/498//SensoSaur_22.17.37.18_0.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/498//SensoSaur_22.17.37.18_1.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/498//SensoSaur_22.17.37.18_10.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/498//SensoSaur_22.17.37.18_11.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/498//SensoSaur_22.17.37.18_2.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/498//SensoSaur_22.17.37.18_7.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/498//SensoSaur_22.17.37.18_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/498//SensoSaur_22.17.37.18_9.txt
+
+
+ans =
+
+   5.2447e+14
+
+
+ans =
+
+        2300           3
+
+
+ans =
+
+     []
+
+OLM of 5  7 updated at (-0.884066,-0.000425)
+
+7  8
+
+query =
+
+update landmark set centroidx=-3.084146 ,centroidy=-0.000203,numofpoints=237,confidence=2 where id=1729
+
+6  7
+
+query =
+
+update landmark set centroidx=-1.535362 ,centroidy=-0.000042,numofpoints=236,confidence=2 where id=1725
+
+2  7
+
+query =
+
+update landmark set centroidx=-1.800881 ,centroidy=0.021294,numofpoints=230,confidence=3 where id=1682
+
+OLM of 4  7 updated at (-2.852217,-0.000880)
+
+OLM of 5  7 updated at (-2.899470,-0.000885)
+
+7  8
+
+query =
+
+update landmark set centroidx=-3.224416 ,centroidy=0.007395,numofpoints=197,confidence=3 where id=1729
+
+OLM of 2  7 updated at (-5.022111,-0.000799)
+
+OLM of 6  7 updated at (-4.812307,-0.000842)
+
+OLM of 4  7 updated at (-4.961262,-0.000832)
+
+OLM of 5  7 updated at (-5.147076,-0.000816)
+
+OLM of 7  8 updated at (-5.368423,-0.000802)
+
+OLM of 7  8 updated at (-5.670722,-0.000776)
+
+OLM of 7  8 updated at (10.583856,0.001191)
+
+
+commentFile =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/498//Comments.txt
+
+
+comments = 
+
+     {}
+
+>> 

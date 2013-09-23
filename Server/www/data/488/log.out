@@ -1,0 +1,234 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+{Attempt to reference field of non-structure array.
+
+Error in updateLocation (line 17)
+[xpos ypos LocTime]=
+getLocation(linacc.data,ori.data,gyro.data,mag.data,foldername);
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+ updateLocation('/home/ananthbalashankar/landmarkerGSoC/Server/www/data/488/',)
+                                                                             |
+{Error: Unbalanced or unexpected parenthesis or bracket.
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+ updateLocation('/home/ananthbalashankar/landmarkerGSoC/Server/www/data/488/',)
+                                                                             |
+{Error: Unbalanced or unexpected parenthesis or bracket.
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: This functionality is no longer supported under the -nodisplay and
+-noFigureWindows startup options. For more information, see "Changes to
+-nodisplay and -noFigureWindows Startup Options" in the MATLAB Release Notes.
+To view the release note in your system browser, run
+web('http://www.mathworks.com/access/helpdesk/help/techdoc/rn/br5ktrh-1.html#br5ktrh-3',
+'-browser')] 
+[> In uitools/private/warnfiguredialog at 19
+  In dialog at 37
+  In getLocation at 205
+  In updateLocation at 17] 
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: This functionality is no longer supported under the -nodisplay and
+-noFigureWindows startup options. For more information, see "Changes to
+-nodisplay and -noFigureWindows Startup Options" in the MATLAB Release Notes.
+To view the release note in your system browser, run
+web('http://www.mathworks.com/access/helpdesk/help/techdoc/rn/br5ktrh-1.html#br5ktrh-3',
+'-browser')] 
+[> In uitools/private/warnfiguredialog at 19
+  In dialog at 37
+  In getLocation at 205
+  In updateLocation at 17] 
+{Error using griddedInterpolant
+The grid vectors do not define a grid of points that match the given values.
+
+Error in interp1>LinearShiftBounds (line 271)
+griddedInterpolant(X,V(:,1));
+
+Error in interp1 (line 237)
+      [X, V] = LinearShiftBounds(X, V, Xq);
+
+Error in updateLocation (line 38)
+Mag = interp1(LocTime,mag.data(:,[3 4 5]), timeSlots,'linear','extrap');
+} 
+>> {Error using griddedInterpolant
+The grid vectors do not define a grid of points that match the given values.
+
+Error in interp1>LinearShiftBounds (line 271)
+griddedInterpolant(X,V(:,1));
+
+Error in interp1 (line 237)
+      [X, V] = LinearShiftBounds(X, V, Xq);
+
+Error in updateLocation (line 38)
+Mag = interp1(LocTime,mag.data(:,[3 4 5]), timeSlots,'linear','extrap');
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+[Warning: This functionality is no longer supported under the -nodisplay and
+-noFigureWindows startup options. For more information, see "Changes to
+-nodisplay and -noFigureWindows Startup Options" in the MATLAB Release Notes.
+To view the release note in your system browser, run
+web('http://www.mathworks.com/access/helpdesk/help/techdoc/rn/br5ktrh-1.html#br5ktrh-3',
+'-browser')] 
+[> In uitools/private/warnfiguredialog at 19
+  In dialog at 37
+  In getLocation at 205
+  In updateLocation at 17] 
+{Error using griddedInterpolant
+The grid vectors do not define a grid of points that match the given values.
+
+Error in interp1>LinearShiftBounds (line 271)
+griddedInterpolant(X,V(:,1));
+
+Error in interp1 (line 237)
+      [X, V] = LinearShiftBounds(X, V, Xq);
+
+Error in updateLocation (line 38)
+Mag = interp1(LocTime,mag.data(:,[3 4 5]), timeSlots,'linear','extrap');
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+ updateLocation('/home/ananthbalashankar/landmarkerGSoC/Server/www/data/488/',)
+                                                                             |
+{Error: Unbalanced or unexpected parenthesis or bracket.
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+{Attempt to reference field of non-structure array.
+
+Error in updateLocation (line 17)
+[xpos ypos LocTime]=
+getLocation(linacc.data,ori.data,gyro.data,mag.data,foldername);
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/488//SensoSaur_22.00.59.57_2.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/488//SensoSaur_22.01.38.24_0.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/488//SensoSaur_22.00.59.57_1.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/488//SensoSaur_22.01.38.24_1.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/488//SensoSaur_22.00.59.57_10.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/488//SensoSaur_22.01.38.24_10.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/488//SensoSaur_22.01.38.24_11.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/488//SensoSaur_22.00.59.57_2.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/488//SensoSaur_22.01.38.24_2.txt
+
+{Attempted to access h(1,1); index out of bounds because size(h)=[0,1].
+
+Error in getClusters (line 89)
+        h(1,1)
+
+Error in parsedata (line 32)
+[cluster goodness areas dataid] = getClusters(file,userid,dataid);
+} 
+>> 

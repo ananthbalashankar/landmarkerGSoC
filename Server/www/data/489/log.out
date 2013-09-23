@@ -1,0 +1,109 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+{Attempt to reference field of non-structure array.
+
+Error in updateLocation (line 17)
+[xpos ypos LocTime]=
+getLocation(linacc.data,ori.data,gyro.data,mag.data,foldername);
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+{Attempt to reference field of non-structure array.
+
+Error in updateLocation (line 17)
+[xpos ypos LocTime]=
+getLocation(linacc.data,ori.data,gyro.data,mag.data,foldername);
+} 
+>> 
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/489//SensoSaur_22.01.41.35_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/489//SensoSaur_22.01.41.35_0.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/489//SensoSaur_22.01.41.35_1.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/489//SensoSaur_22.01.41.35_10.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/489//SensoSaur_22.01.41.35_11.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/489//SensoSaur_22.01.41.35_2.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/489//SensoSaur_22.01.41.35_7.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/489//SensoSaur_22.01.41.35_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/489//SensoSaur_22.01.41.35_9.txt
+
+
+ans =
+
+   4.6713e+14
+
+
+ans =
+
+       12963           3
+
+
+ans =
+
+     []
+
+{Error using save
+Unable to write file stable/areas: permission denied.
+
+Error in parsedata (line 34)
+save(strcat('stable/areas'),'areas');
+} 
+>> 

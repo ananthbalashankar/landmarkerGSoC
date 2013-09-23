@@ -11,6 +11,7 @@ if(!isset($_SESSION['username'])) {
   /**
  * check for POST request 
  */
+//echo "Reached here";	
 //echo phpinfo();
 if (isset($_POST['tag']) && $_POST['tag'] != '') {
     // get tag
@@ -20,7 +21,6 @@ if (isset($_POST['tag']) && $_POST['tag'] != '') {
     // include db handler
     require_once 'include/DB_Functions.php';
     try{
-	
     $db = new DB_Functions();
     //echo "there";
 	}

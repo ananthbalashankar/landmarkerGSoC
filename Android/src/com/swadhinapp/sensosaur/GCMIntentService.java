@@ -47,11 +47,22 @@ public class GCMIntentService extends GCMBaseIntentService {
     @Override
     protected void onMessage(Context context, Intent intent) {
         Log.i(TAG, "Received message");
-        String message = intent.getExtras().getString("price");
-         
-        displayMessage(context, message);
-        // notifies user
-        generateNotification(context, message);
+        String text = intent.getExtras().getString("price");
+        String[] parts = text.split(";");
+        for( int i=0;i<parts.length;i++)
+        {
+	        String[] words = parts[i].split(":");
+	        try{
+		        double rating = Double.valueOf(words[0]);
+		        String message = words[2] + "\nVotes " + rating + " stars.\nComments: " + words[1] + ".\n";
+		        displayMessage(context, message);
+		        // notifies user
+		        generateNotification(context, message);
+	        }
+	        catch(Exception ex){
+	        	
+	        }
+        }
     }
  
     /**
@@ -96,7 +107,7 @@ public class GCMIntentService extends GCMBaseIntentService {
          
         String title = context.getString(R.string.app_name);
          
-        Intent notificationIntent = new Intent(context, RegisterActivity.class); 	//TODO
+        Intent notificationIntent = new Intent(context, SensoSaurActivity.class); 	//TODO
         // set intent so it does not start a new activity
         notificationIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP |
                 Intent.FLAG_ACTIVITY_SINGLE_TOP);

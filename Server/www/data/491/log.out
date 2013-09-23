@@ -1,0 +1,491 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/491//SensoSaur_22.13.03.16_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/491//SensoSaur_22.13.03.16_0.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/491//SensoSaur_22.13.03.16_1.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/491//SensoSaur_22.13.03.16_10.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/491//SensoSaur_22.13.03.16_11.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/491//SensoSaur_22.13.03.16_2.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/491//SensoSaur_22.13.03.16_7.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/491//SensoSaur_22.13.03.16_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/491//SensoSaur_22.13.03.16_9.txt
+
+
+ans =
+
+   5.0803e+14
+
+
+ans =
+
+        1637           3
+
+
+ans =
+
+     []
+
+OLM of 2  4 updated at (-0.349996,-0.001762)
+
+OLM of 2  5 added at (-0.120694,-0.000649)
+
+OLM of 2  7 updated at (-0.044748,-0.000280)
+
+OLM of 7  8 added at (-0.258045,-0.001316)
+
+OLM of 2  5 updated at (-0.057577,-0.000342)
+
+OLM of 2  7 updated at (-0.166681,-0.000872)
+
+OLM of 4  5 updated at (-0.113545,-0.000614)
+
+OLM of 3  6 added at (-0.129331,-0.000691)
+
+OLM of 3  7 updated at (-0.066703,-0.000387)
+
+OLM of 3  4 updated at (-0.063028,-0.000369)
+
+OLM of 1  3  4 added at (-0.168009,-0.000879)
+
+OLM of 1  3  8 added at (-0.044995,-0.000281)
+
+OLM of 3  8 added at (0.124562,0.000542)
+
+OLM of 6  8 added at (0.075965,0.000306)
+
+7  8
+
+query =
+
+update landmark set centroidx=-0.004385 ,centroidy=-0.000084,numofpoints=141,confidence=2 where id=1600
+
+OLM of 1  3  6 added at (0.126188,0.000550)
+
+OLM of 1  4  8 added at (0.001434,-0.000056)
+
+OLM of 1  6  8 added at (0.159207,0.000711)
+
+OLM of 1  7  8 added at (0.153610,0.000683)
+
+OLM of 3  5  8 added at (-0.183418,-0.000953)
+
+OLM of 6  8 updated at (0.165991,0.000744)
+
+OLM of 1  3  4 updated at (0.145446,0.000644)
+
+OLM of 4  8 updated at (0.129994,0.000569)
+
+OLM of 1  2  3 added at (0.073606,0.000295)
+
+OLM of 1  3  8 updated at (0.140177,0.000618)
+
+OLM of 1  4  8 updated at (0.133861,0.000588)
+
+OLM of 4  6  8 added at (0.073881,0.000296)
+
+OLM of 4  7 added at (0.013616,0.000004)
+
+3  5  8
+
+query =
+
+update landmark set centroidx=-0.202728 ,centroidy=-0.001047,numofpoints=86,confidence=2 where id=1615
+
+OLM of 3  5 added at (-0.065369,-0.000380)
+
+OLM of 3  4  5 updated at (-0.013096,-0.000126)
+
+OLM of 1  3  5 added at (-0.046372,-0.000288)
+
+OLM of 5  8 added at (-0.174283,-0.000909)
+
+OLM of 2  8 added at (0.256658,0.001184)
+
+OLM of 2  4 updated at (-0.004853,-0.000086)
+
+OLM of 2  3  7 added at (-0.016190,-0.000141)
+
+OLM of 2  3 added at (-0.028879,-0.000203)
+
+OLM of 2  3  4 added at (0.004201,-0.000042)
+
+OLM of 2  8 updated at (-0.136559,-0.000726)
+
+OLM of 1  2  3 updated at (-0.006318,-0.000093)
+
+OLM of 1  2  4 added at (-0.137217,-0.000729)
+
+4  6  8
+
+query =
+
+update landmark set centroidx=0.036460 ,centroidy=0.000114,numofpoints=95,confidence=2 where id=1622
+
+7  8
+
+query =
+
+update landmark set centroidx=-0.183934 ,centroidy=-0.000956,numofpoints=89,confidence=3 where id=1600
+
+OLM of 1  3  4 updated at (-0.001559,-0.000070)
+
+OLM of 1  4  5 updated at (0.266047,0.001229)
+
+2  7
+
+query =
+
+update landmark set centroidx=-0.154366 ,centroidy=-0.000812,numofpoints=106,confidence=2 where id=1602
+
+3  5  8
+
+query =
+
+update landmark set centroidx=-0.332635 ,centroidy=-0.001678,numofpoints=67,confidence=3 where id=1615
+
+2  8
+
+query =
+
+update landmark set centroidx=-0.661664 ,centroidy=-0.003276,numofpoints=44,confidence=2 where id=1633
+
+OLM of 1  2  4 updated at (0.056601,0.000212)
+
+5  8
+
+query =
+
+update landmark set centroidx=-0.972801 ,centroidy=-0.004787,numofpoints=92,confidence=2 where id=1627
+
+OLM of 4  5 updated at (0.160570,0.000717)
+
+3  5  8
+
+query =
+
+update landmark set centroidx=-0.981707 ,centroidy=-0.004830,numofpoints=67,confidence=4 where id=1615
+
+OLM of 1  5  8 added at (0.327791,0.001529)
+
+OLM of 4  5  8 updated at (0.301230,0.001400)
+
+OLM of 5  8 updated at (0.358799,0.001680)
+
+1  2  4
+
+query =
+
+update landmark set centroidx=-2.112407 ,centroidy=-0.010321,numofpoints=36,confidence=2 where id=1635
+
+3  6
+
+query =
+
+update landmark set centroidx=-3.001254 ,centroidy=-0.014638,numofpoints=200,confidence=2 where id=1604
+
+1  3  8
+
+query =
+
+update landmark set centroidx=-4.654091 ,centroidy=-0.022665,numofpoints=115,confidence=2 where id=1620
+
+1  4  8
+
+query =
+
+update landmark set centroidx=-7.116478 ,centroidy=-0.034624,numofpoints=115,confidence=2 where id=1621
+
+1  2  3
+
+query =
+
+update landmark set centroidx=-10.913515 ,centroidy=-0.053064,numofpoints=98,confidence=2 where id=1619
+
+OLM of 1  2  4 updated at (0.244973,0.001127)
+
+2  8
+
+query =
+
+update landmark set centroidx=-11.478360 ,centroidy=-0.055807,numofpoints=93,confidence=3 where id=1633
+
+OLM of 2  3 updated at (0.388945,0.001826)
+
+3  7
+
+query =
+
+update landmark set centroidx=-22.251266 ,centroidy=-0.108125,numofpoints=196,confidence=2 where id=1605
+
+3  4
+
+query =
+
+update landmark set centroidx=-33.592769 ,centroidy=-0.163205,numofpoints=278,confidence=2 where id=1606
+
+2  5
+
+query =
+
+update landmark set centroidx=-50.722985 ,centroidy=-0.246397,numofpoints=90,confidence=2 where id=1601
+
+3  5
+
+query =
+
+update landmark set centroidx=-76.149019 ,centroidy=-0.369878,numofpoints=266,confidence=2 where id=1624
+
+OLM of 2  3  7 updated at (0.414954,0.001953)
+
+OLM of 2  4 updated at (0.429373,0.002023)
+
+OLM of 1  3  5 updated at (0.329785,0.001539)
+
+3  4  5
+
+query =
+
+update landmark set centroidx=-114.390991 ,centroidy=-0.555599,numofpoints=260,confidence=2 where id=1625
+
+OLM of 2  3  4 updated at (0.444383,0.002096)
+
+OLM of 4  7 updated at (0.478004,0.002259)
+
+4  6  8
+
+query =
+
+update landmark set centroidx=-114.487689 ,centroidy=-0.556069,numofpoints=106,confidence=3 where id=1622
+
+3  8
+
+query =
+
+update landmark set centroidx=-229.240658 ,centroidy=-1.113363,numofpoints=207,confidence=2 where id=1609
+
+6  8
+
+query =
+
+update landmark set centroidx=-344.089617 ,centroidy=-1.671124,numofpoints=142,confidence=2 where id=1610
+
+4  8
+
+query =
+
+update landmark set centroidx=-516.417350 ,centroidy=-2.508029,numofpoints=208,confidence=2 where id=1618
+
+1  3  6
+
+query =
+
+update landmark set centroidx=-774.892609 ,centroidy=-3.763306,numofpoints=135,confidence=2 where id=1611
+
+OLM of 4  6  8 updated at (0.465193,0.002197)
+
+2  5
+
+query =
+
+update landmark set centroidx=-1162.718102 ,centroidy=-5.646770,numofpoints=187,confidence=2 where id=1598
+
+1  3  4
+
+query =
+
+update landmark set centroidx=-1744.186511 ,centroidy=-8.470655,numofpoints=201,confidence=2 where id=1617
+
+1  2  4
+
+query =
+
+update landmark set centroidx=-2616.594642 ,centroidy=-12.707480,numofpoints=48,confidence=2 where id=1643
+
+2  7
+
+query =
+
+update landmark set centroidx=-3925.071565 ,centroidy=-19.062061,numofpoints=132,confidence=2 where id=1599
+
+OLM of 1  2  3 updated at (0.495041,0.002342)
+
+7  8
+
+query =
+
+update landmark set centroidx=-2944.046264 ,centroidy=-14.297739,numofpoints=179,confidence=4 where id=1600
+
+1  7  8
+
+query =
+
+update landmark set centroidx=-7360.081142 ,centroidy=-35.744087,numofpoints=180,confidence=2 where id=1614
+
+OLM of 1  3  8 updated at (0.531323,0.002518)
+
+OLM of 1  4  8 updated at (0.538539,0.002553)
+
+OLM of 6  8 updated at (0.586694,0.002787)
+
+1  6  8
+
+query =
+
+update landmark set centroidx=-11040.407384 ,centroidy=-53.617487,numofpoints=143,confidence=2 where id=1613
+
+1  4  5
+
+query =
+
+update landmark set centroidx=-16560.907039 ,centroidy=-80.427636,numofpoints=157,confidence=2 where id=1637
+
+1  2  3
+
+query =
+
+update landmark set centroidx=-24841.565462 ,centroidy=-120.642418,numofpoints=63,confidence=2 where id=1651
+
+OLM of 1  2  4 updated at (0.440487,0.002077)
+
+2  7
+
+query =
+
+update landmark set centroidx=-24841.962311 ,centroidy=-120.644345,numofpoints=65,confidence=3 where id=1602
+
+OLM of 2  8 updated at (0.440487,0.002077)
+
+4  5  8
+
+query =
+
+update landmark set centroidx=-49683.947556 ,centroidy=-241.288739,numofpoints=144,confidence=2 where id=1641
+
+1  3  5
+
+query =
+
+update landmark set centroidx=-74526.188447 ,centroidy=-361.934374,numofpoints=131,confidence=2 where id=1647
+
+OLM of 2  8 updated at (0.608457,0.002892)
+
+1  2  4
+
+query =
+
+update landmark set centroidx=-111789.579690 ,centroidy=-542.902972,numofpoints=58,confidence=2 where id=1655
+
+1  5  8
+
+query =
+
+update landmark set centroidx=-167684.566121 ,centroidy=-814.355381,numofpoints=169,confidence=2 where id=1640
+
+5  8
+
+query =
+
+update landmark set centroidx=-251527.147541 ,centroidy=-1221.534490,numofpoints=157,confidence=2 where id=1642
+
+OLM of 1  2  4 updated at (0.616070,0.002929)
+
+2  8
+
+query =
+
+update landmark set centroidx=-377291.054356 ,centroidy=-1832.303321,numofpoints=54,confidence=2 where id=1656
+
+OLM of 2  5 updated at (0.649392,0.003091)
+
+1  2  4
+
+query =
+
+update landmark set centroidx=-565936.805166 ,centroidy=-2748.456036,numofpoints=29,confidence=2 where id=1658
+
+OLM of 3  8 updated at (0.705635,0.003364)
+
+1  3  8
+
+query =
+
+update landmark set centroidx=-848905.493610 ,centroidy=-4122.685411,numofpoints=29,confidence=2 where id=1652
+
+OLM of 1  4  5 updated at (0.710099,0.003386)
+
+OLM of 4  5  8 updated at (0.710099,0.003386)
+
+2  4
+
+query =
+
+update landmark set centroidx=-1273359.088910 ,centroidy=-6184.032206,numofpoints=43,confidence=2 where id=1597
+
+OLM of 3  8 updated at (0.756523,0.003611)
+
+OLM of 1  3  8 updated at (0.756523,0.003611)
+
+1  4  5
+
+query =
+
+update landmark set centroidx=-1910038.456581 ,centroidy=-9276.047420,numofpoints=27,confidence=2 where id=1661
+
+OLM of 4  5  8 updated at (0.757415,0.003616)
+
+OLM of 7  8 updated at (0.778842,0.003720)
+
+
+commentFile =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/491//Comments.txt
+
+
+comments = 
+
+     {}
+
+>> 

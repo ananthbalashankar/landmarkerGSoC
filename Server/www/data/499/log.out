@@ -1,0 +1,109 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/499//SensoSaur_22.18.18.42_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/499//SensoSaur_22.18.18.42_0.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/499//SensoSaur_22.18.18.42_1.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/499//SensoSaur_22.18.18.42_10.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/499//SensoSaur_22.18.18.42_11.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/499//SensoSaur_22.18.18.42_2.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/499//SensoSaur_22.18.18.42_7.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/499//SensoSaur_22.18.18.42_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/499//SensoSaur_22.18.18.42_9.txt
+
+
+ans =
+
+   5.2696e+14
+
+
+ans =
+
+        2212           3
+
+
+ans =
+
+     []
+
+OLM of 2  3 updated at (-0.674672,0.000448)
+
+OLM of 5  8 updated at (-0.718156,-0.056573)
+
+OLM of 4  5  8 updated at (-0.728182,-0.047367)
+
+2  4
+
+query =
+
+update landmark set centroidx=-1.739490 ,centroidy=-1.773769,numofpoints=89,confidence=2 where id=1578
+
+OLM of 3  4 updated at (-1.385139,-1.843088)
+
+OLM of 4  7 updated at (-1.385139,-1.843088)
+
+OLM of 2  3  4 updated at (-1.385139,-1.843088)
+
+OLM of 3  4  5 updated at (-1.394056,-1.299752)
+
+OLM of 3  4  7 updated at (-1.385139,-1.843088)
+
+OLM of 3  4  8 updated at (-1.387670,-1.618535)
+
+OLM of 3  4  5 updated at (-1.070209,-5.563436)
+
+OLM of 2  3 updated at (-3.275393,-6.496541)
+
+
+commentFile =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/499//Comments.txt
+
+
+comments = 
+
+     {}
+
+>> 

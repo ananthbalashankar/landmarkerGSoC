@@ -1,0 +1,145 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2012 The MathWorks, Inc.
+                    R2012b (8.0.0.783) 64-bit (glnxa64)
+                              August 22, 2012
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/495//SensoSaur_22.17.21.08_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/495//SensoSaur_22.17.21.08_0.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/495//SensoSaur_22.17.21.08_1.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/495//SensoSaur_22.17.21.08_10.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/495//SensoSaur_22.17.21.08_11.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/495//SensoSaur_22.17.21.08_2.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/495//SensoSaur_22.17.21.08_7.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/495//SensoSaur_22.17.21.08_8.txt
+
+
+ans =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/495//SensoSaur_22.17.21.08_9.txt
+
+
+ans =
+
+   5.2350e+14
+
+
+ans =
+
+   934     3
+
+
+ans =
+
+     []
+
+OLM of 2  7 updated at (-0.437500,0.000079)
+
+OLM of 3  7 updated at (-1.136134,0.000245)
+
+OLM of 7  8 updated at (-0.897577,0.000221)
+
+OLM of 2  7 updated at (-1.389517,0.000252)
+
+2  4
+
+query =
+
+update landmark set centroidx=-1.009074 ,centroidy=0.032445,numofpoints=54,confidence=2 where id=1667
+
+OLM of 4  6 added at (-1.124553,0.000241)
+
+OLM of 6  7 added at (-1.289939,0.000249)
+
+OLM of 2  7 updated at (-0.987243,0.000242)
+
+7  8
+
+query =
+
+update landmark set centroidx=-1.158880 ,centroidy=0.016371,numofpoints=33,confidence=2 where id=1722
+
+7  8
+
+query =
+
+update landmark set centroidx=-0.891566 ,centroidy=0.027088,numofpoints=20,confidence=3 where id=1722
+
+2  8
+
+query =
+
+update landmark set centroidx=-0.688356 ,centroidy=0.035899,numofpoints=52,confidence=3 where id=1628
+
+OLM of 4  6 updated at (-3.531440,0.000457)
+
+2  7
+
+query =
+
+update landmark set centroidx=-1.701765 ,centroidy=0.031648,numofpoints=67,confidence=2 where id=1682
+
+OLM of 3  7 updated at (-3.556950,0.000474)
+
+OLM of 7  8 updated at (-3.569232,0.000470)
+
+OLM of 6  7 updated at (-3.674567,0.000463)
+
+OLM of 2  4 updated at (-3.616021,0.000474)
+
+OLM of 2  8 updated at (-3.616863,0.000474)
+
+OLM of 2  7 updated at (-3.867829,0.000434)
+
+2  7
+
+query =
+
+update landmark set centroidx=-1.265595 ,centroidy=0.071319,numofpoints=1,confidence=2 where id=1733
+
+
+commentFile =
+
+/home/ananthbalashankar/landmarkerGSoC/Server/www/data/495//Comments.txt
+
+
+comments = 
+
+     {}
+
+>> 
